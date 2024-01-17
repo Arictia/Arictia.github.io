@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Aster" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Aster
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>给菇的</p>
+<span id="more"></span>
+<p>万事万物皆有其名姓。在遇到斯捷潘之前，这句话的含义在她的理解里是指，自然界的事物都拥有指代它们这一存在的名词。就像白桦树、铅笔、铁、狗、以及诸如此类的一切，就像维克托里娅，一个仅仅用于区分她这一来自贫瘠农村、在国家资助下就读大学的个人的名字，也许叫做维克托里娅的人太多了，还要加上姓氏，植物不也在同一个种间拥有不同的区分吗，人类拥有不同的名字也符合逻辑。她对此没有特别的感想。即使她的名字被优美又极富感情地念出来，伴随着所谓的胜利的象征的解读，其产生的用意也和教授在课堂上点起她来回答问题无异。语言用于与人类交流，公式用于与思想交流，她本来就不擅长前一项。</p>
+<p>托某位有名诗人的福，她不得不花费更多时间解决无聊的人际问题，好在她早已习惯他人异样的眼神和窃窃私语，毕竟围观者只是在平常的“居然是个女的”“听说年龄比我们都小”外加上了“她到底哪里有吸引力了”，在八卦的火焰逐渐减小后，坚持不懈来找麻烦的只有曾经和诗人传出流言蜚语的女性，她只需要找个人迹罕至的清净地方就能躲掉。维克托里娅选择了学院三楼的外侧楼梯间，除了有点冷，甚至比宿舍都要安静和完美。</p>
+<p>但是斯捷潘比他的追求者还更持之以恒。一直到黄昏将尽，外边的天光不足以支持她继续计算和推导，维克托里娅才从学院楼里走出来。她一眼就看到了介乎青年和少年间的金发男性，对方抱着几本书，脸有些红，身边拥簇着两三个女学生，而他一边同她们说话，一边盯着学院门口来往的行人。在看到维克托里娅之后，对方那张好看的脸迸发出真心的喜悦，三步并作两步地快走到她身前，声线有些紧绷地问道：“维克托里娅、小姐，请问你有时间、和我一起去散步吗？我想请你在之后共进晚餐……”</p>
+<p>斯捷潘比她要高上一些，他微微低下头，湛蓝眼睛里全是亮闪闪的期盼，叫人不忍拒绝，尤其是他这神情让维克托里娅想起曾经家里养的土狗，在她背着麦秆走进谷仓的时候，它会围着她转，即使从她手里讨不来食物和抚摸。她想着那条为了度过饥荒被吃掉了的狗，点了点头。</p>
+<p>但她没想到的是对方径直带着她坐上了去往郊外的车。初春的傍晚还有些寒冷，斯捷潘变魔术似的拿出一份还有余温的苹果派，带着猜中谜底的快乐、有些不好意思道：“我想你可能在路上会饿，先吃点东西吧？我觉得这家店的派很好吃。”</p>
+<p>那的确很好吃，足量的糖和奶让每一个咬下它的人能感到接近幸福滋味的饱足。在她吃东西的时候，斯捷潘一直盯着她看，换做其他人，多少会被其直白得接近坦诚的爱慕弄得满脸通红，但维克托里娅不是太能接收和解明其中的含义，她无动于衷的回看过去，摸了摸自己的脸，没有发现残留的糖汁和碎屑，也就不再费心思去思考，转而开始折叠起了苹果派的包装纸。她计数着折叠的次数，让它缩减成面积最小和高度最低的样子。</p>
+<p>郊外的风都要更寒冷些。草木的气息包裹着两个年轻人，其中一个脚步欣快，看起来对这片田野和树林轻车熟路，但实际上脚上的皮鞋不时给他使绊子；另一个步伐沉稳，熟稔避开凸起的石子和树根，对夜幕下含糊的草丛与灌木视而不见。直到星光披挂在了白桦树林里，斯捷潘才停下脚步，像是站在了朗诵的舞台上那样充满感情地叹息，而唯一的观众怀疑他走岔了气。</p>
+<p>斯捷潘开始谈论名字。一株树拥有它自己的名字，它在同伴中生长，体内流淌着来自大地的生命的汁液，它因为某个名字而独一无二，就像一块普通的砖也会因为某个伟人曾踩过而独一无二，诗人要将其发现，用文字描绘、传达给其他人。诗人也为无名的一切赋予名字，赋予意义，辉煌而灿烂的日光，永恒位居于天穹的北极星，只在这个春天盛开的迎春花和同样只枯荣一岁的黑麦草，它们给人美和愉悦的享受，它们并不独特，但当一首诗将它们盛放、定格，所有阅读了诗句的人都将获得这美与愉悦，于是所有的意象都有了意义。</p>
+<p>维克托里娅沉默地听着，目光随着他的言语所指移动。他所说的树液尝起来苦涩，树皮则有的柔韧，有的接近木屑的口感；她从地上的植物里分辨出许多能结果的花朵，心想着看来这儿很少有人会挨饿，不然它们不可能长这么多；她还见到了某种在某个冬天遍寻不着的野菜，要是有了它，她们一家人不至于非得去吃草。如果说一件东西都有其意义，那在她看来这意义必然是能不能让人活命。她又把目光移向沉醉在自然气息中、几乎要把自己说得落泪的年轻人，心想，他所说的美倒也不是不必要的，只是我看不见。他没挨过饿，也没受过苦，他可真是个天真的人。可能只有天真的人才把美当作意义吧。她为自己的结论笑了一下，那是个结结实实的嘲笑。</p>
+<p>“啊，你笑了！维克托里娅，你的笑容十分美丽……你是我的胜利女神！你一定会成为点燃火炬的人，你会成为苏联的菁英和科学的象征！”斯捷潘的眼角都有些泛红，他还想再说些什么，但维克托里娅打断了他：“我们回去吧，我饿了。”</p>
+<p>他们踏上归途，初春的冷风并没有让两个年轻人走近到一起，他们一前一后走在莫斯科郊外的道路上。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-11-09</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
+                            无影灯下
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

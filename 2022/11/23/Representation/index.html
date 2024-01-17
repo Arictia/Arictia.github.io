@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Representation" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Representation
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>私设及自我解读有，本文和原作毫无关系</p>
+<p>（作者可能是凯尔希深柜</p>
+<span id="more"></span>
+<p>罗德岛的医疗舱是特制的五层结构，由内至外，分别从物理、化学、生物的各个层面隔绝患者体内源石泄露的可能性，同时也保持舱内医疗环境的稳定，无菌、恒温、双层过滤后的水源和独立于通常供电系统的电源保证治疗途中患者各项生理指标的实时监测。</p>
+<p>但凯尔希向其他人摇头，选择在舰体更深处的一间实验室为博士进行手术，并且拒绝了任何一位医疗干员的协助。他们对她专业上的的信任在华法林和阿米娅的劝说下短暂盖过了对她这一独断决定的怀疑——事实上如果手术对象不是博士，他们连这点怀疑都不会有——Lancent-2被要求作为医疗辅助机器人和记录员在旁协从。而就在凯尔希离开消毒间，步入已经提前将博士转移到其中的实验室时，她关闭了Lancent-2的记录系统。您的举动不符合医学伦理标准，温和的女声提醒道，博士的身体指标关系到罗德岛接下来战略计划的制定，您需要留存档案以备检查。</p>
+<p>“PRTS会做好这个部分。”凯尔希回答道，她知道这个解释还不足以取信于可露希尔以及任何可能查阅这份档案的任何人，又加了一句，“博士的生理数据不能存在任何泄露的可能性，这是在任何事项之前的优先级。”</p>
+<p>实验室短暂地移入了一具手术床，两三台仪器挪动了位置，各类医疗器械的接口已经连接，数倍于常态的电缆密密麻麻围拢在四旁，三辆推车上分别摆着药剂、刀具和针剂，医疗部的干员们看到这里的环境一定会在昏过去之前大声反对在这样简陋、粗糙和充满感染风险的室内开展源石剥离手术，但她知道博士可以挺过去，战场要比这儿恶劣得多，并且对方的身体不是医疗舱里的设施能应付得来的类型。</p>
+<p>一切就绪后，凯尔希打开无影灯，带上无菌手套，拆开面前人包裹得严严实实的外套。与罗德岛配发的制服材质相同，具有高度防水性能和绝缘性，耐高温和腐蚀，唯一的不同是这一件要更厚实，不仅是为了保温，内层还织入了某种新型合金，做到隔绝一切外部可能的电磁干扰。剥去这一层，凯尔希将呼吸面罩按在对方脸上，打开氧气气泵，停下来观察了一番对方的脸色。</p>
+<p>博士的面孔总是隐藏在兜帽和高领面罩下，就连眼睛也不常展露在人前，和塑造神秘感与权威感无关，对方的眼睛无法承受长时间的阳光辐射，这一点也并非种族特质，他们早在很久以前就确认过。在遥远的过去凯尔希将其理解成藏头露尾的一种手段，而现在揭开它之后见到的也只是一张普通的、有着与大部分人相同五官的脸庞。</p>
+<p>她只是看了这人一眼，确定对方的口鼻没有溢血，不需要在手术开始前做清理，然后继续自己的工作，核对了血压、心率、脑波等种种实时数据后，她剪开了面前人身上穿着的手术服。</p>
+<p>为了方便日常的检查和注射，博士穿着的衣服既没有拉链，也没有扣子，衣襟和袖子的开口很大，用魔术贴连接，只需要撕开侧边的粘扣就能全部脱下。与罹患矿石病了的干员们带着的监测环功效相似的小型监控设备扣在颈部和手腕，好几根管线扭成一束串联着颈椎上神经接口外的电极。凯尔希踩下踏板，将手术床升起一个弧度，从后方的延展板上拉出神经接驳器的插口，它是中空的，被设计成卡口的形式，同时有一枚旋钮式的金属环在插入之后对连接处进行固定，这是他们经历过许多次实验后选择的设计，为了避免被试者过度挣扎中接头掉落导致意识中断，现在它们被用在设计者之身上，希望它能像之前的每一次那样起效。</p>
+<p>电极接头贴合后，身后的机器轰隆隆运转起来，他们当时不是没有可能把它改造的更安静精巧一些，但可惜时间和金钱就像跷跷板的两头，总有一样够不着，于是它就在这儿正常运转了好些年。自动进液系统制造的推力一股脑地把富含氧气和各种有机物质的溶剂压入对方脊背上那个口子里，凯尔希核对了一下仪器显示屏上的指标，拧动气压阀和分压阀，接着按下某个没写明用途的按钮，完成这一切后，她把手上这双手套换掉，握住金属盘里的手术刀。</p>
+<p>迫使她为博士进行手术的是一块嵌在对方胸口的黑色源石。如果是其他人受了这样的伤，在专业的源石病医生到来前，除了他们自己没有人敢把它取出来；而对于罗德岛的人来说，需要的是全套的防护服、设施齐全的手术室和许多医疗干员通力合作得出的手术方案。但博士不需要这些，只需要快些、更快些、在源石与身体同化前把它取出来。</p>
+<p>博士在和她讨论矿石病病灶的时候用“析出”来形容晚期患者死亡过程，首先是血液结晶化导致器官供血不足，在感染最严重的部位失去控制，晶体如果附着在骨骼上病患还能拥有数天的抢救期；如果在消化器官上，被重力拉扯的内脏会变形、撕裂，只需要一天到一天半，无法行使其原有功能的脏器就会破裂、出血和腐化；在脑部的影响可能是多种多样的，患者将失明、失聪、产生幻觉、昏厥，同时在挣扎中伤害自己和他人，源石能量无所顾忌地流窜和聚集。所有患者都死状凄惨，被无机质物体寄生和吞噬得只剩下一具骨骸，仿佛整个身体以生命置换出危险的结晶。</p>
+<p>在博士的身上，这件事发生得比其他人都快。就好像他的血液和体液格外纯粹，只留有任由源石元素肆虐的空间，一点免疫系统的抵抗都不存在。你很容易被感染。我的建议是你应该减少接触源石的次数，最起码不要亲临天灾后的辐射地，至少你应该相信信使们的专业性。凯尔希曾这样警告。谢谢，不是我不信任其他人，有些数据还是必须要实地勘测后才能得到。而且你也不用很为我担心，凯尔希，源石不会要了我的命。那个人用画上去的标准微笑回答她。惺惺作态的家伙。凯尔希暗自想到。后来她给博士实施手术的时候不止一次验证他所说话语的真实性。那简直像个承诺了。她因此怀疑和憎恨过，她不否认。</p>
+<p>手术刀划开皮肤，切断血管，盘踞在肌肉中的源石像嵌在奶酪里的肉丸，与血液、肌肉纤维和神经难舍难分，在这具躯体里，源石颗粒碎裂和分解的速度是其它种族的数倍，血液需要被多次泵出、过滤、清洗再回到体内。博士的备用血库存量有限，她必须迅速缝合血管。取出的源石不过指甲盖大小，被扔进了注入聚合剂的航空箱中。凯尔希用牵引器固定住创口，清理卡在肌肉和瓣膜中的源石碎屑，只是一小会它们就已经牢牢攀附在粉色的肉质上，比岩壁上的苔藓更无孔不入。她连着被污染了的肌肉一起切下来，并用电刀电凝止血。</p>
+<p>头几次她给博士做这类手术的时候，对这具身体经验的匮乏让她不得不因为术后血液中急速升高的源石结晶浓度大动干戈，最严重的一次她已经开始考虑切掉对方的某个或几个器官。而那个人则在休克和睡眠的间隙告诉她，他信任她的判断，也就是说，他其实不太在意这具身体是缺胳膊少腿还是没有整套消化系统。也许只留下大脑就足够了。可以把我冷冻到你们发现更好的技术出现的时候。我在暗示什么？不，没有，凯尔希，我不明白你的意思。</p>
+<p>在他们之间，心怀疑虑的那个永远是凯尔希。在她第一次接手博士详细的身体医疗信息的时候，那些指标、数据和排异反应，还有只能用缺失而不是退化来形容的器官的不在场，都让她产生怀疑。哪怕是长生种也不像他这样特殊，就好像所有种族的诞生都在这一身体的模板上进行增减，宛如用于倒模的加工原件。他是什么？他知道什么？泰拉的诞生和史前文明的消亡是否有所关联？这世上是否除了那些死寂的遗迹、无法解明的文字、难以理解的技术以及她自己外，仍有遥远过去的存续？凯尔希知道自己阅读了那些文件后的表情有多难看，而博士在她发出质询前微笑，从那个笑容里凯尔希知道自己得不到任何答案（或者说，他们心知肚明这件事没有答案，博士没说的那句话是我知道你不会相信）。从那之后他们的关系肉眼可见地恶劣起来，特雷西娅试图调解，凯尔希拒绝了她。这完全是私人原因，她说。尽管她已经和特雷西娅共感了数万年累积下来山岳般的悲哀，但秘密和情感不应牵扯太多。</p>
+<p>其实特雷西娅说对了一些，她对博士的不信任多少也参杂了偏见。凯尔希把最后一针缝上，用纱布吸掉创口外的血，重复观察血氧浓度是否下降。有时候她需要不断将手术台上的对象客体化或主体化，她是个医生，对病患一视同仁，在疾病和死亡前所有生命都脆弱得只拥有同样的价值。她是这样和特雷西娅解释自己的职责的。所以战争也只是维持平衡的手段吗？萨卡兹对泰拉来说是一种病毒吗？不，当然不。特雷西娅，感染都来源于外部。只是首先需要我们自己保持健康。我希望……你们能成为免疫细胞，而不是一直受自噬困扰。真是医生会说的话。</p>
+<p>医生对死亡司空见惯。她告诉自己要尽责，也只需要尽责。那些血污、哀嚎、硝烟和痛苦——个体比之种族，种族比之大地，乃至行星，谁能判断谁的代价更沉重？她花费许多年学习和自己的责任共处，学会理解其它人的思想和情感，学会尊重每个人的选择而不是投入过多的关心而把自己搞得一团糟，同样也花费许多年习惯心血白费、珍视的事物一朝倾塌在眼前。凯尔希医生面对别离游刃有余。但她毕竟仍脚踏实地地生存在这片大地，在无穷无尽的战火前，即使再轻微，那声叹息也是从她的胸腔里逸出的。</p>
+<p>那个全身被遮得严严实实完全隐没在阴影里的人能够真正置身事外，并不用更崇高的理由来说服自己，他不在乎任何事。所有人的牺牲都毫无区别，金钱、生命、理想、理念、爱……他分门别类把有用的部分计成筹码，驱动棋子到合适的位置。凯尔希不相信他为了特雷西娅的理想或者治疗源石而行动，她无法确定博士的一言一行中有多少是真实，活得长久不仅增长了她对人心的见识，还有在面对未知时的固执，而显然，她的固执也被对方捕捉。而一如既往的，博士不曾对此做出回应和解释。</p>
+<p>凯尔希放下手术刀。手术已经完成，沾染了血迹的金属器具丁零当啷落在不锈钢托盘中，她褪下医用手套，关闭无影灯，从置物柜里拿出薄毯盖在博士身上以保持身体的中心温度。透析还在进行，凯尔希搬出折椅，一边录入术后博士的身体数据一边等待血液中源石结晶浓度稳定。华法林曾向她报告过博士的血液对她有特殊的吸引力，也许从血魔的角度能揭露一部分这具身体的秘密，但她也只是让华法林自己去征求博士的同意——尽管博士从来没有表示她应该保守秘密，这算什么？好像他不知道他的存在对其他人来说有多特别似的，好像他和她之间存在不可言说的契约似的，但在博士失忆后（她并不相信这件事）她还是去提醒了对方不要泄露身体数据给其他人。他的表情是伪装得很完美的坦然和惊讶。连阿米娅也不能说吗？她很关心这件事。让她来问我。你和阿米娅的生理信息的权限只在我手上。我们不应彼此知晓吗？不，从来不。好吧。博士的笑容有几分被针对后的宽容，剩下的是疑惑。她已经学会不再揣度他脸上疑惑的真假。</p>
+<p>阿米娅在会议上拿出要带回博士的提议时，凯尔希记得自己投了弃权票。她知道要想要做成什么事，完全依赖某个单独个体是不可行的，但现在的罗德岛需要博士。过去的种种无不低语着她不适合做个领导者，同样也不适合做指挥官（“你总是不知道该在什么时候感情用事。”），这能有效阻止她重蹈覆辙。阿米娅阐述罗德岛的现状和行动的理由时，她判断这孩子已经能够独当一面，如果特雷西娅在这里也会同意她的看法。但她不太理解的是她们对博士同样的信任，虽然在那个人回来之后，她没有阻止过他们的交流。或许特雷西娅曾对阿米娅说过什么，她衷心希望那不是导致特雷西娅死亡的理由。至于博士的失忆，在仪器的检查下显得纯然无辜，逼迫一个失忆的人为他不熟知的错误赎罪毫无道理，凯尔希保留着自己愤怒的权力，盯着那个人的背影，看着他在战场、指挥室、实验室来往，从外表看与过去别无二致。数据会说谎吗？科学曾制造谬误吗？她不知道，她对<strong>它们</strong>的了解仍太浅薄。她把博士放置在石棺里，本来没有指望遗迹能给予回应，而现状又让她的思考不得不转向阴谋：这一切是否仍在这个人的预料之中？他为什么要杀死特雷西娅？他都知晓些什么，又隐瞒了什么？如果对方死了，那所有的秘密都不再有揭晓的可能。这就是她能忍住用手术刀剐出对方心脏冲动的理由。恐怕连她的犹豫也是预言家所料想的一部分。“我会保护你和阿米娅。”因为特雷西娅将她的遗产予以了你们。如果过去的博士仍在这副躯壳中，他大概会回以嘲笑，凯尔希想着当时对方充楞的神情，就好像对此受宠若惊。</p>
+<p>失忆后的博士和从前的他表现得有些差异。难以确定这是他出于什么理由展示的侧面，亲切、友好、可信而让人想要依靠，在专业领域上的简短有力的命令则叫人恍惚他从未离开他们。不同之处在于，他比以前更在乎生命的价值而非科学意义上生命的价值。她坦言这让她看到了新的可能。我们都在过去的重复中逡巡了太久，到了厌烦彼此的程度。她说我对你的感情难以用现存的语言描述。这是当然，只有死去且无人知晓的文字才有那个包含了过于复杂情绪的词语。也许只有在博士“失去记忆”的现在，坦诚才得以被引入他们的交谈。</p>
+<p>通讯器在响。凯尔希接入频道，与医疗部的成员交谈，他们说有一个病例出现了急性源石毒性反应。凯尔希一边迅速完成剩下的内容，一边要求负责人员进行手术准备。记录备份后，她重新开启Lancent-2的记录系统，联系护工在透析完成后把博士送回加护病房。</p>
+<p>凯尔希医生，以记录系统关闭的时长计算，您刚完成三小时的手术，应该在休息二十分钟后再准备下一场手术，以避免体力和注意力透支导致的医疗事故。</p>
+<p>我不会拿病人的生命开玩笑。凯尔希看了一眼时间，我已经休息了十三分钟，接下来的七分钟会在路上完成。</p>
+<p>您也应该注意自己的身体。温柔的女声从扬声器里发出。凯尔希点头，但她知道她没有太多时间。</p>
+<p>他们没有太多时间，无论是迫近罗德岛的危机，还是盘桓在泰拉上的阴影。有时候凯尔希会希望博士的记忆尽快回归那个可能千疮百孔的大脑，有时候又会觉得或许缺失了某些部分的他才值得期待。她总是习惯期望落空，所以她对博士的承诺只到他做出选择。而那之后的命运，她希望不在那个人的预料之中。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-11-23</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/'>
+                            明日方舟
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

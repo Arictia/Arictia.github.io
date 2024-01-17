@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="共生关系" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            共生关系
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p> G向阅览注意</p>
+<span id="more"></span>
+<p><em>“背叛是不好的。”</em><br>         ……</p>
+<p><em>“我…不能做人吗？”</em><br>       您从来都是人。但您不能成为人。</p>
+<p><em>“恐怕我已经不是你心中描绘的星了。”</em><br>       您就是我所定义的星。无论何时。无论何地。</p>
+<p><em>“那个时候，真好啊。”</em><br>        是的，只要能在创的身边，我就很幸福。</p>
+<p><em>“我想死。”</em><br>        您是不会死的。我不会让这种事发生。您也心知肚明吧？您是神之子。至高细胞忠实反馈了意志的形态。“神之爱”所传达的、它们接收到的，尚且并非终末的号角声。</p>
+<p><em>……德幸。</em></p>
+<p>宇津木睁开眼。入目是一片漆黑的海域，他站在雪白粗粝的碎石堆上，眼前动荡不安的海潮互相击打着迸溅出灰色的水沫，远处赤红锈色色山峦伫立于天际，暗淡得几乎要与海面融为一体。它们的形态那样尖锐张狂，叫人望而生畏，找不到任何可以接近和驻足的角落。他站立的地方是不知何时就会被吞没击毁的小小岛屿，同样的怪石嶙峋，石块间狭窄崎岖到没有转身的余地，只能让人在这茫茫汪洋构建的牢笼中眺望着永恒不变的潮涌。</p>
+<p>简直像是世界尽头一般。叫人想起了在摄影作品中呈现的南极海域的景象。不，两者无法相提并论。这里的海虽然是活动的，可以说是平静下隐约不安着、如若酝酿着一场狂暴得要毁天灭地的暴风雨那样，但它裹挟的不是自然的气息，哪怕是画卷中的海，都能感受到其中驱动它们的是画家从自然中汲取的力量，是洋流和引力在旷阔水体中的运动痕迹；这片漆黑海域却混乱不堪，无法分析出究竟是受到何种刺激才招使了一重又一重海浪出现又消隐，也没有风来做最浅显的说明——这并不合理。</p>
+<p>他究竟身处何处？浮现这个疑问的同时，宇津木环顾四周，发觉自己居然对这片巨大得漫无边际的海域有一丝熟稔，像是在某个故事的只言片语中拼凑出的印象终于化作现实，从阴暗角落中窥见的花园一角终于拂去遮蔽，既有种得偿所愿的喜悦，又怀抱触碰到实物的不安，这来自于他脑中模模糊糊的预感。</p>
+<p>这里并不是现实。难道是梦境吗？可他已许久不曾获得Hypnos的眷顾，他已拒绝作为人应有的生理现象，同样的，身体释放疲惫带来的轻松感和清爽感也离开了他，安稳也好，平静也好，没有可以逃避进去无知无觉沉溺下去的地方；难道是Vision吗？可这里还是太过完整了，没有丝毫现实的痕迹，除了眼睛所描绘给大脑的一切之外，没有任何被传达了的东西。</p>
+<p>黑色是吞没了光所拥有的能量而呈现出的颜色。海面上什么也没有，连陡峭山壁的倒影都映照不出。天幕也不是因为所属黑夜而呈现无光的形象，那里同样什么都没有。</p>
+<p>那么他是如何<strong>看见</strong>这一切的？既然这里是不被光芒引导的世界？</p>
+<p>注意到这一点时，他才发现此前被忽略了的存在。红色的月亮高悬着，俯瞰着低位的世界。赤红色不会反射光芒的满月，像是镶嵌在幕布上，既怪诞又合理，有着深色的斑块，它们排列成诡异的纹路。</p>
+<p>那是眼睛。是创。神一般慈爱，神一般漠然。被识别出本相的眼睛占据了天穹，降临了下来——注视着他。</p>
+<p>宇津木的口鼻溢出倒灌的鲜血，他正在被注视着内部，初鸟使用能力在他的脖颈上绽开了一道巨大的豁口，血流淌得稍微干净后展露出粉色的肌腱，像是雀鸟的舌头在婉转啼鸣时自然显现。透过了这被制造出的孔洞所见的是被截断了的浅色的软骨和气管，此时它们被蒙上闪烁着血光的釉色，连带着脂肪层和因为失血苍白透明的皮肤都沾染了红，在血泊中浸泡着的制服和发丝湿透了，实在叫人难以理解这副躯体里究竟蕴藏了多少血液，仍旧不停歇的涌出成一片湖泊。</p>
+<p>他不再有能够念出那人名字的器官，但初鸟像是听见了，微微抬起头，又合上双眼，微笑起来：“怎么了，德幸？”</p>
+<p>昏沉的头脑如同一块被抹得污黑、满是裂隙又被其它色块缝补好的白板，他尽力从其中分辨出可以回忆起现状的片段：每天的工作、实验室的表格和报告、origin$\beta$的脱走、研究所的混乱……忙碌得几乎要休克的时段过去后，他才分出精力整理好一切，写下详尽得集成厚厚一本的交接事项，来到蔷薇之间。</p>
+<p>他将保管在自己躯体中的初鸟的半身还给对方。神微笑着准许了。吃下神明半身的悖逆之人于是成为了神的食物。宇津木还能回想起燃烧贤者之石后骨翼从肩胛骨上伸展撕裂皮肤的灼痛感，血管奔涌着尖叫着，变成漆黑不详的颜色，纠缠在新长出的肢体上，本来就已经被细胞侵蚀得过分的身体上浮现碎裂般的纹路，想必在初鸟鲜红的双瞳中自己狰狞得就像货真价实的撒旦。如此失态的姿态他自然不愿意让初鸟看见，所幸在他勉力拖曳着走向培养箱时已经记得再度戴上温和恭谦的面具。</p>
+<p>因为之前过度使用了能力，抑或是他在此时激动得不能自已，低温直接让特制的玻璃壁爆开，晶莹剔透的碎片折射出晃眼的虹色光芒。在那之上，初鸟俯视着浑身浴血一步一步向他走来的人，低垂的眼帘下任何东西的一丝一毫都不曾泄露出。</p>
+<p>像是朝圣之旅终于行至了终末的信徒，他向着祈愿的对象伸出手去，却张口结舌，讷讷不成语。究竟要如何述说，要如何获取宽恕，要如何奉还那些血肉，他一概不知，只是目眩神迷地看着星星。那样子一定很蠢。但初鸟准许了一般说道：“到我这里来，德幸。”</p>
+<p>然后星星坠入他的怀中。支撑着残缺半身的支架和管道齐齐断裂，流出银白和污黑的液体。一向给人轻飘飘虚幻感的初鸟此刻终于落下了地面。宇津木踉跄了一下，差点因为震惊被地面的导线绊倒：“您……”他被紧密地拥抱着，对方粉色长发在空中飘舞的轨迹像是霞水母舒张的触手，铺天盖地一般编织罗网，把他笼罩其中。</p>
+<p>如同拥抱了一团火焰。初鸟的手环抱在他身后，轻柔握住了翅膀的根部，宇津木浑身颤抖了一下，像是被捏住尾巴的猫。在他说些什么之前，对方的指尖嵌入了翅根与皮肉那最脆弱的连接处，一边深入探究其中结构，一边用手掌描摹着外部骨骼的形态。疼痛和过于敏感导致的几乎能想象出对方掌心纹路的麻痒形成了一种令人会发出呻吟的触感，他尽力压抑着，断断续续地抽气，双手神经质地颤动着。对方的下颌抵在他的肩窝，距离近到似乎能够听见、能够感受到呼吸影响气流的每一个变化。所以初鸟的声音也格外清晰：“德幸的血是有温度的啊。”</p>
+<p>背部那两块骨头跳得厉害，这让他觉得或许含着对方手指的创口正一张一合，像是代替他说话的嘴巴。初鸟摸索过的地方都烫得要融化，失去了形态要滴落下来一般。他发了高热似的头脑发昏，喉咙里简直要发出不得体的声响。可能已经被听见了，因为初鸟很高兴似的轻笑了一声。而后便是剧烈得眼前发黑的痛楚，他清楚感觉到骨翼的碎片粘连着血管和筋络从那双手中落下，剩余的部分被扯开的刹那迸溅出的血弄脏了对方的头发。他短暂地昏厥了过去。即使在昏厥之中也感到有什么正从背后的伤口流出，翅膀一块块崩落消解，初鸟的手指一直埋在他的身体里面，不时漫不经心地将触碰到的其余的骨茬折断。</p>
+<p>苏醒之时初鸟仍拥抱着他，有如蜷在巢中休憩的鸟雀。宇津木首先注意到的是他安静柔和的眉目，然后才是自己身后空落落的两道伤口。但初鸟的手臂限制着他的动作，将他困住，动弹不得。不仅是上身，他感受到其他异样，与血色不同更加肮脏的怪异暗红色的肉块拥簇着他们，像是交缠的蛇群那样鼓动，上面布满湿滑的黏液，不同的筋络、血管、花纹、附肢、触须编织成不断变化的可怖图案，让人头晕眼花。毫无疑问的那是归还给初鸟的身躯。如此原始的形态与他设想的存在相差甚远，不知是失血还是精神上的冲击带来一阵恶寒。</p>
+<p>更加深刻的寒意顺着脊背一路侵袭。察觉到他的挣动，初鸟睁开了眼，沾满黑红血迹的手捧起他的下颌，稍显困扰地问道：“德幸，不向我忏悔吗？”</p>
+<p>宇津木揣度着自己应当怎样表达歉意，但初鸟离他太近了，呼吸相闻的距离让他能够看清对方每一丝细微的神情变化，格外增添了思索的难度。他连忙用笑容掩盖起来：“是的，我必须忏悔此前我那些无礼的举动，我是贪婪吞吃了您的圣躯的罪人，是违逆了神之爱的——”他的声音被截断了。初鸟双手缓缓卡住他的脖子，两手拇指抵住他的咽喉，手上是要将握紧的东西绞死的力道，皱起了眉：“不，德幸，你不明白吗？你必须忏悔的不是这件事，否定神之爱才是你最大的罪孽。多么痛心，我等追寻至高天的同胞中竟然存在混淆真意的伪信者，而那个人竟然是你。”</p>
+<p>他想要辩解，可没有辩解的必要。他不会对初鸟说谎，自尊也不允许他在这一方面伪饰，此时残留的只有被对方知晓了深层内里的惶恐，以及被所爱之人厌憎现状的不安。尽管他早在明了自身的同时就对这样局面有了预料，所以很快他就将那些动摇的情绪压下：“非常、抱歉，我信奉的，只有，仅仅只有、那一颗星星……”</p>
+<p>他为何将最隐蔽的、不愿被他人所知的想法说了出口？啊，是创想知道的缘故吧。看到初鸟执着于审判的神色，宇津木将更自我的“那颗星就是你”的自白用尽意志力抹消，他知道创不会理解。他也绝不想让创知道。</p>
+<p>“所以待在我身边又是因为什么呢？连你也不认可我作为‘星’吗？”初鸟喃喃了两句，加重了力道，“可神之爱是存在的，是绝对的，我需要去作为接收器将祂传递给大家…为什么德幸不认可呢？”</p>
+<p><em>“我明白了，这也是我要去完成的工作吧。要将这份光芒传达给你。这也是我和你要接受的考验。”</em></p>
+<p>有如神启，初鸟逐渐狂乱到峰值的神情倏忽平复回往常的状态，平和地微笑着，甚至更加安定和喜悦，像是真正慈悯的神一样去施予救济，略微松了手：“抱歉，德幸。是我没有更早意识到最需要引导的人就在身旁…但也不会太迟，让我来教导你真正应当去遵循的事物吧，满怀喜悦地接受祂吧。”</p>
+<p><em>“与我融为一体。让细胞来传达驱动世界的原动力。不要担心，我会一直、一直注视着德幸的。不会再令你误入歧途，所以享受这神之爱吧。”</em></p>
+<p>初鸟鲜红的瞳眸中透出纯粹的欣喜。像小孩子找到了新奇的、能够获得他人称赞、证明自己是正确一方的方式。</p>
+<p>然后他听到了拒绝。“不。不…我不要，我——”</p>
+<p>宇津木抗拒的、逃离的姿态和话语让初鸟愣住了，他不解又像是遭受背叛而执拗地询问：“德幸…在拒绝我吗？”他下意识继续用力掐住对方的脖子，黑暗混乱的情绪让细胞蠢蠢欲动，“你不可能拒绝我的。不能拒绝我。只有你、只有你是不被允许的。你要离开我吗？你也要离开我吗？”</p>
+<p>“……哪怕，约定…是、被划定的剧本，我也想要、作为、作为‘我’陪伴在你身边，那是，出于我个人意志、的选择，如果不是‘我’的话，就没有、意义。”宇津木从被挤压变形的气管和因为缺氧失血茫茫然的大脑中组织起语言，向着他的星星祈祷，“所以，创，我不要——”</p>
+<p>再一次拒绝的言语催动了暴涨的情绪，初鸟面无表情地切开了宇津木的脖颈，青紫色的淤痕在苍白皮肤上是最好的装点，飞溅的血沫在控制下没有一滴接触到初鸟，雪白颈骨若隐若现，他的头颅仅剩下一层薄薄皮肤与身体相连。但这样丝毫没能减少初鸟的烦闷，反而让他发现，就算至高细胞在他的控制下走向自毁，宇津木的躯体仍然能够自我修复。这就是他持有的因子带来的力量吗？</p>
+<p><strong>简直像那个男人一样。</strong></p>
+<p>但你是不同的。初鸟心想到。我一定会给予你救赎。然后（因为），你要随我一同坠入地狱。</p>
+<p>接受了命令的触手们蜂拥而上，变化成更加柔软没有具体形态的泥状物，它们从那断口侵入进去，呼唤着至高细胞们回归，一部分填充了身体的食道、气管和血管，另一部分沿着鼻腔和耳蜗与大脑中的细胞们接触。宇津木能感觉到身体在欢呼雀跃，期盼着与原型重聚，似乎自己也成为了一个巨大的细胞，流入的每一分子液体都滋养了取代了原先的存在，创的气息、声音、光芒笼罩、侵入、包裹着自己，而自己的意志也会被坍缩的黑洞吸入，化作混沌的一部分。这是比身体消融更令人恐惧的事情。要将自己都未曾知晓的一切坦白于他人，即使那是他将爱投射的对象，或许正是因为那是创才十分可怕。</p>
+<p>初鸟捧着宇津木的头颅，端详对方眼中金黄的光辉，污黑血肉形成的沼泽吞没、包围着他们，像是逐渐沉入海水，他知道德幸没有那么容易归顺，但现在的德幸已经奉还了力量，又被自己拔除吞噬了一部分，在不断地自愈和死亡的交界线上，是暂且无法逃离的。这样就够了。时间还有很多，他会让德幸皈依于神之爱的光芒中的。</p>
+<p>怀抱着这样的自信，初鸟合上双眼，像是蚕吐丝和蜘蛛结网那样用肉块与血与骨构建起一个活着的、能够呼吸的子房，将额头抵在宇津木的额心，去体察、同化他感知到的一切。</p>
+<p>他看见巨大的眼球一般的月亮注视着自己。在黑洞般的瞳孔中央，创就在那里，向着自己伸出手来。</p>
+<p>宇津木知道那邀请意味着什么。脚下站立的岛屿虽然岌岌可危，在无尽的混沌中飘摇着，却始终不见消亡。那是他顽固的自我意识，是对初鸟创的爱。是他仅剩的、唯一不可放弃的东西。</p>
+<p>发现这一点的时候，他知晓了更多。这片海域本身就是那虚无的瞳孔，于是初鸟自然而然地显现在他身边。</p>
+<p>“让德幸一直坚持到现在的，是这样强烈的意志啊。我很高兴哦。”他浮现于漆黑的海面，一如既往地微笑着，“德幸明明已经知道那就是神之爱，为什么还是不肯承认呢？”</p>
+<p>宇津木沉默不语。依旧抬头仰望着月亮上的他。虽然这逃避毫无意义，此处的一切都是初鸟的意志，他所依仗的仅仅是俯瞰视角的初鸟绝无可能真正理解地面上的人这一事实。躯体如何，现实中的事情又如何，他已经全部失去挣扎的力气了，只有这个认知是不会交由对方处置的。在初鸟完全吞噬他、他也完全吞噬初鸟的那个时刻，“宇津木德幸”和“初鸟创”这两个存在就会彻底消失，诞生出全新的个体，而那就是宇津木固执着要拒绝的未来。</p>
+<p>处于变态阶段的蝴蝶在破茧而出之前那回归了原始形态的各种器官和组织混杂在一起的怪异形态，正是他们在到达结局之前的模样。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2021-10-24</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/'>
+                            细胞神曲
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Salvia.debris" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Salvia.debris
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>碎片。</p>
+<span id="more"></span>
+<h3 id="其之一"><a href="#其之一" class="headerlink" title="其之一"></a>其之一</h3><p>在工厂里有时候他们会组织看电影。“他们”这个词并不专门指代某些人，成员很难固定。放映室在二楼，由两个联通的房间改造，几张过于长大、看起来像是之前在夜总会服役过的长沙发塞在角落，中间没有桌子，一块掉了毛的、脏污不堪的短绒地毯贴在靠墙的位置，投影仪放在另一个房间，好伪装成电影院的结构，墙壁上贴着投影屏，打开灯能找见另外几块墙上用蓝蜡笔划下的粗俗不堪短句。房间的空气很是沉闷，即使没有人抽烟，室内也凝滞着仿佛烟熏过了难以呼吸的气氛。</p>
+<p>病人们观看录像带多于CD光盘，前者是名为罗伯特的病人的私人收藏品，后者是医生从外界采购安置在工厂里的。罗伯特的品味得到了一致认同，他理所当然被剥夺了选择观看哪一部电影的权利，只能作为放映员为大家服务。他一般要求一杯加了柠檬的威士忌（来自厨房或者哪个人的存货）作为报酬，然后独自抽着烟在小房间里抚摸他那些珍贵的藏品，也不和别人谈论他的录像带、电影评论以及不得志的导演梦想。艾利克斯知道上一次他被迫说出自己的剧本是在法庭上，这儿没人指责他用过度追求真实的手法拍摄电影，他的狂妄在人群中毫不起眼，至少大多数人都成胡说八道——把人真的绑在火堆上烧来演出受火刑者的痛苦？真实才是通往艺术与美的唯一途径？哦，说真的，艺术和美是什么鬼玩意？这种毫不理解的宛如未开化野蛮人的态度倒让罗伯特得到了些安慰，他喝多了就会抱怨自己沦落到这儿给一群不懂美的人放电影，这才是他们给予他的苦刑。</p>
+<p>放映室工作的时候不关门，任人自由来去，维护秩序全靠自觉，但病人们顶多在看电影的时候吃东西、打毛线、读小说或者挫指甲，愿意坐下来的人都愿意看一看屏幕上在变化的是什么东西，不感兴趣的人不会勉强自己留下。有时候他们通宵达旦地看电影，这取决于罗伯特能喝下多少威士忌。</p>
+<p>艾利克斯不是放映室的常客，但他看过不少电影，有些CD还是他加入采购清单的，这里不能说他有什么私心，毕竟实际上他没有任何喜欢的电影。面孔，光影，场景变换，音效纷纷扰扰，它们看起来千篇一律。他对他自己之外的人生了解得太少，也不感兴趣。</p>
+<p>他走进放映室的时候没人多看他一眼，放映室就是这样的地方，大家共处一室，各自沉浸在自己的世界里，况且除了几个常驻在工厂的老病人外也没谁认识他。那天辛西娅也在，正坐在沙发边的地上给自己涂指甲油，两腿叉开占了好大一块位置，面前的地板上放着数十个小玻璃瓶，艾利克斯不明白她在一堆黑色里挑个什么劲，而且放映室里昏暗得叫人看不清盘子里有几块饼干，她到底是怎么准确无误地把指甲油涂到指甲上的？</p>
+<p>沙发上还有位置，艾利克斯安静地窝进角落，注视着在沙发中间正托着棋盘下棋的莱文斯。莱文斯瘦高，戴着胶水粘过眼镜腿的厚实眼镜，一年四季都穿着毛衣，总是下撇的嘴角和眉间深重的皱纹让他看起来像个面临失业的会计。他一只手举着棋盘，颤颤巍巍，吃力地把它抬高到和自己的鼻子齐平，另一只手专注地摆弄棋子，被吃掉的棋子横倒在盘面上，他尽力不让它们都掉下去。沙发另一端坐着的是弗里和唐克斯，他们紧张地吃着糖和糖纸，一刻不停，好像是专门处理糖果的工厂工人一样。</p>
+<p>还没坐下多久，电影就结束了，片尾曲响起，男女主角拥抱着回到了他们温馨、整齐、开满了绣球花的房子里。然后是闪烁着的持续不断的白光，一个人的影子走来走去，那是罗伯特在换录像带。啪、哒，房间里又陷入黑暗，有谁咕哝了一声，听起来像个缩小版的尖叫。</p>
+<p>音乐响起的时候艾利克斯还没察觉到问题所在，他困了，但药效像钩住鱼鳃的挂钩一样把他往清醒的水面上提，他很久很久不眨一次眼睛，乏味的疲倦充塞在眼眶，取代了晶状体，好比滴胶注入其中后凝固。视觉神经尽职尽责地收集信号，但大脑忙于其它事务，无暇处理，直到声音也加入了进来，一个女孩在大声喊着：“妈妈！”</p>
+<p>艾利克斯猛地打颤，无药可救地看向墙壁。镜头跟随着女孩跌跌撞撞在草丛里移动，女孩的小腿白得发亮，灰色芒草刷刷地被踢到两边，像一只小狗钻出灌木丛扑进主人怀里，女孩猛地跳进在草地上坐着的女人的拥抱里，咯咯笑着，抓着一束野花。</p>
+<p>不，不。他不想看这个。你最好不要待在会不时滚落石头的山壁底下。但身体没有一点力气，如果不是沙发足够宽敞，艾利克斯又早把自己塞进角落，他准像滩融化的黄油淌到地上。他吃的药片太多，失去了对身体的控制，又或是从记忆里延展出的控偶线锁住了他的四肢。妈妈，妈妈，是啊，人都有自己的母亲，毕竟你存在的前提就是她存在，你怎么能否认这一点呢，嗯？艾利克斯？</p>
+<p>她不是。够了。闭嘴吧。</p>
+<p>女孩的妈妈轻柔地摇晃着女孩，带着笑意和耐心，一边亲吻着女孩的脸。镜头好不吝啬地给了这位散发母性光辉的女性足够长的亮相，导演很擅长构图，显然这一幕里掺入了宗教隐喻和意象，女孩将手中的花束递给妈妈，请求她为自己编一个花环。</p>
+<p>艾利克斯目不转睛地盯着墙壁。思维停滞后，感知就顶替了那片空白，身体各处的讯息蜂拥而至。他想吐，胃不耐地摩擦着自身，抗议连日稀少的进食，像个徒然消耗动力的齿轮。旁边莱文斯在思考的时候会咯吱咯吱咬自己的臼齿，辛西娅手链上的铁片碰撞发出细碎的声响，空气里有不明显的甜味，和在甜味前边大麻的臭味，罗伯特又喝了一口酒，威士忌加冰，冰块缝隙里有气泡上浮，放映机运作时电流激活了零件，一粒粒的光蜂拥出形体，他的思维无可避免地回到了屏幕上，无处可逃。</p>
+<p>母亲。妈妈。据说世界各地的婴儿对生育他们的人都是如此称呼的，是吗？但这个词太恐怖了，他不愿回想，伴随着这个音节出现的是疼痛、尸体、抹消自我、无理由的虐待和窒息，你讨好她才能活下来，但你永远不会得到承诺，她喜怒无常，不能用逻辑判断，无法用经验揣度。艾利克斯察觉到自己在呼吸，规律性地、严格每一次肺部舒张时间的，不然他控制不住身体的颤抖和惊惧过头的嚎叫。她不喜欢没有礼貌的孩子。她不需要不合格的玩具。</p>
+<p>镜头移开的时间过于漫长。母亲在微笑，慈爱地抚摸着孩子的头发，把花环放在上边，看着女孩再一次跑到草地里。其它角色从镜头一侧出现，那是女孩的父亲，女人的丈夫，演员将神态把握得万无一失，她立刻脱下玛丽亚的光环，成为了爱情片里随处可见的女主角。他们亲吻，眼神交缠，在观众和另一个角色面前扮演关系和睦的夫妻。</p>
+<p>飓风过去了。艾利克斯感到喉咙干涩，甚至没有心力为自己的失态羞怯，积攒了力气后做的第一件事是狠狠在自己手上咬了一口，施加压力直到有血味渗进喉咙里。就像寻求安慰，但他只会承认自己不过是在模仿过去听到这个单词后将会感受到的环境——疼痛、受到挤压、和充满了血腥气——好让适应了这一套连锁反应的身体和思绪尽快恢复平静。</p>
+<p>薇薇安。在吞咽血液和撕裂自己皮肤的时候，一个名字不知从哪里掉了出来。薇薇安，艾利克斯重复着它，翻来覆去地咀嚼着它，想不起来自己在哪里遇见过使用这个名字的人，他不记得有杀死过名为薇薇安的女性。工厂里没有，病历堆里也没有，曾经的同学？又或者是新闻里出现过的人名？</p>
+<p>他蜷缩在沙发的角落里，随着对身体掌控力的回归，逐渐停止了制造更多伤口，他睁着眼睛，一眨不眨，墙壁上放映着一个家庭分崩离析的伦理故事，女主角离开了她的丈夫和孩子，她与她的情人一起逃走，被追击的男人用猎枪射中了心脏……</p>
+<hr>
+<h3 id="其之二"><a href="#其之二" class="headerlink" title="其之二"></a>其之二</h3><p>萨麦尔在做梦。</p>
+<p>梦里是一间灰暗的小仓库，堆满杂物，像是剧场的后台，中间一小点空地上都塞了一张方桌，桌子上放着圆底的玻璃花瓶，里头随意至极地塞了一堆白色的铃兰，枝条低落，花朵挤挤挨挨，无精打采。除此之外，桌子上还放着一份餐具，白色毫无花纹的瓷盘里是煮过头的豌豆和一根腊肠，还有一点鹰嘴豆泥，这份午餐让人提不起食欲。萨麦尔无趣地用叉子在盘子里划拉，追逐着一颗豌豆，把它赶到鹰嘴豆泥里头裹上一层，才瞄准了似的叉起它吞下去。他做完之后抬头，看到白色的幽灵坐在了他对面。尽管刚才萨麦尔没有看见幽灵是怎么出现的，却能准确无误地想象出来：艾利克斯从对面那扇看不清门牌的阴影里的门里走出来，脚步静悄悄（幽灵有脚步声吗？），径直朝这儿走过来，既不停下打量，也没有犹豫这个位置是不是给他准备的，真没礼貌，让人讨厌。</p>
+<p>艾利克斯没有变化。即使在梦里，他也维持着完整的形态，脸色一如既往地平静，眼神冷漠。他沉默不语地看着萨麦尔，皮肤苍白得和身上穿的衬衫有得一拼，脖子上没有那一道伤疤。他不说话，没有指责，也不表达任何情绪，甚至已经停止了呼吸，可萨麦尔还是迅速烦躁了起来，耐心像是被点燃了的油，他握紧叉子，随时准备反击，满怀着怒意开口：“你是来嘲笑我的吗，艾利克斯？”</p>
+<p>他们在哪？他怎么会同一个死人说话？但一旦开口话语就像从瓶子里溢出的水，他阻止不了自己：“你错了，我才是赢了的那个人！这次是我赢了！我现在很好，一切都很好！”</p>
+<p>对面的人看着他，没有像他想象的那样回敬，没有反问，连嘲笑都不肯给予，空气像是深潭中的水体，将语言消弭。萨麦尔把这变化理解成他新的争强好胜技俩，恶意拖长语调，揭开一个秘密似的：“……你不明白吗？你已经死了！看看你自己！死人只要闭嘴就好了！别再来了！别再来烦我！”</p>
+<p>幽灵很迟钝地、如同不良导电体一样，从听到萨麦尔的话到微微笑起来，然后他开口说话，但就像在水里说话失去传导一样，他说的话萨麦尔听不见，口型变化得太细微无法判断每一个发音。说完之后，艾利克斯自顾自起身，像出现时一样毫不理会其它地慢慢走回深海般的幽邃中。萨麦尔感觉自己气炸了，猛地起身要追着那家伙让他把话说清楚，但梦境在他的激动下也失去平衡，他一脚踩空，从自己的床上醒来。</p>
+<p>太阳尚未出现的清晨仍有些寒意，萨麦尔恼怒地起身，抓起毯子抱在怀里，心里不如意地想着：为什么没有梦到妈妈，偏偏梦到那个家伙？他赤脚跳下床，一路推开门，跑到一楼餐厅里，艾利克斯那经过处理的尸体还摆在桌子边，铁丝牢牢地嵌合着硬质的人体与座椅。萨麦尔瞪着这毫无所觉的人，伸手想要像他还活着时候那样掐住对方的脖颈。</p>
+<p>我在干嘛？他都死了！我干什么要和死人生闷气？在即将碰到尸体前一秒，萨麦尔收回手，自言自语：“没准这才是艾利克斯的鬼主意！”想明白了这一点，萨麦尔得意地绕着椅子走了一圈，就好像观察死者还会不会活过来一样，他最后确定了幽灵根本不存在，“你别想再干扰我的想法。”萨麦尔嘟囔着，回到楼上的卧室，准备继续睡觉。</p>
+<hr>
+<h3 id="其之三"><a href="#其之三" class="headerlink" title="其之三"></a>其之三</h3><p>艾利克斯沉默地躺在床上等待干裂的思维愈合，夜晚从不是个好邻居，它带领诸多幻觉蹲踞在床边，围拢着他，轮转着献上祭奠的花束般，从他的大脑里穿过。幻觉留下沟壑，令人无法在愈合前入睡，困意从中漏光，一点不剩。他唯一能做的只有像具尸体似的躺好，闭上眼睛，任由切割结束。其实闭合与睁开没有分别，就像白日与黑夜不分彼此一样，因为清醒与昏睡有相同的样貌。但他能够区分梦境和幻觉，前者离去的时候不会在他身体里留下剧烈头痛、恶心和耳鸣作为留念。</p>
+<p>他不动弹，感官已然消失，被剔除干净了的意识悬浮在外头，同房间里沉浸在迷雾般的黑暗中的家具共处。按照往常，最后的幻觉离去后，意识会逐渐溶解，直到房间里的一切都被解体成微粒的意识充满，因为逐渐稀薄而无法维持思考，他就这样睡着。而今天晚上他恍惚着将要溃散的时刻，一声凄厉的惨叫打断了这个过程，被声音振荡了的瞬间艾利克斯的意识破碎，掉进垃圾桶一样的身体里。他慢吞吞地起身，穿上鞋，晃晃悠悠走过月光照亮的走廊，窗外是倒置的深海，房间之外虚空深不见底。他走过，不关心究竟是现实还是梦境。</p>
+<p>萨麦尔的房间不锁门，和他不一样，对方也不喜欢拉上窗帘睡觉，这就导致艾利克斯将内部的一切窥看得一清二楚。他走到被噩梦抓住的人的床头，盯着那张卸除了妆容和微笑神情的脸，现在它被恐惧扭曲，露出了难看的真实来。像是被酸涩的苦汁浸泡过的表情，皱皱巴巴的，难以述说的彷徨蒙住五官，眼睛四周的皮肤痉挛着，被困在另一端醒不过来。</p>
+<p>“妈妈……妈妈！妈妈、不要离开我、不要丢下我一个人！妈妈！”萨麦尔哭喊着，他陷在噩梦里太深，紧皱着眉头，哭得很伤心，因为之前的惨叫都有些破音，“不要丢下我……”或许是想要挽留，但睡着的人身上裹着被子，他一番挣扎只是被桎梏得更深。</p>
+<p>艾利克斯都能想象到他梦到了什么，无非是那个女人离开的背影，被抛弃了，被放弃了，他不明白为什么对方为此这样悲伤。此时萨麦尔的眼泪糊了满脸，亮晶晶的泪水在枕头上成为深色水渍，也沾湿了头发，看来他已经哭了许久。真丑啊，艾利克斯心想。</p>
+<p>他向着睡着的人伸出手。那个女人不是这样的，即使痛哭，她也美丽得让人心悸，萨麦尔的模仿从来都很拙劣，他是个蠢货，紧抓着过去不愿意离开，拘泥于家家酒的游戏，这倒是和女人一模一样。正因为这家伙不够聪明，无法做到天衣无缝地欺骗——他连他自己都骗不过去——才会被噩梦抓住，不是吗？你知道那个女人已经死了，你知道她不会再回来，你也知道那个时候她就是没有选择你，如果对方醒着，艾利克斯会这样说，但对着无知觉的人说话只是徒劳。</p>
+<p>所以这样杀了你会更好吗？你看你这样子，与我一样被过去纠缠，你不也在痛苦吗？如果我们可以彼此怜悯，这就是我会为你做的事情。艾利克斯朝萨麦尔伸出双手，不是要唤醒对方，而是要将人推入永恒的睡眠。</p>
+<p>他的手指触碰到对方的呼吸，潮湿而急促，萨麦尔在很小声的呻吟，在哭泣和喘息间尖叫，在用颤抖的声音喊着妈妈，他本应对这重复的把戏感到厌烦，毕竟又不是头一次见着这个人发疯，但此时艾利克斯没有任何感觉，他平静地瞧着另一个人的狼狈，用眼睛看着对方蠕动、腐烂、难以愈合的伤口，那伤口与他自己的那道有着同样的来源，尽管如此，他却难以感同身受同样的痛苦。</p>
+<p>……还是算了。杀意如海潮到达顶点后褪去，艾利克斯轻微得连自己都意识不到地叹了一口气，左手撑在床边，右手为那张湿漉漉的脸拭去眼泪，冰凉的液体沾了满手，他有些嫌弃，迅速把对方两侧脸颊的水渍都抹掉了。简直像个小孩子一样，只有小孩子才这样哭。</p>
+<p>艾利克斯没有继续停留在这里，他转身走向自己的房间，这次很快就睡着了。于是第二天他难得地出现在餐桌前，尽管仍旧动作迟缓、心情恶劣，给吐司片抹果酱的动作多次重复，直到红彤彤的胶质渗进了面包里，他才心不在焉地把它往嘴里送，然后被酸得一激灵，表情难看。</p>
+<p>萨麦尔盯着对方的动作，见到艾利克斯出糗也没有嘲笑，他被什么问题困扰着，把勺子在罐头里搅来搅去，然后在一个他认为对方放松了警惕的时刻询问：“昨天晚上是不是你？”</p>
+<p>“什么？”艾利克斯灌了口咖啡，抬起眼皮看他一眼。</p>
+<p>“昨天你到我房间里去了吗？”</p>
+<p>“你没睡醒？”被问询的人毫不客气，“还在做梦？”</p>
+<p>萨麦尔出乎意料地既没反呛回去，也没生气，他咬着勺子，闷不吭声地吃自己的早餐，艾利克斯也是，那副无视另一人的姿态一如往常。直到两个人都吃完，他们一句话也没同对方讲。这本来是时常发生的景象，只是今天格外令人不愉快，他们俩都这么觉得。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-07-13</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/Salvia/'>
+                            Salvia
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

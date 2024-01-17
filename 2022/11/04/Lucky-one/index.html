@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Lucky one" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Lucky one
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>if线：艾利克斯（女）被妈妈（男）养大的发展</p>
+<span id="more"></span>
+<p>我在酒吧的后巷遇到的那个女人，她站在纤薄的月光纺织成的阴暗里，像一樽身披阴翳薄纱、落满灰尘的圣母像立在角落的神龛那样注视着外边的世界。说实话，我不应该放任自己的身体被激素冲昏头脑去搭讪的。她给人的感觉……很不祥，我是说，你明白的吧，像在换季的时候从衣柜里翻出了遗漏了、没一起下葬的过世亲人的衣服。那是个象征，有的人对禁忌敬而远之，有的傻瓜只看见了她的脸。唉，我已经在后悔了，我真不应该去问她是否需要帮助。而且我现在已经想不起来她的长相了。多奇怪！我记得她有双灰眼睛，和广场上鸽子的羽毛一个颜色，脸色很苍白，头发却黑得完全是极端的反面。从外表上看不出她的年纪，无论怎么看她都像个陶瓷娃娃，脸上没有一点瑕疵。她穿着黑色的裙子，外面裹了宽大的牛仔布料子的外套，小腿上溅到了血——那些血痕不仔细看的话根本意识不到它们的形状是在很近的距离喷溅上去的，显然，当时我的注意全然不被它蕴含的意义吸引。</p>
+<p>她叫我先生，声音柔和，几乎听不出是哪里的口音，声线像提琴，悦耳、纤细但不够亲切，她用类似含着、品鉴着喉糖的眼神与人接触，隔着一层无比清澈的玻璃似的与人说话，她说，谢谢您，我没事。</p>
+<p>（现在想想，她的气质才是最吸引人的，艺术品在博物馆的玻璃之后看起来才最有价值）</p>
+<p>接下来没什么好说的，我们聊了一会，她说她刚结束了工作，被客户介绍来这里放松，但在酒吧里吵得头疼。我邀请她到我租住的房间去喝杯茶，拙劣的借口，她看起来却毫不介意，一路上我都试图让气氛活跃些，聊些政治、文学和音乐，她的应答寥寥无几，尽管从那些回应来看，她比我知道得更多。结果，直到走上楼梯，我们都没有互通名字，哪怕一个假名。</p>
+<p>我们喝的是红茶，因为我的房间没有椅子，她靠墙站着，审视我在窗台种的一株紫茉莉。我不擅长园艺，它长得繁茂全是自个的功劳，这又让我失去又一个与她交谈的题材。我的手心出汗，心跳加快，我怀疑我是真的坠入情网了，因为在无计可施下，我竟然直接问出了“我可以吻您吗？”这种问题。</p>
+<p>我以为她会笑，我多希望她直接开始嘲笑，这样就能顺着这气氛打趣一下自己，好让我们的距离近一点。但她转过头，像个上世纪的贵族小姐那样伸出手来，我才看到她带着薄且紧贴皮肤的丝绸手套。没人能在那场景下拒绝她，我弯下腰亲吻她的手指，冰冷的触觉从我的嘴唇一直蔓延到脑后，我浑浑噩噩，完全忘了自己想说什么，引以为豪的口才和讨人喜欢的情话和翻到了最后一页的词典似的，一片空白。</p>
+<p>之后，起码在我的记忆里这中间停顿的时间超过三分钟，我看到她举起那只被我亲吻过的手，端详了好一会，然后她彬彬有礼地问我：“先生，请问您叫什么名字？”</p>
+<p>那个时刻我没有意识到异常。直到现在我回想起那个女人的眼神都会浑身发抖，而那时的我一心沉浸在自己以为的爱情里，只觉得身体又冷又热，惊喜和紧张捂住了我的嘴，不停吞咽着唾沫但讷讷不成语句。她等待了一会，比怜悯要更居高临下地笑了，说：“您是个幸运的人。”并且在屋子里那张椅子上坐下了，单手支颌，俯视着丝毫没有察觉自己的身体已经软倒在地上的我。</p>
+<p>“曾经我的家教让我不与死人说话。但是我的父亲只愿意让我和死人说话。今天我不想做他的好孩子，”她开口，以自我介绍做开场白那样自然地向我保证，“所以，您最后还是会活下来的。”</p>
+<p>“本来我只是打算在工作之后找点乐子。我的上一个客户推荐了性。父亲不会允许，他不喜欢我和其他人接触。所以我选择听听客户的建议，尝试一下和父亲之外的人做爱。”</p>
+<p>“您看起来很惊讶。这有个好消息，他不是我的亲生父亲。虽然按照法律，性侵未成年人要坐很多年牢，但他不差这一桩罪名。”</p>
+<p>女人换了个坐姿，摩挲着自己的手指：“想想也知道，我讨厌父亲。他是个控制欲过剩的疯子，他把我作为我母亲的替代品，亲吻我，侵犯我，并且告诉我，他爱<strong>我</strong>，世界上仅有他这一个人能如此爱<strong>我</strong>。您怎么看呢？他是不是疯了呢？不然他怎么会认为，只要有了孩子就能算组建了家庭、成为了家人呢？”</p>
+<p>她沉默了一会，不知想起了什么，转而谈起另一件事：“他认为他需要我，相应的，我也需要他。为了证明这个，有一次他几乎是指着我母亲的身影，告诉我，如果我想要回到她身边去，那就过去。但是我知道，他会跟在我身后，把她也杀了。因为他爱她。”</p>
+<p>我的大脑逐渐陷入一片混沌，渐渐的听不懂她在说些什么。可能是药物作用，也可能是她的话里蕴含的疯狂超出了我的接受能力。</p>
+<p>“……我想要尝试和证明，我既不再受他控制，也不会成为他的孩子。但我失败了。我完美地继承了他的一切。”女人站了起来，她的影子也随之移动，被月光投射在地上，在我的眼里像一只巨大的蜘蛛，“我不能再过别的生活，不能再将人作为人来看待，同样的，我也不得不承认没有任何一种爱情能超越他给予我的那一份。我感觉……窒息。无论在他的湖水里，还是在外边的空气里。这简直像诅咒，因为我杀了他……您看，我又失败了。您，您们，男性的躯体让我想起他给我的恐惧，而人的亲吻让我想起他的体温。糟糕，太糟糕了，母亲说我连说话的方式都和他一模一样……”</p>
+<p>在彻底丧失意识前，我感到她从我身边走过。我不知道那时她是否还絮语着什么，只有毫无温度的血腥味留在她盘桓过的地方。第二天早晨，房东太太打扫走廊的时候发现我的房间门大开着，而后发现了倒在地上陷入高热的我。我在医院里住了一个星期，医生说他们几乎把我身体里的一半血换掉才保住了我的性命。接着是警察的取证，你真是个幸运儿，那个女人是个连环杀人犯，那天她在这个区杀了四个人，你究竟是怎么活下来的？</p>
+<p>我和警察说的版本和我现在告诉你的没有区别，除了一些冗长的修饰词。但是……天啊，哪怕是你，在那个时候也会被她捕获的……唉，总之事情就是这样，侦探先生，你还有什么要问的吗？</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-11-04</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/Salvia/'>
+                            Salvia
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

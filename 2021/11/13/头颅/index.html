@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="头颅" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            头颅
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p> XP短文。</p>
+<span id="more"></span>
+<p>相原时生有个秘密。</p>
+<p>他的家里有一个代代相传的匣子。用上好的桐木制作，因为年代久远已经有些发黑，表面被摩挲得光滑，盖子上雕刻了繁复的难以解明的花纹，一看就十分珍贵的匣子。</p>
+<p>据说能追溯到江户时代，是只能由家主保管的宝物。</p>
+<p>他第一次看到匣子时，是在祖父葬礼后，由祖母交付给父亲的时候。</p>
+<p>父亲与固守传统的家族格格不入，讨厌自持为武家阶级后代的种种条条框框，所以在上大学后再也没有回过家乡，祖父的葬礼后他就匆匆带着时生回到了东京。</p>
+<p>父亲同样对祖母交代了是“不祥之物”的匣子嗤之以鼻，认为那不过是个坏掉了打不开的古董匣子，看见儿子感兴趣，便随意地将其交给了时生。</p>
+<p>孩子对它的兴趣非常浓重，琢磨了好长一段时间。它的尺寸无论装什么都不恰当，就书匣来说太大，装衣物又太小，况且也有些深度，重量绝不轻巧，里面究竟装了什么呢？猜测、幻想它的内容是年幼的时生最热衷的事情。</p>
+<p>就在他逐渐长大，对它快要失去好奇的时候，某一个逢魔时刻，他不小心把血抹在了匣子的表面。乌沉的木色上很快没有了血的踪迹，简直就像是匣子将其吸收了一般。说不定是恰好被引诱了吧，时生伸了手，又一次尝试着去打开匣子。</p>
+<p>里面呈放了一尊美丽的、栩栩如生的头颅。</p>
+<p>那种美丽，如刀锋刺穿灵魂般震慑人心。它超越了男女的界别，超越了艺术和自然，是种种不和谐和扭曲所凝结的、过于完美而腐败的果实。</p>
+<p>头颅闭着眼，如夜一般的黑发堆积着，肌肤苍白得像是剔透的瓷，同时兼具了死物和活物的气质。它是死去之人的遗留，但过度的美丽和莫名的吸引力组成了这犹如百物语中吞噬人心的妖魔的东西。它是开放在尸沼上的花，绽放出楚楚可怜的姿态，令扑火的飞蛾成为饲育它的黑暗的一部分。</p>
+<p>相原时生难以自持地屏息，生怕呼吸将它惊扰。</p>
+<p>人天性如此，乐于去珍惜、保护美好的事物；可人也同样矛盾，面对这样的美好总忍不住心底毁灭的欲望。</p>
+<p>他伸出手去，主动地触碰它。</p>
+<p>然后，即将接触的瞬间，头颅睁开了眼睛。</p>
+<p>相原时生觉得或许自己从那个时刻就已经疯了。</p>
+<p>他无可救药地爱上了它，尽管它严格来说只是一团不会腐败的肉块，他还是近乎虔诚地狂热地爱上了它。</p>
+<p>头颅就像是从来没有变化，有时这会让时生怀疑那个记忆只不过是自己的幻觉。但大部分时候他都不以为意，并且就像是任何一个陷入爱河的普通人一样时刻不愿与它分开，持之以恒地与它交谈。他小心翼翼地保护着头颅，不愿它受到一点伤害。偶尔会把它取出来，捧在手里高举着，朝拜神明一般饱含爱意地注视着它，满怀亵渎的心情亲吻它长长的、从匣中拖曳出来的发丝，在夜里思念着头颅自渎后感到羞愧万分，但下一次又陷入更加旖旎狂乱的幻想中。</p>
+<p>这样的爱情是无望的。头颅不过是头颅而已，不过是一件死物而已。相原时生长达数年的妄念终于生发了荒诞的白日梦：他想要头颅活过来，想要去往彼岸，切实地亲吻它、拥抱它，想要获得“幸福”。</p>
+<p>于是时生一头扎入了现代医学中，在斩获无数荣誉后，在一次次失败后，时生终于明白凭借科学是无法到达的。他狂怒着砸掉了所有实验仪器，跪在头颅前痛哭，像个彷徨失措，失去归乡和目标的旅人。</p>
+<p>而头颅只是安静地沉睡着。</p>
+<p>在不知是梦还是记忆的间隙里，时生和头颅有过交谈。他孩子一般好奇地询问头颅的人生，却只得到了一个又一个他人的故事。头颅旁观过、参与过、推动过的他人的悲欢离合深深令时生着迷。可直到最后一个故事结束，时生依旧不曾知晓头颅的过去。</p>
+<p>最后被纠缠得不堪其扰的头颅，垂下眼帘给时生讲述了庄周梦蝶的故事。</p>
+<p>【我是否存在？被困居在匣中，没有名字，没有过去，这些故事是我的记忆还是梦境？这世上没有我存在过的残余，所以我在梦中，还是已经醒来？这长久得几乎凝固的时间，究竟是我死后的永恒，还是临死前的瞬间？我这样思考着，却从来不曾得出答案……】</p>
+<p>【你与我相遇，这难道不是证明吗？】</p>
+<p>【可是啊，小公子，】头颅笑了起来，语气轻巧，【对你我来说，彼此并不能证实相互的存在。我根本不是活物，你也可能只是我在黑暗中的幻想。归根结底，相遇不过是一场虚妄罢了。】</p>
+<p>相原时生从此转向了神秘。他从浩瀚如烟海的古籍中，从散落各地的民俗中，从残存至今的历史中，寻找头颅存在的痕迹。然而这一切都是徒劳无功，诸多似是而非扰乱着可以窥见的真实。即使是鲜血涂画的法阵，残肢堆砌的小山，漆黑无光的夜晚，头颅依旧一言不发，闭合着双眼，像是泥塑木雕的神明从不给予祂的信徒只言片语。</p>
+<p>时生悲切地看着他，询问为何不愿意苏醒，不愿意接受一份人类的爱意。他发了狂，在幻觉里看见头颅睁开双眼，露出神秘莫测的、蕴含着轻蔑和冷淡的微笑。</p>
+<p>他彻底疯了。时生拿起了刀，刺入了头颅，就像刺穿自己的心脏。他不断刺入、拔出、刺入、拔出…直到头颅面目全非，变成彻彻底底的一堆肉块。</p>
+<p>狂人高举着他的神明，用力掷下。</p>
+<p>头颅摔在地上，漆黑长发蜿蜒到房间深处的黑暗中，血迹不知何时布满了地面，勾勒出一幅难以用言语概括的图画。</p>
+<p>不知从何处传来了笑声。一开始是一个人的，后来混入了许许多多的，或粗哑或尖利的笑声。</p>
+<p>头颅活了过来，不，他从一开始就是活着的，他是长存于世间无法死去的怪物，不可直视，不可接触，不可观测。</p>
+<p>匣子彻底打开了，从里汹涌而出的是压倒性的森然恶意。它狂舞着，像是海啸一般吞噬着，由这个房间开始向四面八方扩张着。</p>
+<p>不知是谁的梦境在此时终结了。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2021-11-13</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/'>
+                            查丹沃兹短篇故事集
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

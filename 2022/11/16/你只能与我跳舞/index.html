@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="你只能与我跳舞" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            你只能与我跳舞
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>妈妈的少女时代</p>
+ <span id="more"></span>
+<p>西莱斯特·艾斯波西托没想到三楼宴会厅的休息室有人，按理来说，在看见沙发上已经坐了一位淑女的时候，他应当礼节性地致歉，询问对方是否愿意与自己共处一室，适当地寒暄，为这偶然的独处寻找一些理由，比如他们两人比旁人更心有灵犀一些；但看清了里面坐着的人是谁的时候，他完全丧失了开口说话的心情，因为被预料到行踪的不满暂时占据了上风。他很想说服自己这只是淑女们的一些小小手段，为了与自己有意的对象增添一些暧昧的相处时间，他见过他的表姐妹们这样做，男士们对此也乐在其中，仆人们更不会多加阻拦，他并不（不能）责怪谁，因为即使是最贴心的仆从也预料不到自己一时的心血来潮，那为什么对方能够猜测得如此准确？难道他们之间当真存在着一种不可言说的默契？西莱斯特冷淡地瞟了笑意盈盈的少女一眼，十分不情愿地向她问好。</p>
+<p>少女看起来一点都不介意被这样对待，甚至因为他主动说话而格外容光焕发，以适当的甜蜜参杂着些许幻想式的情意开口：“您今天不是宴会的主人公吗，表兄？有那么多人都期待见您一面呢，姑妈说您会参加舞会，您是跳开场舞的那个吗？”</p>
+<p>西莱斯特很难控制自己想要起身离开的欲望，他敷衍地点头，构思适当的致歉词。他可以不那么顾及礼仪，可前提是存在合宜的理由，他难道能说因为对方的眼神让他感到恶心所以提前离场吗？更何况淑女自己都不在乎名声、几乎是明示了要追求他，缓和的暗示和粗暴的拒绝都不能影响她分毫，他们之间的亲缘关系又阻断了以家族势力除去这个烦恼的可能。</p>
+<p>“那么，您要和谁跳舞呢？”少女的笑容更加明媚，她玩弄着扇坠，蓝色眼睛像是在日光下被照耀的宝石那样。有许多人称赞过还是个孩子时候她的美丽，随着年龄增长带来的微妙气质上的改变，这具躯体又心甘情愿地被束缚在爱情的火焰里之后，那种美仿佛燃烧产生的火光和烟气，又仿佛是燃烧所需的氧气，只要与她共处一室就会感到被烧灼。她肆意挥洒着这种魅力，并且将其压缩、磨利，用于挥舞着刺向她所爱的人，“您要和我跳舞吗？”</p>
+<p>“一位淑女不应当向男士邀舞。”西莱斯特回答，当然，他知道对方对所谓的社交礼仪毫不在意。她遵循它只是为了使用它，同时在它成为阻碍的时候也无所顾忌地抛弃它。暴徒们就是这样对待文明世界的法则的。男人们也是这样规训女人的。</p>
+<p>“噢，请原谅。但是您还没回答我呢。您会和其他人跳舞吗？最好不要，您只能和我跳舞。”少女一格一格打开扇子，用蕾丝和羽毛遮住自己的嘴唇。她的笑容越发灿烂，眼睛和嘴角几乎弯成了同一个弧度，“今晚，明晚，无数个舞会……您都只能和我跳舞。”</p>
+<p>西莱斯特仿佛看见一只对着猎物垂涎欲滴的猛兽，期待着把他撕裂、吞食、敲骨吸髓。她的自信来源于何处？因为她能够威胁和除去那些接近自己的女性吗？用容貌、家世和心机？他再度审慎地思考邀请的宾客们的名单，推翻了之前的猜测，对方只是一个刚满十五岁的小姑娘，她的家族或许会提供一些帮助，但不会像被美貌冲昏 了头脑的年轻人为了爱情决斗那样不顾一切。不，他搞错了，少女邀功似的直白和得意提醒了他——是什么让她笃定没人能成为她的竞争者？只有当备选只有一个人的时候，获胜才是理所应当的。</p>
+<p>他应该尽一尽主人责任去确认那些姑娘们都遭遇了什么不幸，或许是马车受惊摔折了腿，又或许是被发现在庭院里失踪了睡到了现在，一个人出意外的缘由数不胜数，但都招致了同一个结果的结局难道不会惹来怀疑？西莱斯特再明白不过家族中公认的道理：没有证据的罪恶并不是罪恶。眼前的少女要更胜一筹，她大概从不认为自己的所作所为是罪恶。</p>
+<p>他对此感到厌恶，倒不是说他自己就是遵纪守法的好人，那种厌恶要更加复杂，直白来说，他感到生命被威胁。少女的求爱气势汹汹，强势得完全不带善意，她针对他制定一系列的捕猎手段，尽管不见全貌，他仍在潜意识的提醒下感到不安。而且更重要的是，西莱斯特以估量对手的眼神打量少女的脸庞，依旧觉得那比标准贵族少女的微笑要更完美一些的笑脸虚假得就像狂欢节上众人佩戴的面具，人群中混入了狂悖的异端，它隐藏在人们交替称赞的阴影、繁复华丽的刺绣和激昂热烈的情绪里，它带着鲜血和尸体的臭味。全无理智的疯子才会这么笑。</p>
+<p>“我可以选择不跳舞。”西莱斯特说，他等待着少女变幻脸色，如果是这样，那对手要比他猜测得虚弱。</p>
+<p>“啊，您是这样想的。没错，您有这个权力。您今晚可以不跳舞，明晚可以不跳舞，可您总要跳的，您——总会有个妻子的。”少女眨眨眼睛，心情显然十分愉悦。</p>
+<p>“那个人不会是你，萨尔维娅。”西莱斯特继续道，他们还没有分出胜负。</p>
+<p>“您可真伤我的心。您怎么能对一位淑女这样说话？要知道，没有人比我更爱您啦。如果是我，就算断了腿，那我也会爬到您身边来的。”</p>
+<p>“别开玩笑了。你根本-”根本不爱我，西莱斯特刹住了这句话，他不确定这句话会不会彻底惹恼这个疯子，她看起来会在裙子的衣褶里藏枪，没人能在这个距离下万无一失地躲避子弹，他换了个说法，“你只想要我的头。别把我拉进你的幻想里。”</p>
+<p>“嗳，您呐。您可比传闻里更懂得讨女人喜欢。”萨尔维娅老气横秋地评价道，同时一点点地用两根指头合上扇面，露出好像得到了心上人称赞般嫣红的双颊，“您总让我觉得，这世界上只有您是懂我的。您也明白我们很相配不是吗？我们的身份，我们的名字，我们互通心意、心有灵犀……我们不正是天造地设的一对吗？”她故意睁大双眼，用那双蓝得非常纯粹的眼睛望着西莱斯特。但这种文字游戏只是在强词夺理，她的眼睛比澄澈的天空要更深，只有超过了千尺的海水才会呈现出如此深邃的蓝色。西莱斯特知道这片海无时无刻不想吞没来往的轮船，他连个表征嘲讽的冷笑都不愿意给予她，极其有礼貌、音调宛转到逐字逐句地说：“不，我不这么觉得。”</p>
+<p>“没关系，您只要知道，您只能和我跳舞就够了。”萨尔维娅粲然一笑，丝毫不介意对方说完之后立即起身离开的态度，她用狂热又执着的目光追索着那个背影，像含着一枚糖渍樱桃那样甜蜜：“我的爱。我的爱人。西莱斯特。”</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2022-11-16</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/Salvia/'>
+                            Salvia
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
