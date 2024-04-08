@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="于雨之森中" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            于雨之森中
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <ul>
+<li>西幻gl</li>
+</ul>
+<p>森林中的雨声沉闷而绵密，朦胧的雾气盘踞在布满青苔的石块和树根上，土壤吸饱了水分，踩上去像踩在浸透了泥浆的布匹上。语无小心翼翼地走在崎岖的林间小径中，斗篷太过累赘，她用它包裹住从镇子上买来的食物和种子，环抱着好让它们不被雨淋湿，臂弯里夹着木质的伞柄——与其说是伞，不如说是由皮料和几根杆子组成的罩子，用粗木柄支撑着，重量可观，不过比起受寒感冒，语无更愿意多消耗一些体力在路上。镇子上的人们不认同遮蔽雨水的行为，他们认为这是对神的不敬。因此，尽管现在正是雨季，为了不给自己惹上麻烦，语无还是把它藏在森林的边缘，每次都只披着斗篷到镇上去。</p>
+<p>相比以前暂居过的其他村镇，这个镇子上的人都是好人，她这样想。他们没有驱赶她这样口不能言的外乡人，也没有拒绝她用蘑菇、野果和草药换取食物与柴火的请求，甚至有人愿意帮她赶走朝她吐口水的混混。但她已经不会再有居住在人群中的奢望，哑巴并不少见，可她既没有失去舌头，也没有受伤和生病，唯一可行的解释便是诅咒，受到诅咒的不详之人没有被当作魔鬼和女巫烧死已经是诸多幸运和善意结网获得的结果了。</p>
+<p>她现在仍有厚实的衣物可穿，有屋檐可以挡雨，有自食其力的能力，她没有什么要抱怨的。唯一要担心的是，不知道森林里那座曾属于猎户的废弃木屋屋顶能不能撑过这个雨季。</p>
+<p>语无转过一个矮坡，心里想着是不是应该找个罐子来接雨水，毕竟木屋的地板也是木质的，长期浸泡在水里会朽坏得更快。这时候，她察觉印象里本应是一块灰色石头的位置上出现了别的色彩。她从沉浸的思绪中惊醒，小心观察着靠在路右侧石头上的少女。</p>
+<p>对方的打扮和旅行者很像，长斗篷和皮靴看起来都是高档货，头发是很漂亮的紫色，戴着一顶旅行者不会戴的宽大的尖角帽子，苍白的脸贴在石头上，像是睡着了，又像是下一秒就会睁开眼。语无注意到她的胸口还在微微起伏，有些担心对方是不是昏过去了，但又一时驻足不前——她既没有力气把人背到木屋里，也没有足够的钱请来医生，即使知道这样淋雨下去会得病又有什么用呢？</p>
+<p>犹豫良久后，她还是踌躇地上前，悄悄地把自制的伞放在那个人身边，蹲下身子，尝试去推醒紫发的少女。她还没碰到那件浅色的斗篷，一道含糊又悦耳的声音阻止了她的动作：“劳驾，这位小姐，现在该做的可不是管一个陌生人的死活吧？你自己身上也已经湿了，不打算早点回你的屋子里烤火吗？”</p>
+<p>语无吃了一惊，满心疑问：她怎么知道我身上也淋了雨？她没有睁开眼睛呀？</p>
+<p>“我只是不爱睁着眼，可不是瞎子。嘿，你这人真奇怪，”女子睁开了眼，一双异色的瞳眸直直地注视着语无，对她说。这时候语无才发现她看起来没比自己大多少，“在森林里遇上了陌生人，别说主动靠近了，甚至还想提供帮助，你不怕吗？”</p>
+<p>读、读心术？语无感觉惊诧膨胀开来，占据了全部思考。</p>
+<p>“嗯哼，原来你不知道只有女巫才会戴这种帽子吗？女巫会读心有什么好吃惊的。”自称为女巫的女性勾起嘴角，伸出手指虚点了点她的胸口：“你在想什么，我一清二楚哦？别滥好人了，小小姐，以后见到像我这样的人你得绕路走。”</p>
+<p>大陆上有许多关于女巫的传言，大多都带着诡异、黑暗和血腥色彩，人们就像信仰神明一样相信女巫的危害性。语无此前从未接触过女巫，也没有遇见过任何女巫的受害者，但一般而言空穴来风的流言流传不久，她知道自己最好听进这番劝诫，当作什么都没看到地离开。</p>
+<p>可是……语无朝她友好地笑了一下，伸手去扶对方的手臂。</p>
+<p>“喂，你听不懂吗？你……”</p>
+<p>如果你真是会随便害人的人，根本就不会特意和我说这些话，而是在我靠近的时候就把我杀了。你的呼吸声也很不对，你发烧了。就算我滥好人吧，我不能在我有余力的时候看一个人在眼前发烧死掉。语无在心里认真对她说道，同时，这久违的、能够准确向他人表达自己想法的感受让她怀念和喜悦，她不禁想多同对方“说”些什么。</p>
+<p>令人失望地，对方没有回答，闭上了眼。她看起来真的不太好。语无的急忙伸手，触碰到斗篷，才发现雨水只浅浅地打湿了斗篷表面，也许是魔法的缘故吧，她一边这样想，一边把人半背半扶起来。靠在她身上的躯体比她预想中轻不少，更出乎意料的是，被扶起的人并未再次拒绝，而且在之后的路上都一言不发。</p>
+<p>到了木屋里，语无将那个人的斗篷解开，把人放在了自己的床上。说是床，其实不过是半塌了的床架上搭了木板和衣服，再加上一张薄毯。地上摆着一个陶土盆，里面有烧完了的炭火。语无在破旧的桌子上放下买回来的食物，从墙角的水瓮里舀起清水倒进另一个可称为锅子的黑乎乎的容器里。接下来，她完成诸如生火、脱鞋和整理之类一系列的家务，等她有余暇注意自己的客人的时候，那位客人也恰好向她转头，这下她能确定对方刚才只是不想理她了。</p>
+<p>“我不是有意叫人陷入尴尬的沉默境地，只是按照礼仪，我们应该先交换名字再开展友善、友好的交谈。”女巫这时候又不强调自己读心的能力了，看来读心就只是读心，不能连带着翻阅别人的记忆。语无在心里做了简单的自我介绍，没什么特别的，除了她更愿意称自己为旅行者而不是流浪者。</p>
+<p>“我叫林星，正如你所见，我是个女巫，严格来说，应当被称作法师。”说到这里，她伸手去拿自己的帽子，从里面抽出一支手肘长的法杖来。语无好奇地看着那根不过食指粗细的褐色法杖，它看起来像是钟表上的指针，有着奇异的、水流般的纹路，底端的手柄处做出了指环的造型，在林星的手中无比契合。年轻的法师环顾了一下这破旧的屋子，最后选中了目标，轻轻朝上方一挥，屋顶那巴掌大的破洞便愈合了。</p>
+<p>好、好神奇……语无走到满是积水的位置，踮起脚，伸出手掌感受，确定了一丝水都没有之后，不停在心里赞叹着。</p>
+<p>不过……你是法师的话，有这么神奇的力量，为什么会倒在森林里？法师也会生病吗？语无习惯性地对着林星比比划划，而躺在床上的女性调整了一下自己的姿势，对关心很不适应地又闭上眼睛：“打听这么多真的好吗？万一我恼羞成怒，突然杀了你呢？”</p>
+<p>林星不会的。语无下意识地想，这想法换来对方不解的一瞥。法师小姐皱着一张脸，半是“真是个傻瓜”的气愤，半是“你到底在说什么啊”的羞耻，十分勉强地转移话题：“只是估错了施展传送法术后精力消耗的程度，在森林里休息了三天而已。”</p>
+<p>这三天你都在那块石头上休息？可是，最近三天都是雨天啊。不冷吗？</p>
+<p>“不，我在斗篷和衣服上都固定了法术，要不是魔力消耗得太多，本来你也不会看到我的。”林星蔫蔫地说，看了棕色头发的少女一眼，“你呀，明明是个旅行者，怎么这么好心？你没见过那种装可怜、装病、装无辜然后骗钱抢钱的家伙吗？”</p>
+<p>语无当然见过，不如说旅途中这种人才是遇见的大多数，她察言观色的本领正是由此培养出的，而此时它也完美的发挥作用。她抿嘴笑着，从柜子里拿出本来给自己准备的草药，同时在心里回应：可是我就是见过了才知道林星不是坏人啊。</p>
+<p>“你才不知道呢。我现在就可以杀了你，就像我刚刚一抬手那么简单。”法师强调着自己的危险性，只是语调因为生病而虚弱，完全达不到她想表达的目的。</p>
+<p>语无没再回答，专心致志地把草药倒进锅里。屋子里的气氛一时有些静谧，屋外的雨声仿佛永无止境。不多时，雾气更加浓重，法师敏锐的感官能听到叶片凝结的雨珠落在苔藓上的声音，能听到屋子里火焰燃烧和汤药微微沸腾的声音，能听到另一个人均匀平静的呼吸声，但她没有听到更多心声。</p>
+<p>好安静，她真的……什么都没想啊。林星闭着眼，终于放下了最后的戒备，握着自己的法杖睡着了。</p>
+<p>她休息得不算特别好，但足以补足寒气和水汽对身体恢复的损伤，等她醒来时，语无正在准备食物，滤好的药被放在装了热水的瓮里，林星闻到洋葱、土豆和卷心菜炖汤的味道。语无的手艺不错，林星也没拒绝和对方共享同一锅汤，在婉拒了对方喂药的想法之后，她清了清嗓子，向救助自己的滥好人问：“你有什么愿望吗？”</p>
+<p>诶？愿望？语无的回应慢了半拍，没理解对方的话。</p>
+<p>“你帮了我，我当然要帮回去咯。”林星理所当然地说，“我啊，最讨厌欠别人人情。”</p>
+<p>好像童话里的仙女啊，实现愿望什么的，语无不合时宜地联想。她看到林星专注、严肃的表情，原本拒绝的想法淡了下去，某个被现实压制、被强制淡忘的奢求从脑海中浮现。</p>
+<p>如果、万一、真的能实现呢……？</p>
+<p>我……想要再听一次自己的声音。她慢慢地、像是一字一句念诵似的，像是在对神明祈祷似的，把这个念头在心里重复。一次就好。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-04-06</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
