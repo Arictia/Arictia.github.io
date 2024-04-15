@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="梦魂" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            梦魂
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <ul>
+<li>古风，骨科，bl</li>
+</ul>
+<p>北地雪大如鹅毛，目光所及，皆为一片荒凉的白，颇有吞天辟地的肃杀之气，白山黑水，于一轮清辉中映射幽光，似是将寒意化作了实质在山间巡回。北地的房舍修建得敦实，门窗比江南样式小得多，白日里也漏不进阳光，夹杂了雪粒的狂风只能从门缝窗缝往里钻，在夜里时常生造出呜咽与嚎叫，如幽冥中的厉鬼在门外徘徊，要取了人的性命。</p>
+<p>赵桓在这般提心吊胆里苟活了数十年，白日疑心金人见他对朝廷无用要取他项上人头，晚间暗暗向先祖祈祷索命厉鬼不要找上门来。说来奇怪，他亲缘浅淡，常年郁结于心，眉间皱痕深深，又从天皇贵胄沦落到金人囚徒，在这年年都有人被冻掉手脚的上京，他竟全须全尾、分毫不少地活了下来，不知是祖先保佑还是厌弃，要他日日南望，眼睁睁看金人南下，夺了宋人江山；要他苟延残喘，看山河凋敝，日日被磋磨受辱。</p>
+<p>房中的碳火已经半熄了，赵桓闷咳了几声，裹住被子往里缩了缩。上京冬日格外难挨，稍起一阵风，冷意便从四面八方扑了进来，他如今虽受封天水郡公，金人却也并不让他好过，克扣侮辱是常有的事，他无可依仗，只得默默忍受，一如幼年在宫中母后去世时，因为出身连透明人都做不得，生生被摁在嫡长子的位置上当靶子，来自他人的轻蔑、不满和厌憎，在宫中不敢行将踏错一步。父亲猜忌打压，兄弟轻视疏离，就连太傅也会叹息一句资质平平，他惯于忍受，将自己打磨成木讷淡然的样子，久而久之，无论什么心思都成了郁气。</p>
+<p>心里翻来覆去了好一会，赵桓终是不再被寒意催醒，入了梦乡。起先他不知自己在梦中，只觉得恍恍惚惚，脚落不着实处，所见都是一片白茫茫的云雾。不知过了多久，云雾散去，倏忽见了一片灯海，定睛一看是张灯结彩的宫殿群，殿中人来人往，各自宴饮投壶、吟诗作对、品茗作画…林林总总，热热闹闹，叫人也想走进去分享喜气。他觉察那宫殿正是汴梁宫城，而宫内绝无可能这样喧嚣，这隔岸观火般的热闹倒是十分熟悉，以往在宫里设宴时，父皇与众宗亲子嗣便是这般恣意欢娱，他在宴中不得其入。但这般久违又叫人怅然的画面引起的思乡之情无法抑制，他不由得靠近了些，这才发现自己如仙人凭虚御风而立，脚下是万丈深渊。他大叫一声，从云端上跌了下去，落进了雪地里。</p>
+<p>赵桓再起身时，周围已变了模样，眼前是苍茫雪地，远处是皑皑冰川，放眼望去竟无一丝人气，天穹遍布风雪，吹得人要不住地缩紧，以避免被刀割般的风伤了躯体。于是他明悟，这是一场无迹可寻的梦。</p>
+<p>雪中有一个黑点，赵桓定睛一看仿佛是个人影，他深陷梦中，平日里的面对威胁的懦弱和警惕一应消隐无踪，向着那个黑影奔去。雪不知积了多厚，踩下去松软得要跌倒，赵桓深一脚浅一脚地走，而那人影虚无飘渺，又因雪盲，不时要停下休息。不知走了多长时间，他心生退意，再回头一看，一行脚印才伸长了百来步。</p>
+<p>赵桓苦笑，心下黯然，便停了下来，不再徒劳探寻，扭头查看四周有无其他异状。而正当他转头，远处的人影突然出现在近前，唬得他后退好几步，感觉心差点跳出来。</p>
+<p>眼前之人熟悉又陌生，身着亲王礼服，发冠齐整，眉眼俊丽，姿态从容，在这冰天雪地里正自斟自饮。身前是一张石桌，一副残棋陈列其上，旁边的香炉燃起袅袅青烟，好像此处不是荒芜雪原，而是哪处风景雅致的名胜似的。</p>
+<p>那人见着了他，似笑非笑，抬手致意，却半点没有起身行礼的意思：“参见太子殿下。看殿下的模样，很是不愿见到臣弟？”</p>
+<p>“……郓王。”赵桓充楞半晌才回了他。眼前人是他去世多年的三弟赵楷，只是对方去世时已过而立，哪会是眼下这十七八岁风华正茂的样子。他心里一惊，眼中满是恐惧：“你……不是死了？为何要入我梦中、纠缠于我？”</p>
+<p>他曾梦见父皇退位，自己初登基左支右绌，乌压压的朝堂上，看不清面目的朝臣和内宦吵成一片，众人看他，实际上是看父皇在他身后投下的影子；梦见李纲满脸是泪，一边磕头一边厉声要求他留在京城，殿外杀声震天，他吓得要躲入殿内，众多白骨抓着他的袍角硬生生按着他在门口，看狼烟骤起；梦见金人凶悍，将男子一劈为二，女子剐出内脏，丢弃于路旁，引来枭鸟啄食。往事纷纷扰扰，忧愁之事众多，他再不曾梦见过少年时作为心腹大患的兄弟。如今这张过去他又恨又妒的脸出现时，赵桓仍觉着仿佛被刺了一下，生满烂疮老茧的旧伤下有血流过。</p>
+<p>“皇兄倒是比从前更敏锐，还是说有愧于臣弟，这才满脑子的厉鬼索命、阴司纠葛？”赵楷哂笑，言辞一如既往的犀利尖刻，“一别多年，这般战战兢兢、谨小慎微的模样也是鲜见了，皇兄可真是好心，不曾变模样叫臣弟认不出来。”</p>
+<p>他知赵楷向来看不上他。曾经他不忿，现在看来也不怪，这断送大宋江山的人到底还是他来做了。他有时也怨，为何父皇能遇难则退成了太上皇，偏要自己当了皇帝去担这毁了祖宗基业的罪名；为何自己明明是太子，却在父皇的偏心和猜忌下久不入朝，还要日日担忧底下弟弟们生出异心。若是自己母后不早亡，父皇不偏纵，诸朝臣齐心协力……</p>
+<p>这般自怨自艾，他如何愿意展露在他这三弟面前。赵桓竭力消去那盘桓多年的隐恨，摆出一张面无表情的脸来：“不知郓王为何入梦？”</p>
+<p>要说怨憎，他自觉只对不起列祖列宗，同是被俘，他赵楷命不长久，早早去了，难不成还要怨到他头上？是了，定是如此。他这个弟弟当年就怀着野心，没少明里暗里踩着他现眼，刻意针对，如今成了鬼魂定然也心怀不满。只是他着实想不明白，都入土数十年，怎才突然缠了上来，难不成是见自己竟还活着，怨望成怒么？</p>
+<p>“臣弟病故，下了阴曹司后，清算是非功过，终于等到轮回转世的机会，依着惯例得了准许，托梦与还活着的亲朋故旧。”赵楷漫不经心把玩手中酒杯，“心里惦念着皇兄如今是何种模样，眼下一见，果不其然，还是这般窝囊无能，倒是不负臣弟的期盼。”</p>
+<p>他抬头，直视赵桓，肖似赵佶的面孔粲然一笑：“犹记当年中秋宴上，父皇问黄河水患、济州匪寇和工部贪腐案应先择哪一样来处理，太子殿下急得连话都说不顺，一被问理由便支支吾吾。那时我想，皇兄这样竟堪为太子？如此便看了许多年的笑话。皇兄定是不满已久，才有此一问吧。”</p>
+<p>何止，赵桓忆起了少年时，赵楷自小聪明伶俐，又擅花鸟绘画，与父皇容貌才情相投，平日里没少仗着受宠给他使绊子，事事都要踩他一脚，在父皇面前搬弄口舌，气焰最盛时，只差没把要当太子的野心写在脸上。而他父皇也是这般想法，对他诸多苛刻要求，盯着他的错处，只是又要顾忌朝中清流，这才没真换人。</p>
+<p>想到此处，他心绪实在难以平静，这人魂归地府了都要到他面前来，还是最得意、最意气风发的样子，已然干涸少年时的妒意梗在心头，一句“可郓王至死都是郓王”将要出口，又被强行压下，习惯性换成更妥帖的：“郓王慎言。”</p>
+<p>那人看出了他未曾出口的话似的，嗤笑一声，每根头发丝都说着“无趣”，放下酒杯，更是挑衅道：“皇兄如今做这天水郡公可比做皇帝更有意趣，只是不知来日到了九泉之下见了祖宗，要如何分辩我大宋竟出了虏主，燕云十六州又是如何全落入辽人手里？古有殉国之君，今无守节之主，皇兄如何不圆了缺憾，好让史官笔下留几分余地？”</p>
+<p>赵桓被激得眼前一黑，气血翻涌了半晌，他如何不知？如何不悔？如何不怨？可败送了大宋的是他那偏宠奸臣、好大喜功、毫无担当的父皇！况且这些年月他受的磋磨难道又没比一死了之更苦吗？是了，他的三弟已是个死人，死人如何懂活活受罪的感受？</p>
+<p>“……九泉之下，郓王不曾面见列祖列宗？”他咬着牙，仍不能全将自己的愤懑一倒而空，“死了，便是幸福？”</p>
+<p>风雪在他们身周造出晦暗的阴影，他见着赵楷那张年轻俊秀的脸突然模糊，不知是戳中了谁的痛处，两人相顾无言。过了许久，赵楷将杯中酒一饮而尽，突然大笑：“是极，是极！是我想岔了！对皇兄而言，这样苟延残喘、日日惊心的日子才是正途，这般怀揣了永无可能实现希望的日子才是最适合皇兄的！皇兄这一辈子都在卑躬屈膝地向旁人谄媚的样子，臣弟真是喜欢得不得了！”</p>
+<p>还不待赵桓发怒，对面人的身形如被吹散了的雪团般四散，只留下一壶酒和半面残棋，赵楷的笑声随着风声一道消弭，盘旋着离开了此方天地。赵桓上前两步，却被狂风回绝，只能看着梦境消融，逐渐回归了黑暗。他又被寒意追捕，无可奈何地清醒过来，屋外风声依旧，直到天光大亮，才渐渐停息。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-04-15</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
