@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="It is only for you" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            It is only for you
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <ul>
+<li>骨科R18g</li>
+</ul>
+<p>母亲会爱自己的孩子吗？创造者会爱自己的造物吗？你会爱我吗？</p>
+<p>十色锦得到的都是肯定的回答。</p>
+<p>园内捧着他的脸，虚浮的、没有焦点的眼神如肖像画里的人像那样注视着他，微笑着回答：我爱你，我一直爱你。</p>
+<p>孩子没有被教习过谎言，更何况，作为抚育者的男人眼中的爱是真实的，无可辩驳的，这份情感天经地义地存在于十色锦的人生，伴随他逐渐从连自我都不曾诞生的原点成长为完整的少年模样。</p>
+<p>无需怀疑，即使红褐色头发的男人有时会让他喝下味道古怪的汤剂，有时会对他絮叨一些前言不搭后语的话，有时则要他无条件地听从某些荒谬的命令，他也是爱他的。在十色锦的记忆里，总是园内更依赖他，像是小女孩依赖自己的泰迪熊，像是瘾君子依赖唯一还能得到快感的毒品。他拥抱孩子的力度并不大，仿佛环抱着的是一盆枝桠凌乱的植物，总是在等待植物生长，花朵开放，对着幻想里未来十色锦会变成的样子露出微笑。</p>
+<p>于是孩子想，我要快些长大，成为他想要我成为的样子。他在花园里用轮椅碾压花朵的时候常常出现这个念头，像是不请自来的玩伴，带来的是如虫足抓挠般的焦躁感和亟待否认的作呕感，因为你得<em>存在进步空间才能进步</em>，他不足以让母亲满意，母亲才会有这样的期盼，他会让母亲满意。</p>
+<p>可那是他用园内的血肉恢复站立能力之前的事。</p>
+<p>十色锦从浴室的地板上爬起来，只穿着一件湿哒哒的白衬衫，赤着脚，嶙峋的骨头在冰冷坚硬的地砖上抵了一晚，在关节处有些红肿。书本里描写的机器人就像这样，肢体关节尤其容易损坏，我也一样，我也快坏掉了。十色锦想到这件事，嗤笑了一声，冷漠地反驳自己，妈妈不会允许我坏掉的。</p>
+<p>他走出浴室，走到盛放了本应在不同季节开放花朵的花园里，苍白的阳光一视同仁地照耀着色彩缤纷的植物们，不符合常理的现象在这个世界随处可见，他与真实为邻，但在那天前他对一切都一无所知。</p>
+<p>他几乎感觉不到阳光的温度，视线每每越过靠近中央的位置，脊背就会泛起一阵寒意。那个位置空无一人，但他好像能看见自己和妈妈面对面站着，高个子的男人把手放在少年肩膀上，用估量的、客观的眼神观察他，那是园内在面对自己制作的标本时的眼神，永不消失的爱意消失了，他把十色锦推开 。</p>
+<p>失败品。次品。劣等品。园内没有把评判结果说出口，他只不过收回了他承诺过会永远给予十色锦的东西，毫无理由，也不存在解释，落差感足以让一直被温柔注视着的孩子发狂。他用黑色染发剂、蓝色隐形眼镜、带刺的话语和狂躁的、无法控制的肢体冲突来发泄自己的情感，那个时候他既想要园内回头看他，又想要就此逃离他。</p>
+<p>少年已经能对这样的幻觉转身离去，因为就连这激烈的抗争都是虚假的。就在他以为弥合裂隙需要的只是时间和耐心时，薄弱如蛋壳的假象随着他开启园内卧室的地下室的举动完全碎裂。在这荒谬世界里长久不变的不是爱而是痛苦，他阅读妈妈的日记，在散发着邪恶气息的书籍的环绕中明白了自己不过是诞生于血肉的替代品的事实。妈妈的依赖和爱并不属于自己，园内像刻舟求剑、水中捞月的愚人那样用恋人的灵魂制造了他，用满身血肉供养催成了不会长大的孩子，一种不完全的、痴人说梦的死而复生方式。可惜站在这里的是十色锦而不是园内的恋人，不然他还真愿意夸一句感天动地。</p>
+<p>在绝食的抗争失败后，他逃走了，在外边重复的世界里迷了路。每隔一个十字路口就有一间便利店，距离学校三条街远的位置是电影院，书店和服装店毗邻，像是装箱了的镜像倒影，抑或是复制粘贴的模拟城市，问行人一百个问题后他们会开始重复第一个答案，真相就是如此——这是废弃了的、被制造出来的虚假世界。就像被抛弃了的人偶的归宿是垃圾箱，十色锦被世界抛弃，踏上回家的路。</p>
+<p>然后他从厨房拿走餐刀，捅穿了恍惚站在屋子门口寻找他的园内，理所当然，造物主赋予造物与自己相同的不死天性，园内用沾了血的手轻拍他的脸，对他的眼泪和爱意回以微笑。</p>
+<p><em>我永远爱你。</em>这句话是真的，但不属于他，他明白得实在太晚了。</p>
+<p>十色锦打开园内的房门，看到母亲仍躺在床上，完好的眼睛目视虚空，被刘海遮住的、永不愈合的眼睛发着高热。棕红色头发男人有着纤瘦的肢体，半张脸完好无损，另一半满是伤痕和疮疤，以前他从没在乎过园内的长相，但只要稍微留意就能发现他和他的五官有多么相像。为什么明明是皓的灵魂，却没有他的样子。你为什么不像他？园内偶尔会在恍惚后露出这种崩溃和怨恨的表情，只要一瞬间就足以摧毁十色锦的心。</p>
+<p>少年爬上母亲的床铺，伸手掐住了对方的脖子，园内把脸侧过来，看向他的方向，微微张开的嘴里吐出不成字句的喘息和呻吟。他一直处在狂乱的、无自觉的失神中，十色锦不知道他眼中所见的究竟是什么、是一个怎样的世界，但毫无疑问那里面没有自己。他面无表情地凑过去吻他，同时更用力的、试图拧断手心里的躯体那样的握紧。园内的口腔很热，他在发烧，任由自己的孩子摆弄，直到有血从口鼻溢出来，呼吸和呻吟声都消失，十色锦才慢慢松开手，看着母亲被折断的头颅歪向一旁。</p>
+<p>园内的死状并不好看，青灰的面庞下，紫红色的瘀痕像是一道绳索，系在他和十色锦之间。在等待园内重新开始呼吸的空闲里，十色锦拿来了刀，在看到那只深色的眼珠动了之后，他抵着锁骨把刀刺进园内的体内，疼痛是最有效的唤醒方式，园内终于将视线聚焦在他脸上，眨了眨眼，下意识地就要说出一个名字。</p>
+<p>十色锦把刀抽出来又刺进去一次来打断他，刀的形状并不适合戳刺，伤口过于狭长，他旋转刀刃，制造更大的创口，血从金属一路流到他的手上。园内不由自主地颤抖着，被扩大的口子逐渐能看到淡黄的脂肪，不规则的切面被拉扯，皮肤被撕裂，他知道园内自愈能力有多强，所以故意让刀多留在里面一会，这样痛感就更加绵长。有时候他会恨自己，为什么明明知道他不过是个替代品，却依旧在讨好园内似的戴着蓝色隐形眼镜，像是沙漠中渴水的旅人那样渴求园内露出安心和依赖的神情。园内纵容地、不带丝毫反抗地任由他动作，十色锦不知道他从来的百依百顺到底是因为自己是他的孩子，还是因为这就是他与那个人的相处方式。他看着鲜红的血液从对方身体里一路流淌到床上，园内感觉不到疼痛似的用被刺穿了那边的手摸了摸十色锦的脸，说：“早上好。”</p>
+<p>十色锦把刀拔出来，拍掉他的手，抓着园内睡袍的领口把他拽起来。园内没骨头似的靠在他身上，头靠在他颈侧，伸手缓缓抱住了自己的孩子，叹了一口气。</p>
+<p>不出所料，十色锦僵硬了一下，然后用力推开了这个拥抱，他瞪着园内，想要说些什么，但最终化为一个故意扭曲的恶意的笑：“妈妈，我想要。”</p>
+<p>这具躯体有着正常的生理反应，只不过教授他如何处理的人并不正常，从伦理上来看，母亲不应该与孩子交媾，在学校里这件事人人皆知，而在这个家里没有这种规则。园内漫不经心地应了一声，伸手要去握住十色锦的阴茎，却被少年阻止，他盯着园内的表情要求道：“用嘴，妈妈。”</p>
+<p>男人一如既往地答应了他的要求，没有厌恶也没有不情愿，他的伤口已经不流血了，素白的身体上血迹斑斑，俯下身的时候蹭脏了十色锦的大腿。他含住孩子的器官，用舌头缓缓描摹。</p>
+<p>当然会有快感，因为这是园内，是他的母亲和制造者，是他有意识以来唯一亲近和爱的对象，他们俩都将性视作等同与拥抱的亲密，做爱的时候像是回归了园内的体内，好想、好想就这样变回肉块，被妈妈吃掉-</p>
+<p>或者是把妈妈吃掉。高潮后的空虚感令人清醒，十色锦抓住园内的头发，把他的脸压在床单上。他不想看见这个人常年不变的假面般的微笑，也不想看见他略带怀念的悲伤，他会想起园内的情绪归根结底并不是因自己而起，他需要和在乎自己也只是因为另一个人的存在，这一切——尤其是无法死去的现实——都让他做呕。</p>
+<p>“妈妈，你是个骗子。你不爱我。”十色锦轻声说，声音冷淡得他自己都有些惊讶，就像昨天那个崩溃到一边痛哭一边折断园内双腿的人不是他一样。</p>
+<p>我爱你，园内的眼睛这么说，他的一举一动都表达出这个含义，即使以一个扭曲的姿势再次陷入窒息的境地，他也是纵容的。</p>
+<p>“你爱我？像狗一样，无论我怎么对你你都爱我？狗是怎么说话的？”十色锦咧嘴笑了，他才是那个丧家之犬，徒劳地向抛弃自己的人示好，而操纵他的那个人对这情况乐见其成。他将园内的身体翻折，从背后揉捏他的腰肢，以粗暴的动作宣泄不满，而他的母亲真的用狗叫来回答，配合着他的要求，婉转的、被宠爱的家犬撒娇似的，甚至还用脸颊来蹭他的脸。十色锦颤抖了一下，下意识地捂住对方的嘴，但园内的回应是舔了舔他的手心，又一次拖长了声音，甚至模仿了呜咽和委屈的情感，好像他真是属于十色锦的一条宠物狗一样。</p>
+<p>他被这不假思索的讨好满足，又唾弃自己如此容易被讨好。性欲同杀意一道升起，园内的顺从既能讨好他也能激怒他，十色锦再次进入了园内的身体，在母亲的耳边无助地求索：“妈妈，妈妈，为什么不能看我，为什么不能爱我，现在在你身边的是我、一直是我啊……”</p>
+<p>他的母亲温柔地握住他的手，发出的声音逐渐模糊不清，像是呻吟又像是叹息。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-04-19</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
