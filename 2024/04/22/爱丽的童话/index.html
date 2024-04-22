@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="爱丽的童话" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            爱丽的童话
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>在纯白的病房中睡着纯白颜色的女孩。她的头发因多次反复药物实验褪去原有的颜色，她的皮肤因常年抽血检验失去红润的色泽，她的神智因无人看顾和刻意的无视而一片空白，只剩下原始的感官触觉接收着空气里游离的情绪。她宽大的裙装下是枯瘦的躯体，两只手的手臂上布满输液留下的淤青和针眼，脊背上留有电击和穿刺的疤痕。在某次惨无人道的实验后女孩几乎不再感到疼痛，随即恶化的是健康，如今她连下床走路的力气都不剩，只能像个玻璃娃娃一样躺在防护齐全的观察病房中喘息和咳嗽。</p>
+<p>女孩记得自己的名字是爱丽，一个曾经被爱过的、发音灵巧的名字，她的母亲在晃动摇篮的时候为她唱过童谣，父亲在她入睡前为她讲过爱丽丝漫游仙境的童话，她曾拥有的家庭和故事书上无数幸福的家庭相似，直到她像打碎一面镜子那样杀死了母亲。</p>
+<p>她记得自己握住剪刀刀柄冰冷的触感，记得刀尖刺入人体后难以搅动的滞粘。她的手很快一片黏滑，温热的血随着她剪断血管和肌肉的动作喷涌而出，像一眼无止境的泉水。母亲背对她倒下，死前仍在挣扎颤动，要回头看自己的女儿。那双绝望的、悲伤的眼睛像是垂死的母羊，爱丽把剪刀插进母羊的眼睛里，一次又一次，挖掘出一个破破烂烂的血洞。她抱着自己的泰迪熊，温暖鼓胀的玩偶隔开了她与死者，替她挡去大部分血迹。泰迪是她最好的朋友，尽管之后她们被强硬地分开，一个被送进精神病院，另一个被丢进垃圾焚化厂，每个夜晚泰迪都还是陪在了她身边，陪她度过神智空白、疼痛难忍的漫漫长夜。</p>
+<p>她还没有长大到能认知对错的年纪就犯下了过错，而大人根据这无知的罪孽惩罚她。她的父亲辱骂、殴打、虐待他曾深爱过的亲生女儿，为了尽快遗忘般地与其他人组建了新的家庭，把孩子丢进了精神病院。医生在为她诊断时不断询问：孩子，你为什么要用剪刀捅向你的母亲？你讨厌她吗？你被她做过什么感到难过的事情吗？</p>
+<p><em>不，没有，我这样做是因为<strong>……</strong>我的朋友向我描述这一切，我最好的朋友鼓励我这样做，于是我这样做，先生。</em></p>
+<p>就像你入院后挖掉自己的眼睛那样吗？</p>
+<p><em>就像我挖掉自己的右眼那样。</em>爱丽点点头，露出些许不好意思的、天真的笑，绘声绘色地描述泰迪与她共度的梦境，描述在种种华丽、诡异和毫无逻辑可言的幻想王国中的冒险。她必须挖掉自己的眼睛以打开回到现实的大门，这桩买卖很合算，因为这样她就能够与泰迪一同往返梦境与现实，躲避讨厌的、总是在发怒的父亲。孩子的幻想与幻觉只有一线之隔，医生在记录上打叉，判断这个女孩已经病入膏肓。</p>
+<p>医生将她的病历传阅，他的同僚们做出判断，认为这个女孩可以用于实验，他们的目的是创造出童话般的、和谐美好的世界，在这其中孩子必不可缺——而且她的父亲打定主意用钱代替自己来看望她。爱丽从此陷入现实的梦魇。</p>
+<p>她每天被迫吃下花花绿绿的药丸和胶囊，经历突然变小或是失去重力等等异常，浑浑噩噩到了被判断成不需要说话的地步。护士拿着针线，一点一点缝上她的嘴，女孩蓝色的眼睛里盈满泪水，但这阻止不了毫无同情心的人们要求她闭嘴的决心。我没有总是尖叫！我没有朝你们吐口水和反抗！为什么这么对我！爱丽的心里有个小人在高声呐喊，没有人能听见她在哭泣和祈求，小人呐喊的回音像是有质量一样在她体内碰撞，像是撞出了裂痕一样让她浑身难受。</p>
+<p>每个夜晚，病房外的黑暗一点点蔓延吞噬掉灯光的时候，泰迪熊就会出现在她枕边，爱丽不需要诉说，它也明白这一整天里都发生了什么，给予爱丽柔软的拥抱和合宜的温度，抚慰女孩的心灵，好让她不至于崩溃到相信自己是真的生了病。</p>
+<p>你是被神选中的孩子，亲爱的爱丽。你的世界才是真实的，你看，我们一同经历的冒险是那样丰富多彩，你怎能相信这间无聊又苍白的病房能困住你呢？泰迪熊的嘴永远都在微笑，好似所有负面情感都被隔绝在外。爱丽拥抱着它，流下的眼泪全部被棉花和绒布吸收，她摇摇头说：可是我没办法离开！那些穿着白衣服的人是这里的守卫，他们总能逮住我，把我送回房间里。我好难过，我们好久没有去冒险了，也好久没有得到幸福的结局了，为什么？为什么？</p>
+<p>她的朋友安慰她，劝说她接受一个新建议：我们可以离开这间病房，把病院变成我们的花园，种满你喜欢的玫瑰。从此之后这个地方就属于你，穿着白衣的守卫会成为玫瑰的养料，新的规则由你制定，不再需要早中晚都吞下药物、每周经受让人头痛的电疗，你会像过去一样自由。</p>
+<p>爱丽抱着她的朋友，把脸埋在它鼓鼓囊囊的肚子里，在心里问：就像一个新的家一样吗？像以前和妈妈在一起玩那样，有新的人会来陪我玩吗？那些和我一样被关在病房里的、愿意和我待在一起、不骂我的人，他们会成为我新的家人和朋友吗？</p>
+<p>当然，爱丽，我向你保证。我是孩子们最好的朋友，你完全可以信任我，玩具熊是小孩子的神明，神会实现你的愿望。泰迪熊变大了，在黑夜里它温柔地将女孩的整个身体环抱，它又柔软又温暖，仿佛里面真的有一个活着的生物而不是棉花。爱丽抓着它的手，哭泣消耗了她太多体力，她轻轻摇动毛绒绒的玩偶表明自己的态度。</p>
+<p>没有任何光辉、声响或是可称为讯号的变化，十五岁的女孩恢复了她这个年纪应有的体型，不再瘦弱得像只冬天里饿肚子的金丝雀。她拔掉手上的输液管，和多年前一样把手伸进了泰迪熊肚子上的一道缝隙里，从棉花里抽出一把大小完全超出泰迪熊本身的剪刀。爱丽对这健康得过头、既不会疲倦也不会饥饿的身体十分陌生，她感觉轻飘飘的，精力充沛，头脑明晰，但毫无畏惧和恐慌，她知道她的朋友给予了她力量。爱丽赤着脚下了床，拎着那把剪刀，无声地大笑着。</p>
+<p>去修剪玫瑰，我要去修剪出美丽的玫瑰园，她愉快地和自己的朋友道别，砸开了病房的门。这把剪刀开刃了的部分异常锋利，作为钝器使用的时候又体现出不合理的质量，女孩双手握持着剪刀，用刃口对准向她冲来的保安，把他剪断成了两半。真糟糕，我之前没有经验，这朵玫瑰修剪得过了头。她这样反思，踩过内脏和血液组成的湖泊，用力把剪刀挥向护士的头。人类的头颅碎裂开来，血迹像是把花瓶砸在了墙上留下的水迹。</p>
+<p>她如法炮制打开隔壁房间的门，被拘束带束缚在床上的病人发出尖叫，修剪完之后，爱丽把他们的脑袋拎起来一一检查，确定里面没有了讨人厌的虫子。我的玫瑰园里不需要会尖叫的虫子，她心满意足地离开，却被抓住了头发往外拖，同时有人想要夺走她的剪刀。女孩被愤怒充盈，她挣扎着扯断了对方的手臂，反手扎穿了护工的脸。人体撞击墙壁的沉闷声响让她起了玩闹的心思，她一下又一下地用剪刀戳着那个人往墙上撞，直到那张脸血肉模糊，鼻子完全凹陷下去。</p>
+<p>这一层惊恐的尖叫和哀嚎很快被清理干净，爱丽注意到无头的尸体们已经被血液浸透，就像被覆盖和取代了，鲜红的玫瑰从人类的尸体里开放，密密麻麻地从血肉中生发。她要栽培更多的玫瑰，这可不是件容易的事，这间病院比印象里要更大，爱丽掀开蚁巢的覆土般掀开每一间实验室，砸烂每一个她能见到的仪器，杀死路上遇见的所有人。泰迪熊赋予她的只有诡异的怪力和不会受伤的身体，在被人用兽用麻醉枪瞄准时，爱丽的危机感提醒了她必须躲开，但药液还是流入了她的身体。针管扎入皮肤、药水流过血管的感觉让她打了个寒噤，以往随之而来的是意志和身体分离的失控感与肢体突兀变大变小的可怕变异，而如今熟悉的睡意有如巨手攥住她的大脑，把她往寂静的深水下拖曳。爱丽眼前出现了重影和黑斑，她愤怒地睁大眼睛，在碎裂的实验仪器、破裂的玻璃板和满脸逃出生天惊喜的人群后看见了自己的泰迪熊，它坐在那里，吸饱了血液，看起来就像一件泡了水的行李。</p>
+<p>女孩的心一下安定了起来，人造试剂带来的困倦被驱逐，爱丽向自己的朋友跑去，将阻挡在她面前的事物挥开，脆弱的人体和金属仪器一道四分五裂，劈里啪啦掉落在地上。她用力抱住泰迪熊，宛如两块强力磁铁贴合彼此那样毫无缝隙，宛如孩子回到母亲子宫里那样亲昵。</p>
+<p>你做得很棒，爱丽，泰迪熊对她说，现在我们可以去看看你的玫瑰园了。女孩从善如流地点头，抱着自己的朋友，一手拖着那把沾满血迹的剪刀，向深处的走廊走去。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-04-22</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
