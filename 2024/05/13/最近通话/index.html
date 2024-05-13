@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="最近通话" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            最近通话
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>华灯初上的城市像一个用霓虹和阴影搭建的迷宫，生活在其中的人们步履匆匆，跟随路灯和信号灯的指引重复着日常；灯光未曾照亮的地方则像是渗透城市脉络在暗处涌动的地下水，不能被挖掘出来变得众所周知，否则干涸的水系无法为城市提供生机和活力。</p>
+<p>邵笛今年已经在武警的岗位上度过第十二个年头，队伍里给他在市里分配了住房，但尚未成家的他更多时候住在单位宿舍，回到这积了薄灰的屋子里要做的第一件事往往是打扫卫生。忙活了一个小时，他站在阳台上吹风，看着万千灯火的夜景，联想到的却是这符合现实，却绝不符合他信念的比喻。</p>
+<p>上周他带领队伍拿下的集体二等功的表彰文件下发，他们领导给他们批了几天假，邵笛一贯地把自己的假期安排在了最后，让年轻人先探亲回家。他是他们连队的老光棍，所以大家也笑着调侃着接受了好意，对邵笛来说，除去看望父母外的私人时间，他更喜欢拿来思考和独处。打扫卫生也是他放松自己的一种方式，沉浸在纯粹的体力劳动中，不用去思考人际关系、磨练专业知识和斟酌任务报告。眼下他吹着夜风，手边没酒，嘴里没烟，突然想打电话给某个人说说自己受表彰的事。与分享给父母不同，那个人对他没那么多期望和欣慰，看他不是上级也不是下属，他们是相识已久的……老朋友。循着这股冲动，邵笛掏出手机，现在科技产品迭代得太快，他还用着几年前的型号，好在没人想去开发功能更复杂的通讯录。他滑到X开头的名字列表，按下拨出键，把电话贴在耳边。</p>
+<p>夜风吹着他的头发，平缓乏味的拨通提示音像是呼吸灯或海潮那样具有绝对的韵律，那又像一根丝线，飘荡在电波中，等待着与另一根线连结，另一个人带着笑意打招呼的声音已经出现在他脑海——但并不是，出现在耳畔的是甜美的女音：“您拨打的电话已关机……”</p>
+<p>邵笛猛然意识到自己在给已死之人打电话，他手比脑快地按了熄屏，对着漆黑的手机屏幕愣了一小会。他的舌尖几乎尝到了冰冷的铁，终于把项洛阳在他面前额头出现血洞的画面同这个画面实际的意义联系在一起，就像到了年纪的孩子终于读懂了伪装成绘本的寓言故事的深意。他曾经的朋友已经死了，无论是精神还是肉体，都已经终结了，这个电话再也打不通，对方身体沉重落在地上的声音跨越了时间，尘埃落定，不会再激起任何错觉。</p>
+<p>说来有些令人好笑，他们相隔着阴阳的时间已经超过了相处过的时间。项洛阳在大学时的模样甚至如泡了水的照片那样模糊不清，邵笛能想起来的只有对方桌子上堆积的金融和期货方面的参考书。少年人天真得宽容，又或许是那时候他们的观念差异没有那么水火不容，想要出人头地、想要钱、想要在大城市里有一席之地，你要问大部分人，他们也能给出相似的答案。但项洛阳具备走向成功的执着和魄力，所以完成阶级跨越、成为了传奇的只有他一个。</p>
+<p>毕业后其实他们见面的次数很少，他印象最深是项洛阳向他筹借路费南下的时候，对方的眼里满是野心和对梦想的渴求，几乎将踌躇满志写在脸上，而他也内心祝愿自己的好兄弟能创业成功。他们那晚喝得很醉，和每个时代都会有的年轻人一样，内心还没有被社会打磨得锋利，两个年轻人踉踉跄跄在深夜的街上扶着彼此直到分别。邵笛入伍后，和项洛阳的联系总是断断续续，直到他调到浦州，通过电话维持的友谊借由项洛阳围追堵截似的会面申请继续了下去。现在想来，这到底是出于资源利用需求的需要，还是对方心里当真也保留了一片纯然的情谊？</p>
+<p>项洛阳是个很成功的商人，这可能要归功于他能将“爱”都明码标价的观念，而邵笛不能接受用钱来衡量情感的做法。项洛阳结婚的当晚，他约了邵笛喝酒，两个人身边都摆了不少酒瓶的时候，他才轻飘飘地说自己结婚了，甚至没有告诉父母，只简单地登记完吃了顿饭。</p>
+<p>“这个世界上没有爱情。”项洛阳曾明确下过这样的论断，也如此践行着将自己的婚姻视作筹码和交易。邵笛只能隔着河岸看着他走在自己的路上，直到河面越来越宽，将他们完全地分隔两地。有雾气盘桓在河面上，有芦苇生长在河道旁，他逐渐看不见项洛阳的脸，身影也消失在朦胧中。无论怎样呼喊、无论多少次提醒，他都无法将对方从那条路上唤回来。</p>
+<p>邵笛把手机重新打开，通话界面已经被自动关闭，刺眼的鲜红让人无端心情低落。在得知自己的队伍被利用之前，邵笛就想过他们可能分道扬镳，往往是在同项洛阳见过面之后的几天，在正事之外的思考间隙，这个念头就会像只定居于附近的流浪猫巡视领地一样出现。他在部队里接受到的观念和教育都让他对项洛阳的某些行事心怀警惕，在酒会上穿着合体西装、带着名表、整个人散发着成功人士光芒的朋友看起来像个陌生人，而纷乱的利益交换和虚与委蛇也让他如鲠在喉，如果不是看在项洛阳的面子上，邵笛真的会转身离开。项洛阳是知道这件事的，他的应对方式是更加坦诚、坦诚到形似逼迫地询问：“你真的要离开我吗？”他的坦诚是一种以退为进的武器，明晃晃地把他们的分歧列得一清二楚，如同在宣告和求助。邵笛能在这里面看到一种希冀，能感到对方对他和他们这段友谊的挽留，这样的诚恳到有点可怜的剖白令人生气又不忍。其结果是他俩一块装聋作哑，讳疾忌医，直到病灶完全爆发。</p>
+<p>直到最后，他依旧坚持着一切尚能挽回，他站在项洛阳面前，拿着枪，却无法将它举起对准对方。哪怕项洛阳举起了枪对准自己的太阳穴要自杀，邵笛都在劝他别干傻事。青花瓷没有被毁掉，没有严重到那个份上，放下枪吧——你最多只会进监狱，他没说最后一句，某种直觉阻止他把这话说出口。可这种了解还不足够，邵笛知道项洛阳办公室里挂着的“莫烦恼，蓦直前进”出自何处，却不知道这种坚持已然成为偏执，他不知道项洛阳是无法接受他所安排的那个结局的。</p>
+<p>而项洛阳却了解他，他知道邵笛的每一句劝解都发自真心，他看得到邵笛眼中含有的信念，这难以改变的、游刃有余的宽容和固执促使商人无关权衡利弊、冲动地举起了枪，这也决定了他的命运。阻止犯罪分子的犯罪过程天经地义，保护人质、拯救生命为先的原则写入了守则，邵笛反应过来的时候，他只来得及把眼泪藏好，免得擦血迹的时候也带上了泪水。</p>
+<p>他现在很需要一根烟来代替眼泪。邵笛翻到通讯录，靠在阳台的栏杆上，脑子里的回忆乱糟糟地、火车进站般呼啸而过。他试图去抓住其中一部分，好不那么心烦意乱，但那些事消失得都太快了，他没法揪住自己当时的心情。</p>
+<p>发了一会呆，邵笛叹了口气，终于关闭了那个号码的界面，随手点开相册。这个手机里存储了许多他与同袍们的合照，在浏览中，一张九中队的合照停下了他的手滑动的动作。里面的面孔不曾陌生，他看着几年前自己的笑容，五味陈杂。</p>
+<p>他同项洛阳最严重的争吵，正是因为项洛阳对他、对九中队的算计。他不得不正视项洛阳已经变得和以前完全不同的事实，一个人若是把你当朋友，又怎么会算计你和你重视的东西呢？但项洛阳仍不愿回头，甚至还在最后都像是不愿与他分道扬镳。邵笛记得自己当时心灰意冷的感觉，他转身看了对方最后一眼，摆了摆手就当作告别。他能感觉到对方的目光依旧沉沉地落在他背上，像是还在等待他的回答。</p>
+<p>他做不出回答，无论是从前还是现在。邵笛走进了客厅，从电视柜里找出烟盒、烟灰缸和打火机，点起了一支烟，却只是夹在手里，静静看它燃烧。城市灯火通明，将淡色的烟雾映得明亮。武警的身份和九中队的工作内容让他在面对这座城市的时候总有一种想要守护它的责任感，他曾坐在押运车里穿行在高架桥和沿河公路上，他的立场让他本能地去维护法律、道德和秩序。如果项洛阳不是他的大学同学、他们没有那样良好的关系、也没有各自选择背道而驰的道路，结局都可能不同，最起码，邵笛不会在今晚点起一根绝对不会抽的烟来发呆。</p>
+<p>烟很快燃尽了，他没有续上第二根，而是又对着城市的夜景站了好一会，才又拿出了手机。他再一次打开通讯录，滑到项洛阳的手机号，这一次他的手指移向了最下方，鲜艳的“删除联系人”却怎么也按不下去。与之前相反，大脑指挥他的手按下了熄屏，把这一切盖回了繁重的工作和日常中。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-05-13</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                        <a href='/tags/%E7%BB%9D%E5%AF%86%E6%8A%BC%E8%BF%90/'>
+                            绝密押运
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

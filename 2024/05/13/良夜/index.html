@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="良夜" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            良夜
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <ul>
+<li>古风，车</li>
+</ul>
+<p>月黑风高夜，杀人放火时。子时更深露重，楚军营地里除了巡守的士兵，似乎连枭鸟亦陷入沉眠。一道人影如风般晃过草木，轻悄绕过岗哨，于幽僻处入了一顶中军近处的帐子。并非军营纪律涣散、人心不齐，实是来者对值守轮换布防顺序了然于胸，又目标明确，极有耐心，能一动不动地等上半个时辰，以待护卫疲惫、心神涣散的时机。</p>
+<p>军中处处都扎了营火，看似井然有序、时时有人出入、来往皆需口令，却并非真正天衣无缝，加以引导暗示，辅之口角推搡，来人不仅入了真正的中帐，还摸到了楚军首领项羽歇息的帐前。然而，尽管已经睡下，西楚霸王却不负盛名，立时察觉有人进了外间，赤足持刀起身，要一会敢于偷袭的贼子。他瞪起一双重瞳，披发肃立，提步挥砍向帐门，却听闻布匹撕裂、刀刃挥空声，仿佛鬼魅精怪潜藏暗影之中，一团浓黑外再无其他。</p>
+<p>他再向前探，到了外间，本要去寻当晚值守的士兵，却嗅到一股古怪的甜味，立时醺醺然起来，仿佛饮下数坛烈酒，头脑麻痹，四肢无力，天旋地转，往地上倒去。项羽讶异于竟有人能潜入帐中又用下作手段药倒了他，此时莫说是执起武器，他引以为傲的神力也不见了踪影，只得毫无反抗之力地瘫软在地。这叫他大为光火，咬着牙想奋力挣扎，如落入陷阱的猛兽般，浑身戒备，肌肉紧绷。</p>
+<p>他尚有呼救的机会，可惜来人的动作快过他出声大喊，一枚麻核被挤入口中，他只得瞪大眼，将这胆大包天的小贼捕获入眼中。</p>
+<p>帐中的幽暗止于燃起的一点火光，来者施施然点起了蜡烛，站定在项羽面前。他穿着甲，长发束在脑后，没带头盔，身形并不怎么健壮，在军中只得被评判为质弱，脸上似笑非笑，看起来并不多么威猛，可项羽有些汗毛直竖。他为这突兀的怯弱而恼火，又因此人的身份更生怒意。来人乃他军中一名郎中，名叫韩信，平日里未曾听过有什么功绩，倒是很会对他的部署指手画脚，成日献一些毫无必要的策论来。他对这人还算有些印象，毕竟军中像他这么瞻前顾后、不听他项羽指挥的人也是少见。</p>
+<p>若在往常，项羽对此人只会无视和嗤之以鼻，但今时不同往日，他直觉站在他身前的人与韩信判若两人，直叫人怀疑是不是有精怪披上了人皮。虽心里愈发警觉，在这手足酸软的情况下，项羽只平添一层焦躁。尤其是当来人开口，他更暴跳如雷。</p>
+<p>“项王……这般任人宰割的模样，倒是十分少见了。”韩信将烛台放在桌上，弯下身来，细细地打量着他的面孔，甚至还极为无礼地伸出手来抚摸他的脸颊。项羽怒瞪着他，口中发出“呜呜”的声音，宛如畜生在临被宰割前奋力挣扎，韩信擦去了他合不拢的嘴角留下的涎水，一派要气死人的胸有成竹。他从韩信的手上嗅到那股甜味，更感觉头晕眼花，迷迷瞪瞪，脑中只闪过“他方才究竟如何无声无息接近让我闻到这气味”的念头，就陷入更深的混沌中。</p>
+<p>韩信并非此时的韩信，他也不知，自己一个已死之人如何又到了几十年前的楚军军营里。梦耶？非梦耶？这几日他恍恍惚惚，重温了尚未发迹的生活，尤其又见了项羽那刚愎自用、油盐不进的模样，一时竟不知是否该哀叹，自己着实没有跟随明主的命。项王如此，后来那位更是不提也罢，顿觉心灰意冷，本想就此离去，却在军议上挨了项羽一顿骂，当时便想起了早年在楚军营中受的冷遇。即便后来封侯拜将，韩信也还是对此事耿耿于怀，以此拒了武涉的提议，却不想落得后来那个下场。一桩桩，一件件，韩信再不能抑制某些心思，罢了，就是重来一遍也无甚意趣，不如顺从心意做一些胆大妄为之事。</p>
+<p>这便是他趁夜潜入项羽帐中的缘由，他对项羽的武艺也十分忌惮，故而手段下作了些。不过看到这人神情恍惚、任自己摆布，又庆幸只有自己这般胆大妄为，就他所知的那些心怀妄念之人，最多也不过在演武场摔跤时搂一搂项王的腰身，哪能像今日自己这般肆意。他无意将项羽扶到榻上，而是半跪在地上解开对方的腰带。项羽只着了中衣，拉开衣襟便是赤裸的胸膛，下身也未穿裤，韩信在这人身上磨磨蹭蹭，将那饱胀肉体用手细细感受，咋舌于紧致的肌肉，又盯着对方被塞满的嘴看了一会，遗憾不能一亲芳泽。</p>
+<p>项羽其实并未如表现般醉了，不过仍无法动弹，心里暗自焦急于不知这贼子如厨娘到肉摊上挑猪肉似的在他身上摸什么。军机？密报？总不能是数他身上有几条疤吧！韩信也是武人，手上茧子蹭得他一阵阵起寒颤，尤其在抚过胸前两点的时候，引来的感觉古怪得过头。本来他心无杂念，平时寻医官来照看伤口时，多少疼痛都不妨碍他蒙头大睡到第二日，但这正逡巡于他胸口的手甚是讨厌，揉捏挤按，引起一阵阵酥麻，简直像是将他视作了姬妾……想到此处，自觉受了奇耻大辱的怒火叫他清醒了些，定睛一看却看见韩信正把手往他的小腹下伸。</p>
+<p>那条肉龙本来半硬不软地垂在阴影中，稍一被扰动，便不经控制地苏醒了过来。要说它被一个男人握在手心的感觉自然是奇怪的，女子的柔荑和躯体包裹它时，如柔软的丝绸般熨帖，在温柔乡里逐渐攀升到了极乐；换做一只坚硬、骨节分明又带着茧子的手，并不能那么面面俱到，也不懂适可而止，带来的刺激宛如烈酒浇上伤口。它很快硬热得灼人，泌出前液，而男人又是懂男人的，韩信圈住了它的根部，在顶端慢条斯理地拨动，那物什便如只驯服的狗儿，遵从于他人给予的欲望。项羽只觉得下身被箍得生疼，他能见到男人的手里紫红的龟头流出淫液，但满心都是再得到更多些刺激。若不是还在麻药的统御下，他或许会首先挺动腰身，用对方的手攀至巅峰，而非拧下这小贼的脑袋。</p>
+<p>可韩信并不纯然一片为他服务的心思，他时急时缓地移动手指，吊着人胃口，搔刮柱体和底部两颗饱满的睾丸，直到项羽如小儿手臂般粗的阴茎直挺挺、紧绷地充血立着，他便停下动作，故意叫人难堪似的观赏着这烛光下淫靡万分的景象，而后用力揪了项羽的乳粒，叫那人别全心全意沉浸在欲望里。项羽从喉咙里呻吟一声，含含糊糊的，韩信几乎被这猫儿叫春似的声音取悦，自衣兜中取出一瓶油膏，细细地涂抹在手指上，又沾了好些去开拓项羽的后庭。</p>
+<p>未被侵入过的身体紧紧含住韩信的手指，像是被什么野兽咬住了不能动弹，韩信不顾项羽不成语调的反对，缓慢抽出后又加上更多油膏和手指，在内部勾勾画画，寻找着某处的开关。项羽紧实的内部比外部灼热，让他心荡神驰，随着温度升高，油膏悉数融化，在他出入的时候漾出水声，而项羽的阴茎仍旧挺立，他便也不再忍耐，解了自己的腰带，将早已硬得流水的欲望插入项羽体内。</p>
+<p>即使已经开拓了好一会，这紧致的感觉仍叫韩信咬着牙才继续下去，他面色潮红，鼻息沉重，抓着项羽的大腿根，挺弄了一会，慢慢抽出，不住地试探，一次比一次过界，这才深入了进去。阴茎整根被包裹时，他全身过了电似的爽快，自个也忍不住喘息起来。平日里威风凛凛、征战时万夫莫开的项王此时正被自己顶弄得神志不清，一贯说不出什么好听话，只会大放阙词的嘴也被堵上，这超乎寻常的满足感足以叫人神魂颠倒。韩信逐渐适应了快感，按住项羽的腰，一下一下抽插着。男人的身体过于硬朗结实，内里火热柔软的反差感又令人欲罢不能，韩信只觉过去数十年经历过的任何女子都比不上此人，约莫是争强好胜的征服欲作祟，听闻项王自刎后的空虚感正被充实，他情绪激荡下伸手扯掉项羽口中的麻核，用力咬住了对方的唇舌。</p>
+<p>他极其激烈地舔吻着、吞吃着那人的舌头，令人始料未及的是，项羽并不僵硬或排斥地回应了他，韩信心中的喜意尚未升起便被自己按回去，食色性也，只要做得爽快了，还管得了那是什么人么。同时却也自矜于能叫某人意乱神迷，更是卖力地侵入着，下身也找到了技巧，擦过某处时总刻意加快频率，吊得项羽欲罢不能，双腿有些缠在他腰上的意思。</p>
+<p>攀登至巅峰也不过是一瞬间，韩信紧紧将对方抱住，尽数释放在对方体内，身体有些许疲惫，头脑却清醒得不得了。他抽身出来，看身下人狼藉一片，却立刻抓了对方的腰带又缚住了那人口舌。项羽早也射精，小腹处黏黏糊糊，他倒在地上，眼角绯红，眼神却如被冒犯到了极点的猛兽，正要则人而噬。韩信抓住项羽的头发，将他的脸半提起来，既是调笑也是挑衅：“项王可知晓某有将才了？若无一点本事，怎敢深夜前来服侍？项王可还舒爽？可要某再来一次？”</p>
+<p>出人意料的是，项羽竟微微点了头，不知是赞同前句，还是后句。这般被邀请，韩信哪还愿再等，再度开始了第二轮。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-05-13</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

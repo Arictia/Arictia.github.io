@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="慈悲的试炼" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            慈悲的试炼
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <ul>
+<li>G向，西方背景</li>
+</ul>
+<p>夏季的伦敦更像一个臭烘烘的泥潭，泰晤士河日复一日裹挟着粪便、垃圾、工业废水和尸体涌向大海，同时供应这大都市上至王公贵族下至贫民窟的老鼠的生活水源。以白教堂为界，西区的贵族们跟随女王搬到郊区别墅以躲避城中蔓延的疫病，东区的下等人则在本就泥沼般的生活里垂死挣扎。过于集中的人口和恶劣的卫生条件让有心救治的医生们疲于奔命，甚至比病人更早倒在了街上；一墙之隔的邻居可能昨晚病死后清晨就被催债的打手拖出去，到了下午房东马上领来了新的租客；收尸人把尸体扒得赤条条的扔到乱葬岗，尸体的妻子在原本的家门外生下死胎；与此同时，吞吐着劳力的工厂还在日夜开工，因要挣得生活所需的几个先令而呈现畸形的繁荣。</p>
+<p>作为东区人，对夜晚危险性的认知几乎能说是与生俱来，即使行走在路灯没有被砸坏的路段上也绝不算安全，伦敦的浓雾在夜晚像是湿漉漉的抹布，能把几步外的景象全抹掉，只要跑得够快，被袭击的人甚至看不见袭击者的脸。最后一波夜班工人下班的时间一过，如无意外，即使在街上坟墓似的寂静里放声尖叫，巡警也只会在被害者变成尸体之后赶到，找到几枚脚印和一些血迹，将事件记录成抢劫杀人的无头悬案。近日以来，悬案的数量多了许多，即使这些案子里的受害者失去大量血液干瘪得像木乃伊，警察的结论仍是外来的抢劫犯犯下的罪行。</p>
+<p>劳尔是个土生土长的东区人，他没有缺胳膊少腿地活到成年靠的是他在码头当打手的兄长。前些日子，他的哥哥带了一大块放在箱子里的奶酪和两瓶美国来的红酒回家，醉醺醺地告诉他这些东西可以用来给他换一个纺织厂管事的职位，尽管那不过是个几十号人的小作坊，排着队想要拿出贿赂的人也不算少，但“这些可是贵族老爷们才能吃上的东西！”，劳尔的哥哥洋洋得意地告诉他，那是条从美国来的倒霉货船，要不是船主在靠岸的时候同帮派起了纷争时候突然死了，也不至于连货都被瓜分得一干二净。哥哥同他颠三倒四地分享了一通八卦，手舞足蹈还砸坏了盘子，最后失去意识地醉倒在桌上，劳尔也尽心尽力地把家里收拾好，准备等人清醒了一块去找工厂的负责人。但他没想到，唤醒他的不是叫醒人的铃铛声，而是从肩窝传来的灼热刺痛。</p>
+<p>劳尔的哥哥已经变了样子，眼白外翻，面容溃烂，正恶狠狠地咬住他的兄弟，撕扯着上边的肉。东区最近时常有这样的人游荡，他们面上身上生了红色的疮疤，力大无比或是异常敏捷，对人血有极度渴望。诡异的传闻和层出不穷的怪事造成了一定的恐慌，但东区原来也很混乱，这被断定为某种新型传染病的病症结果对东区人来说不过是身边的死人变多、混乱程度加剧，工人、妓女和盗贼还是按原本的样子活，毕竟你也不知道袭击你的是抢劫犯还是怪物。劳尔只懵了很短的时间，立刻用手边的锤子打中了哥哥的脑袋，对付入室抢劫的强盗的条件反射一向简单有效。</p>
+<p>如果亲人变成怪物这件事还不足以让他丧失勇气逃离、还想着带着兄长去找医生，那脑袋被开了条缝还能摇摇晃晃朝自己扑来足以叫人失掉胆气。有很多人说这不是疾病而是吸血鬼和魔鬼作祟，无论那是什么，劳尔都不敢再留下来，他狂奔进了浓郁的夜雾中。</p>
+<p>他们租住的房子里港口不远，这儿到处都是外表相似的仓库和胡乱堆积的木箱，劳尔幸运也不幸，没碰上什么危险人物，没有晃晃悠悠的人影也没有突然复生的尸体，但他迷失了方向。路灯下的雾气像是带着铁锈的红色，它们跟随在劳尔身后微微流动，进入他的体内，刺激得人呛咳出声。很快，就像闻到猎物气味的鬣狗，有细碎的脚步朝他这里过来，劳尔再度慌不择路的跑起来，突然看见不远处拐角有个招牌上悬挂了十字的地方亮着灯。</p>
+<p>他踉跄着滚进了虚掩着的门，这儿能看出原本是间仓库，被改造成了介于教堂和医院之间的样式，最里边挂着耶稣的像，地上堆了好些白布和木箱，左右两边用木板和破棉絮搭出了床铺，上面沾了煤屑和血迹。劳尔想起了他哥哥告诉他过，码头附近有间避难所，里面的神父愿意为任何人提供帮助。他也弄不明白现在自己需要怎样的帮助，他听说过有的神父可以把被附身了的人体内的魔鬼驱逐出来，尽管穷人们没什么忏悔和作礼拜的机会，真正虔诚地信奉主而不是仅仅将信仰看作买卖的人比和河沙里的金子还少，他们在面对无可避免的灾厄和死亡时，还是会首先向教会求助。</p>
+<p>避难所的神父名叫肖恩·汉普顿，即使在深夜也穿着一身黑色法衣，衣角和袖口都磨损得很厉害，黑发尽量梳得整齐，看起来三十五岁上下，因为昏暗的光线和疲惫的神色让他看起来要比真实年纪老相。他出现之前似乎还在作工，避难所的夜里没有安排人值夜，他的手湿漉漉的才洗过。肖恩温和地引导这个惊慌失措的年轻人躺下，为他检查了伤口，给他用了一点不知名的药粉止血。劳尔这时候才发觉肩膀上的伤口有多深，并且自己也不仅是因为过度激动才感到晕眩的。</p>
+<p>追着他的脚步声已经消失，劳尔咽了口唾沫，感受到刀割似的艰涩，结结巴巴地向神父请求起来。神父耐心地听他重复了两三次魔鬼附身的事，点了点头：“天亮后我会随你去，现在请好好休息吧。”</p>
+<p>他还给劳尔端来了一杯加了鸦片酊的淡啤酒，这个年轻人大概不知道他的兄长已经不能再被算作人类，渴血的冲动未能彻底满足时带来的骚乱足以让普里恩卫士们注意到这里又多了一个劣等血魔，第二天他再回去时看到的只会是被破坏的、空无一人的屋子。而劳尔被咬了之后，也要和他的哥哥一样经受考验，肖恩打算多留他几天，好帮助和约束对方，以免造成更多伤亡。</p>
+<p>神父在确定客人入睡后回到了地下的工作间，房间的中心摆着两张长桌，从天花板上垂下一根铁链，两具被剔得干净的尸骸堆在桌面，血滴滴答答地落在地面的血泊里。这两句尸体都很新鲜，傍晚时刻才断气，神父忙活了一晚上把尸体上的肉和内脏剔下，分门别类地存储起来。些许腐臭从墙角的裹尸袋里传来，那是早上才在庇护所里咽气的人。与贩卖尸体的掘墓人不同，神父处理和收集尸体不是为了卖给药商和医学生，他和劳尔的哥哥处境相似，只是他坚实的信仰让他拒绝以活人的血为食，也拒绝制造死亡来获取食物。他得自己去街上和下水道里找新死不久的人的尸体——发酵太久的死亡会把血和肉变成不能吃的东西——或是心怀怜悯与同情地吃下在避难所内罹难者的尸体。这是神对他跨越了渴血欲求的奖励，祂允许肖恩食用尸体，他食用这些可怜人的肉体，正如圣经上人们食用圣子的身体。</p>
+<p>这工作有些累人，即使他的力气和耐力已经远超人类，连续忙活了快八个小时也不免有些迟钝，他没听见劳尔醒来后找人的声音。等他发现那个年轻人走到了神龛下面推开了地下室的门已经太迟了，要是只是解剖尸体还能够解释，问题在于神父先生向来是个严谨认真的人，他的工作现场就像肉类加工厂，挂上弯钩的铁链是为了方便清理内脏用的，切好的肉被整齐地码在放了冷水的桶里，连皮带肉，内脏装在另一个铁皮桶里，在灯光下好似泛着一层油光。年轻人显然误会自己误入了杀人分尸现场，惊恐到了极致的表情有些滑稽，他想要逃跑，没跑几步就被陡峭的楼梯绊了一跤，脱力地趴在地上站不起来了。</p>
+<p>肖恩·汉普顿是个好人，但从他能在多方势力混杂的东区码头维持这间不区分立场接受求助的避难所来看，他的能力和决心不容小觑，换句话说，他是个意志十分坚定的人。这种人一旦决定要去做什么事，就很少再听从外界的意见。所以他对劳尔的哭求只是感到一阵不忍。他知道，这是上帝给予他的又一道考验，你是否要牺牲一个无辜者的性命来继续你的事业，即使这个人要么命不久矣，要么和其他劣等血魔一样只能在下水道里苟延残喘？你是否能承担起一个活生生的生命的重量，只因为你仍想让这风雨飘摇、物资短缺的庇护所继续发挥作用、而不是被丑闻和传言击垮？肖恩在胸口划出十字，他知道主在试炼他的意志，摒弃他心中的软弱和犹疑，他已决心将永恒的生命奉献给所有弱者和被遗忘者，他不能熄灭这混乱和黑暗中的灯塔。</p>
+<p>“我罪，我罪，我重罪，阿门！”他犹如叹息地从肺腑中说出这句话，走到了劳尔身前，轻易地把人拎了起来，用铁钩穿过对方的锁骨，挂了起来。劳尔惨叫的声音被神父用木塞堵住，“会很快，我保证，劳尔先生，你不会很痛苦。”他回到地下室的门口关紧了门，从墙边的挂钩上拿下骨锯。劳尔扭动挣扎着想从上面下来，但刺穿锁骨意味着他有一只手是用不上力的，他呜咽着，尿了裤子。</p>
+<p>神父取来了一把宽刃的刀子，走到劳尔面前，取下木塞，神色肃穆：“你要告解吗？”</p>
+<p>“不，求你……我什么都没看到！神父！我什么都不知道！”劳尔疯狂摇头，祈求着对方能发发善心。</p>
+<p>神父闭上了眼，为面前人的不幸感到悲伤，他持刀的手很稳定，直接割开了劳尔的喉咙，从生机勃勃的气管里流出的声音有点像炭火遇了水，血液喷射了出来，浓郁的血腥气像一个牛皮头套那样劈头盖脸包住了他，肖恩不得不退后一两步远离这过于庞大的诱惑。他不打算吃劳尔的尸体，因为他不是为了猎食才杀了他的，这样的坚持叫别人，尤其是乔纳森医生来看，显得尤为不可靠和无法理解，但肖恩不太在乎这种事，他知道他所做的都在神的看顾下。</p>
+<p>解下死者身上的衣物后，肖恩首先用斧头和锯子将尸体的手脚与躯干分开。赤裸的人体像牲畜那样悬挂着，血已经在肖恩脚下聚集成一小块湖泊，如果是要处理成食物，他会先从容易腐败的内脏开始，但如果是抛尸，最要紧的是毁坏能够辨识尸体身份的面孔和胎记，肖恩选择把尸体的头部和手脚的皮扒下来，然后把剩下的部分丢进下水道里不容易被人发现的岔路里，老鼠和野狗会很乐意处理掉它们。</p>
+<p>一般而言，想要一张完整的人皮要么从头顶开始，要么从肛门开始，肖恩毕竟不是以此取乐的变态，他相对比较随意地先围着劳尔的下颌划了一刀，像是掀开柿子果皮那样把人的脸皮掀了下来，裸露的肌肉和经脉有些还在颤动，他接着从额头到枕骨把刀尖插进去，取下连着头发的部分后就不再管颅骨里的内容。然后是大腿，同样在上边划出一道纵长的口子，这次的面积较大，他用刀辅助着才把它们撕下来，而且有些部分还不得不割断了重头来过。手指脚趾的部分尤其麻烦，最后他选择用锤子把它们砸烂成肉泥而不是继续浪费时间。</p>
+<p>接着，他换了剁骨刀，细致地将躯干分成三个部分，打开尸体的胸腔，一块块地把肋骨剁了下来。死者的胃和肠子流了出来，堆在桌面上，暖烘烘的，肖恩把它们推到一边，咽下鲜活血气引起的食欲。经手了这么多具尸体，就算在医学院里读了十二年的医学生也比不上肖恩对人体的了解，他知道哪一处关节的肌腱和筋膜容易被割断，如何才能沿着肌肉走向将四肢的油脂与肌肉分开，剥皮的工作量要比他平时给自己准备食物小得多，等到将尸体拆分好、将内脏和其他零碎塞进袋子里，肖恩已经饿坏了。</p>
+<p>他在工作的时候总是过于专心，眼下他终于又将桌上的尸体重新认知为一个不久前还活着的人类，他真心实意地为这个可怜人感到悲伤。无妄之灾，这就是东区最常见的特产，若有人将这些不幸者的事情全记录下来，集成的书页恐怕比所有的圣经加在一起都厚。他的双手沾满鲜血，法衣因一层层干涸了的血迹板结，神父走到他给自己准备的第二日的餐食旁，开始用餐前的祷告。</p>
+<p>“<em>天主，求祢降福我们，和我们所享用的食物。我们也为祢所赏赐的一切，感谢祢。</em></p>
+<p><em>愿光荣归于父，及子及圣神。起初如何，今日亦然，直到永远。阿门。</em>”</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-05-13</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                        <a href='/tags/Vampyr/'>
+                            Vampyr
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
