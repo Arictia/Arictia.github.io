@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="前路" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            前路
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>泰拉的双月如同死者苍白的眼睛高悬在天空。荒原上的空气冰冷，携杂来源复杂的粉尘，在风向、地形和磁场的共同作用下，时常形成宛若行走在大地上的死神般的源石尘风暴，比天灾更频繁和悄无声息，卷入其中的下场大多是尸骨无存，即使有小部分幸运儿逃出生天，与过量源石尘粉末接触招致的后果也只通往死亡。</p>
+<p>卡兹戴尔附近的荒原正是如此可怖，即使车上的二人能算得上对这片区域的习性了然于心，也不能预料前路等待着他们的会是什么。雇佣兵的习惯是拿到手的载具先拆除导航和发信系统，哪怕已经脱离了那个行当好几年，炎客也没有忘记清理痕迹和抹除监听的技巧。在劫持博士上车前，他就把孱弱的旧人类检查了好几遍，只留下基本的空气过滤系统和心率监测仪。车上没有准备太多补给，这趟旅途的终点是他铭刻在心的一处埋骨地，不论对他们中的哪一个，有去无回的概率都不算低，这让人想起了登上罗德岛之前的生活常态。萨卡兹雇佣兵用他人和自己的性命换取足够生活的资源，直到身体被磨损殆尽，没人能设想长远的未来，因为每个人都能看见生活尽头的坟墓只在几步开外。</p>
+<p>博士除了必要外都保持沉默，自他从突如其来的睡意中挣脱，看到炎客脱下的罗德岛制服被丢在他身上，他突然想起同劫匪有个不能宣之于口约定似的，对自己的处境置若罔闻，车里的氛围甚至有些像一对友人为了弥补过去的遗憾而执行了一趟说走就走的旅程。某种意义上这确实是来自博士的补偿，对于经历过巴别塔时期的人，博士总是更多些耐心。他的记忆千疮百孔，埋没在其中的人们尽量谨慎待他，仿佛有关巴别塔的一切都是已经读完、合上、丢进了火堆里的书本，不必也无法再去寻找他们悲伤和憎恨的理由。阿米娅、凯尔希、阿斯卡伦、逻各斯……他们或多或少地提醒、请求他不要深究，因为那些复杂又沉重的东西可能会让现在的局面变得更糟糕。</p>
+<p>而炎客平时针锋相对的态度反倒叫博士好受些——他对他了解与恨意的来由没那么复杂。</p>
+<p>“你的花怎么办？”在入夜后，或许是穷极无聊，又或许是这沉默对接下来的路途有害无益，博士向身旁驾驶座上正专心开车的人发问。</p>
+<p>“死不了。”炎客手扶着方向盘，语气平淡，过了一会才加上，“莱娜会照顾它们。”</p>
+<p>由调香师莱娜主持设立的调香工作室配备有温室，她的耐心与细心得到了许多干员的认可，平日里总能看见她在花卉、绿荫和芬芳的香气中与医疗部安排的病人闲谈，但炎客这位时常拒不配合治疗的棘手病人与莱娜熟识想必不是因为芳香疗法。</p>
+<p>“医疗部之前还向我打报告说你又逃了上个月的例行体检。”博士双手交叉，放在腹部，换成了一个比较舒服的姿势，切成了工作时对干员们身体状况关心时的耐心语气，“看你成天泡在庭院里，没想过和莱娜聊聊？”</p>
+<p>萨卡兹嗤笑一声：“我又不是罗德岛温室里的花。”</p>
+<p>兜帽下的人不置可否地“唔”了一句，很想揶揄他在信里写了那么多关于花卉和生命的思考，对植物比对他自己都上心得多，要是对方有自己的身体状况可能还不如他养的花的自觉就好了。游走在生死边缘的雇佣兵往往有自己的一套生死观，鉴于卡兹戴尔低下的识字率，能将生死观上升到哲学或社会学思考上的人可谓凤毛麟角。炎客和诸多卡兹戴尔人一样，常年与死亡擦肩而过的生活使他似乎将生命视作一趟直直驶向终结的旅途，他的目光集中在战场上的“绽放”中，硝烟弥漫、刀刃相交、寻找法术和子弹的间隙以夺取敌人性命，目标的血与骨成就了刀术师的赫赫声名，并愈发地追求危难与险境，以期挑战生命的极限。用医疗术语来解释，这种心态或许和自毁倾向、强迫行为和PTSD脱不了关系，在泰拉大地上抱有这种想法的人比比皆是，只不过炎客遇上了巴别塔的恶灵，从此将自己视作染了病的植物，主动送上来做罗德岛的一柄武器。</p>
+<p>两周前，在拿到医疗部的体检异常名单后，博士决定去找缺检惯犯的几人谈话，这属于他给自己添加的工作量，只能占用休息时间完成。他本来打算和炎客谈完就去食堂，却估错了自己这具身体低血糖症状的来势汹汹，天旋地转地倒下，差点撞倒旁边的花架。炎客拉了一把他，两个人一时靠得有些近，萨卡兹的身体坚硬得像岩石，起码博士感觉自己的脑袋仿佛被辗得稀碎那样痛。从内部泛起的疼痛中，他截获了一部分巴别塔的恶灵的记忆。</p>
+<p>一次试探，一场为了最终胜利做铺垫的反叛，操弄蛛丝般编织起的阴谋，最后指挥官一如既往谋得了预想内的成功，但不寻常的是，博士看到了炎客的脸。幕后之人利用了无知无觉的雇佣兵做舞台上的主角，又在表演结束后随手将它们抛弃。他看着炎客的脸，脱口而出：“……原来那个活着突破了包围圈的队长是你。”</p>
+<p>炎客的反应是掐住了他的脖子。还不到一秒的窒息体验仍叫博士昏厥了将近一分钟，之后他道了歉，面色难看，俯下身把碎掉的花盆收拾干净，一言不发地离开了花房。等博士从繁重的工作中又想起了这件事决定关心干员的心理健康的时候，炎客已经申领了外勤任务离开了本舰。</p>
+<p>博士本以为他对这位萨卡兹刀术师有足够的了解——当年他选中炎客的队伍时自然做足了功课——但看来他警惕得还是不够，起码被带到车上的手段还是粗暴得超出了他的想象。</p>
+<p>“我其实还是对你的选择有些疑惑。”博士轻巧地另外开启了话题，“你既然知道我的情况，知道‘巴别塔的恶灵’已经不复存在，为什么还要求我将你作为武器来使用？”</p>
+<p>司机把方向盘转了半圈，绕过了前方的一块巨石才回答：“我告诉过你。我需要磨砺，我需要耐用的砥石，所以我付出我自己来和你们达成交易。”</p>
+<p>“我不否认你的诉求，我疑惑的是前半句。你怎么能确定我还是你想要找的人？”</p>
+<p>炎客侧过脸来，仿佛火光灼燃时刻颜色的眼睛瞥了他一眼，其中蕴含了太多情绪反倒看起来很是平静：“如果你没有满足我的期待，我会杀了你。”</p>
+<p>这大概是人事部他们当时另外提交了一份风险评估报告给他的原因，博士漫不经心地回忆情报上的内容，提出第二个问题：“那现在我让你失望了吗？”</p>
+<p>炎客带他离舰是为了杀死他，并且还颇有仪式感地选择了当年他的小队覆灭的位置。曾经在闲聊的时候，他们讨论过关于复仇的问题，他还记得对方一边蹲在育苗盆旁一边给自己讲述某把断刀的由来的样子，日光灯下炎客黑色的指甲像是凝结过久的血的颜色。他对将性命为他人使用这件事无甚褒奖，认为那没有意义，博士相信他不是在降低自己的戒心，那么对方如今再做出这样的选择来就让人的好奇难以抑制地升起了。</p>
+<p>他沉默了一会，目视着在月光照耀下显得空旷的荒原，开口道：“你胜过了我，当年我不得不和别人组成了队伍，然后你利用这一点企图把全部人都困死在那里；你是我见过的最难以对付的敌人，博士。作为指挥官你很称职，毕竟胜利就是胜利，不论它是否由肮脏的手段取得。”</p>
+<p>“……谢谢？”博士不确定还是“恶灵”时候的自己听到这种评价会如何回应，他选择了礼貌的答复。</p>
+<p>“哈。但是你把所有人都当作棋子，棋子的厮杀在你看来是获得结果的必经之路。”炎客扯了扯嘴角，“浴血死斗、技艺相争、磨砺自身到达更高的境界，这些不是你看重的。”</p>
+<p>博士从面罩下观察着对方的神色，慢吞吞地说：“现在你认为我失去了那种冷酷。”</p>
+<p>“不错。哪怕你和以前比可以说是判若两人，但你的指挥能力和布局水平一如往日，我本来以为这就足够了。在罗德岛上虽然磨砺的时间变少，每一次战斗却都能带来更深的感触。直到你重新提醒了我，‘恶灵’应该是什么样的。”</p>
+<p>这是一部分的真实。博士和炎客都对此心知肚明，难以宣之于口的是更私人的情感，他憎恨那个将他得来不易信任和伙伴作为筹码消耗的‘恶灵’，而失忆的博士并不能承担起他的憎恨，直到那份记忆回到大脑，长久的、失去指向的憎恶终于能够落实在指挥官身上。</p>
+<p>当一份情感如同磨刀般在心中淤积过久，倾泻而出时带来的后果往往不尽如人意。博士得到了想要确认的答案，炎客也没有继续剖析下去的兴致，沉默重新将二人笼罩。夜幕深覆着前路，在探灯和月光的解明下，他们继续向着荒原的另一头行进，向着仿佛已经既定了的命运的终点疾驰。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-06-15</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                        <a href='/tags/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/'>
+                            明日方舟
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
