@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Gaze" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Gaze
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>如果可以Karkat一点都不想再去那栋海边的房子。倒不是说路途遥远或者天气恶劣之类的缘故，而是他发现他没法解释自己为什么还留着已经绝交了的朋友家的钥匙，并且还不是为了还钥匙才去的。</p>
+<p>起因是一次大扫除，为了除掉螨虫蠕虫蟑螂之类的小生物，他把一个房间的箱子搬到另一个房间，把卧室柜子里的东西搬进另一个柜子，走廊上堆满了记忆里本该丢掉的零碎玩意，包括那把包得严严实实、价格不菲的贝斯。好吧，这东西大得不符合零碎的定义，但对Karkat来说，属于Gamzee的物品就该归类到零碎里，他是说，零散得只会在空闲时间里想起来，琐碎得就像沙子那样无孔不入。</p>
+<p>他同那家伙在高中玩乐队的时候，对方还是个容易相处的正常人，平易近人得不像流着紫血的高等阶级，一个总是同身边人处不来的家伙，以Karkat的角度来说这倒不是Gamzee的错。在Gamzee发疯后，他没有选择立刻抛弃掉这个性格突然掉进深渊的朋友，当然，从少年时期建立的友情并不能减少Karkat对Gamzee是否会突然杀了他的怀疑，起码每次他去Gamzee家帮他收拾针剂、注射器和药盒的时候，他都担心Gamzee会从沙发上跳起来，掐住他的脖子或者按着他的脑袋让他与墙壁来个贴面舞。不过越是见证和警惕Gamzee的精神状态，Karkat越是在“他只有我了，他需要我的帮助，只有我才能让他冷静下来”的幻觉中沉溺，直到又一次在拉住Gamzee不让他踹翻桌子的时候，他被暴怒的朋友踹在了腰上，才突然意识到Gamzee这时候并没有给自己留出一个特殊的位置。</p>
+<p>去你妈的，Gamzee只是生病了，他会伤害自己，他会伤害任何人，他没法控制自己的身体，这道理通俗易懂，而且你知道他不该发疯的。这里头的原因也有你的一份，你肯定搞砸了什么，语气或者是用词不当什么的，嘿，别想着逃避责任，老兄！你不就是为了拉住他才来的吗？</p>
+<p>他走出Gamzee家关上房门的那一刻，脑袋里喋喋不休的声音也停下了。我不在乎，Karkat这么想着，我真的不在乎，我本来就做得不够好，不是吗？</p>
+<p>从那之后他没再联系过Gamzee，也没再去记Gamzee有没有联系他。他拒绝Gamzee再出现在自己的生活里，这不难，大学生活可比高中忙碌得多，而他只要注意别再路过Gamzee打工的面包店。直到那个落满了灰的贝斯包出现之前，Karkat都觉得自己那个决定下得再正确不过。</p>
+<p>这可有些尴尬，单方面的绝交就是这点不好，他同那个被被褥和床单挤到了衣柜最里头的贝斯包面面相觑，心里头想着Gamzee的脸，不是现在，而是他们高中时候，他们曾一起在家里耗掉一个又一个周末练习，没有什么明星梦，就只是两个傻瓜一块唱着不好听的歌消磨时光。Karkat打开了贝斯包，拨了一下贝斯的弦，决定把它送还给那家伙，毕竟他已经决定不再与Gamzee扯上关系，那留着这玩意完全是平添烦恼。</p>
+<p>看见那栋房子的刹那，Karkat感到一阵火烧火燎的焦躁涌上心头：要是Gamzee不在家怎么办？要是Gamzee换了锁怎么办？要是Gamzee不接受怎么……噢，狗屎，他爱接受不接受，大不了扔垃圾堆。我完全是好心才把他的东西送回来，他得和我道谢。伴随着一半的忐忑和一半的理直气壮，Karkat掏出那把很久没用过的钥匙，打开了房门。</p>
+<p>这家伙没换锁。Karkat在心里啧了一声，背着已经擦干净了的贝斯包，准备喊Gamzee的名字。可能是在卧室睡觉吧，第一遍环顾客厅的时候，Karkat为滞闷的空气和乱糟糟没处下脚的环境皱眉，目光没什么波澜，但紧接着他发现沙发上的东西不是靠枕而是他的朋友。Gamzee抱着膝盖蜷缩成一团，像是想要把自己塞进沙发垫的缝隙那样紧绷着，没有穿鞋，身上的衣服皱皱巴巴，头发有明显的压痕，一副不知在上面过了多久的样子。Karkat对他现在的表情再熟悉不过，惊厥和惶恐此起彼伏，像一张网那样把人兜住，叫人对外界刺激都没了反应。如果是从前，Karkat会大声喊他的名字好让他别陷在情绪的噩梦里，然后像个哑巴了的闹钟那样在Gamzee说他那些迷幻又难以理解的感受的时候一边应和一边等着人慢慢清醒。但现在Karkat只是走近了Gamzee，在观察了他身上没有明显的伤口后轻手轻脚放下了贝斯包。</p>
+<p>这没什么，他对自己说，你已经很久没来看过他了，你也该从救世主的幻想里醒过来了，你们已经没那么亲密，留下来只会平添尴尬而已，难不成你还指望Gamzee跟你道谢？况且Gamzee症状发作的时候都不一定记得你呢！他用含糊得自己都听不清的语速解释了一下这个贝斯包的来历，准备立刻转身离开。</p>
+<p>“Karkat。”他的朋友喊了他的名字。Karkat仿佛被子弹从背后击中心脏，没什么心理准备地回过头去，继而转过身，看着Gamzee的眼睛，试图从里面找到一点提示。要不是Gamzee也正好抬头看了他，他甚至想催眠自己刚才的只是幻听。Karkat舔了舔牙，猜测对方想说什么，抱怨？怀疑？还是恶言恶语？他还记得有一次Gamzee一边砸东西一边冲他喊：操你妈的你以为我不知道吗？你只是害怕我他妈的会杀了你才老老实实坐在我身边的！来啊，老兄，别他妈的站那么远了，我们有一场他妈的派对要开！</p>
+<p>他不确定Gamzee说的是不是心里话，他没细想过，他宁愿全推给“Gamzee他疯了”。</p>
+<p>也有可能是想叫他留下。很多时候在Gamzee歇斯底里地颤抖和尖叫后出现的就是这样沉闷的请求，只要一会，一小会，我的兄弟，坐我对面，真是该死的奇迹啊，我脑子里的喇叭终于他妈的闭嘴了。</p>
+<p>是哪一样？Karkat等着他把话说出口，反正无论是什么，他都……做好了准备。他准备认真地同Gamzee谈一谈。</p>
+<p>但都不是。Gamzee说：“你想不想试着睡我一次？”</p>
+<p>“你他妈的在开什么玩笑。”过了好一会，Karkat干巴巴地说。</p>
+<p>他觉得自己一定是幻听了。从进入这间房子开始，没准自己的脑子也一块出了问题，眼前的Gamzee压根不在沙发上一副十几天没睡的样子而是在卧室里好好睡觉，自己也只需要悄悄地把贝斯和钥匙放在沙发边上就能走了，而不是要面对这完全超出意料之外的尴尬场景。</p>
+<p>他宁愿Gamzee立刻变了表情用超高音和搞怪的声线来表示刚刚的话只是对他这么久没出现的惩罚，快用我这傻瓜一样的表现来改善你的心情，Gamzee！Karkat在心里祈祷。他不知道自己该怎么回答，不，归根结底这种对话就不该发生在朋友——老天，这里得标上一个“冷战中”的标签——之间，为什么没有一本工具书上写了“当你的朋友向你约炮”这种情况的解决方案？</p>
+<p>Gamzee还是抱着膝盖，眼睛一直盯着他看，语气里有种歇斯底里之后的平静：“我没开玩笑，我在认真地问你。”</p>
+<p>“这不好笑，Gamzee，你他妈的脑子终于坏到连人都分不清的程度了？”</p>
+<p>“我知道在这里的他妈的是你，Karkat，我要问的也他妈的是你，操，操。”Gamzee动了一下，看起来是想站起来，但长时间屈起的关节让他没法顺畅地使用身体，他晃了一下，半倒在沙发扶手上，“你他妈的是不是就不会选我？是不是除非要我去和那扇该死的门搏斗得流血你才他妈的会同情我？”</p>
+<p>Karkat瞠目结舌，不知道该怎么接话：“操，你，我，该死啊，你他妈说的是一回事吗？老天，拜托你，Gamzee，清醒一点。”</p>
+<p>显然他的朋友要听的不是这样的回答，Gamzee几乎要站起来扑向他，Karkat从没见过他这副表情，看起来孤注一掷又绝望，那些沉重的责任感又如幽灵般回来了，Karkat知道自己必须要给出回答。</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-07-02</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>

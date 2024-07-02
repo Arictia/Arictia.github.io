@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta name="description" content="练习曲" />
+    <meta name="hexo-theme-A4" content="v1.7.9" />
+    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+    
+    
+<link rel="stylesheet" href="/css/ui.css">
+ 
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!--返回顶部css-->
+    
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+    
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+
+
+    <!--目录-->
+    
+<link rel="stylesheet" href="/css/toc.css">
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md>table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.jpg" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            练习曲
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <p>“弗朗茨。”</p>
+<p>从黑暗中传来了人声，纵使已经习惯了另一个人神不知鬼不觉地出现方式，黑键也还是被吓得颤抖了一瞬。他从琴凳上半转过身来，停下了练习，手指按出一串琶音，作为曲子的收尾，出于一点自幼习得的、因为无人悉心指导而闷头研究出的完美主义——毕竟缺少指引的标杆，能确认自己能力掌控程度的就只有不断趋于完美——不过在礼仪方面，现任的乌提卡伯爵由于小小的叛逆心，时常故意将用餐的刀叉摆得偏移了角度或者拖着一点更长更具有嘲讽力的尾音，尤其现在，面对莱塔尼亚曾经的皇帝陛下，他既没有起身也没有颔首，而是堪称无礼地只应了一声作为“确认”。</p>
+<p>在荒域，现实的唯物法则不起作用，唯心的意念成了立足的指针，想要不被外域的存在吞没，在这残存的帕维永的碎片中，黑键必须时刻记住自己的来处、确认自己的存在。赫尔昏佐伦的法术精妙且宏大，又不失细微处的稳健性，即使只是如沙砾般的碎片，也能应用他制定的法则。得益于此，黑键才在这没有时间概念的荒域中留存。</p>
+<p>一开始续接上意识的时候，跟随博士前往萨米雪原执行任务的干员黑键首先感受到的是愕然。他的记忆停留在如同水渍般侵蚀雪地的黑点上，没有被攻击了的爆炸、光斑或者失重，也和在崔林特尔梅的经历不同，他仿佛是在长眠后醒来，头脑仍旧有雾蒙蒙的麻痹感。叫人更吃惊的是，他所处的是乌提卡的伯爵塔，只是这建筑同他记忆里的并不完全相似，大厅、房间、走廊、阶梯……建筑的四壁和家具各有新旧，像是不同时期的塔被切割又拼接在了一起。他看见了血迹、刀痕、法术爆炸后的瓦砾，还有崭新的镜子、刺绣时兴的窗帘以及自己根据从弗莱蒙特那里收到的书单购置的新书。这伯爵塔似乎也有自己的脾气，楼梯不再指向固定的楼层，门关后不再是正确的房间，地毯与墙上的挂画也不具有稳定的样貌，黑键立刻想起了同干员薇薇安娜和送葬人交流后得到的情报：帕维永的时空由来访者决定，也就是说，心想事成在此地不是一句空话，反过来推算，有什么地方时空混乱、又会令人感觉似是而非的熟悉，那很有可能就是巫王的帕维永。</p>
+<p>那么，在此地见到巫王也并不是什么稀奇事。黑键在推开某一扇陌生的门，看见了站在一座巨大的、由金属管道和木质按钮组成的调谐器面前沉思的赫尔昏佐伦时，只是礼貌地关上了门，又重新打开，确定了对方仍旧存在于眼前，扯了扯嘴角，询问道：“劳驾，您是鬼魂还是我的幻觉？”</p>
+<p>巫王赫尔昏佐伦，莱塔尼亚的皇帝，乌提卡的选帝侯，伟大和暴虐共存的君主，此刻身着黑键在荒域见过的那套黑红色调的礼服，长卷发一直披散到了脚跟，像是一片黑色的阴翳，吸引着进入房间的所有视线。听着了黑键那仿佛是对着画像发问的语气，也用同等的、不带情绪的音调回答：“你可以认为两者皆有，严格来说，身在此处为你所见的，只是一段还没消散的回音。”</p>
+<p>就像弗莱蒙特后来为了打消他过多好奇心在信里解释的那样，赫尔昏佐伦用来维系荒域中行宫的是由人类创造的信息编织出的组曲，他用他统治下的人和物构建了“背面的莱塔尼亚”，在原本绝对安静的水潭里用沙子堆积出了一件能够发声的乐器，它脆弱且摇摇欲坠，不断被水流冲刷，又用涟漪带回沙砾，即使现下帕维永不复存在，原本引起的波动也不会很快消失，而在帕维永中以绝对的意志驱动着它的巫王的信息更是留有相当的痕迹。黑键当时只把这段解释作为参考材料用在了给博士的报告上，没想到自己确实有印证弗莱蒙特理论的一天。</p>
+<p>好处在于，他听得懂赫尔昏佐伦给出的解决方案的原理，虽然和巫妖比起来，巫王陛下的教学水平一言难尽，但黑键凭借着长期同教学水平低劣教师打交道的经验，理解了要离开这里的关窍在于传心感知术法，这也是帕维永建立的基础；坏处在于……还用说吗，没有哪个正常人愿意第二次进入荒域的。比他完全没有学习过传心法术更糟糕的是，这块碎片正在瓦解，赫尔昏佐伦带着他去往他使用过的书房的路上，黑键眼睁睁地看着他演示荒域如何消弭实际的存在，被丢下去的灯台连带着上面的灯火像是直接被擦掉了那样归于虚无，而赫尔昏佐伦瞥了他一眼：“你也一样，弗朗茨，要是靠近了边界，你所有的‘存在’也会被转化。”</p>
+<p>就像长辈警告孩子远离湖水或者火源一样，黑键有些别扭和恼火地接受了对方的限制，不再试图探寻这座塔的层数和更多的房间，老老实实坐在了宴会厅的钢琴前练习。进度不算理想，因为教导他的人是个超出常人太多的天才，而黑键也有属于自己的施法习惯。</p>
+<p>在又一次被纠正了指法与手势后，黑键对这人独断专行的教学终于忍无可忍，呛声道：“伟大的皇帝陛下是否能意识到，我只是一个年轻的、无知的、从未接触过传心法术的普通人？您能否将您省略的推演步骤和法术收拾拆解开，而不是直接丢出复杂的成果让我模仿？”</p>
+<p>“你做得到，既然如此，我不认为有必要拖延课程进度。”他的临时教师无动于衷地翻过曲谱，黑色指甲在新页面的重音符号下划上标记，“而且比起纠正你施法时候的坏习惯，直接给出清晰的要求和目标更符合你的心意。”</p>
+<p>“你在每时每刻都读别人的心的基础上和人说话，不觉得这太失礼了吗？”黑键完全无法习惯自己的想法为他人所知，即便在前面十几年，他的脑子里时时刻刻都有挑剔的、令人头痛的声音在恶毒地对他发出批评，正因如此，他会忍不住将真正的赫尔昏佐伦与他脑袋里已经消失的余音弄混。</p>
+<p>“我并不是‘真正’的巫王。”他纠正了这两个认知问题，在帕维永，现实会随着其组成的意志改变，尤其是眼下黑键的认知占据了主导，要不然出现的就是更为暴戾和严酷的巫王，“传心法术阵的组建结果是塔内所有人的意念能作为帕维永的材料，读心并不是它的主要作用。”</p>
+<p>“但这方便您把合适的材料放在合适的位置。”黑键阴阳怪气道。</p>
+<p>这点赫尔昏佐伦倒是没反驳：“比如那个鲁珀礼仪官，他在那个位置上同样可以作为你反击的利刃，只要你能开出足够动摇他的价码，他的立场并不完全偏向伊维格娜德。”</p>
+<p>“用不着教我如何去使用他人，我不是、也不会成为你。”年轻的乌提卡伯爵阴沉沉地结束了对话。</p>
+<p>大多数时候他们在教学之外的对话，结局都是黑键单方面的置气，越是烦闷，他越愿意一个人待着。只是这样的休息时间何时结束不由他自己决定，当赫尔昏佐伦又如真正的幽魂重新出现时，他便知道该继续上课了。</p>
+<p>黑键正练习组成帕维永的曲子，操控属于巫王的音乐，并要将它们归化为自己的意志，这仿佛权力移交的法术流程进度缓慢， 在这意志决定事实的世界里，他必须要对赫尔昏佐伦的作品了如指掌，同心共感，最后再超越其上，加入自己的理解。赫尔昏佐伦坐在钢琴旁的扶手椅上，听完了整首乐曲，不置可否地评判：“看来你对主题曲的设计心怀疑虑。强调音和渐强的部分不够坚定，你的进度有些慢。”</p>
+<p>“想必您已经有了解决办法？”黑键已经不会再为他人的评价生气，更何况赫尔昏佐伦有资格这么说，当务之急是从这虚构的世界里离开。</p>
+<p>“你需要更理解‘我’，”对方突然伸手，将他的右手手指捏在手心，像是识别和保养琴弦那样按揉着，这动作本来充满狎昵，但由曾将使节制成塑像的巫王做出反倒让人有种毛骨悚然的感觉，“你需要换一双手。”</p>
+<p>这荒谬不经的要求由赫尔昏佐伦提出更像是个命令，黑键还来不及抽回手或者反对，指骨被捏碎的剧痛已经侵袭上大脑，他脸色惨白，痛得失声。而后，赫尔昏佐伦仔细地将被捏碎的部分像是制泥胚一样重新揉成了新的骨头，又或者，像个精细的手工匠人修补玩偶那样，把缺损与增生的部分拆卸下来，换成令他满意的样式。黑键不知道他正做的事能否称作虐待，或许是他血淋淋的想象影响了现实，他错眼间看到自己的手成了披挂着血肉、白骨森森的模样，而赫尔昏佐伦适时开口：“专心，弗朗茨。”</p>
+<p>怎么专心？谁能在被剥皮拆骨的时候保持专心？黑键觉得该有人给自己颁发一个“最佳心态奖”，因为他甚至还有力气瞪人，将毒液尽数化为目光去攻击罪魁祸首。</p>
+<p>“只是为了改变你的认知。抛弃常识，忘记现实的规则，不然你的手永远都是这副模样。”赫尔昏佐伦平静地指引道。</p>
+<p>“首先你应该告诉我，你想把我的手变成什么模样。”</p>
+<p>巫王挑了挑眉，该死，这副表情甚至让黑键感到一丝诡异的熟悉，好像他有时能在别人的眼睛里见到，果不其然，接下来对方用相当彬彬有礼但内容刻薄的话回答：“我以为你进展缓慢是因为缺乏想象力的缘故，看来是我的失误。你似乎是个会绕过正确答案的人。”</p>
+<p>黑键并不是个愚钝的人，他立马嚷嚷起来：“什么？换成你的手？不，该死-”</p>
+<p>“去感知，弗朗茨。你需要的是理解‘我’的想法。”赫尔昏佐伦一边说着，一边掰断每一根指骨的关节，“重新演奏一遍，你需要跟上节奏。”</p>
+
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-07-02</span>
+            
+                <span>作者: Aoest</span>
+            
+            
+                <span>  标签:
+                    
+                    
+                        <a href='/tags/%E7%A8%BF%E4%BB%B6%E5%B1%95%E7%A4%BA/'>
+                            稿件展示
+                        </a>
+                    
+                </span>
+             
+             
+                <span>  分类:
+                    
+                    
+                        <a href='/categories/%E5%90%8C%E4%BA%BA/'>
+                            同人
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2023 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+    
+<script src="/js/highlight.min.js"></script>
+
+    
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+
+<!--回到顶部按钮-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+<script src="/js/returnToTop.js"></script>
+
+
+<!--目录-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+
+<script src="/js/toc.js"></script>
+
+
+
+
+<script src="/js/randomHeaderContent.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
