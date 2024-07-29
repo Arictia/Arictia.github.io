@@ -100,8 +100,8 @@
 {
     border: none;
     height: 1px;
-    background: var(--line-1);
-    margin: 24px 0;
+    background: linear-gradient(to right, transparent,#888888,transparent);
+    margin: 20px 48px;
 }
 
 .post-md p,
