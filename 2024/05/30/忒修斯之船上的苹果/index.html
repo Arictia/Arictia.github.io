@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+    
     <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="忒修斯之船上的苹果" />
-    <meta name="hexo-theme-A4" content="v1.7.9" />
-    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.jpg">
     <title>A Blog</title>
 
     
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
         
 <link rel="stylesheet" href="/css/reset.css">
 
@@ -20,27 +24,56 @@
  
          <!--注意：首页既不是post也不是page-->
         
-    
-    
+        
+        
 <link rel="stylesheet" href="/css/ui.css">
  
-    
+        
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <!--返回顶部css-->
-    
+        
+            <!--返回顶部css-->
+            
 <link rel="stylesheet" href="/css/returnToTop.css">
 
-    
-<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+            
+<link rel="stylesheet" href="/css/unicons.css">
 
-
-    <!--目录-->
-    
+        
+        
+            <!--目录-->
+            
 <link rel="stylesheet" href="/css/toc.css">
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
     
     <style>
         :root {
@@ -57,6 +90,16 @@
         .post-md code {
             background: #e8e0c9;
             color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
         }
         .year-font-color {
             color: #344648 !important;
@@ -153,11 +196,11 @@
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(odd) td {
+        .post-md table tr:nth-child(odd) td {
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(even) td {
+        .post-md table tr:nth-child(even) td {
             background: #fffffe;
         }
 
@@ -169,6 +212,16 @@
 	        stroke: #344648; /* 边框的颜色 */
         }
         .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
@@ -188,7 +241,28 @@
     </style>
 
     
+    
     <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
         
             <div class="left-toc-container">
                 <nav id="toc" class="bs-docs-sidebar"></nav>
@@ -201,6 +275,8 @@
             
                 <div class="shadow-drop-2-bottom paper-main">
                     
+
+
 <div class="header">
     <div class="header-container">
         <img style="
@@ -258,7 +334,7 @@
 
     <div class="post-md">
         
-        <p>穿过传送门之后14322看到的首先是一扇合起的、充满了古典风格和金属铆钉的双开门，它被设计得高度和宽度显然易见地不成正比，试图用高度差距营造一种威严气氛来恫吓来者。自从上次14339和他抱怨过直接开在办公室内的传送门属于一种侵犯隐私权后，他便老实敲门获取许可再进入房间，不过，鉴于14339本质上是由数据组成的智能AI，室内所有的陈设都不过是表演性质的装饰作用，也不可能有人能从房间里获取什么机密信息——如果能，那大抵是他妹妹蓄意为之的恶作剧或者陷阱。</p>
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>穿过传送门之后14322看到的首先是一扇合起的、充满了古典风格和金属铆钉的双开门，它被设计得高度和宽度显然易见地不成正比，试图用高度差距营造一种威严气氛来恫吓来者。自从上次14339和他抱怨过直接开在办公室内的传送门属于一种侵犯隐私权后，他便老实敲门获取许可再进入房间，不过，鉴于14339本质上是由数据组成的智能AI，室内所有的陈设都不过是表演性质的装饰作用，也不可能有人能从房间里获取什么机密信息——如果能，那大抵是他妹妹蓄意为之的恶作剧或者陷阱。</p>
 <p>他推开门走进去，脚下是经过处理的狮鹫毛地毯，橘红的颜色鲜亮得像是正在燃烧的火焰，在14339给他传输的视频里它们都没这么漂亮过。室内的装潢比起刻板印象里神秘组织Boss会青睐的那种冷淡风格更贴近大学研究室，甚至还是没有摆着动力模型与布满公式的黑板、塞了许多杂七杂八书籍和工艺品的非理工科研究室。拆了一半的可动人偶，形状怪异的昆虫泥塑、闪烁着金属光芒的布匹、足足有成年人脑袋大的鳞片……它们就像被随手放置的旅游纪念品那样散步在房间各处，它们确实也是她的朋友们从各个世界给她捎来的礼物。</p>
 <p>整个房间里最引人注意的是落地窗前的大办公桌，它长大得几乎从房间的一端到另一端，上边摆着的东西会随14339当前正在忙碌的工作变动而变化。上次他来的时候，桌子上伫立的是一具雪白的、足足有四米高的龙骨架，骨骼中闪烁着星星点点的耀斑，而14339正比划着把小块的骨头拼上去，他的妹妹相当八卦地给他分享了一个为爱献出一身血肉的感天动地——是真的，那个世界作为支柱的龙少了一条，天空自然也塌陷了一块——爱情故事，龙舍弃了一身血肉与骨骸与恋人一同转生，留下需要众神补天的烂摊子。这次他来的时候，桌面上空空荡荡，14339穿着红色马丁靴的双腿搭在桌边，整个人的重量完全倚在椅子上，正看着挑高了的天花板发呆。</p>
 <p>她这副样子可不常见，14322走到了她身边，端详了一下她的脸色，看出她心情不佳，关心道：“你怎么了？”</p>
@@ -291,7 +367,12 @@
 <p>随后，她重新实体化出现在办公椅上，装束整齐，翘着二郎腿，用和他刚进来时一致的表情看向他，好像什么都没发生过，桌上的人只是进行了一场淫靡的自渎，而观众兴致缺缺，忍耐着无聊观看完了整场表演。</p>
 <p>14322仰面躺在原地，体内按摩棒还在嗡嗡震动着，他没有哭泣或是怒骂，只是默默地坐了起来，伸手抽出那根仍孜孜不倦制造噪音和快感的物体。在他开始清理身上的痕迹时，14339递过了纸巾盒来，语气随意地问：“所以你打算怎么办？去和老头吵一架？不然之后说不定你能看到他领着一个小号的我说这是你更听话妹妹，你也该回家了、家人要团聚在一起之类的。”</p>
 <p>14322想到那个场面就感觉头疼，极度的愤怒将脑神经烧得突突直跳。他低着头，一边擦拭精液一边说：“我不会让他得逞的。那个东西不是你。”</p>
-
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -299,10 +380,10 @@
         
             <span>2024-05-30</span>
             
-                <span>作者: Aoest</span>
+                <span>该篇文章被 Aoest</span>
             
             
-                <span>  标签:
+                <span>打上标签:
                     
                     
                         <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
@@ -312,7 +393,7 @@
                 </span>
              
              
-                <span>  分类:
+                <span>归为分类:
                     
                     
                         <a href='/categories/%E5%8E%9F%E5%88%9B/'>
@@ -324,6 +405,13 @@
         
         </i>
     </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
     
         
 
@@ -338,7 +426,7 @@
                     <div class="footer">
     
         <span> 
-            © 2020-2023 
+            © 2020-2024 
 
             
                 
@@ -369,41 +457,41 @@
 
 
     
-<link rel="stylesheet" href="/css/a11y-dark.min.css">
-
-    
-<script src="/js/highlight.min.js"></script>
-
-    
-<script src="/js/highlightjs-line-numbers.js"></script>
-
-
-
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
-
-
-<!--回到顶部按钮-->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-
-<script src="/js/returnToTop.js"></script>
-
-
-<!--目录-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
-
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
 <script src="/js/toc.js"></script>
 
+    
 
-
-
+    
 <script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
 
                 </div>
             
@@ -415,32 +503,13 @@
                     </svg>
                 </div>
             
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
     </body>
-
-
-    <!--暗黑模式-->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-        function addDarkmodeWidget() {
-        const options = {
-            bottom: '53px', // default: '32px'
-            right: 'unset', // default: '32px'
-            left: '42px', // default: 'unset'
-            time: '0.3s', // default: '0.3s'
-            mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
-            buttonColorDark: '#100f2c',  // default: '#100f2c'
-            buttonColorLight: '#fff', // default: '#fff'
-            saveInCookies: true, // default: true,
-            label: '🌓', // default: ''
-            autoMatchOsTheme: true // default: true
-        }
-    
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
-        
-        }
-        window.addEventListener('load', addDarkmodeWidget);
-    </script>
-  
 </html>

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+    
     <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="Destini" />
-    <meta name="hexo-theme-A4" content="v1.7.9" />
-    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.jpg">
     <title>A Blog</title>
 
     
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
         
 <link rel="stylesheet" href="/css/reset.css">
 
@@ -20,27 +24,56 @@
  
          <!--注意：首页既不是post也不是page-->
         
-    
-    
+        
+        
 <link rel="stylesheet" href="/css/ui.css">
  
-    
+        
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <!--返回顶部css-->
-    
+        
+            <!--返回顶部css-->
+            
 <link rel="stylesheet" href="/css/returnToTop.css">
 
-    
-<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+            
+<link rel="stylesheet" href="/css/unicons.css">
 
-
-    <!--目录-->
-    
+        
+        
+            <!--目录-->
+            
 <link rel="stylesheet" href="/css/toc.css">
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
     
     <style>
         :root {
@@ -57,6 +90,16 @@
         .post-md code {
             background: #e8e0c9;
             color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
         }
         .year-font-color {
             color: #344648 !important;
@@ -153,11 +196,11 @@
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(odd) td {
+        .post-md table tr:nth-child(odd) td {
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(even) td {
+        .post-md table tr:nth-child(even) td {
             background: #fffffe;
         }
 
@@ -169,6 +212,16 @@
 	        stroke: #344648; /* 边框的颜色 */
         }
         .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
@@ -188,7 +241,28 @@
     </style>
 
     
+    
     <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
         
             <div class="left-toc-container">
                 <nav id="toc" class="bs-docs-sidebar"></nav>
@@ -201,6 +275,8 @@
             
                 <div class="shadow-drop-2-bottom paper-main">
                     
+
+
 <div class="header">
     <div class="header-container">
         <img style="
@@ -258,7 +334,7 @@
 
     <div class="post-md">
         
-        <hr>
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><hr>
 <p>​       烧死及其他。</p>
 <span id="more"></span>
 <p>审问伊始就有人在窃窃私语。<br>       大天使雕塑下用羊毛斗篷掩盖着自己容貌的人们闪烁着目光，像极了从灌木丛间隙里窥视行路上倒地垂死猎物的食腐动物，预判了他的死亡、期盼着之后瓜分得到的利益足以饱腹。他们簇拥着，在彼此的衣袖里用手势讨价还价，划定谁可以取走头颅，谁可以留下血肉。另一边泾渭分明站着身着白衣的信徒，无一不是面容悲戚，手持念珠祷告着，虔诚祈祷着他们的大司教迷途知返，在神之爱的引导下回归牧群之中，回归充满光辉的乐园之中，免于世俗法庭的惩罚。</p>
@@ -299,7 +375,12 @@
 <p>直到被绑在实施火刑的柱子上，都有修士强忍着恐惧不断询问着、要求着宇津木忏悔。但得到的一如既往是拒绝。在宣布点燃柴薪的刹那，一个荒谬的念头略过所有参与过审讯的人的脑海：火焰真的能够烧尽这个怪物吗？令人安心的是，天上没有不凑巧地堆积乌云，风也合适助燃，每一根木条都淋上了油，熊熊大火在烧起来的时候浓烟还没有将罪人呛死。人群狂热地仰望着高高竖起的柱子，为每一分能看见的变化欢呼雀跃。但实际因为距离过大，他们分辨不出那蔓延上来的黑色不仅是皮肤被碳化的结果，掉落下去的手臂也不是被烧尽了才失去生机，躯体不是在高温下碎裂成块而是逐渐融化了变成一滩有机物质。但这有什么关系呢，他们烧死了一个罪孽，神确实地实施了祂的权威，这是多么值得欣喜的事情啊！</p>
 <p>在生命被阻断的最后时刻，罪人确实透过被高温扭曲了的空气在人群中看见了初鸟的眼睛。那双眼睛一如定约时刻那样的美丽，从中可以读出喜悦和真心实意的满足，叫人想要奉上自己的一切以换取它一直的注视。他也听见了初鸟呼唤他名字的声音，看见了对方邀约似的伸出了手。</p>
 <p>举行过盛会的广场上只剩下漆黑的火刑架的残骸。人们兴高采烈讨论着从没见过那样可怕的火焰，或许牧师们布道时讲述的神从天上扔下的火焰就是如此吧。被烧尽后残存下来的不仅有木炭的灰烬，还有漆黑颜色的骨殖碎片，一并被修士们用圣水洗净了，而那些火焰烧灼后的痕迹无论如何都无法祛除，像是被画在广场的石砖上一样。直到许多年后，仍有外地来的信徒前来参观膜拜这一圣迹，他们称赞这图案就像是许多的天使的双翅。</p>
-
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -307,10 +388,10 @@
         
             <span>2021-10-24</span>
             
-                <span>作者: Aoest</span>
+                <span>该篇文章被 Aoest</span>
             
             
-                <span>  标签:
+                <span>打上标签:
                     
                     
                         <a href='/tags/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/'>
@@ -320,7 +401,7 @@
                 </span>
              
              
-                <span>  分类:
+                <span>归为分类:
                     
                     
                         <a href='/categories/%E5%90%8C%E4%BA%BA/'>
@@ -332,6 +413,13 @@
         
         </i>
     </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
     
         
 
@@ -346,7 +434,7 @@
                     <div class="footer">
     
         <span> 
-            © 2020-2023 
+            © 2020-2024 
 
             
                 
@@ -377,41 +465,41 @@
 
 
     
-<link rel="stylesheet" href="/css/a11y-dark.min.css">
-
-    
-<script src="/js/highlight.min.js"></script>
-
-    
-<script src="/js/highlightjs-line-numbers.js"></script>
-
-
-
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
-
-
-<!--回到顶部按钮-->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-
-<script src="/js/returnToTop.js"></script>
-
-
-<!--目录-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
-
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
 <script src="/js/toc.js"></script>
 
+    
 
-
-
+    
 <script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
 
                 </div>
             
@@ -423,32 +511,13 @@
                     </svg>
                 </div>
             
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
     </body>
-
-
-    <!--暗黑模式-->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-        function addDarkmodeWidget() {
-        const options = {
-            bottom: '53px', // default: '32px'
-            right: 'unset', // default: '32px'
-            left: '42px', // default: 'unset'
-            time: '0.3s', // default: '0.3s'
-            mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
-            buttonColorDark: '#100f2c',  // default: '#100f2c'
-            buttonColorLight: '#fff', // default: '#fff'
-            saveInCookies: true, // default: true,
-            label: '🌓', // default: ''
-            autoMatchOsTheme: true // default: true
-        }
-    
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
-        
-        }
-        window.addEventListener('load', addDarkmodeWidget);
-    </script>
-  
 </html>

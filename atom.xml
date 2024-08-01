@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A Blog</title>
+  <icon>https://arictia.github.io/icon.png</icon>
+  
+  <link href="https://arictia.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://arictia.github.io/"/>
+  <updated>2024-07-11T19:11:32.923Z</updated>
+  <id>https://arictia.github.io/</id>
+  
+  <author>
+    <name>Aoest</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pinguicula</title>
+    <link href="https://arictia.github.io/2024/07/12/Pinguicula/"/>
+    <id>https://arictia.github.io/2024/07/12/Pinguicula/</id>
+    <published>2024-07-11T19:10:55.000Z</published>
+    <updated>2024-07-11T19:11:32.923Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>红鹮</title>
+    <link href="https://arictia.github.io/2024/07/02/%E7%BA%A2%E9%B9%AE/"/>
+    <id>https://arictia.github.io/2024/07/02/%E7%BA%A2%E9%B9%AE/</id>
+    <published>2024-07-02T02:16:03.000Z</published>
+    <updated>2024-07-29T15:04:31.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>讲故事的人</title>
+    <link href="https://arictia.github.io/2024/06/15/%E8%AE%B2%E6%95%85%E4%BA%8B%E7%9A%84%E4%BA%BA/"/>
+    <id>https://arictia.github.io/2024/06/15/%E8%AE%B2%E6%95%85%E4%BA%8B%E7%9A%84%E4%BA%BA/</id>
+    <published>2024-06-15T00:58:18.000Z</published>
+    <updated>2024-07-29T15:04:20.249Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>忒修斯之船上的苹果</title>
+    <link href="https://arictia.github.io/2024/05/30/%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9%E4%B8%8A%E7%9A%84%E8%8B%B9%E6%9E%9C/"/>
+    <id>https://arictia.github.io/2024/05/30/%E5%BF%92%E4%BF%AE%E6%96%AF%E4%B9%8B%E8%88%B9%E4%B8%8A%E7%9A%84%E8%8B%B9%E6%9E%9C/</id>
+    <published>2024-05-30T14:27:47.000Z</published>
+    <updated>2024-07-29T15:04:15.065Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>天堂之路</title>
+    <link href="https://arictia.github.io/2024/04/27/%E5%A4%A9%E5%A0%82%E4%B9%8B%E8%B7%AF/"/>
+    <id>https://arictia.github.io/2024/04/27/%E5%A4%A9%E5%A0%82%E4%B9%8B%E8%B7%AF/</id>
+    <published>2024-04-27T15:54:32.000Z</published>
+    <updated>2024-07-29T15:04:11.127Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拜访</title>
+    <link href="https://arictia.github.io/2024/04/22/%E6%8B%9C%E8%AE%BF/"/>
+    <id>https://arictia.github.io/2024/04/22/%E6%8B%9C%E8%AE%BF/</id>
+    <published>2024-04-22T07:57:02.000Z</published>
+    <updated>2024-04-22T09:03:18.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>甜姜</title>
+    <link href="https://arictia.github.io/2024/04/15/%E7%94%9C%E5%A7%9C/"/>
+    <id>https://arictia.github.io/2024/04/15/%E7%94%9C%E5%A7%9C/</id>
+    <published>2024-04-15T15:37:37.000Z</published>
+    <updated>2024-07-29T15:04:24.484Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚纳的谈话</title>
+    <link href="https://arictia.github.io/2024/02/01/%E4%BA%9A%E7%BA%B3%E7%9A%84%E8%B0%88%E8%AF%9D/"/>
+    <id>https://arictia.github.io/2024/02/01/%E4%BA%9A%E7%BA%B3%E7%9A%84%E8%B0%88%E8%AF%9D/</id>
+    <published>2024-01-31T16:56:05.000Z</published>
+    <updated>2024-02-21T14:00:31.726Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="查丹沃兹短篇故事集" scheme="https://arictia.github.io/tags/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Begin the end</title>
+    <link href="https://arictia.github.io/2024/02/01/begin-the-end/"/>
+    <id>https://arictia.github.io/2024/02/01/begin-the-end/</id>
+    <published>2024-01-31T16:43:59.000Z</published>
+    <updated>2024-04-06T16:26:45.742Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="翻译" scheme="https://arictia.github.io/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+    <category term="ff7" scheme="https://arictia.github.io/tags/ff7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>降灵</title>
+    <link href="https://arictia.github.io/2023/09/20/%E9%99%8D%E7%81%B5/"/>
+    <id>https://arictia.github.io/2023/09/20/%E9%99%8D%E7%81%B5/</id>
+    <published>2023-09-19T16:05:31.000Z</published>
+    <updated>2024-01-16T13:51:27.206Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的，约稿&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Laudanum</title>
+    <link href="https://arictia.github.io/2023/09/03/Laudanum/"/>
+    <id>https://arictia.github.io/2023/09/03/Laudanum/</id>
+    <published>2023-09-03T13:29:47.000Z</published>
+    <updated>2024-04-18T16:52:37.447Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;我流gb黄文，妈妈x艾爹，疯女人和b男的&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>天窗</title>
+    <link href="https://arictia.github.io/2023/08/23/%E5%A4%A9%E7%AA%97/"/>
+    <id>https://arictia.github.io/2023/08/23/%E5%A4%A9%E7%AA%97/</id>
+    <published>2023-08-22T16:59:01.000Z</published>
+    <updated>2024-01-16T13:53:07.178Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青春期恋爱故事</title>
+    <link href="https://arictia.github.io/2023/08/17/%E9%9D%92%E6%98%A5%E6%9C%9F%E6%81%8B%E7%88%B1%E6%95%85%E4%BA%8B/"/>
+    <id>https://arictia.github.io/2023/08/17/%E9%9D%92%E6%98%A5%E6%9C%9F%E6%81%8B%E7%88%B1%E6%95%85%E4%BA%8B/</id>
+    <published>2023-08-17T15:49:07.000Z</published>
+    <updated>2024-01-16T13:51:39.953Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的，约稿&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Salvia. revised version</title>
+    <link href="https://arictia.github.io/2023/08/12/Salvia-revised-version/"/>
+    <id>https://arictia.github.io/2023/08/12/Salvia-revised-version/</id>
+    <published>2023-08-12T15:44:41.000Z</published>
+    <updated>2024-07-26T18:59:54.074Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;font size=&quot;2&quot;&gt;初版完稿时间：2022-5-25&lt;/font&gt;
+
+&lt;font size=&quot;2&quot;&gt;修订版完稿时间：2023-8-12&lt;/font&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Date time</title>
+    <link href="https://arictia.github.io/2023/07/03/Date-time/"/>
+    <id>https://arictia.github.io/2023/07/03/Date-time/</id>
+    <published>2023-07-03T10:11:59.000Z</published>
+    <updated>2024-01-16T13:53:20.523Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的文&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>漫无止境</title>
+    <link href="https://arictia.github.io/2023/05/10/%E6%BC%AB%E6%97%A0%E6%AD%A2%E5%A2%83/"/>
+    <id>https://arictia.github.io/2023/05/10/%E6%BC%AB%E6%97%A0%E6%AD%A2%E5%A2%83/</id>
+    <published>2023-05-10T15:24:43.000Z</published>
+    <updated>2024-01-17T04:14:21.475Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;另一个if线：没有萨麦尔，只有艾利克斯被妈妈抚养长大的话……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>lovely doll</title>
+    <link href="https://arictia.github.io/2023/03/12/lovely-doll/"/>
+    <id>https://arictia.github.io/2023/03/12/lovely-doll/</id>
+    <published>2023-03-12T11:42:49.000Z</published>
+    <updated>2024-01-17T04:13:57.103Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;警告信息：本文含有炼铜色情情节，请确认您的接受程度再进行阅读&lt;/p&gt;
+&lt;p&gt;性转版 妈妈x艾利克斯&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="Salvia" scheme="https://arictia.github.io/tags/Salvia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>月亮，月亮</title>
+    <link href="https://arictia.github.io/2023/02/28/%E6%9C%88%E4%BA%AE%EF%BC%8C%E6%9C%88%E4%BA%AE/"/>
+    <id>https://arictia.github.io/2023/02/28/%E6%9C%88%E4%BA%AE%EF%BC%8C%E6%9C%88%E4%BA%AE/</id>
+    <published>2023-02-28T14:25:59.000Z</published>
+    <updated>2024-01-16T13:53:32.696Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的，大概是父女骨&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安魂曲</title>
+    <link href="https://arictia.github.io/2022/12/23/%E5%AE%89%E9%AD%82%E6%9B%B2/"/>
+    <id>https://arictia.github.io/2022/12/23/%E5%AE%89%E9%AD%82%E6%9B%B2/</id>
+    <published>2022-12-23T05:58:15.000Z</published>
+    <updated>2024-01-16T13:53:42.674Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的，圣诞快乐&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Small Talk</title>
+    <link href="https://arictia.github.io/2022/12/17/Small-Talk/"/>
+    <id>https://arictia.github.io/2022/12/17/Small-Talk/</id>
+    <published>2022-12-16T17:44:13.000Z</published>
+    <updated>2024-01-16T13:53:50.931Z</updated>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css&quot; /&gt;&lt;div class=&quot;.article-gallery&quot;&gt;&lt;p&gt;给菇的，情敌（？对谈&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="原创" scheme="https://arictia.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+    <category term="无影灯下" scheme="https://arictia.github.io/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/"/>
+    
+  </entry>
+  
+</feed>

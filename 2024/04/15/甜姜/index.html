@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+    
     <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="甜姜" />
-    <meta name="hexo-theme-A4" content="v1.7.9" />
-    <link rel="alternate icon" type="/images/jpg" href="/images/icon.jpg">
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.jpg">
     <title>A Blog</title>
 
     
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
         
 <link rel="stylesheet" href="/css/reset.css">
 
@@ -20,27 +24,56 @@
  
          <!--注意：首页既不是post也不是page-->
         
-    
-    
+        
+        
 <link rel="stylesheet" href="/css/ui.css">
  
-    
+        
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <!--返回顶部css-->
-    
+        
+            <!--返回顶部css-->
+            
 <link rel="stylesheet" href="/css/returnToTop.css">
 
-    
-<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css">
+            
+<link rel="stylesheet" href="/css/unicons.css">
 
-
-    <!--目录-->
-    
+        
+        
+            <!--目录-->
+            
 <link rel="stylesheet" href="/css/toc.css">
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
     
     <style>
         :root {
@@ -57,6 +90,16 @@
         .post-md code {
             background: #e8e0c9;
             color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
         }
         .year-font-color {
             color: #344648 !important;
@@ -153,11 +196,11 @@
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(odd) td {
+        .post-md table tr:nth-child(odd) td {
             background: #fffffe;
         }
 
-        .post-md>table tr:nth-child(even) td {
+        .post-md table tr:nth-child(even) td {
             background: #fffffe;
         }
 
@@ -169,6 +212,16 @@
 	        stroke: #344648; /* 边框的颜色 */
         }
         .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
@@ -188,7 +241,28 @@
     </style>
 
     
+    
     <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
         
             <div class="left-toc-container">
                 <nav id="toc" class="bs-docs-sidebar"></nav>
@@ -201,6 +275,8 @@
             
                 <div class="shadow-drop-2-bottom paper-main">
                     
+
+
 <div class="header">
     <div class="header-container">
         <img style="
@@ -258,7 +334,7 @@
 
     <div class="post-md">
         
-        <p>“我都说了这行不通。”红发的妓女抽了一口烟，转笔似的把烟灰磕进床头的塑料糖盒里。她和每个在酒精与毒品里醉生梦死的妓女一样有着恍惚又晃荡的眼神，残妆粘在脸上，丝绸睡衣的下摆同薄被绞在一起，露出光洁的长腿。</p>
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>“我都说了这行不通。”红发的妓女抽了一口烟，转笔似的把烟灰磕进床头的塑料糖盒里。她和每个在酒精与毒品里醉生梦死的妓女一样有着恍惚又晃荡的眼神，残妆粘在脸上，丝绸睡衣的下摆同薄被绞在一起，露出光洁的长腿。</p>
 <p>如果一个人的卧室能反映这个人的本质，房间的主人应当是个随性得令人头痛的人，与严谨、细致、追求完美等特质毫不相干，或许还能逼疯走进来的强迫症患者。贝蒂·史密斯正是首位受害者。虽然她也被奈特传染了似的，抛开板正的衬衫和西装裤，只穿了一件过于宽大的白色长袖T恤就滚上了奈特的床。</p>
 <p>倒不是说她俩滚了床单。只是昨晚为了庆祝奈特的第一篇小说成功见刊，两个人都喝了不少酒。贝蒂从没想过自己能喝啤酒到烂醉，也许这要怪旁边这人有太好的酒量，那句话怎么说的来着，不要用你的爱好去挑战别人的职业。在劝酒和陪酒这方面，奈特有十多年的工作经验，而贝蒂不那么擅长这个，她比较擅长怎么一口气吞下五十粒镇静剂。</p>
 <p>“你只说了你喝威士忌。”她喃喃，头痛欲裂，瘫在床上，同时感到恶心和胃痛，如果真吐了恐怕会把胆汁都吐出来。</p>
@@ -287,7 +363,12 @@
 <p>“因为他要杀鸡儆猴，那是做给西恩警长看的，他得强调一下园丁有多么残忍，这样才能让黑警们换个目标，别老想着找个看起来符合标准的倒霉蛋交差。”</p>
 <p>“……有道理。贝蒂，好姑娘，我有没有说过这时候我真爱你。”奈特抛了个媚眼。</p>
 <p>“没有，你对我最好的爱就是按时交稿，所以，没有。”她的好姑娘面无表情。</p>
-
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
     </div>
 
     <div class="post-meta">
@@ -295,10 +376,10 @@
         
             <span>2024-04-15</span>
             
-                <span>作者: Aoest</span>
+                <span>该篇文章被 Aoest</span>
             
             
-                <span>  标签:
+                <span>打上标签:
                     
                     
                         <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
@@ -308,7 +389,7 @@
                 </span>
              
              
-                <span>  分类:
+                <span>归为分类:
                     
                     
                         <a href='/categories/%E5%8E%9F%E5%88%9B/'>
@@ -320,6 +401,13 @@
         
         </i>
     </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
     
         
 
@@ -334,7 +422,7 @@
                     <div class="footer">
     
         <span> 
-            © 2020-2023 
+            © 2020-2024 
 
             
                 
@@ -365,41 +453,41 @@
 
 
     
-<link rel="stylesheet" href="/css/a11y-dark.min.css">
-
-    
-<script src="/js/highlight.min.js"></script>
-
-    
-<script src="/js/highlightjs-line-numbers.js"></script>
-
-
-
-<script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-</script>
-
-
-<!--回到顶部按钮-->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-
-<script src="/js/returnToTop.js"></script>
-
-
-<!--目录-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
-
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
 <script src="/js/toc.js"></script>
 
+    
 
-
-
+    
 <script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
 
                 </div>
             
@@ -411,32 +499,13 @@
                     </svg>
                 </div>
             
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
     </body>
-
-
-    <!--暗黑模式-->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-        function addDarkmodeWidget() {
-        const options = {
-            bottom: '53px', // default: '32px'
-            right: 'unset', // default: '32px'
-            left: '42px', // default: 'unset'
-            time: '0.3s', // default: '0.3s'
-            mixColor: '#fff', // default: '#fff'
-            backgroundColor: ' #F4F2F3  ',  // default: '#fff'
-            buttonColorDark: '#100f2c',  // default: '#100f2c'
-            buttonColorLight: '#fff', // default: '#fff'
-            saveInCookies: true, // default: true,
-            label: '🌓', // default: ''
-            autoMatchOsTheme: true // default: true
-        }
-    
-        const darkmode = new Darkmode(options);
-        darkmode.showWidget();
-        
-        }
-        window.addEventListener('load', addDarkmodeWidget);
-    </script>
-  
 </html>
