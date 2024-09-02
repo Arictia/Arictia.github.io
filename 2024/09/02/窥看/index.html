@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="窥看" />
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.png">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            窥看
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>马可并不是一个特别有好奇心的孩子。在他一直生活的同华丽玩偶屋有着异曲同工之妙的别墅里，没有谁对其他人拥有过多的窥探欲和好奇心，一家人礼貌、体面、距离合宜，就连全家福上的微笑都光滑无暇得叫人赞叹。他出生后和他的兄姐一样，被保姆和家庭教师环绕，安安稳稳地长到了六岁的年纪，可以穿上西装，小大人似的被带到宴会上，一同参与和睦家庭的扮演。</p>
+<p>他的好奇心已经给过他充足教育。在他还能被母亲抱在膝盖上的年纪，他那在社交圈里总被人艳羡容貌和婚姻无一不美满的母亲，常常一边对着梳妆台打扮自己，一边问自己的小儿子她今天是否足以美到让她丈夫满意。理所当然的，在认识了字之后，他从来都以为父亲和母亲必然是一对如故事里那样的璧人，幸福而充满爱意，像是母亲诉说的那样，生活再没有什么不好的。</p>
+<p>一年前的夏天，马可和往常一样，从书房里找了自己能认识名字的书，想要躲到没人的地方消遣一会。对这个孩子来说，那些文字编织的五光十色的幻景比现实生活有吸引力得多，哪怕那些故事和字段他并不能完全理解，可只要沉浸进去就已经足够。他同自己的兄姐年龄差得有些大，与母亲相处的时刻更多些，可陪着母亲与阅读却不能共存，他的母亲向来不喜欢有人在她面前看别的东西。于是，马可悄悄地拿了书，安静地踩着地毯上的绒毛，避开了保姆，从三楼的门厅穿过去，在走过一扇没合拢的门时，他停了下来，在天性的好奇的驱动下，往里面瞧了一眼。</p>
+<p>他看见他的父亲在殴打母亲，用皮带，用拳头，用鞋尖，而母亲蜷着身子护着头，一边哭号：“您别打啦，您别打了，我的好丈夫，都是我不好，我不该那样说……”</p>
+<p>孩子推开了门，奔跑过去站在了母亲身前维护她，施暴的男人冷哼了一声，用挑剔的眼神看了一眼自己的小儿子，同样斥责他这样慌慌张张没有礼貌的样子丢尽了他的脸，倒是没有再将暴行继续下去，转身离开了。一个孩子成了母亲的英雄，可在光芒万丈的自尊心下，名为谎言的阴霾正在蔓延：他的父母并不像他们表现得那样和睦相爱。</p>
+<p>一年的时间足以叫家族的小少爷认清这个家本身就是一桩谎言。餐桌上无言的沉默不是平静而是强权下的紧绷，兄长的少言寡语不是性情而是对他的无视，姐姐与母亲的亲昵更像是对宠物与玩偶的体贴，他总是说错话，得来先是诧异后是了然与嘲笑的眼神，可他不知道自己哪里出了错，只得讷讷住口，一一将自己的言辞与表现回忆，并且再插不进下一个话题。</p>
+<p>他更加把自己淹没在书里，不断吞食那些晦涩也无趣的知识，以求补满那个在宴会上和人说话时尴尬的空隙。但当他背诵出那些篇目和诗歌的时候，周围人的微笑更是意味深长得让人迷惑，同龄人们倒是直白些，他们问：除了这些呢？除了看书，你还会什么？</p>
+<p>他回答不上来，同时也恼怒，你们甚至不知道《伊利亚特》究竟在说什么！</p>
+<p>马可抱着从藏书室里翻出来的《沉思录》，小心翼翼地往楼下走，他的父亲在他学了半年才学会骑马后，便对他的爱好明晃晃地表现出了不喜，尤其是当他听家庭教师说，马可少爷又在课上读那些大部头的文学著作后，很是向着他与他母亲发作了一番。马可的母亲自然也是抱着他哭道：你父亲他怎么能这样？他怎么忍心怪我！我多爱他啊！然后，便又为了取悦丈夫去挑选新的衣服和珠宝了。</p>
+<p>他路过了姐姐娜塔莉亚的房间，那扇门同样有着一道细长的、却又足够清晰的缝隙，像是被风吹开的。他没有那样的好奇，礼仪也攥着他的脚不让他停下，可是，他闻到了香料焚烧的味道，和人工制造出的香水不同，自然植物干燥后的尸体烧起来带着一股子鲜活的火气，只这一下，他转过了头，就无法移开视线了。</p>
+<p>科隆多家族信奉天主教，在圣母面前祷告也是家族成员做惯了的功课，因此神龛和圣母像在这个家里并不少见。但娜塔莉亚的房间里却因为那些绣了诡异符号的挂毯和晒干的草药而显得无比晦暗，垂挂的三层窗帘中，最里边的一层是纯黑色的，尽管只拉上了一半，却也足以在这惊鸿一瞥中构建出所有印象。马可看见了一个摆在桌子上的山羊头骨，许多破破烂烂堆在一起的书，堆成一座小山的融化的蜡烛，它几乎流淌到了柜子下面，每一件东西都诡异得让人害怕。他的姐姐正侧对着门，拎着一只还在往下滴血的鹧鸪，把它塞进电动搅拌机里。</p>
+<p>娜塔莉亚一向对他很好，她或许是这个家里唯一会在乎马可感受的人。在看见这一幕之前，马可从没这样清楚明白地意识到，他的姐姐也不是什么符合标准意义上正常人的角色。比起上一次见到父亲殴打母亲的时候，马可有了相当大的长进，他没有发出一点声音，只是在那道缝隙之外，静静地注视着才上高中的姐姐轻轻松松地又往搅拌机里塞了一只活的云雀。</p>
+<p>他看不清她的表情，但从姿态上来看，足以叫孩子也明白此时她心情很好。他想起童话书里总是那些小动物来演出的故事，尽管他也知道，现实世界的动物不能说话、也不能像人一样思考，却也还是有些溢出来的毛骨悚然。娜塔莉亚打开搅拌机的盖子后，专注地把里面羽毛、骨骼和血肉的混合物倒进了一个拳头大小的陶罐里，又往里面撒了一把灰，拈起一根不知是银还是锡的勺子慢慢搅拌起来。等到转了几十圈，她掀开了原本摆在桌上的一块罩布，为了看清楚底下是什么，马可不得不往门缝走去。</p>
+<p>黑发的少女低声咕哝着什么，一手做出复杂的手势，同时慢慢倾倒罐子，让里面黏糊糊的东西全倒在一块打磨得粗糙的紫色水晶原石上，倒干净了后，她后退一步，认真端详着自己的成果，脸上露出一个满意的微笑来。马可知道他不能再看她了，人的目光是有重量的，他再明白不过。在娜塔莉亚发觉这次仪式她忘记锁门之前，门边已经空无一人。</p>
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-09-02</span>
+            
+                <span>该篇文章被 Aoest</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
+                            无影灯下
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2024 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
