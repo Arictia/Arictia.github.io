@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="热红酒之夜" />
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.png">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            热红酒之夜
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>他们临时起意走出家门，到了逐渐被秋夜气温统治的街道上，来往的行人们早已用风衣、毛衣和围巾包裹住了身体每一寸裸露在外的皮肤，但今天是感恩节，商铺前仍有许多用词夸张的广告牌和提着大包小包的人群。尽管按照传统，感恩节的晚餐要在家中与家人共享，附近的餐厅却也都塞满了聚会的人们。不得已，奈特和史密斯走出了两个街区，在一家墨西哥菜馆里解决了他们一整日无所事事所积攒的饥饿感。难得的、在日历上没有被待办事项占据的假期，史密斯也没提关乎下次签售会之类的种种工作，堪称怠惰地与奈特一起在睡过了上午之后，花了剩下的半天一起拼完了奈特去年圣诞节心血来潮购入的乐高模型。应和着节日气氛，这对情侣分别选择了自己喜欢的酒类，更为多话的那个通过喋喋不休灌醉了他们两人，以至于并排着步子沿着被霓虹染得毫不均匀的夜色回到奈特的房门前时，史密斯没注意到他的男友喝得比平时多了不少。</p>
+<p>“喂，看着点路。”撞在奈特不算厚实的脊背上时，男人一下就被对方坚硬的骨头磕到了肩膀，他不知道这人又想到了什么可以用作新文章开头或故事中心的诡计和动机，红发的作家平时已经够人来疯的了，酒精就像加入了热油中的水一样，会刺激奈特所有没被灵感浸没的脑细胞，让他变成停不下爆炸的烟花，对着墙壁或者听众源源不断地倒出尚未成篇的故事。像是深夜洗衣房里遇见了凶杀案的杀人狂啦，为了获得线索不得不装疯卖傻差点真的被包养的侦探啦，还有无辜被牵连进遗产纷争中的不幸丧偶女作家之类的，戏剧角色般轮番登场演出自己的人生，再被奈特大刀阔斧地砍掉赘余的设定，填充进更跌宕起伏的剧情。这些总能挑逗起大众猎奇心和购买欲的点子要是被录下来，作家的许多同行恐怕会为争抢这份录音而大打出手，但谁都不是奈特，能将俗套、庸俗的故事包装得引人入胜再卖给近年来越发被长篇电视剧和爆米花电影抢占了眼球的读者。史密斯作为他的编辑，总需要忍着自己的文学素养、审美与追求的嚎叫，在出版报告中的编辑意见里为新书的商业可行性提供支持，但他确实会在心里对大众审美的庸俗情杀、策划长久的复仇和在艳羡眼光中重回人生高峰的套路狠狠划叉。</p>
+<p>“我想到了，朋友，即使没有同类那么历史悠久，血浴缸仍是恐怖电影里最经典的元素，不论是慢慢渗出血液还是富有冲击力的血液瀑布，热爱视觉享受的观众们，都能从血浴缸以及它产生的变化里得到肾上腺素飙升的刺激。血液中漂浮的残肢也能给予埋葬和溺死的暗示，从中坐起的人形也有了死者苏生的意象，还有血液的宗教意义，它可以圣洁可以肮脏…一个简单的场景能解读出如此丰富的意义，导演爱死这个了！他们能从这里省下一大笔场景搭建和道具费用！”</p>
+<p>红发的男人醉醺醺地站在玄关，对着刚挂上衣架的外套手舞足蹈地演讲，史密斯一边后退一步关上门，给恋人留出足够的表演空间，一边应和着这突如其来、毫无前因后果的话题：“是的，你说得对，劳驾往里走走，让我先换鞋。”</p>
+<p>奈特在专注于讲述的时候往往全神贯注，丝毫不顾及周围的环境是人声鼎沸还是人迹罕至，也不在乎听到故事的听众是何反应，史密斯见过他抓着沙发上的坐垫喋喋不休几十分钟，甚至还感情丰沛地询问沙发枕巾将一个女配角写死会不会得罪女权主义者，因此即使在尽着编辑的责任与他讨论剧情的时候，他也认为自己更多充当的是小黄鸭的角色——奈特比他要更懂操纵读者的兴趣和市场偏向，不得不说这有点让人怀疑自己的工作能力。编辑先生慢悠悠地换上室内拖鞋，走过开始大谈血浴缸水位线对视觉效果影响的红发男人，将厚实的外套挂在衣架上。奈特眨着眼睛，玄关暖黄的灯光照射下，他湛蓝的眼睛看起来清澈得十分清醒，但史密斯能肯定这人百分之一百喝醉了，因为他看到奈特脸上挂上了甜蜜夸张的笑容，神态介于上门推销员和街头表演者之间。在他要出声询问奈特是不是又想深夜徒步走到高架桥上去时，暖热的身体靠了过来。作家旋转着脚跟从内层的毛衣里掏出一把刀，握着刀把将它塞进了史密斯的手里，循循善诱地问：“你不想尝试一下吗？我最忠实的读者、我最可靠的协助者、我工作上完美的合作伙伴？你不想知道人的血流到浴缸里，和从水龙头里放出热水有什么区别吗？来呀，朋友，你想的，用它来割开我的手腕，你可以比较它从我的身体里流出来的颜色和电影里有多相似。我们还没有在血浴缸里做过，你也不会有机会从色情片里看到这种情节，而且它们都假得要命，用蜂蜜水和染料制作的血液哪里比得上货真价实的生命呢？现在你有一个机会，把握住，别错过，别让自己后悔！”</p>
+<p>编辑扶住奈特的上半身，握住了那把刀，从刀面的温度确定对方出门的时候就已经把它带在了身上。他想从奈特手里夺走它，但还没有得到肯定回答的人紧扣着刀的力道好比锈住了的绞盘，史密斯一边与自己的恋人对抗，一边与自己一闪而过的想法对抗。这不行，他对自己说，这太……变态了。他严厉地批评与自我批评道：“你神经病吗？上一次你说用尼龙绳和锁扣可以拉长窒息的濒死感，我们差点没把彼此勒死；上上次，在无人区的湖里，要不是准备了防护绳，我们早都被鱼吃了；还有在乡下那一次，失血过多又电解质紊乱，这就是你安排的比吸毒更好的剧本？你真的觉得每一次都能从濒死感里醒过来是上帝保佑？”</p>
+<p>“当然不，上帝从来不掷骰子。”奈特放弃了与他角力，环绕他肩膀的手蹭着他的脸颊，“这么多次的亲身体验还不足以说明问题吗？多点自信，我的朋友，记得割开动脉，不然血还没流多少伤口就愈合了。”</p>
+<p>在足够瓦数的室内灯光下，奈特的脸由于倾身低头的角度呈现出一种说不出来的诡异感，眼窝和颧骨几乎全埋没在阴影里，而阴影中的蓝色的眼睛又仿佛旧画作上的新鲜颜料那样湿润亮丽。他身上酒气和暖意都没有消失，唯独那个仿佛通晓了史密斯内心所有狂乱念头的笑容给他带来了冰冷的质感。不，这不是威胁，而是邀请，邀请史密斯来打碎他，来把他分裂成一块一块。作家写过太多幽微的人性，惯于用真实的细节堆砌出高于现实的谋杀，似乎没什么欲求能动摇他。史密斯在和他日常相处的时候，必须以工作为镇压才能克制住被揭开皮肉般疼痛引起的杀意，而奈特也格外喜欢将勒紧自己脖颈的绳索交到史密斯手上，观察这平时过于克制自己的工作狂人面对欲望的动摇，善于观察和记录生活中的种种灵感是作家的必修课，他漫不经心地为自己辩解，期待着史密斯更多的情绪：被逼到悬崖上纵身一跃时的表情是什么样？再次品尝到施虐滋味时是什么样？是想要感谢还是憎恨解放了他的自己？这些奈特都想知道。以外人的角度来评价，大可将二人的此类往来视作情侣间的情趣，只是它们足以致命，也会将两人割得鲜血淋漓。</p>
+<p>来呀，仿佛被海妖蛊惑了的水手，史密斯侧过脸，与奈特含着笑意的眼睛对视，听见了内心用于抵抗这海潮的堤坝崩毁的声音。他抓住奈特的手，扯开了这正借着醉意最大限度暴露本性的人，实施最后的安全措施：“你得证明，写一份纸质证明，告诉其他人你是自愿的。”</p>
+<p>“不，亲爱的，我亲爱的编辑先生，我很好奇你要是个杀人犯会是什么样的。别管那些法律了，你想想，你真的在乎它吗？那些呆板又无趣的条纹，它们束缚了你，跨过、碾碎它们的时候你有多兴奋、有多热烈，我全都知道……”奈特亲昵地贴了贴他的唇，然后刮蹭掉杯子里最后一点冰淇淋似的往史密斯嘴里搜刮了一圈，并且在此时松开了握住刀的手，将刀柄推到了史密斯的开始出汗的手里。另一个人被他一根根合拢手指，反应过来的时候已经以危险的姿势握住了刀。他没再在身体动作上拒绝，和奈特一同绊着脚步往浴室走去，即使如此，也仍能在距离门框一步之遥的时候推开了纠缠着他的人，以一种过于理性而显得刻意的口吻说：“你现在就写证明，我还有妹妹，我不能坐牢，我不能让她有个杀人犯哥哥……”</p>
+<p>他们借着玄关的灯光相互对视着僵持了一会，仿佛两只在领地边缘相互对峙的野生动物，最后奈特无奈又纵容地说：“你可真扫兴，亲爱的。”</p>
+<p>他转身从电话旁的便签本上拽下一张纸，迅速又轻易地在上边落下字母转折明显的字迹，像是在酒吧为心仪对象递出电话号码似的，把证明的纸条拍在了史密斯胸口，指尖推着它滑动，直到它落进了对方衬衫领口；而就在他龙飞凤舞地签下自己名字的时刻，无需多加言语，史密斯已经站在他身后，屏着呼吸，挽起他的衣袖，从手腕到手肘用刀竖着划开了一道伤口。从伤口中箭一般射出来的血迹润湿了两人的袖口，并持续地、如泉涌般地继续流淌，他们的衣服从相握的那只手开始被染红，想来第二天会作为不可回收垃圾被焚烧干净。那道伤口被割开得足够深，几乎呈现出丰厚浆果被切开的质感，能让人联想起在厨房用切肉刀给生肉放血的样子，从表皮到皮下脂肪到肌肉，所有的部分都被血管涌出的血浸没。进入浴室后，奈特轻哼着绿袖子的调子，仿佛提起水壶浇灌绿植般地扒开它，让皮肉耷拉开，以便更多血液流淌到浴缸里。他丝毫不在意地面的坚硬程度，直接倚靠着浴缸坐了下来，头贴着自己的上臂思考了一会，对着逐渐淤积的血液露出天真无邪的孩童般的笑容，然后从淅淅沥沥的血流中、从滴滴答答泛起涟漪的血泊中鞠起一小捧鲜血，把它泼到了史密斯的身上。这下，他们身上被染红的部分就相差不多了。</p>
+<p>史密斯仅仅站在一旁，手里已经没有再握着刀，他看着奈特如深海中向海面窥看的人鱼那样看向他，脸上没什么表情。但奈特对他过于了解，目光只在对方下腹绕了一圈，便毫无形象地狂笑起来：“噢，天呐，我的好爱人，你可真不是什么好东西。”他向史密斯伸出那只已经被鲜血覆盖的手，示意对方向他俯身。史密斯裤子里紧绷的部分随着血腥气的接近而越发胀大，在奈特解开他的领带和衣扣的时候，男人的喉结不明显的动了一下。蓝色条纹衬衫像是被剪开的包装袋那样流畅地与包裹着的躯体分离，接着落下来的是西装裤和贴身衣物，将爱人身上作伪的部分全数剥离后，奈特一边仰起头，享受炽热的亲吻，一边灵巧地脱下自己的衣服。他们坦诚相对，在狭小的浴室里，如文艺电影里互诉衷肠的爱侣那般，亲密地纠缠着，用不断靠近、不断掠夺彼此口舌和不断留下自己痕迹的方式诉说着想要融为一体的渴求。血被蹭得到处都是，鼻息间尽是新鲜的铁锈味和逐渐腐败的甜腥味，两人间的温度不断攀升，情欲像是一锅煮开了的水，在将近沸腾的时候，奈特诱哄似的对另一个人说：“让我们把灯打开。”</p>
+<p>白炽灯下目所能及的地面都流淌着血液，它们像是被喝醉了酒神志不清的蹩脚画家随意泼洒在画布上的笔迹那样，试图构成美学符号以传达感情，却叫人难以理解创作者的意图。浴缸底部只有接近一半被亮色的血覆盖，却也足以如奈特所说的那样给观者足够的视觉刺激。史密斯赤脚半跪在瓷砖地面上，寒气从与这场景接触的部分侵袭上身体，却仿佛驱动机械的燃油那样，在他的体内引起了深深的震动。此刻，他像是从现实走进了幻想里，阴郁又冰冷的风来自所有的阴影和黑暗，尤其是奈特的影子，他的恋人带着展示精心准备的大餐般的愉快和期待，亲吻着他的手臂和锁骨，说：“我们今天就在这里做爱吧，怎么样，是不是很美？”</p>
+<p>“你不包扎伤口吗？”镜片后，史密斯的眼神像是被冰层封冻的火焰那样闪烁，他注视着奈特的脸、脖颈和胸口，手指微微颤抖，无意识地做出抓握的姿势。他需要那把刀，需要用利刃割开奈特的皮肤，用更红的血染红他的红发。而奈特并未错过史密斯的变化，他的吻蔓延上了对方的脸颊：“爱和死本来就是一体，朋友，你和我都再清楚不过。你知道我很乐意你对我做任何事。”</p>
+<p>无需等待和忍耐，他们如投海殉情的恋人那般相拥步入了鲜红的浴缸。粘腻湿滑的触感不多会就会板结在皮肤上，可两人都忙于亲吻、抚摸和制造更多的伤口，无人在意被弄脏了的头发是怎样纠结成一团，在彼此嵌合成一体的时候，伴随着狂乱呼吸声的呻吟已然成为最好的伴奏。史密斯啃咬着奈特的肩膀，自下而上地试图刺死这个窥探了他过多内心的恶劣男人，而奈特一边迎合着恋人的动作一边发笑，同时把依旧流血的伤口贴在史密斯的心口。</p>
+<p>二人紧紧缠绕的力度即将达到顶峰时，奈特靠在史密斯耳边，喃喃着不知从哪改编来的诗句：“你的心跳好快，感觉到了吗？我的生命是怎么从躯体中流出的？你的精神又是怎么模拟着要杀死我的？吃了我吧，爱人，如同饮下基督的血，我会在你身上复活。”他们同时攀登到顶峰，又同时倒在了血泊里。</p>
+<p>高潮过后的清理在处理伤口前显得没那么重要，他们甚至没有清洗身上的血迹，双双又重新披上被染红了的衣物，坐在了沙发上。史密斯翻出上次留在电视柜里的医疗包，找出缝合线和酒精，坐在奈特身旁握着他的手腕，正仔细地把被豁开的皮肉缝回去。沾了血的棉球和纱布散发出浓烈的酒精味，奈特依旧沉浸在醺醺然中似的单手把电视频道切来切去，看到厨师大批量往锅里加入番茄酱的广告时，甜腻腻地转向恋人开口道：“亲爱的，你还能吃番茄酱吗？”</p>
+<p>“闭嘴，我在缝针。”史密斯头也不抬地回了一句，今夜他自觉已经配合了奈特许多的心血来潮，现在该回归无趣死板的现实了，他不希望这条伤疤会影响下周奈特的签售活动。要怎么向读者解释厨房工作会导致这样可怖又严重的伤势可是他的活，奈特从来都只制造烂摊子，况且，浴室里还有一堆家务要做，想到这里，他几乎忍不住要叹气自己怎么也喝了那么多热红酒。</p>
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-11-10</span>
+            
+                <span>该篇文章被 Aoest</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
+                            无影灯下
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2024 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
