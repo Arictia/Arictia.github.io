@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="玛德琳娜" />
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.png">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            玛德琳娜
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p> 夜晚犹如被放下的三层帘帐笼罩着整座科隆纳宅邸，在这完美的封闭黑暗中，没有一丝晨曦的光明能从外界照亮，只有门房还亮着灯，负责守夜的仆役坐在房间里打着哈欠，敷衍地扫视过宅邸的窗户。突然，他看见三楼走廊似乎透出一缕光亮，揉了揉眼睛，正想仔细查看，又想起了不曾真实被谁说出口，却在仆人们中无人不知的规矩：熄灭最后一盏灯后的科隆纳宅无需更多关注，不听，不看，不做声，否则会被魔鬼缠上。他嘟囔了两句上帝保佑，装作自己今晚就没抬过头，继续盯着电视里重播的球赛。</p>
+<p>马可·安东尼奥·科隆纳没怎么和家里的普通仆人交谈过，否则他也会赞同这简单明了的规则。自从肯尼斯老爷子死后，他借着给赫尔蒙德补习的借口，几乎不在家中留宿。大学开学后，更是合情合理地远离了家庭，相对而言，假期便是必须屏气凝神、谨慎对待的时日。不，他指的不是忙碌于工作对他不闻不问的兄长、沉浸于情人与派对只在需要时才想起他的母亲和过去对他施以虐待现在半身不遂的父亲，而是这个家庭中唯一关心他的想法和成长情况的姐姐，娜塔莉娅。虽然很难将她视作母亲的替代者，不可否认的是，她是会在餐桌上出声维护他的人，也从来没有像其他家庭成员那样对他的性格或行为进行嘲笑和辱骂，她总是带着宽容又怜爱的微笑摸着幼弟的额头说：我可爱的小弟弟，你真是一个小傻瓜，但没关系，我还是爱你。有谁欺负你了吗？有谁推倒你了吗？都告诉我吧，那些家伙要付出代价。当然，马可对她递过来的食物和爱护都敬谢不敏，他几次洗胃都是因为娜塔莉娅在他的餐盘里投毒，也被她拉着观看她惨无人道的虐待和解剖，无论那是不是暗地里欺侮过他的仆人，他都不会感觉好过。</p>
+<p>假期他无处可去，不仅因为科隆纳家族需要完成社交工作，也因为他所有的财产都来自写着他姓氏的信用卡，哪怕住在了旅馆，被找到也不过是时间问题。他撑起了新制的西装，拿一贯礼貌十足又有些刻薄的社交辞令完成了晚宴上的露面，同姐姐的几段关于回家与否的对话让他心脏直跳，入睡前的日常阅读和写作又耗掉了剩余的精力，压力下他几乎是一沾枕头就睡着了，一头扎进了略带酒气的黑甜梦乡。</p>
+<p>可惜酒精还不够让他安安稳稳一觉到天亮。马可昏昏沉沉的被一阵呕吐欲催醒，他囫囵个地在脑海里拿已经醒来的感官辨认了一下声音，熟悉的女音哼唱着更熟悉的摇篮曲，并且伴随着轻微的晃动和脊背因扭曲不适姿势发出的警告，他意识到娜塔莉娅又梦游了，她又一次徘徊在走廊后走进了他的房间。</p>
+<p>在马可还是个孩子的时候，他的母亲就紧张地抱住过他，说他的姐姐疯了，真糟糕，这个孩子真是太古怪又神经质了，哪有人要伤害她呢，她为什么要用刀刺伤可怜的西尔弗啊，我的小甜心，你可别靠近她，小心被她弄伤了。但实际上，母亲和男人调情的时候压根没注意过自己的孩子是不是就在房间里看着，还是娜塔莉娅拉着他的手把他带出了房间，免得孩子把男女交媾的呻吟当作摇篮曲入眠。马可同娜塔莉娅相差了九岁，他们本来没有什么话可聊，马可也从没弄懂过大哥乔万尼与娜塔莉娅的关系为什么会那么差，为什么黑发蓝眼的少女对待父亲的态度如此桀骜不驯又刻意亲昵，她说“我的好爸爸”的时候就像要咬住那几个字在牙齿里磨碎一样。他抬头看着姐姐那张漂亮又偶尔会带着淤青的脸，不敢问她要把自己带到哪里去。娜塔莉娅的手攥得很紧，直到走到了她的小套间，才让马可坐到钢琴旁的椅子上，自顾自地拿出她的收集品对马可开始说话。这是塔罗牌，这是猴手骨，这是蝙蝠翅膀，这是蓖麻，这是石英，有些能诅咒人，有些能诱惑人，还有些可以让人在梦里痛苦地死掉。少女蓝色的眼睛在昏暗的房间里盯着马可，告诉他前几天她又砍死了一个告密的仆人，她挖出了那个人的眼球扔进下水口，蓝色的虹膜在黑暗里一闪而过掉了下去。她说得就好像会把弟弟的眼珠也这样挖出来一样，又在马可面露恐惧但保持着安静的时候咯咯直笑，吻他的额头说你是我弟弟，你是不一样的。</p>
+<p>她对他的特殊介于一个人看待最喜爱与重视的玩偶和可怜可爱的小动物间，她从不指正马可在社交场合说出不合宜的话，在父亲对马可施暴时也很少出现，但比母亲要好些的是，她愿意听他说话，尤其是在马可与她说起读的书的时候，就像看到了猫或狗玩玩具的憨态一样，鼓励它多做出这样的行为以此取乐。马可不喜欢她轻视书籍的态度，也对她昏黑的、从不揭开窗帘的屋子也满心排斥，可就像这座宅邸里的其他人那样，他也不敢指责娜塔莉娅沉迷占卜、通灵和召唤恶魔的行为。他不去肯尼斯那儿上课的时候，从学校回来的娜塔莉娅会特意来找他，捏捏他的手脚还能不能作出反应，检查他的肋骨上有没有淤青，并且笑着告诉他，她准备好了斧头，如果父亲又揍他，那把斧头可以借他用。虽然你不会用的，你连看人被砍手指都要闭上眼睛。她也这样托着下巴，手指环绕着弟弟的头发说。曾经有个仆人在她冥想时锲而不舍地敲门，被她砍掉了手脚、剥了皮做成了一只小鼓。那个时候马可就躲在姐姐的裙子下，捂着嘴，不敢发出声音也不敢呕吐。她捡起还在喷血的断肢，用力摔打在地上，狂躁地把它砍得稀巴烂，高声尖叫着：“我不是叫你们不准打扰我吗！你敢不听我的命令！你这只没长耳朵的猪！”所以虽然家主和继承人的态度都偏向排斥和忽视，仆役们还是愿意听从她的指挥，不在她不需要的时候出现。</p>
+<p>娜塔莉娅梦游的时刻也是如此，一个月总有几天的深夜，她摇摇晃晃，端着蜡烛或者扯着裙带，脚步凌乱，双眼半睁，徘徊在科隆纳家族的长走廊上，一扇扇敲着门，选择合意的一扇用发卡撬开。如果那是马可的卧室，她会爬上弟弟的床，抱着婴儿一样环抱着他，唱着并不来自他们母亲的摇篮曲，然后哭泣或者狂笑，掐他的手臂与脸颊，歇斯底里地发疯。</p>
+<p>此刻的她也是如此，即使她的弟弟已经成年上了大学，她也如过去一般爬上他的床，隔着单薄的睡衣抱住了他，膝盖顶着他的后背，手臂环绕在他的脖颈，长发垂落在他的脸上，用干燥单调的嗓音唱着歌。马可没有睁眼，也不敢发出一丝声音、做出一点动作，全心全意伪装自己的呼吸仍符合熟睡的特征，扮演着姐姐的婴儿、玩具和谈心道具。原因是娜塔莉娅握在手里的斧头，没人敢猜如果被提醒了她眼下并不清醒，她会不会从只是用斧尖丈量马可肢体长度的行为切换成另一种模式。</p>
+<p>他没睁开眼睛，看不见娜塔莉娅此时的笑容，要让她父亲或是兄长见着了，他们会露出恶心和轻蔑混在一起的古怪表情。她笑得非常开心，比收到了来自所爱之人意料之外礼物还要开心，好像一个小女孩结束一天的功课后回到房间抱着最爱的泰迪熊玩偶说悄悄话的样子。唱着唱着，她开始亲吻马可的头发和眼睛，用母亲拥抱住了久归的孩子般的亲昵语气开口道：“哎，我亲爱的弟弟，我可爱的弟弟！有时候我真想把你砍下来留在身边呐！你不在家我真是过得无聊死了，成天见着那几张讨厌的脸，还要应付老头子的牢骚，不就是少了人对他奉承，不就是再也不能和人做爱，不就是发现自己衰弱得快要死了，他就喋喋不休成那样！而且他还觉得可以用他手上剩下的东西驱使我和乔万尼斗个你死我活，唉，难怪我们的妈妈不乐意守着他一个——他那根东西就和他的脑子一样不好用吧？”</p>
+<p>一边说着，她一边抱紧了马可，用斧头锋利的刃面划过他的手臂、胸膛与脖颈，小声计算：“从这里是三英寸，烤肘子有这么厚吗？今天晚上咱们可吃了同一盘烤肉。如果是脑袋，啊，我该专门定做个玻璃匣子，用丝绸和羽毛装饰起来，摆在我的梳妆台上。手也不错，你会喜欢我的书桌的，弟弟。不，我想那个位置该留给乔万尼，他总觉得我用不着书桌。唉，他不知道即使下命令处决人也要留档案记录呀，还是说应该把他的脑袋摆在书桌上？我觉得家族里一些人也该长点眼色，别老觉得乔万尼应该出现在我的办公室，坐在我的椅子上。”</p>
+<p>她又开始唱歌了，心情愉快地重复着同一句歌词，再次吻了马可的额头。马可知道他姐姐的怪癖，也知道她并没有把自己视作一个哄睡孩子的母亲，她只是喜欢可爱的东西，这个范围里包括他，她养来摘取羽毛的百灵鸟，还有一切软弱无力、可以被她杀掉的东西。不包括他们的大哥乔万尼。</p>
+<p>“年前我投了一万股在凯罗特基金上，现在股价翻了三倍，感谢第三世界的战争让能源危机更进一步，乔万尼今天的表情你看到了吗？在我和其他人说军火行业发展的时候。啊，你说他看起来没生气？我亲爱的弟弟，你没见过他怎么样才叫生气，噢，那会你不在，你还在肯尼斯那个老东西那学翻译呢。他没教你那套假惺惺的话术，这可算他做了件好事。真该把乔万尼看到股权委托书写了我名字时候的表情倒个模翻成石膏像，我要把它挂在房间壁炉的墙壁上，让每个同我喝茶的人都欣赏一遍…看看他们尊敬的科隆纳家继承人会因为比不过自己妹妹而生气。他没想过自己亲爱的老爸会把一部分产业给要嫁出去的女儿，一个他从没在乎过的、精神有问题的、撒谎成性的荡妇。上周我在他的酒里下了砒霜，不过我宁可他真得了霍乱算啦。想想就好笑，科隆纳家的男人……”</p>
+<p>“我可怜的小弟弟！幸好你不是你父兄的样子！你还不知道他又朝妈妈发脾气啦，就为了她新交的四个男朋友，她想开间画廊来资助他们，他就大喊着他不会给她的奸夫花一分钱，用水杯砸她。可是呐，你也知道，他总是自诩为爱她的，好爱好爱她，恨不得整天只用盯着她是不是又和别人做爱了。与其放纵她为了这笔钱又向哪位朋友献出身体，不如把事态掌控在手里，所以那笔钱还是花出去了，他要亲眼看着妈妈和别的男人做爱。我为此安排了些人，每天回来汇报今天又来了几个人、用了什么姿势、搞脏了几张床单，多好玩，我把报告上的东西念给父亲听时，他嫉妒得发了疯却还是要保持着体面，说‘告诉她今天晚上必须回来！别的时候我不管，可她总要承担科隆纳夫人的职责！’她的丈夫都半身不遂了，她还有什么职责要履行！你不知道，他到现在都没怀疑是你下的毒，他觉得你这样蠢笨的小东西是做不到的，就像当年他认为我不敢用刀子刺他、用斧头砍他！哎呀，每次我坐在他床边看他抖着杯子喝水的时候，都非常想告诉他，你这个该死的、肮脏的、自以为是的老畜生，不用等多久就能知道吃了我的毒是什么样子啦。我敢保证他要嚎叫着去见上帝。我给乔万尼准备了一种，给他另外准备了一种，我希望他们都能痛苦地咽气，因为我不能活剥了他们的皮……”</p>
+<p>说到这里，娜塔莉娅停顿了一下，用手捏住了马可的脸，他闭着眼睛也能想象出她突然接近的脸上是怎样的表情。他曾短暂听说过娜塔莉娅与她未婚夫的关系似乎相当和睦，只是一次晚餐上的对视，那个羞涩寡言的年轻人就红了脸，对她言听计从。而现在，如果已经升格成为丈夫的他再看见她，恐怕会跑得远远的，再也不敢同这个明显精神不正常的女人亲近。一直亲切地拉着家常的姐姐揉捏着马可的脸皮，呼吸喷在他眼睑，用冰冷的金属绕着他的下颌划了半圈，冷冰冰又带着遐想地问：“我该也把你的皮剥下来吗？我可以用你们的皮做一本魔法书，书上用爸爸的指骨、乔万尼的头发装饰，把妈妈的血混进墨水里，在你的皮上抄召唤撒旦的祭文。血亲是魔鬼最喜欢的饵食，它们会帮我摆平后面的事情。唉，别吧，我还是很喜欢你的，我亲爱的，你肯定会怕得要死，你连我平时内脏占卜的结果都不敢多看！”</p>
+<p>和其他迷信邪灵、崇拜撒旦的人不同，娜塔莉娅喜爱的是那些血腥残酷的手段，而非有异常迫切需求达成的目标。她拧断狗的脖子取血，烧掉猫的尸体检查形状，把鸟儿剖开解读纠结成团的肠子代表的含义，大多数时候只是为了询问最近的运势、寻找失去的物品或者占卜某个人的健康，如果上升到诅咒，则使用栽培的毒草、研磨的矿石和来自凶案现场的道具，娜塔莉娅也从来没有向他透露过通灵是否成功，她会直接告诉他，今天又给几个人下过毒。马可猜测，她既然能笑着期待自己把餐盘里的毒药吃下去，自然也会在发现自己没有睡着后痛快地实施前一秒放弃的念头，所以他从没有哪一次装作自然而然被她的声音吵醒。圣母啊，他在心里祈祷，请您让她别注意到我的眼睫毛动了。</p>
+<p>“你真不像我们家的人，你太弱小了，不过，就算父亲想的是真的，你也是我最亲爱的弟弟。”她亲密地抚摸过他的眉眼，“没有我，那老东西可不会就这样轻易放过你，他那次是真的想吊死你——倒不是说他现在不想。上周我养的百灵鸟啄开了笼子，自己钻进了绞肉机里，好在那个小东西够机警，知道在我按开开关前从里面出来。你呀，你现在也能啄开笼子了，外面的世界可不止有伪装得安静的绞肉机，不多长几个心眼，恐怕会被人吃得骨头都不剩吧。”</p>
+<p>“没关系，没关系，我会保护你，我会把那些人的骨头抽出来垫在你的棺材底下。”她愉快地说着，抚摸马可的脸，“因为我们是家人，你和我，你要明白呀，我亲爱的弟弟，告诉我你会乖乖的，乖乖地当我的、幼小的、无能的弟弟？”</p>
+<p>娜塔莉娅等了一会，奖励似的在他脸上亲了几口，说：“我就知道，你从来都很听话。你也要听我的话，记住了吗？好了，快睡吧，我会一直给你唱摇篮曲等你睡着，快睡吧。”</p>
+<p>轻悄的哼唱声再度响起，娜塔莉娅再度摇晃起臂弯中男人的头颈，就好像她是一位真正的母亲。马可数着自己的呼吸，直到它均匀地上升到一千二百六十八次，他听见咔哒的关门声，才一下子彻底放松下来，比上一次入睡还要更迅速地掉进了无梦的深睡中。</p>
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2024-12-20</span>
+            
+                <span>作者： Aoest</span>
+            
+            
+                <span>标签：
+                    
+                    
+                        <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
+                            无影灯下
+                        </a>
+                    
+                </span>
+             
+             
+                <span>分类：
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2024 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
