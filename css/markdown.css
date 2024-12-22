@@ -91,6 +91,7 @@
 {
     list-style: square;
     padding: 0 0 0 1.875rem;
+    text-indent: -4px
 }
 .post-md img
 {

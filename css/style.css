@@ -10,6 +10,11 @@
     --line-1: #ccc;
     --line-2: #ddd;
 }
+::selection {
+    background: #fff;
+    color: #9c1313;
+    text-shadow: none;
+}
 p
 {
     word-wrap: break-word;
@@ -32,7 +37,7 @@ body
 a
 {
     text-decoration: none;
-    color: #4f7dde;
+    color: #455c8f;
 }
 
 .paper
@@ -554,7 +559,7 @@ a
 
 /* list页面 标签访问过后的颜色 */
 .archive-main a:link { 
-    color:#4f7dde; 
+    color:#284ea2; 
     text-decoration:none; 
 } 
 
