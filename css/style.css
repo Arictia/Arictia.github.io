@@ -520,6 +520,30 @@ a
 .poem span {
     color: #000
 }
+/* 图片滑动*/
+.swiper-container {
+    max-width: 900px;
+    margin: 2em auto;
+    
+
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 0 !important;
+    }
+}
+.swiper-slide img {
+            max-width: 100%; /* 确保图片适应容器 */
+            max-height: 100%; /* 确保图片适应容器 */
+            object-fit: cover; /* 保持比例，并适应容器 */
+        }
 
 /* comment*/
 .paper-comment {
