@@ -371,7 +371,7 @@
 
 
 <hr>
-<center><i>“我们仍然彼此相爱。”</i></center>
+<center><i>“我们仍然彼此相爱。test”</i></center>
 
 <hr>
 <h4 id="角色简介"><a href="#角色简介" class="headerlink" title="角色简介"></a>角色简介</h4><p>艾利克斯·埃斯波西托：药物成瘾的C-Ptsd患者，冷漠、伪善且阴毒，如果你在阅读后对他产生了同情，建议回想他做过的事情</p>
@@ -382,7 +382,27 @@
 <li>诗歌、图片为原创，禁止转载</li>
 </ul>
 <details font size="3">
-    <script src="/images/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+    //自动调节高度
+    autoHeight: true,
+    //键盘左右方向键控制
+    keyboardControl : true,
+    //鼠标滑轮控制
+    mousewheelControl : true,
+    //自动切换
+    //autoplay : 5000,
+    //懒加载
+    lazyLoading : true,
+    lazyLoadingInPrevNext : true,
+    //无限循环
+    loop : true,
+    });
+    </script>
     <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><a href="/images/salvia.jpg" title="图片1" class="gallery-item" style="box-shadow: none;"> <img src="/images/salvia.jpg" alt="图片1"></a></div>
