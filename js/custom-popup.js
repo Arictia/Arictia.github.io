@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let isDragging = false; // 是否正在拖动
     let startX, startY, initialX, initialY; // 鼠标和窗口初始位置
 
-    // 按下鼠标事件
+    // 按下鼠标事件（鼠标事件）
     popupHeader.addEventListener('mousedown', (e) => {
         isDragging = true;
 
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.style.cursor = 'move'; // 鼠标样式改为拖动
     });
 
-    // 鼠标移动事件
+    // 鼠标移动事件（鼠标事件）
     document.addEventListener('mousemove', (e) => {
         if (isDragging) {
             const dx = e.clientX - startX; // 鼠标水平偏移量
@@ -79,8 +79,53 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // 鼠标释放事件
+    // 鼠标释放事件（鼠标事件）
     document.addEventListener('mouseup', () => {
+        if (isDragging) {
+            isDragging = false; // 结束拖动
+            document.body.style.cursor = 'default'; // 恢复鼠标样式
+        }
+    });
+
+    // ---------------------------------
+    // 适配触摸屏（移动端）
+    // ---------------------------------
+
+    // 按下触摸事件
+    popupHeader.addEventListener('touchstart', (e) => {
+        isDragging = true;
+
+        // 获取初始触摸位置
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+
+        // 获取弹窗初始位置
+        const rect = popupWindow.getBoundingClientRect();
+        initialX = rect.left;
+        initialY = rect.top;
+
+        // 停止使用 transform 居中，切换到像素定位
+        popupWindow.style.transform = 'none';
+        popupWindow.style.left = `${initialX}px`;
+        popupWindow.style.top = `${initialY}px`;
+
+        document.body.style.cursor = 'move'; // 鼠标样式改为拖动
+    });
+
+    // 触摸移动事件
+    document.addEventListener('touchmove', (e) => {
+        if (isDragging) {
+            const dx = e.touches[0].clientX - startX; // 触摸点水平偏移量
+            const dy = e.touches[0].clientY - startY; // 触摸点垂直偏移量
+
+            // 更新弹窗位置
+            popupWindow.style.left = `${initialX + dx}px`;
+            popupWindow.style.top = `${initialY + dy}px`;
+        }
+    });
+
+    // 触摸释放事件
+    document.addEventListener('touchend', () => {
         if (isDragging) {
             isDragging = false; // 结束拖动
             document.body.style.cursor = 'default'; // 恢复鼠标样式

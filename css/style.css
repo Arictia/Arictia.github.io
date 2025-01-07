@@ -756,6 +756,8 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     overflow-y: auto; /* 内容滚动 */
     padding: 10px;
     display: grid;
+    max-width: 80vh;
+    overflow-y: auto;
   }
 
 
