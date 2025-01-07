@@ -11,7 +11,7 @@
     --line-2: #ddd;
 }
 ::selection {
-    background: #fff;
+    background: transparent;
     color: #9c1313;
     text-shadow: none;
 }
@@ -698,3 +698,205 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     isolation:isolate;
     display: initial;
 }
+/* 弹窗样式 */
+/* 弹窗遮罩层 */
+#popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    z-index: 9999;
+  }
+  
+  /* 弹窗窗口 */
+  #popup-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 400px;
+    height: 60%;
+    max-height: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6); /* 半透明背景 */
+    outline: 8px dotted rgb(255, 255, 255, 0.8);
+        outline-offset: -4px;
+    backdrop-filter: blur(10px); /* 毛玻璃效果 */
+    border-radius: 12px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 阴影效果*/
+    overflow: hidden; /* 内容溢出隐藏 */
+    z-index: 1000; /* 确保位于最顶层 */
+  }
+
+  @media screen and (max-width: 768px) {
+    #popup-window{
+        width: 80%;
+        height: auto;
+        max-width: 90%;
+        max-height: 80%;
+        padding: 15px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #popup-window{
+        width: 90%;
+        height: auto;
+        max-width: 95%;
+        padding: 10px;
+    }
+  }
+
+  
+  /* 弹窗内容 */
+  #popup-content {
+    height: 80%;
+    overflow-y: auto; /* 内容滚动 */
+    padding: 10px;
+    display: grid;
+  }
+
+
+
+/* 自定义滚动条样式 */
+#popup-content::-webkit-scrollbar {
+    width: 18px; /* 滚动条宽度 */
+}
+
+/* 滚动条轨道：完全透明 */
+#popup-content::-webkit-scrollbar-track {
+    background: transparent; /* 轨道背景透明 */
+}
+
+/* 滚动条滑块：由多个空心星星组成 */
+#popup-content::-webkit-scrollbar-thumb {
+    background: transparent; /* 滑块背景透明 */
+    width: 12px; /* 滑块宽度 */
+    height: 12px; /* 滑块高度 */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="%23ccc" stroke-width="2" d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" /%3E%3C/svg%3E'); /* 空心星星图案 */
+    background-size: 18px 18px; /* 调整星星大小 */
+    background-repeat: repeat; /* 星星重复 */
+}
+
+
+/* 滑块在拖动时的样式 */
+#popup-content::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%23000" stroke="%23ccc" d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" /%3E%3C/svg%3E'); /* 实心星星图案 */
+}
+/* 滚动条滑块动画 */
+#popup-content::-webkit-scrollbar-thumb:active {
+    background-color: transparent;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="%23000" stroke="%23ccc" d="M12 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" /%3E%3C/svg%3E'); /* 实心星星图案 */
+}
+
+
+  
+/* 关闭按钮 */
+#popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  #popup-close:hover {
+    color: red;
+  }
+
+  #popup-content h1, h2, h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  #popup-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  #popup-content a {
+    color: #3498db;
+    text-decoration: underline;
+  }
+  
+  .popup-container {
+    font-family: inherit; /* 使用继承字体 */
+    line-height: 1.6;
+    padding: 15px;
+  }
+  
+  .popup-container h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+  
+  .popup-container p {
+    margin-bottom: 10px;
+  }
+
+/* 按钮样式 */
+#popup-btn {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: rgb(62, 87, 136);
+    background-color: white;
+   }
+   
+   #popup-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(33, 91, 216, 0.2);
+   }
+   
+   #popup-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(224, 15, 15, 0.2);
+   }
+   
+   #popup-btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   #popup-btn::after {
+    background-color: #fff;
+   }
+   
+   #popup-btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }
+/* 弹窗标题样式 */
+   .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* 标题栏底部分割线 */
+}
+/* 弹窗图标样式 */
+.fas.fa-cat{
+    margin-right: 10px;
+}
+
+  
