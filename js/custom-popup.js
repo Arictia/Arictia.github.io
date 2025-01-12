@@ -40,95 +40,58 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // ---------------------------------
-    // 拖动功能
-    // ---------------------------------
-    let isDragging = false; // 是否正在拖动
-    let startX, startY, initialX, initialY; // 鼠标和窗口初始位置
-
-    // 按下鼠标事件（鼠标事件）
-    popupHeader.addEventListener('mousedown', (e) => {
-        isDragging = true;
-
-        // 获取初始鼠标位置
-        startX = e.clientX;
-        startY = e.clientY;
-
-        // 获取弹窗初始位置
-        const rect = popupWindow.getBoundingClientRect();
-        initialX = rect.left;
-        initialY = rect.top;
-
-        // 停止使用 transform 居中，切换到像素定位
-        popupWindow.style.transform = 'none';
-        popupWindow.style.left = `${initialX}px`;
-        popupWindow.style.top = `${initialY}px`;
-
-        document.body.style.cursor = 'move'; // 鼠标样式改为拖动
-    });
-
-    // 鼠标移动事件（鼠标事件）
-    document.addEventListener('mousemove', (e) => {
-        if (isDragging) {
-            const dx = e.clientX - startX; // 鼠标水平偏移量
-            const dy = e.clientY - startY; // 鼠标垂直偏移量
-
-            // 更新弹窗位置
-            popupWindow.style.left = `${initialX + dx}px`;
-            popupWindow.style.top = `${initialY + dy}px`;
+        // 阻止页面滚动穿透到弹窗外部
+        popupContent.addEventListener('touchmove', function (e) {
+            e.stopPropagation(); // 阻止事件冒泡
+        });
+    
+        popupOverlay.addEventListener('touchmove', function (e) {
+            e.preventDefault(); // 阻止底层页面滚动
+        }, { passive: false }); // 禁用 passive 以允许 preventDefault()
+    
+        // ---------------------------------
+        // 拖动功能（适配移动端）
+        // ---------------------------------
+        let isDragging = false; // 是否正在拖动
+        let startX, startY, initialX, initialY; // 鼠标或触摸初始位置
+    
+        function startDrag(clientX, clientY) {
+            isDragging = true;
+    
+            startX = clientX;
+            startY = clientY;
+    
+            const rect = popupWindow.getBoundingClientRect();
+            initialX = rect.left;
+            initialY = rect.top;
+    
+            popupWindow.style.transform = 'none';
+            popupWindow.style.left = `${initialX}px`;
+            popupWindow.style.top = `${initialY}px`;
         }
-    });
-
-    // 鼠标释放事件（鼠标事件）
-    document.addEventListener('mouseup', () => {
-        if (isDragging) {
-            isDragging = false; // 结束拖动
-            document.body.style.cursor = 'default'; // 恢复鼠标样式
+    
+        function doDrag(clientX, clientY) {
+            if (isDragging) {
+                const dx = clientX - startX;
+                const dy = clientY - startY;
+    
+                popupWindow.style.left = `${initialX + dx}px`;
+                popupWindow.style.top = `${initialY + dy}px`;
+            }
         }
-    });
-
-    // ---------------------------------
-    // 适配触摸屏（移动端）
-    // ---------------------------------
-
-    // 按下触摸事件
-    popupHeader.addEventListener('touchstart', (e) => {
-        isDragging = true;
-
-        // 获取初始触摸位置
-        startX = e.touches[0].clientX;
-        startY = e.touches[0].clientY;
-
-        // 获取弹窗初始位置
-        const rect = popupWindow.getBoundingClientRect();
-        initialX = rect.left;
-        initialY = rect.top;
-
-        // 停止使用 transform 居中，切换到像素定位
-        popupWindow.style.transform = 'none';
-        popupWindow.style.left = `${initialX}px`;
-        popupWindow.style.top = `${initialY}px`;
-
-        document.body.style.cursor = 'move'; // 鼠标样式改为拖动
-    });
-
-    // 触摸移动事件
-    document.addEventListener('touchmove', (e) => {
-        if (isDragging) {
-            const dx = e.touches[0].clientX - startX; // 触摸点水平偏移量
-            const dy = e.touches[0].clientY - startY; // 触摸点垂直偏移量
-
-            // 更新弹窗位置
-            popupWindow.style.left = `${initialX + dx}px`;
-            popupWindow.style.top = `${initialY + dy}px`;
+    
+        function stopDrag() {
+            isDragging = false;
         }
+    
+        // 鼠标事件
+        popupHeader.addEventListener('mousedown', (e) => startDrag(e.clientX, e.clientY));
+        document.addEventListener('mousemove', (e) => doDrag(e.clientX, e.clientY));
+        document.addEventListener('mouseup', stopDrag);
+    
+        // 触摸事件
+        popupHeader.addEventListener('touchstart', (e) => startDrag(e.touches[0].clientX, e.touches[0].clientY));
+        document.addEventListener('touchmove', (e) => doDrag(e.touches[0].clientX, e.touches[0].clientY));
+        document.addEventListener('touchend', stopDrag);
     });
 
-    // 触摸释放事件
-    document.addEventListener('touchend', () => {
-        if (isDragging) {
-            isDragging = false; // 结束拖动
-            document.body.style.cursor = 'default'; // 恢复鼠标样式
-        }
-    });
-});

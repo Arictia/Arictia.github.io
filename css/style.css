@@ -24,8 +24,9 @@ p
 body
 {
     font-family: "Centaur", "Times New Roman", Tahoma, Arial, "LXGW WenKai", "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: auto;
     /* letter-spacing: 0.6px; */
     color: var(--font-color-1);
     background: #e4e4e4;
@@ -405,9 +406,9 @@ a
     flex: 0 0 100%;
     /*margin-bottom: 12px;*/
     margin-top: 16px;
-    font-size: 1.8rem;
-    font-weight: 800;
-    line-height: 1.8;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.6;
     color: var(--font-color-1);
     text-align: center;
 }
@@ -708,6 +709,7 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     height: 100vh;
     background: transparent;
     z-index: 9999;
+    touch-action: none;
   }
   
   /* 弹窗窗口 */
@@ -748,7 +750,10 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
         padding: 10px;
     }
   }
-
+/* 防止手机端滚动 */
+body.no-scroll{
+    overflow: hidden;
+}
   
   /* 弹窗内容 */
   #popup-content {
@@ -758,10 +763,10 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     display: grid;
     max-width: 80vh;
     overflow-y: auto;
+    max-height: 60vh;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
   }
-
-
-
 /* 自定义滚动条样式 */
 #popup-content::-webkit-scrollbar {
     width: 18px; /* 滚动条宽度 */
@@ -900,5 +905,7 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
 .fas.fa-cat{
     margin-right: 10px;
 }
+
+
 
   

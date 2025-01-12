@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="圣诞不快乐" />
+    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <link rel="alternate icon" type="image/webp" href="/images/icon.png">
+    <title>A Blog</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
+</head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    <style>
+        :root {
+            --waline-theme-color: #344648; 
+            --waline-color: #344648; 
+            --waline-border-color: #344648; 
+            --waline-white: #344648; 
+            --waline-bgcolor-light: #fffffe;  
+        }
+        body {
+            color: #344648;
+            background: #F4F2F3;
+        }
+        .post-md code {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        .post-md pre, .post-md .highlight {
+            background: #e8e0c9;
+            color: #2e5041; 
+        }
+        pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+            color: #344648;
+        }
+        pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+            color: #344648;
+        }
+        .year-font-color {
+            color: #344648 !important;
+        }
+        .wl-card span.wl-nick {
+            color: #344648; 
+        }
+        .wl-card .wl-badge {
+            border: 1px solid #344648;
+            color: #344648; 
+        }
+        .wl-btn {
+            border: 1px solid #344648; 
+            color:  #344648;  
+        }
+        .wl-btn.primary {
+            color: #fffffe; 
+        }
+        .wl-header label {
+            color: #344648;
+        }
+        a {
+            color: #022e51;
+        }
+
+        .post-md a {
+            color: #022e51;
+        }
+
+        .nav li a {
+            color: #022e51;
+        }
+
+        .archive-main a:link {
+            color: #022e51;
+        }
+        .archive-main a:visited {
+            color: #a3b4c8; 
+        }
+
+        .archive li span {
+            color: #344648;
+        }
+
+        .post-main-title {
+            color: #344648;
+        }
+
+        .post-md h1,
+        .post-md h2,
+        .post-md h3,
+        .post-md h4,
+        .post-md h5,
+        .post-md h6 {
+            color: #344648;
+        }
+
+        [data-waline] p {
+            color: #344648;
+        }
+        [data-waline] a {
+            color: #344648;
+        } 
+        .wl-sort li.active {
+            color: #344648;
+        }
+
+        .wl-card .wl-meta>span {
+            background: #fffffe;
+        }
+
+        .paper {
+            background: #F4F2F3;
+        }
+
+        .index-main {
+            background: #fffffe;
+        }
+
+        .paper-main {
+            background: #fffffe;
+        }
+
+        .wl-panel {
+            background: #fffffe;
+        }
+
+        .archive li:nth-child(odd) {
+            background: #fffffe;
+            ;
+        }
+
+        .archive li:nth-child(even) {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(odd) td {
+            background: #fffffe;
+        }
+
+        .post-md table tr:nth-child(even) td {
+            background: #fffffe;
+        }
+
+    
+        .progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+        .return-to-last-progress-wrap::after {
+            color: #344648; /* 箭头的颜色 */
+        }
+        .return-to-last-progress-wrap svg.progress-circle path {
+	        stroke: #344648; /* 边框的颜色 */
+        }
+        .return-to-last-progress-wrap::before {
+	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
+         }
+
+         .left-toc-container::-webkit-scrollbar-thumb {
+            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+        }
+
+        .bs-docs-sidebar .nav>.active>a,
+        .bs-docs-sidebar .nav>li>a:hover,
+        .bs-docs-sidebar .nav>li>a:focus {
+            color: #022e51;
+            border-left-color: #022e51;
+        }
+        .bs-docs-sidebar .nav>li>a {
+            color:  #344648;
+        }
+    </style>
+
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '53px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">A Blog</a> 
+            <span class="description">A的存文地</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+            
+                <li><a href="/list/">Post</a></li>
+            
+        
+            
+                <li><a href="/about/">About</a></li>
+            
+        
+            
+                <li><a href="/tags/">Tags</a></li>
+            
+        
+            
+                <li><a href="/categories/">Categories</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            圣诞不快乐
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>节日前后，性格再宽和的人也会忍不住抱怨公共交通与恶劣的天气，堵车、晚点、延误，一连串的意外环环相扣，仿佛流水线上一个卡死的轴承将导致整条生产线的停滞。即便琼当机立断改签，他们两个人还是在预定时间的七个小时后才到达了位于弗里尔市六十公里远的镇子。从大巴车上下来的时候，赫尔蒙德本想帮琼提行李箱，但他高估了自己的体力，差点没把自己摔地上。他的女友接过了两人份的行李，拉着他，对在广场喷泉旁站着的男人挥手：“爸爸！”</p>
+<p>随着那个穿着翻领大衣的男人走近，赫尔蒙德的胃无法自制地再次绞紧，他有点憎恨今天下午不是个晴朗的天气，在雪花中逐渐清晰的人有着和琼相同的金发与蓝色眼睛，即使已经年过四十，他在面对自己孩子的时候也不曾沉稳太多，以相当的热情跨过纷纷扬扬的雪和结冰的路面，拥抱了自己的孩子。这个身影与他记忆深处的某个带着他走进白桦林的男人重合的瞬间，他把嘴角上扬的弧度拉大了几分，让它僵硬得更像脱口秀里的主持人，准备好一打俏皮台词用于同女友的父亲寒暄。</p>
+<p>理查德·克雷文长得并不特别像赫尔蒙德的疯子父亲，他没有那么精致的五官，也不具备诗人的纤细性格与出身优渥带来的温室花朵般的气质，手指骨节更为粗大，关节和掌心有厚实的茧子，脚上的运动鞋已经穿得很旧，牛仔裤上能看见机油留下的痕迹，服饰细节上符合一个美国高级蓝领的特征。然而，要让第一眼见到他的人来猜测职业的话，大概会偏向选择与书本、知识和文字打交道的那类，同琼站在一起的时候，很容易叫人以为这家的女儿受了父辈的熏陶而得到了相似的书卷气，甚至可以说，他没有多少“男子气概”。这一点上，他比赫尔蒙德见过的任何男性都更像斯捷潘，在现代社会找到像他们这样并不乐于彰显所谓父亲的权威的男性十分困难，最起码，他们对胡须和肌肉没有多少热衷，他说话的语调和声音也丝毫不像他们在车上听到的附近农场主那样的粗硬，又与肯尼斯那种有意训练过带着蛊惑的柔和无甚关系，而是令人感到平和与踏实。他先是放开了琼，盯着她看了一会，高兴地宣布：“你长高了！”然后笑着和站在一旁的赫尔蒙德打招呼：“嘿，好小伙子，你也一样，你们变化可真大！”</p>
+<p>“爸爸，我们半年前才回来过。”琼轻松地回应道，现在赫尔蒙德比刚交往时更能分辨女友的情绪，在最亲的亲人面前，女孩不那么像没有色彩和气味的冰了，而是一块融化得边缘都柔和了的冰糕。他在短促的一刹那感到无所适从，即使在场的只有两个人，这两个人也并非对他心怀恶意的陌生人，他仍旧觉得无法开口，无法呼吸，必须转身就走。为了驱走这种冲动，他咳嗽了一声，拉过两人的注意力，开口道：“因为我们每天都在吃维生素，就像广告里说的那样，青少年的成长缺不了它——阳光和维生素D！”</p>
+<p>话刚出口，他像个拿错了宣传材料的上门推销员那样卡了壳，老天，连冷笑话都算不上，要是马可在这里估计会忍不住问他天才的头脑是搭错了哪根神经才说出这样前言不搭后语的东西来。幸运的是，另外两个人没有恶劣的刺人性格，理查德自然地接话：“对，多晒太阳是有好处的，人和动植物都一样。前几天阿斯特和我报告说今年农场的收成比去年要好很多，因为今年的晴天比去年多三分之一。今年我们种了很多番茄和玉米，等会到家了你们得尝尝农场里送来的几种酱，他们还创新出了菠菜酱和黄瓜酱，我想今年我们的圣诞节餐桌上会多好几种菜。噢，前天我还钓到了条九英寸的鲈鱼！”说起这个，他格外兴高采烈，就像个参加夏令营抓到了第一只萤火虫的孩子似的。</p>
+<p>从广场到车上的路程里，理查德一直在说那条鱼，琼淡然地应和着，偶尔关心一下他们钓鱼的那个湖泊今年越冬的鸟儿有什么变化。这下话题更是延展了出去，从常见的大雁、水鸭、天鹅到体型不一的苍鹰、鸫鸟、知更鸟，男人在驾驶座上如数家珍地将今年从天空飞越与枝桠停歇的鸟儿一一讲述给后座的青少年们，所知的种类仅在爱好者的范畴里，可以称得上是百科全书般的完备。快到家的时候，他更是遗憾着没有给照片展示墙上增添几张白鹭的近照，明明今年他给摄影设备做了全套的升级。</p>
+<p>赫尔蒙德装作晕车——实际上他也确实感觉胃部的不适快要蔓延到头和背上——没有说话，理查德在兴趣领域的滔滔不绝又叫他忍不住想到死掉的诗人，他们一样有许多话可以说给孩子听，仿佛一个可靠的向导引导着孩子的好奇心不断扩张，温柔地呈托着他们去感受和思考，但区别在于，斯捷潘描述的那个世界和现实相差甚远，而理查德所说的一切都切实存在于触手可及的土地上。</p>
+<p>克雷文家的房子不在镇中繁华地带，反而靠近区域规划的边角，因为他们家的森林就在不远处，夏天郁郁葱葱的树林构建出了一个纳凉的好去处，到了冬季，掉光了叶子后坚挺着的只有长势不那么良好的冷杉，在雪地里遮遮掩掩地露出些墨绿色。赫尔蒙德一眼就看到了围栏、屋檐和烟囱上那些巧妙地缀在不被雪淹没地方还没点亮的小灯泡，理查德停好车之后，笑着让两个孩子稍等了一会。作为曾以一己之力解决了小镇大停电问题的电气工程师，制作别出心裁的圣诞灯饰完全是小菜一碟。闪烁着的灯光在白雪的映衬下没有那么亮眼，却也足以看出庆祝圣诞的文字和图案轮番从灯带上流过，在最后的十几秒里演出了圣诞老人驾驶雪橇从天空跳进烟囱里的景象。理查德戴着手套，不那么精确地指明，他在哪里设计了红绿相间的背景，又在哪里让星星跟着驯鹿一起跳跃，调整电路和施工一共花掉了五个星期，期间他还帮邻居也做了点小改造，博得了一众好评。琼曾描述过她的高中时代，在这个镇子里她总与普通女孩们格格不入，因为沉迷书本与放假时时常给自家农场帮忙被归类成书呆子和土老帽，那时候赫尔蒙德想，她父亲也许会在家长会后盯着那些排斥琼的学生们看，也许会找个机会同老师们谈一谈，又或者在镇子的活动里与她同班同学的父母多聊聊，但总之，他一定不会对此一无所知、毫不作为，更不会将其认定是孩子的欠缺又或是需要跨越的障碍。不过他没有向琼求证，他已经知道很多高塔公主的日常，用不着知道她的王国是怎么运行起来的。</p>
+<p>走进门廊，同暑假造访时不一样的是，玄关处摆在罐子里的球果现在堆成了一棵圣诞树，每一层充作叶片的鳞片上都挂了拇指大的星星和袜子，琼看起来有些欣赏她父亲的奇思妙想，开始询问一共用了多少颗果子。他俩聊起了受力结构和模型骨架，赫尔蒙德趁这个机会先带着行李上楼去了。相较于屋外，室内的节日气氛浓厚得叫他喘不过气来，目视所见都是金属铃铛、槲寄生、毛茸茸的袜子、暖色灯光与父女俩十几年来共同的收藏品，客厅中央放着一棵高度显然经过计算的圣诞树，树底下已经放了些礼物盒，显然克雷文一家在镇子上人缘不差。这一切都同他度过的节日不一样。肯尼斯老爷子的房子里虽然同样也只有寥寥数人，圣诞节时候也会从加拿大空运来比楼下客厅里高大得多的圣诞树，树上挂着的小天使和雪花甚至是纯金的，但他们的树下从没有礼物。肯尼斯会送圣诞礼物给他，就像圣诞老人故事里描述的那样，出现在第二天他的枕头旁，他也恭恭敬敬地、讨人喜欢地用自己的发明作为回礼，两个人再互相开开玩笑，享用一些节日美食，可日历上圣诞节的日期越来越近时，他从没感到过期待。他总会不合时宜地想起给他讲绘本故事的男人，倒在雪地里的女人，以及冰冷的、供暖总是时有时无的廉价公寓，然后开始头疼、失眠、用刀割伤自己。至于马可，他不会在节日当天出现在肯尼斯的房子里。</p>
+<p>现在即使待在琼的旧房间，赫尔蒙德依旧能闻到烤箱里烤姜饼的甜味和热红酒的香料味，理查德的厨艺在他看来可以说是笨拙，在暑假的时候他们就已经尝过了他的柠檬烤鱼，所以眼下他对火鸡大餐只有填饱肚子的需求。他照旧把行李箱推到一边，躺在了垫得高高的床铺上，让被褥和枕头挤压着自己。抬头看去，他看见墙上壁灯不仅多了针织的罩子，还有人在上面别了个绒毛的驯鹿脑袋，看来理查德就像上一回他来做客时那样热情，这种热情体现在家居空间中的每一寸都给他留出了位置，力求让他融入其中。除此之外，对方富有生活情趣的一面也叫赫尔蒙德感到不适，为什么在这种地方琼的父亲与他的父亲如此相似呢？他不记得维克托莉娅女士怎么应对卡纸剪出的圣诞帽和雪花戒指了，说到底，这些记忆已经陈旧得像一个孩子糅合了太多宣传语料而造出来的想象，他不确定自己有没有与他们共度过圣诞节。如果斯捷潘没有疯掉的话……</p>
+<p>他的幻想到此为止，不止是疲惫的身体支撑不住更多脑力活动，还是自我暗示强制停止了这种无意义的追溯，他似乎打了个盹，几乎是思维停止运作的瞬间，钢琴的旋律敲了敲门，把他震醒了。那是首熟悉的曲子，临近圣诞节时可以在街道中的每一户商家里听到，不过其中陌生的改编让它听起来更朗朗上口，即使弹奏它的人节奏有些把握不准，也足够叫听者在心里跟着哼唱起来。他踩着棉拖鞋，从二楼探出头去，看到理查德坐在客厅一角的钢琴前，动作不怎么流畅地按着琴键，琼则半蹲在地上，正从提琴包里取出一把旧提琴，看样子他们准备合奏一曲。父女俩没什么交流，表情和他们刚到家时不一样。理查德慢慢地熟悉着指法和曲调，琼则调整姿势，不时加入乐曲中的段落给小提琴试音，他们磕磕绊绊地完成了一遍后，女孩站在了父亲身后，也看着曲谱，先起了调子。赫尔蒙德的音乐造诣约等于零，从来对歌剧或古典乐毫无兴趣，这时候他无法领略到改编者的巧思或天赋，他只是站在楼上不显眼的转角处，看着演奏合家欢乐曲的一家人。</p>
+<p>最后一个延音结束，理查德收拾琴谱，把它们放进一个漂亮的带锁木盒里，尔后转过身，故作轻松地笑，对孩子说：“看来我练习的成果还不错。”</p>
+<p>琼点了点头，告诉她爸爸：“比去年好多了。”</p>
+<p>男人似乎做了个耸肩的动作，手指轻拂过琴键：“毕竟我当时想着我给你们拍照就够了。你和南希。你妈妈作曲的时候也没想过你一定得会演奏什么，她觉得照片上会是你在钢琴边上穿着毛绒绒的裙子唱歌、她为你伴奏的样子。她说你愿意像谁就像谁，不用非得同父母一样。”</p>
+<p>“现在也不坏，爸爸。”琼的声音里难得地能听出安慰的意思，“我会拉小提琴，你会弹钢琴，我们能合奏妈妈的曲子，我们可以录下来，扫墓的时候给她听听。”</p>
+<p>“啊，那可不太妙，我们的水平她听了一准要发恼。她说她上大学的时候最讨厌严苛的老师，可轮到她能对别人的演奏指指点点的时候，她又不自觉地成了这种老师。她可讨厌自己成了这副模样，但她一定会指出我们得在哪里修改，而不是宽松地让我们过关的。”</p>
+<p>女孩听着父亲回忆自己早逝的母亲，脸上并不与父亲一样伤感，她默默整理好这个角落，把小提琴包放回了置物架上，说：“我去看看苹果派。”留男人一个人对着钢琴上的照片发呆。</p>
+<p>赫尔蒙德在琼向厨房走去的时候就把脑袋缩了回来，四肢沉重得无法把躯体挪动回房间，原地蹲在了墙壁边，无意识地抠着走廊上的绒毯。为什么夫妻中的一个回忆另一个的时候能够如此平静又愉快呢？为什么提到死者的时候不是怨恨与咒骂呢？这里面一定有什么出错的地方。当然，他当然知道爱这回事……可是他的母亲要是不爱他的父亲，又怎么会变成后来那副歇斯底里的样子呢。有些时候，他会希望斯捷潘活下来，哪怕精神失常、成为母亲的拖累、只会在桌子后面盯着空白的稿纸度过一天、是一个不能养家、毫无作用的废物，他也希望他活下来而不是把手割出口子放进水桶里。他同琼描述一个来自肯尼斯的中产阶级家庭幻想，但那个幻想终究不是生长出他的花盆，即使它已经碎了、已经当作垃圾一样被他丢到看不见的地方，他在看到琼的家庭的时候，还是忍不住去怀念它的样子。</p>
+<p>时针指向七点的时候，所有人都入座了，这儿没人是教徒，也就省略了餐前祈祷的部分，他们简单地感谢了一下厨师和天主，理查德就开始分发苹果派。克雷文家的农场不产苹果，这是经理人为了平衡账务与其他农场主换来的产出，切成薄片的苹果卷成花瓣的形状塞在饼皮里，缝隙中填满了糖浆，表面则洒了糖粉与蛋白霜，赫尔蒙德觉得嘴里甜得发苦。显然，琼也不适应这个甜度，但她只是小小地叹气，在理查德也发现出了差错后开始给大家切肉排。做父亲的尴尬地放下咬了一口的派，转移注意力似的整理了一下刀叉：“抱歉，我没拿准用量，前几次练习的时候烤的派要更小一点。”</p>
+<p>“没关系，可以早上拿来配咖啡。”女孩提出了合理的解决方案，“请帮我把果酱拿过来。”</p>
+<p>“这是之前说的菠菜酱吗！哇——我可得尝尝，就连大力水手也倾情推荐！”赫尔蒙德递给了她果酱，顺便挖了一勺绿色的粘稠固体放在了盘子里。就连罐头瓶，理查德都细心地用彩色缎带区分了口味和年份，他很高兴赫尔蒙德对它感兴趣，连忙把其他的碟子也送到了他面前。这种热情叫男孩有些吃不消，卡壳了一下才道了谢。他都可以预料，一旦他对菠菜酱表现出赞赏的态度，理查德就会希望把剩下的罐头都塞进他的行李箱，可从礼节和本心来说，他也都不愿对这个人恶语相向，更何况琼还在边上，他搜肠刮肚，尽量参照马可的用词，让自己的喜好变得更淡薄些，不至于引起对方更多投喂的想法。</p>
+<p>但当他顺顺当当地结束了一场对话，打定主意当个爱好美食的贪吃鬼的时候，近距离听着父女俩熟稔且亲密地聊天又变成另一桩酷刑。赫尔蒙德从火鸡盘子里挑出柠檬片，抿了一口，留神不叫余光看见二人放松的神色——这样他还能有余暇注意自己的表情，免得搞砸了这个圣诞节。</p>
+</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
+        var options1 = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2025-01-11</span>
+            
+                <span>作者： Aoest</span>
+            
+            
+                <span>标签：
+                    
+                    
+                        <a href='/tags/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/'>
+                            无影灯下
+                        </a>
+                    
+                </span>
+             
+             
+                <span>分类：
+                    
+                    
+                        <a href='/categories/%E5%8E%9F%E5%88%9B/'>
+                            原创
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2020-2024 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> friends </a>
+                
+
+            
+                
+                    / <a href="/contact/"> contact </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>博客内所有作品采用知识共享署名-非商业性使用-相同方式共享4.0 国际许可协议进行许可</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/js/custom-popup.js"></script>
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
