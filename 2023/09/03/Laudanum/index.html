@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="Laudanum" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            Laudanum
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    Laudanum
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：10k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：33分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>我流gb黄文，妈妈x艾爹，疯女人和b男的</p>
+        <div class=".article-gallery"><p>我流gb黄文，妈妈x艾爹，疯女人和b男的</p>
 <span id="more"></span>
 <p>“嗳，祖父，您听我说。”</p>
 <p>躺在床上假寐的老人眼睛掀开一条细缝，他最宠爱的孙女换上了外出的行头，长斗篷下穿着马术服，笑吟吟地坐在他床边的扶手椅上。房间里开了两盏灯，帐幔和流苏的阴影一扫而空，能清楚瞧见前些日子久被禁足带来的狂乱、苦闷和神经质神情现在在她脸上分毫不剩，被期待着礼物般的容光焕发取代，这让她在灯光下美丽得像是被照耀得通透的宝石在发亮。爱情，哦，爱情。老人露出一个神秘的、同少女十分相似的、心知肚明的微笑，点了点头，示意自己在听。</p>
@@ -396,18 +433,15 @@
 <p>萨尔维娅被从床上拉下去的时候他们的结合才真正分开。男主人几乎赤身裸体被绑在床上的画面照理来说会令人联想到另一种淫靡的可能，但萨尔维娅制造的足以看见白骨的伤口过于可怖，惊叫后他们首先分出了人手去寻找医生。仆人们七手八脚解开绳索的时候，西莱斯特手足的指尖已经呈现肿胀的紫色，并且沉重又僵硬，触觉几乎消失殆尽，脖子上手指形状的淤痕也在终于亮起的灯光下一览无余。这副惨状比起超出传统的情事更像是谋杀，结合起厨房的几具尸体，他们更偏向于这是追求者因为嫉妒而制造的情杀未遂。</p>
 <p>没人敢看坐在地毯上自顾自狂笑的少女，好像她是传说里吃掉配偶的女妖或者砍下君王头颅的皇后似的。那把刀也被谨慎地拿远了，人群拥簇着、护卫着男主人离开房间。在西莱斯特即将出去的时候，笑声突然停止，他心有灵犀似的转过头，看到萨尔维娅准确地将目光指向他。那失常的笑容昭示了她有多么心满意足，她的手里空空荡荡，但姿势却像怀抱着什么宝物，血不仅弄脏了她的双手和裙摆，还把头发也粘连在了一起，即使与疯癫这个词如此相称，她依旧是美的，甚至因为爱意的修饰更加引人注目。</p>
 <p>“婚礼完成了，亲爱的，我们会永远在一起。”她再度重复了那句话，语气虔诚、坚定得几乎像个诅咒。所有人都听到了这句话，所有人都看到了这副场面，所有人都会见证这件事的始末，直到他俩都进入坟墓。西莱斯特自以为理解了她的意思，但他已经不愿再多给她一个眼神。阻断流言不是什么难事，通过利益交换也能解决大部分可能爆发的隐患，回落到熟悉的规则中，他重新执掌起权力，开始计较起能从那位溺爱孙女过头的老人那里得到多少补偿。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2023-09-03</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -434,12 +468,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2023/09/20/%E9%99%8D%E7%81%B5/'>降灵</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/08/23/%E5%A4%A9%E7%AA%97/">天窗</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -472,8 +518,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -518,11 +568,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

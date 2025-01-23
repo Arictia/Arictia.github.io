@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="哈姆雷特及其衍生故事" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            哈姆雷特及其衍生故事
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    哈姆雷特及其衍生故事
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：6.8k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：22分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>许多年以后。</p>
+        <div class=".article-gallery"><p>许多年以后。</p>
 <span id="more"></span>
 <p>一只斑海雀落在迪维斯港口海湾的岩岸上，夜幕已经降临，这机警的鸟儿提起一只脚，玻璃球似的眼珠倒映著半是笼罩在安静的黑暗中半是灯火通明的海湾。层层晚霞燃烧着最后的余韵，太阳遗留的光源红得如同天空和海洋流出了鲜血在边界交叠处，绛紫色天空正被厚重的颜料染成墨黑，连着大海也一并沉默安静，海岸上的砂石、松树、栈桥离开了高温带来的喧闹幻象，在夜色的羽翼中温顺地停止颤动。远处港口灯火通明，爬满锈迹的轮船拥挤着卸下集装箱，街灯亮起，宛如缀在陆地边缘的一串珠宝。人们享受着凉爽的海风，在沙滩上三三两两地散步、群聚、游憩，玫瑰色的天光被牵连来的电灯灯光中和，令落入眼中的一切明亮又模糊，除了潮湿海水的隐约咸味，海风中还传来了芬芳的香料气味，大概是有人在沙滩上支起了烧烤架子，人声并不完全掩盖音箱传出的乐声，棕榈树下好几对情侣（也许只是陌生男女）正在跳一种气氛热烈、动作轻捷的舞蹈。</p>
 <p>沿着人工堆砌出的海堤转过一个急弯看到的就是这副景象，恰巧是一个S型的中段，内凹的沙滩两侧修建了几个小巧的木制码头，停泊着好些漆成白色的汽艇，游客们高高兴兴从上面下来，提着相机，朝着岸上的热狗车飞奔而去，孩子们则约好了似的冲向冰淇淋车，后边跟着累坏了的家长。</p>
@@ -385,18 +422,15 @@
 <p>弗西斯只是微笑着。</p>
 <p>“真见鬼，你还真是个活圣人。哦，我可没有在夸你。世间更多的是凡人，会动怒，会抱怨，会犹疑和彷徨，正是如此在做出值得称颂的选择的时刻才弥足珍贵，可你呢，”诺丁很想说些什么，表情从焦躁变成无奈，最后只是叹气，“好吧，好吧。我们今天不要再谈这些了，它们没完没了，让人烦心。总之，回去吧，下次如果有时间再来看看别的戏，吃点这里的特色菜，乔尼说冬天这里会有独特的庆典……”</p>
 <p>轮椅上的人点点头，安静地倾听着诺丁的介绍。海潮的声音伴随着他们前进，远处灯塔的光亮越来越明显，空气中开始出现铁锈、机油和海水的浑浊气味，停泊在码头的诺亚号同其他许多船只一样亮着灯，诺丁冲着甲板上值守的海员挥手，加快了脚步往自己的家的方向去。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2021-10-25</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -423,12 +457,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2021/10/25/%E7%8C%AB%E7%8C%AB%E6%97%A5%E5%8F%8A%E5%AF%B9%E8%B0%88/'>猫猫日及对谈</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2021/10/24/%E6%B3%95%E5%B8%88%E7%9A%84%E6%95%85%E4%BA%8B/">法师的故事</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -461,8 +507,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -507,11 +557,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

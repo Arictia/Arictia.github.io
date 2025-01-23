@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="红舞鞋" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            红舞鞋
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    红舞鞋
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：6.9k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：23分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p> 给菇的。</p>
+        <div class=".article-gallery"><p> 给菇的。</p>
 <span id="more"></span>
 <p>雪第三次开始落下的时候，维克托莉娅恰好走过租住的房子所属街区的拐角，路灯的光慢慢在玻璃罩里燃烧，让行道树上的积雪看起来像撒了金粉一样闪亮。她没注意到这个小小细节，全部心神专注在行走上，因为人行道上的积雪被铲除后又一次积累起来的缘故，湿滑的地面有时松软有时坚硬，不够小心会滑倒；也因为她在走路的时候一向停止多余的思考的缘故，她习惯性计数自己的步数。伊万跟在她身后，背着书包，步伐不够大而被落下一些距离。孩子低着头紧跟着女人的脚印，但他偶尔还是会注视着在夜色中折射出晶莹色彩的雪粒，只看一小会他就继续着之前的行动，他知道妈妈不会回头寻找他也不会放慢脚步。</p>
 <p>工作总是让人疲倦，更别提你还得绕路去超市买回晚餐原料、再乘坐虽然挤得没有座位但依旧冷飕飕的地铁到距离自己房子三个街区的地铁站，接着经过二十分钟无聊至极的步行到达学校把孩子接走。过去的日子里，维克托莉娅靠着数路上任何标牌和红瓦屋顶的房子的电线数量打发路上的时间，但今天不，今天雪太大了，把屋顶全淹没，把整个城市变成水晶球里被闪片掩埋的模型。手上公文包的重量有些过分，她换了只手，用左手抱着纸袋里的罐头。进入电梯前她检查了一下公寓楼下的信箱，这个月的账单还没寄来。她不喜欢塞得满满的信箱，就像这里其他人的那样，状若一个喝得太多要从喉咙里溢出呕吐物的人，不久之后那些信箱就会被公寓管理员清空，原来的住户因为付不起房租搬到更嘈杂的地方去，同莫斯科那些醉倒在大街上的酒鬼相似，消失在城市的缝隙里。但维克托莉娅不在意信箱上用油漆写的粗俗谩骂和红叉，说到底，它们同标语没什么不同，而标语她已经在过去的那个国家见得太多，过度相信标语中文字的人都是疯子，她对付疯子有自己的一套。</p>
@@ -394,18 +431,15 @@
 <p>妈妈。妈妈。伊万悚然一惊，妈妈不会出事了吧？但他看了看面前的雪人，犹豫着又害怕起来。她让我在这里堆雪人，万一我过去了，她发现我没有堆好雪人该怎么办？伊万又俯下身从地上掬起一捧雪，放在雪球上。但这时候继续堆雪人看起来很蠢，他停止了动作，拿不定主意。</p>
 <p>一阵寒风吹过，伊万从恍惚中回过神来。他的靴子已经湿透了，里头都是雪水，每走一步都能感觉水在里边晃荡，他好冷，手指几乎难以屈伸，围巾也不管用了起来。伊万从树杈上取下手电筒，突然察觉到自己是一个人在漆黑的树林里，他打了个寒战，把儿时听过的雪怪和妖精的故事从脑袋里驱赶出去，抬起脚步。</p>
 <p>我只是想看看她在做什么……他这样对自己说，做好随时关掉手电筒摸黑回去的准备，向着树木的间隙走去。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2022-02-12</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -432,12 +466,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2022/03/03/Salvia-Part-4/'>Salvia.-Part-4</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2022/02/02/Salvia-Part-3/">Salvia.-Part-3</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -470,8 +516,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -516,11 +566,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="煤气灯" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            煤气灯
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    煤气灯
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：9.3k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：30分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>他走到公寓所在的街区入口，街上的路灯已经间隔着熄灭了一半，剩余的部分提供的光亮也足够他联想到刚才那栋别墅里过于明亮、灯火通明的光芒。他拖着被殴打和强暴过的身体从地铁上下来，一路上没人对他挂彩的脸和一瘸一拐的姿态大惊小怪，甚至连站台上聚成一堆抽大麻的年轻人都懒得找他麻烦，毕竟他今晚喝下去的酒倒进浴缸里足以给人泡个澡。衬衫和外套全毁了，这些布料不适合水洗，他得把衣服送进干洗店，领带上沾了那些人的精液，他把它和内裤一起塞进烟盒，扔到了河里。深夜时分，街面上安静得能听见任何一户人家拉开窗帘的声音，马可想象不会有人在看一个脚步踉跄的醉鬼如何趴在公寓的入户门上摁错了四次最简单的数字组合。</p>
+        <div class=".article-gallery"><p>他走到公寓所在的街区入口，街上的路灯已经间隔着熄灭了一半，剩余的部分提供的光亮也足够他联想到刚才那栋别墅里过于明亮、灯火通明的光芒。他拖着被殴打和强暴过的身体从地铁上下来，一路上没人对他挂彩的脸和一瘸一拐的姿态大惊小怪，甚至连站台上聚成一堆抽大麻的年轻人都懒得找他麻烦，毕竟他今晚喝下去的酒倒进浴缸里足以给人泡个澡。衬衫和外套全毁了，这些布料不适合水洗，他得把衣服送进干洗店，领带上沾了那些人的精液，他把它和内裤一起塞进烟盒，扔到了河里。深夜时分，街面上安静得能听见任何一户人家拉开窗帘的声音，马可想象不会有人在看一个脚步踉跄的醉鬼如何趴在公寓的入户门上摁错了四次最简单的数字组合。</p>
 <p>他们叫他卖屁股的，讨论现在的男妓也舍得这么下本钱，身上穿的都是牌子货。马可不合时宜的想起了他的姓氏，不知道把它拿出来展示一番能给自己加上多少身价，那些把人看作称斤论两的商品的语气让他想起了在科隆纳家见识到的上流社会嘴脸。都跟着你的老板来这种地方了，你该明白自己的身份，所有看过来的脸上都写着如此的轻蔑，做你该做的，跪下来舔，他不肯，于是挨了揍。他们才不在乎往人身上哪里揍，因为毒品和春药已经让客人的需求从知情顺意的情人变成了鸡巴套子，反正被操的那个要是尖叫求饶还能多点情趣。整件事里唯一破碎的只有他的眼镜，马可告诉自己他有理由为此恼怒，他完全有可能被碎玻璃渣刺瞎眼睛，这样高风险的事和他的初衷背道而驰。至于被强奸？他想拉扯脸皮做出一个嘲讽的笑，是啊，出来卖免不了这种事，他不在乎，他压根不在乎。</p>
 <p>年轻人的呼吸在电梯里愈发明显，内部的脏器不知是因为冰凉的酒水还是被殴打的力道现在开始提出抗议，告诉他再让脑袋和脊柱仰直胃就要呕吐，第二天他得拿着钱包去和公寓管理人道歉。满身酒气、面容浮肿、吐字不清地同几乎不打交道的陌生人为自己呕吐物痕迹的清洁费讨价还价？他做不出来这种事。马可扶了一把电梯按键，从这密闭空间里滚了出来，差点没直接摔在地上。月亮宽容地只照亮了走廊里靠窗的那部分，他颤抖着爬起来，摸索着数清房门，找准钥匙孔插了进去，脑子里什么也不再想，他到家了。</p>
 <p>客厅并不被黑暗填满，这时候马可甚至有点烦恼为什么没戴眼镜反而看得如此清晰，不能够自欺欺人地把抱着膝盖坐在沙发上的赫尔蒙德当成是琼买的大件实验道具之类的。月光同样不曾多往屋子里窥探一丝一毫，他却能看清同居人惨白的脸色和比神游更空虚的表情。啊，他或许用不着关心，毕竟这人一个人待着就容易犯病，把自己挠得鲜血淋漓，四处寻找刀具和吗啡，第二天准能在琼面前又打起精神扮演动画片里的角色，多坚韧的人，他就该让赫尔蒙德自己一个人待着，就像现在他也不想看见其他人一样。</p>
@@ -387,18 +424,15 @@
 <p>马可被这理直气壮的要求气笑了，他挪动着身体，一边想着自己究竟给赫尔蒙德收拾过多少烂摊子，一边又有点欣慰地感到自己仍旧在被对方需要——到底是谁在被煤气灯操纵啊。他睁开眼睛看到的是对方赤裸的胸膛和被刚才粗暴行为弄得一团糟的下腹部，奇异的是，那些本该出现的负疚或是狂躁都不见了，他做出了超过界限的事，也能平静地思考，有点像吞食大量甜食后再催吐过后的平静。这是罪行，你与今晚那些强奸你的人一样，你们都将自身的欲求倾泻在他人身上；另一个很小但清晰的声音反驳：可他拥抱了我，他承认需要我。</p>
 <p>他在怜悯你。前一个声音严厉批评道。</p>
 <p>那多好啊。后一个声音轻快地感到满足。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2024-12-20</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -425,12 +459,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2024/12/20/%E7%8E%9B%E5%BE%B7%E7%90%B3%E5%A8%9C/'>玛德琳娜</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2024/12/12/%E6%B9%96%E5%8C%BA%E6%95%85%E4%BA%8B/">湖区故事</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -463,8 +509,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -509,11 +559,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

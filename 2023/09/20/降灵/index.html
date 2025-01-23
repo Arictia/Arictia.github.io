@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="降灵" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            降灵
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    降灵
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：5.3k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：17分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>给菇的，约稿</p>
+        <div class=".article-gallery"><p>给菇的，约稿</p>
 <span id="more"></span>
 <p>沙漠里的夜空如它笼罩下的土地般清晰，星辉熠熠，形成一道横亘天穹的灿烂河流。裂隙般的薄云淡淡点缀在地平线附近，到了白天就不见踪影。一只耳廓狐从沙丘的阴影里窜出，左右嗅闻空气中的水汽，以确定捕猎的大致方位。今晚的沙漠比平常更湿润，也更陌生，许多气味在空气中交织，若这只动物拥有更丰富的经验、生活在接近商道的地区，它能辨明其中最浓重的是人的气息，像是层叠的乌云堆积在天际。陌生的变化已经足以让生物发挥趋利避害本能，它抖了抖耳朵，在洞穴口的附近盘桓一二，咬了几口甲虫就回到了比平常更深的地下。</p>
 <p>距离耳廓狐的领地十几里的一处只有耳室大小水洼的绿洲旁，像是丛生了蘑菇般，许许多多帐篷以微妙的规整排列着。在沙漠中行军，最紧要的补给是水草，于此之上，甚至能结合军事战略目标选取军队中帐所在的位置和行进方向的卓绝能力，则如同神谕般令人敬畏。这是贤王的智慧，将领们在行军时以崇敬的言语将士卒们对神明的信仰扭转过来，因为我们拥戴的是一位贤王，他必将如同历史上的诸位贤王一样，为人民带来胜利和安宁。</p>
@@ -366,18 +403,15 @@
 <p>王似乎消耗了太多心神，过了一会才点点头，嘱咐道：“照顾好他，不要让其他人知道今晚的事。”</p>
 <p>“包括沙雅大人吗？”米哈伊尔不确定地询问，他知道王和书记官关系深厚，亲密无间，这个疑问本不应出现，可他看到王的表情，有些直觉不由自主地操控了他的心神。</p>
 <p>“当然。”哈曼回答，语气如常，并没有做出任何解释。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2023-09-20</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -404,12 +438,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2024/02/01/begin-the-end/'>Begin the end</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/09/03/Laudanum/">Laudanum</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -442,8 +488,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -488,11 +538,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

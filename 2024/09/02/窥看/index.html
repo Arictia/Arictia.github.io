@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="窥看" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            窥看
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    窥看
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：2k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：6分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>马可并不是一个特别有好奇心的孩子。在他一直生活的同华丽玩偶屋有着异曲同工之妙的别墅里，没有谁对其他人拥有过多的窥探欲和好奇心，一家人礼貌、体面、距离合宜，就连全家福上的微笑都光滑无暇得叫人赞叹。他出生后和他的兄姐一样，被保姆和家庭教师环绕，安安稳稳地长到了六岁的年纪，可以穿上西装，小大人似的被带到宴会上，一同参与和睦家庭的扮演。</p>
+        <div class=".article-gallery"><p>马可并不是一个特别有好奇心的孩子。在他一直生活的同华丽玩偶屋有着异曲同工之妙的别墅里，没有谁对其他人拥有过多的窥探欲和好奇心，一家人礼貌、体面、距离合宜，就连全家福上的微笑都光滑无暇得叫人赞叹。他出生后和他的兄姐一样，被保姆和家庭教师环绕，安安稳稳地长到了六岁的年纪，可以穿上西装，小大人似的被带到宴会上，一同参与和睦家庭的扮演。</p>
 <p>他的好奇心已经给过他充足教育。在他还能被母亲抱在膝盖上的年纪，他那在社交圈里总被人艳羡容貌和婚姻无一不美满的母亲，常常一边对着梳妆台打扮自己，一边问自己的小儿子她今天是否足以美到让她丈夫满意。理所当然的，在认识了字之后，他从来都以为父亲和母亲必然是一对如故事里那样的璧人，幸福而充满爱意，像是母亲诉说的那样，生活再没有什么不好的。</p>
 <p>一年前的夏天，马可和往常一样，从书房里找了自己能认识名字的书，想要躲到没人的地方消遣一会。对这个孩子来说，那些文字编织的五光十色的幻景比现实生活有吸引力得多，哪怕那些故事和字段他并不能完全理解，可只要沉浸进去就已经足够。他同自己的兄姐年龄差得有些大，与母亲相处的时刻更多些，可陪着母亲与阅读却不能共存，他的母亲向来不喜欢有人在她面前看别的东西。于是，马可悄悄地拿了书，安静地踩着地毯上的绒毛，避开了保姆，从三楼的门厅穿过去，在走过一扇没合拢的门时，他停了下来，在天性的好奇的驱动下，往里面瞧了一眼。</p>
 <p>他看见他的父亲在殴打母亲，用皮带，用拳头，用鞋尖，而母亲蜷着身子护着头，一边哭号：“您别打啦，您别打了，我的好丈夫，都是我不好，我不该那样说……”</p>
@@ -348,18 +385,15 @@
 <p>娜塔莉亚一向对他很好，她或许是这个家里唯一会在乎马可感受的人。在看见这一幕之前，马可从没这样清楚明白地意识到，他的姐姐也不是什么符合标准意义上正常人的角色。比起上一次见到父亲殴打母亲的时候，马可有了相当大的长进，他没有发出一点声音，只是在那道缝隙之外，静静地注视着才上高中的姐姐轻轻松松地又往搅拌机里塞了一只活的云雀。</p>
 <p>他看不清她的表情，但从姿态上来看，足以叫孩子也明白此时她心情很好。他想起童话书里总是那些小动物来演出的故事，尽管他也知道，现实世界的动物不能说话、也不能像人一样思考，却也还是有些溢出来的毛骨悚然。娜塔莉亚打开搅拌机的盖子后，专注地把里面羽毛、骨骼和血肉的混合物倒进了一个拳头大小的陶罐里，又往里面撒了一把灰，拈起一根不知是银还是锡的勺子慢慢搅拌起来。等到转了几十圈，她掀开了原本摆在桌上的一块罩布，为了看清楚底下是什么，马可不得不往门缝走去。</p>
 <p>黑发的少女低声咕哝着什么，一手做出复杂的手势，同时慢慢倾倒罐子，让里面黏糊糊的东西全倒在一块打磨得粗糙的紫色水晶原石上，倒干净了后，她后退一步，认真端详着自己的成果，脸上露出一个满意的微笑来。马可知道他不能再看她了，人的目光是有重量的，他再明白不过。在娜塔莉亚发觉这次仪式她忘记锁门之前，门边已经空无一人。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2024-09-02</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -386,12 +420,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2024/09/07/%E6%98%9F%E9%99%85%E6%97%A5/'>星际日</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2024/09/02/%E6%B1%82%E5%8A%A9%E6%8C%87%E5%8D%97/">求助指南</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -424,8 +470,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -470,11 +520,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

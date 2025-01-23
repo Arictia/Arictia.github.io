@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="双向阀门" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            双向阀门
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    双向阀门
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：5.5k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：18分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>在这艘聚合了人类最新、最高科技的舰船上，由于航行目的地与途径地点的特殊性，为了防止成员们像中世纪长途航行的海员那样在漫长的旅途中产生麻木、焦虑以及此类不良情绪引起的心理问题，甚至不需要心理学家的审核，任何人都能使用舰船四层的模拟环境休息室。当然，如果你对默认提供的六种场景不满意，你也能联系辛西娅，在她的疏导和帮助下构建专属于自己的一套疗养数据。按照地球时间计算，距离出发的时刻已经超过一年，舰船上的每个人都已经体验过这堪称现代科技魔法的模拟技术，不论是阳光、雨声还是新鲜空气，计算机都能合宜地给予人类感官相应的刺激以产生以假乱真的错觉。要是有个哲学家在这里，或许会进行些“感官与真实世界差异”主题的思考，但这些深耕于理工科领域的成员们都缺少这份浪漫细胞，唯一的语言学家又刻意阻止了自己大脑思考这些无答案问题的可能，也就没有谁在闲聊时以这个方向为论题来上一场辩论。</p>
+        <div class=".article-gallery"><p>在这艘聚合了人类最新、最高科技的舰船上，由于航行目的地与途径地点的特殊性，为了防止成员们像中世纪长途航行的海员那样在漫长的旅途中产生麻木、焦虑以及此类不良情绪引起的心理问题，甚至不需要心理学家的审核，任何人都能使用舰船四层的模拟环境休息室。当然，如果你对默认提供的六种场景不满意，你也能联系辛西娅，在她的疏导和帮助下构建专属于自己的一套疗养数据。按照地球时间计算，距离出发的时刻已经超过一年，舰船上的每个人都已经体验过这堪称现代科技魔法的模拟技术，不论是阳光、雨声还是新鲜空气，计算机都能合宜地给予人类感官相应的刺激以产生以假乱真的错觉。要是有个哲学家在这里，或许会进行些“感官与真实世界差异”主题的思考，但这些深耕于理工科领域的成员们都缺少这份浪漫细胞，唯一的语言学家又刻意阻止了自己大脑思考这些无答案问题的可能，也就没有谁在闲聊时以这个方向为论题来上一场辩论。</p>
 <p>英雄先生不常邀请语言学家喝酒，不论是在他们曾认识彼此的过去，还是在这艘舰船上的时间里。即使他热衷在其他人面前与语言学家扮演一对情深意重的同性恋人，拥抱和亲吻的时候肢体的停顿和表情上过于完美也能算做疏漏，尤其语言学家没有一刻忘记真正的这个人是什么模样的。他注视那双充满人工痕迹的眼睛时，总在里面寻找熟悉的、过去的影子，而叫人为之悚然的是，他看到的是一个文质彬彬、温文尔雅又富有亲和力的老人，而不是那个沉默寡言如空壳的孩子。他们都对你做了什么啊，语言学家不敢想象军方到底使用了什么物理和心理上的技术才在那么短的时间里把一个一心研究的科学家变成了符合美国故事的英雄，就像电影里的超人那样，永远热情友好，永远积极善良，也永远对队友坦诚相待，对敌人毫不容情；你又为了你的目标付出了什么啊，马可·科隆纳难以接受那个创造出许多闪闪发光作品的天才朋友忘记了他们之间从未言明的约定，取而代之的是建立在二人默契上的精神折磨。他当然、他是说，他的确不那么频繁地幻想过与自己这位友人毫无距离的共享床榻、水杯与房间，如同习惯一般在出门前亲吻、在归家后拥抱，又或者在某个雨天一起手牵着手漫步于潮湿起雾的海岸，那片海或许可以像肯尼斯屋子旁的海那样冰冷，因为这样他们能更鲜明的感觉到彼此的温度。可这样的幻想他从未吐露给任何人，尤其是他的朋友，但现在面对着英雄先生在其他人面前的难舍难分、热情如火表演，他发现自己的幻想正在被毁掉，因为所有一切怦然心动的浪漫与默契，都建立在这个新的人恨他的基础上。</p>
 <p>所以在模拟出的霍普金斯大学天文台上，本该是气氛完美、适合探讨些宇宙与人类、宏大与渺小之类的浪漫话题的约会圣地，语言学家只觉得对方为他斟来的杯中酒水难以下咽，它的味道堪比酒吧里新人调酒师练手却放错了基酒的第一杯酒，酸涩难忍，叫人想要马上吐出来，报复般把杯子丢在另一个人脸上。人工制造的虚假天空上缀着许多星星，语言学家记得自己的朋友曾经与女友一起来过这个天文台，他们一起记录半人马星座、仙女星座、北斗星和许多遥远光年外的暗淡星体，用以完成作业而不是创造情侣间的美好回忆。那个时候他曾对朋友缺乏的浪漫细胞摇头，现在看来，对方大抵比他想得要细腻许多，毕竟虚伪的景致应当匹配的是虚伪的爱人。</p>
 <p>英雄先生微笑着坐在他对面，机械手完美地对玻璃杯施加压力而不至于把它像捏断钢铁一样捏破，这样精准的控制力不止由生物学家和他的神经突触连接系统提供，还需要日复一日的训练与调整，他的表情也是如此。做一个众人眼中的英雄不代表摒弃负面情绪，就像设计师会特意为机器人设计些叫人啼笑皆非的失误动作来让作品更像人。只是就连这些阴暗都不再有着属于赫尔蒙德的气息，他喜欢的人宛如夏日洒在烈日下的水洼那样在强烈的抗辐射训练、肢体匹配训练和宣讲话术培训中消失了，正如许多携带了技术离开故国来到美利坚土地上的人所经历的，包括赫尔蒙德的母亲也是如此，他们成为了一个个带来技术与金钱的移民案例，被后世的学者们用以分析这个国家如何能在战争双方的尸体上吃得畅快淋漓而成为占据世界一极的庞然大物。然而那些活生生的人呢？他们成了美国开放包容的文化符号，谁还记得他们本质上仍是不得不背井离乡、身负不幸的可怜人？他曾恨过她给赫尔蒙德带来了不幸的童年，又为她遗留了给赫尔蒙德的梦想而心神向往，而现在自己的朋友却要走上他母亲那样可能因为爱情自我毁灭的老路——哪怕只是故意伪装的，他也不能容忍。</p>
@@ -350,18 +387,15 @@
 <p>他伸出另一只手，握住了马可的左手手臂，向着相反方向用力，比掰断苏打饼干还简单利索地折断了它，而且在做出这样让人痛苦地拧起脸痛叫的行为后，他换了个位置，分别将断裂的两个部分再次折断。语言学家短促的惨叫因为过高的调子变得嘶哑，为了防止他在中途昏过去，英雄先生褪下半个指节，从医疗模块中调用了一支肾上腺素注射进了他的脖颈，那是被设计用来执行实地任务时对意外伤亡事件处理的，本该用在抢救失去意识的同伴上。被痛楚夺走了力气的人倒在了英雄先生的手中，白发的男人再一次地在另一只手臂同样的部位、用同样的力度做了同样的事情。这个时候，如果做出暴行的人能说点什么，对另一个人来说或许还没那么可怕，但英雄先生只是再度重复，他的力度完美无缺地维持在能够捏断、折断骨骼却不至于让外部皮肤破损得太过厉害的地步，这个技巧在上课的时候是在审讯课程上教授的。不过，眼下并没有谁在询问，因此只能算作一场私刑。实施这般酷刑的时候，他嘴角上扬的弧度一丝也没有变过，但在马可眼里，这个笑容极其生动，唤醒了他的某些记忆，当然啦，赫尔蒙德曾经是那个恶魔的养子和仆人，学到了些地狱的技巧也是合乎逻辑的，只是他从没想过被当作处理对象的会是自己罢了。英雄先生扶住了双手手臂已经碎成好几段、外表上却只是面色苍白被冷汗浸透的语言学家，将他移回了座位上，而后将那双被武装到每一寸的机械手臂放在了他的膝盖上。捏断手臂的时候，他的做法还不至于从视觉上造成什么冲击，但是到了双腿的部分，他换了一种技巧。或许是因为语言学家挣扎的力度在外源与内部激素的刺激下变得激烈，又或许是人类常年承重的下肢发力要比上肢简单，英雄先生按住他的膝盖后，感受到了从下方升起的抵抗，对方的肌肉在神经的要求下做好了蓄力准备，小腿也隐约透露出要踹开施暴者的意图，于是他像是在厨房处理牛骨和蹄筋那样，握住了关节和另一端的骨头，让它们互相旋转着扭开，拧断了其中连结的韧带与筋膜。如果他愿意使用手臂上配备的武器，剥离和切断会变得更简单，不过英雄先生并不打算这时候引起安全警报，他只是稍微用了点力拧断了它们，让语言学家的左腿像是剪断了内部皮筋的木偶人那样垂挂了下来。和庆功宴上香槟开瓶时的景象类似，血在压力的挤压下喷涌，浸透了两个人的衣服，在同样拧断右腿的时候，英雄先生甚至没有旋转对方的小腿，而是将它向上折了180度，他做完这一切后稍微直起了身，看着被处置后呈放在座位上的人。</p>
 <p>语言学家完完全全失去了对四肢的控制，就像他那被他用毒药夺去行动能力只能瘫在床上的父亲那样，用惊恐、愤怒和受到意料之外背叛的眼神看着施暴者。英雄先生此刻的面无表情就像揭开了遮蔽物的玻璃展品，透露出一股因为缺失色彩和温度而显得坚硬的虚无来。他开口回答了刚才语言学家的问题：“是谁在背叛谁？你这种人不受到惩罚、不感受到疼痛就体会不到别人的痛苦。我的痛苦就像你每天都在对我这么做，并且持续了一年。你知道一年是多长的时间吗？每时每刻神经接驳的部位都在发烫，突触告诉我我的四肢正在被切断，联系不上我的双手和双腿，只有一片空虚，而止痛药全是针对神经系统的，他们不允许延长训练周期的行为。我曾经以为我们是朋友，然后你就把这个当礼物，送给了对你拿走项目资料汇报给科隆纳这件事一无所知的我？你认为当时的我只要拒绝就能回去继续做研究？约定？背叛？赎罪？你说的话全是为了你自己欲望的自我满足。然后现在，你还想操我？”</p>
 <p>英雄先生没用什么力气就把语言学家扯到地上，蹲下来注视着想要说些什么却只有力气哀切喘息的人，干脆地拉下了他的裤子，他对性没什么兴趣，相关的知识储备倒是很丰富。不过现在他没那个宽容心来为接下来做的事情做润滑，金属削切形状完美却又不完全符合人体形状的手指直接插进了那个孔洞里，即使机械和电子元件尽职尽责地将感应器模拟信号传导到大脑，他也没有什么其他感想。他活动着手指，毫不客气地把他们塞进深处，男性的躯体简直比电视遥控器还好懂，在以某一个角度碾压的时候，语言学家的表情混入了虽然稀少却不容错辩的快感。粗暴的抽插和过于直接的侵入让对方的身体紧绷，又很快到达了高潮。在抽出手指的时候，血也一并涌出，汇入了地上没能渗入金属地面的血泊。英雄先生不那么嘲讽，甚至是平铺直叙地说：“怎么了，这不是你真正想要的吗？就像你一直抱有的那些恋爱幻想那样，”他低着头，重复了一遍之前马可说的话：“你的梦想不是都实现了吗？你为什么还要这副样子？就好像你不愿意成为我的恋人？”</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2025-01-11</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -388,12 +422,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2025/01/12/%E5%92%96%E5%95%A1/'>咖啡</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2025/01/11/%E5%9C%A3%E8%AF%9E%E4%B8%8D%E5%BF%AB%E4%B9%90/">圣诞不快乐</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -426,8 +472,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -472,11 +522,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

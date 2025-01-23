@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="漫无止境" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            漫无止境
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    漫无止境
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：7.8k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：26分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>另一个if线：没有萨麦尔，只有艾利克斯被妈妈抚养长大的话……</p>
+        <div class=".article-gallery"><p>另一个if线：没有萨麦尔，只有艾利克斯被妈妈抚养长大的话……</p>
 <span id="more"></span>
 <p>妈妈在入睡前说的最后一句话是“我爱你。”现在她睡得沉沉，头依偎在艾利克斯的颈窝，四肢纠缠着他的半边躯体，像攀缘植物挂了整张枝叶延展出的网在墙壁上，像肆无忌惮拓展领地的真菌找到合宜环境后疯长着占有欲，表情餍足之余，又有相当无邪的纯粹。艾利克斯在黑暗里读一本书似的看着她，他知道自己在做什么，却不能将视线挪开，因为女人用十数年的时间将他塑造成她想要的模样，但在垂落两重厚重落地窗帘的卧室里，伸手不见五指的黑暗擦除了界限，解除了咒语，他得以仅仅注视着她而不带爱意。</p>
 <p>前一天傍晚他们结束了工作。在这座倦怠又因为残夏而叫人提不起劲来的小城里，等待目标放松警惕比预计得要简单。他们也不必再去赴一场充满伪饰的宴会，多余的时间被妈妈用来挥霍在购物和闲逛上。在天空的暮色都要散尽的时候，他们才回到租住的房子里。艾利克斯把沉重的、装满了枪械零件的提琴包安置在楼梯间，锁上一楼的门，检查完窗户和管道的安全性后上了楼，妈妈已经脱下衬裙，解开束腰，换上轻薄的睡裙，她的心情很不错，哼着一首轻快的曲子，正提着一把黑色的长剪子修剪阳台上的茉莉和绣线菊。</p>
@@ -359,10 +396,11 @@
 <p>到如今艾利克斯已不再思考这个问题。他在黑暗中默默勾勒计划的雏形，推演所需弹药和火力的数量，计算机关所在的角度和深度，以及将计划中各人推到相应位置的力道，这些思绪宛如蜘蛛吐出的丝线在他的脑海里织成环环相扣的网，他一边清点着疏漏一边陷入睡眠。</p>
 <p>他与女人同床共枕时通常不做梦，漆黑的深眠里空无一物，没有能叫人发现他想法的线索。艾利克斯醒来后女人已经离开了床铺，正坐在梳妆台前挑选今天要用到的首饰。她的长发像斗篷一样遮住赤裸的上身，艾利克斯瞥到被女人无情丢在地上的睡裙，同样无视了它走到妈妈身边，跪下来把头放在她的膝盖上。女人沉醉地自言自语，复读着她记忆里某次舞会的前一天，而艾利克斯循着她大腿的弧度缓缓亲吻她，就像寻求母亲怀抱的孩子和寻求母羊乳汁的羊犊，他舔舐着女性大腿内侧的皮肤，用舌尖探寻对方躯体的入口，像是要回归妈妈的子宫一样。女人心满意足地叹息，右手梳理着艾利克斯的头发，在被触及了内里时双腿缩紧，同时指甲在他的背上留下抓痕。高潮之后女人温柔地捧起艾利克斯的脸，用指腹擦掉对方脸上的液体，饱含赞赏地夸奖道：“做得很好，我的乖孩子。”</p>
 <p>妈妈向来不吝惜夸奖和鼓励，她只是过于喜怒无常，有时候真情的赞扬后下一秒就会把他踢到地上，指责他是欺骗了她真心的骗子。艾利克斯不知道这是否是直觉指引的结果，他也不能与她争辩，稳妥起见最好是在过关后马上离开妈妈的视线。他站起来走到她旁边，从堆在椅背上的衣服里找出束身衣。看样子今天妈妈没有想起他究竟是西莱斯特与别人的儿子还是她的儿子，她像个一心一意等待着恋人为她换衣服的、羞涩的少女那样只看着镜子微笑。艾利克斯回以久经考验的、她会喜欢的那种略带一点笑意的表情。镜子里他站在她身后，手持展开的两片束身衣，这件衣服全靠紧缚的缎带来拉近鱼骨，靠一个人的力量无法完全穿上它。妈妈配合地伸展手臂，另一只手按住自己的胸口，在艾利克斯收紧缎带的时候用力呼吸。</p>
-<p>穿上束身衣后，他拿起一条缀满了红宝石的项链，轻之又轻地环绕在妈妈的脖子上，扣上链子的时候女人握住了他的手，扬起了脸，蓝色的眼睛紧盯着镜子，无声地命令他吻她。艾利克斯没有丝毫停顿，亲吻一朵才开放的花朵那样亲吻女人的唇。他不像她那样闭着眼沉醉在吻里，而是睁开眼看着镜子里女人后仰的脖颈，那上面戴着的红宝石项链像是才被切割出来的伤口般艳丽。这是我给你的礼物。他想。你会喜欢的，妈妈。</p>
+<p>穿上束身衣后，他拿起一条缀满了红宝石的项链，轻之又轻地环绕在妈妈的脖子上，扣上链子的时候女人握住了他的手，扬起了脸，蓝色的眼睛紧盯着镜子，无声地命令他吻她。艾利克斯没有丝毫停顿，亲吻一朵才开放的花朵那样亲吻女人的唇。</p>
+<p>他不像她那样闭着眼沉醉在吻里，而是睁开眼看着镜子里女人后仰的脖颈，那上面戴着的红宝石项链才被切割出来的伤口般艳丽。这是我给你的礼物。他想。你会喜欢的，妈妈。</p>
 <hr>
 <p>“这是我给她的礼物。”艾利克斯在不算长的沉默后开口，他绕着一张长桌走了半圈，慢悠悠地靠近被绑在靠背椅上的男人，“妈妈想要得到他，我满足她的愿望。”</p>
-<p>男人三十岁上下，本来沉稳冷静的脸上此时布满冷汗，被血打湿的姜黄色头发此时已经结成一块块的，他的双手被铁圈拷在桌上，西服上布满血渍，显然不止一处受伤。比起其他惨遭毒手的受害者，他还能保持相当的冷静，向这个恶魔般的人说道：“可他是你父亲…”</p>
+<p>男人三十岁上下，本来沉稳冷静的脸上此时布满冷汗，被血打湿的黑发此时已经结成一块块的，他的双手被铁圈拷在桌上，西服上布满血渍，显然不止一处受伤。比起其他惨遭毒手的受害者，他还能保持相当的冷静，向这个恶魔般的人说道：“可他是你父亲…”</p>
 <p>“你也是为了杀死他才跟到这里来，不对吗？况且我不认为他将我视作他的儿子。”艾利克斯回答，“在西莱斯特·埃斯波西托眼里，我是萨尔维娅的儿子。”</p>
 <p>男人抿了抿嘴，明白了从亲缘的角度寻求同情的可能微乎其微，他还想说什么，比如他们因病去世的母亲，她很挂念你，一直到她咽气之前……但在他开口之前艾利克斯百无聊赖地比了个手势：“不用太过担心，我不会杀你，哥哥。你有别的价值。之前在你身上捅的地方都不致命，等天亮你就能离开了。”</p>
 <p>“……我不明白，你不是听从那个女人的命令行事吗？”</p>
@@ -375,7 +413,8 @@
 <p>“他们都死了，这是两个小时之前发生的事情。”艾利克斯淡淡地说，他走到墙边的开关旁，打开了灯。房间一下子亮堂了起来，安东才看全之前的黑暗下是什么：几张折叠椅，巨大的工作桌，以及桌子上奇形怪状的金属构件，还有一些他的血迹。比他的想象要更朴实无华，但他也并没有放心，在之前他清楚地听到了跟随自己进入这间房屋的下属的惨叫和机器开动的嗡鸣声，他对他们的下场有所预料。</p>
 <p>“你做了什么？”</p>
 <p>“我送她去死。”艾利克斯回答，“我在那个房间底下和四周埋了炸药，她会和她爱的人一起长眠，这是他们的坟墓。”</p>
-<p>安东一时语塞，他原本以为艾利克斯应当是对“妈妈”百依百顺的儿子，是她的左膀右臂，因为他可能和那个女人一样“都是疯子”，西莱斯特这些年对他想要找回兄弟的想法都是如此斥责的。“你不爱她吗？”最终，他还是没有忍住，问了这一句。</p>
+<p>安东一时语塞，他原本以为艾利克斯应当是对“妈妈”百依百顺的儿子，是她的左膀右臂，因为他可能和那个女人一样“都是疯子”，西莱斯特这些年对他想要找回兄弟的想法都是如此斥责的。</p>
+<p>“你不爱她吗？”最终，他还是没有忍住，问了这一句。</p>
 <p>“正因为我爱她，我帮助她得到了他，我让他们一起死了。”艾利克斯理所当然地回答。</p>
 <p>“可你杀了她。”</p>
 <p>“你也想要杀了你父亲。”</p>
@@ -383,18 +422,15 @@
 <p>“把协议拿来吧，”安东摇了摇头，他彻底放下了想要将艾利克斯、将他的弟弟带回家的执念，“你之前对我下手只是为了报复我，是吧？”</p>
 <p>“我不恨你，也不恨我们的父亲。只是你被她先拿来练手的话，我拿不到想要的东西。”艾利克斯简单解释道，“你什么也不会剩下。”</p>
 <p>安东只能苦笑。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2023-05-10</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -421,12 +457,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2023/07/03/Date-time/'>Date time</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2023/03/12/lovely-doll/">lovely doll</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -459,8 +507,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -505,11 +557,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

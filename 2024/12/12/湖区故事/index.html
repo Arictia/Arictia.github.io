@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="湖区故事" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            湖区故事
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    湖区故事
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：11.8k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：39分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>位于萨德伯林市摩根区西北侧的蓝水晶湖并不那么名副其实，哪怕在夏季的晴天，湖面上也盘桓着浓重的雾气，难以辨明湖水的颜色与深浅，到了夜晚，雾气将明目张胆地侵吞包括附近森林在内的所有土地，当地人更习惯叫这片地“幽灵眼”，因为从高空俯瞰，一个昼夜内湖面汇聚与消散的雾气就像有个巨大的幽灵从地下窥视地面。连带着湖畔四周的森林和山坳，发生在此地的失踪案几乎和红灯区的杀人案数量持平。尽管也有些另辟蹊径、想将“神秘、诡异、闹鬼”作为城市宣传点的议员，几十年来累积的失败案例总能劝服他们三思而后行。</p>
+        <div class=".article-gallery"><p>位于萨德伯林市摩根区西北侧的蓝水晶湖并不那么名副其实，哪怕在夏季的晴天，湖面上也盘桓着浓重的雾气，难以辨明湖水的颜色与深浅，到了夜晚，雾气将明目张胆地侵吞包括附近森林在内的所有土地，当地人更习惯叫这片地“幽灵眼”，因为从高空俯瞰，一个昼夜内湖面汇聚与消散的雾气就像有个巨大的幽灵从地下窥视地面。连带着湖畔四周的森林和山坳，发生在此地的失踪案几乎和红灯区的杀人案数量持平。尽管也有些另辟蹊径、想将“神秘、诡异、闹鬼”作为城市宣传点的议员，几十年来累积的失败案例总能劝服他们三思而后行。</p>
 <p>这并不是说蓝水晶湖附近没有任何居民，翻开区公所的住址登记薄，按照字母顺序，沿着159号公路，一共有九户人家散布在这一小块山地与湖水的交界。三户靠近公路入口，四户房屋已经沉寂多年未曾迎来主人入住，一户是护林员，只有深居简出的伯顿一家住得最靠近蓝水晶湖，在过去几年里，多次招待追查失踪案件的警员。你有没有在上周六听见什么声音？有没有看见陌生人？那条联通森林和公路的路只有你们知道吗？你家门口有监控摄像头？那太好了，感谢你的帮助，肖恩先生。</p>
 <p>肖恩·伯顿，通常会给初次见面的人留下神经质书呆子怪人印象，多打过几次交道后，连警长都开始劝解他不要囿于过去在企业工作的成见，尽早换个工作搬家，研究水质——不是说名校毕业的博士生不该做这个，但从他对他日常的描述以及提供给警方的研究所名称来看，他大概是被发配来坐冷板凳的。而这个鬼地方一年发生近八起生不见人死不见尸的失踪案，正常人都该顾惜着点自己的小命。不过，既然他是个怪人，也没人深究他为什么这么死心眼，只有新入职的巡警比尔和同事嘀咕几句，不明白他的丈夫为什么愿意陪他一起住在这鸟不拉屎的山里。</p>
 <p>鉴于同性恋婚姻法已经在本州颁布实行十数年，他们最开始在纸质资料上看到伯顿的配偶一栏上写着个男性名字也不怎么大惊小怪，真正叫人表情怪异的是，罗伯特·罗德里维斯长了一张相当招蜂引蝶、堪比脱衣舞男的脸，不论是身姿、谈吐还是用词，都能被老练的警官找出混迹于夜总会后台与赌场的痕迹，他对过去也相当直言不讳——“七年前，肖恩开车去城里买东西时撞了我，他送我去了医院，好心地为我垫付了一部分医药费，警官先生，别这么看我，我可不是走投无路故意差点被辗断腿准备敲诈保险公司的人。之后的事就像你们想的那么俗套，我被他打动，决心为他改变生活方式，我们坠入爱河，很快就结婚了。”他朝里弗斯警长眨眨眼，漂亮的灰绿色眼睛有着堪比绘本上冬青树叶的颜色，“我现在已经不吸毒也不喝酒了，因为生活中总要有个人能清醒地为另一个人收拾烂摊子。”</p>
@@ -436,18 +473,15 @@
 <p><em>前方直行——</em></p>
 <p><em>直行——</em></p>
 <p><em>直行——</em></p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2024-12-12</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -474,12 +508,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2024/12/20/%E7%85%A4%E6%B0%94%E7%81%AF/'>煤气灯</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2024/11/25/%E6%80%AA%E9%82%BB/">怪邻</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -512,8 +558,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -558,11 +608,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             

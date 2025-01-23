@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
     <meta name="description" content="圣诞不快乐" />
-    <meta name="hexo-theme-A4" content="v1.9.1" />
+    <meta name="hexo-theme-A4" content="v1.9.6" />
     <link rel="alternate icon" type="image/webp" href="/images/icon.png">
     <title>A Blog</title>
 
@@ -56,7 +56,7 @@
     
     
    
-<link rel="stylesheet" href="/css/lightgallery.min.css">
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
 
 
 <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="A Blog" type="application/atom+xml">
@@ -77,49 +77,49 @@
     
     <style>
         :root {
-            --waline-theme-color: #344648; 
-            --waline-color: #344648; 
-            --waline-border-color: #344648; 
-            --waline-white: #344648; 
+            --waline-theme-color: #404648; 
+            --waline-color: #404648; 
+            --waline-border-color: #404648; 
+            --waline-white: #404648; 
             --waline-bgcolor-light: #fffffe;  
         }
         body {
-            color: #344648;
-            background: #F4F2F3;
+            color: #404648;
+            background: #f4f2f3;
         }
         .post-md code {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         .post-md pre, .post-md .highlight {
-            background: #e8e0c9;
-            color: #2e5041; 
+            background: #e7f7f3;
+            color: #7f688d; 
         }
         pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
-            color: #344648;
+            color: #404648;
         }
         pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
-            color: #344648;
+            color: #404648;
         }
         .year-font-color {
-            color: #344648 !important;
+            color: #404648 !important;
         }
         .wl-card span.wl-nick {
-            color: #344648; 
+            color: #404648; 
         }
         .wl-card .wl-badge {
-            border: 1px solid #344648;
-            color: #344648; 
+            border: 1px solid #404648;
+            color: #404648; 
         }
         .wl-btn {
-            border: 1px solid #344648; 
-            color:  #344648;  
+            border: 1px solid #404648; 
+            color:  #404648;  
         }
         .wl-btn.primary {
             color: #fffffe; 
         }
         .wl-header label {
-            color: #344648;
+            color: #404648;
         }
         a {
             color: #022e51;
@@ -137,15 +137,15 @@
             color: #022e51;
         }
         .archive-main a:visited {
-            color: #a3b4c8; 
+            color: #022e51; 
         }
 
         .archive li span {
-            color: #344648;
+            color: #404648;
         }
 
         .post-main-title {
-            color: #344648;
+            color: #404648;
         }
 
         .post-md h1,
@@ -154,17 +154,17 @@
         .post-md h4,
         .post-md h5,
         .post-md h6 {
-            color: #344648;
+            color: #404648;
         }
 
         [data-waline] p {
-            color: #344648;
+            color: #404648;
         }
         [data-waline] a {
-            color: #344648;
+            color: #404648;
         } 
         .wl-sort li.active {
-            color: #344648;
+            color: #404648;
         }
 
         .wl-card .wl-meta>span {
@@ -172,7 +172,7 @@
         }
 
         .paper {
-            background: #F4F2F3;
+            background: #f4f2f3;
         }
 
         .index-main {
@@ -206,27 +206,27 @@
 
     
         .progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
         .return-to-last-progress-wrap::after {
-            color: #344648; /* 箭头的颜色 */
+            color: #404648; /* 箭头的颜色 */
         }
         .return-to-last-progress-wrap svg.progress-circle path {
-	        stroke: #344648; /* 边框的颜色 */
+	        stroke: #404648; /* 边框的颜色 */
         }
         .return-to-last-progress-wrap::before {
 	        background-image: linear-gradient(298deg, #022e51, #022e51); /* 鼠标滑过的箭头颜色 */
          }
 
          .left-toc-container::-webkit-scrollbar-thumb {
-            background-color: #344648; /* 设置滚动条拖动块的颜色 */
+            background-color: #404648; /* 设置滚动条拖动块的颜色 */
         }
 
         .bs-docs-sidebar .nav>.active>a,
@@ -236,7 +236,7 @@
             border-left-color: #022e51;
         }
         .bs-docs-sidebar .nav>li>a {
-            color:  #344648;
+            color:  #404648;
         }
     </style>
 
@@ -247,12 +247,12 @@
         
         <script>
             const options = {
-                bottom: '53px', // default: '32px'
+                bottom: '40px', // default: '32px'
                 right: 'unset', // default: '32px'
                 left: '42px', // default: 'unset'
                 time: '0.3s', // default: '0.3s'
                 mixColor: '#fff', // default: '#fff'
-                backgroundColor: ' #F4F2F3  ',  // default: '#fff'
+                backgroundColor: ' #f4f2f3  ',  // default: '#fff'
                 buttonColorDark: '#100f2c',  // default: '#100f2c'
                 buttonColorLight: '#fff', // default: '#fff'
                 saveInCookies: true, // default: true,
@@ -279,14 +279,26 @@
 
 <div class="header">
     <div class="header-container">
-        <img style="
-        width: 56px;
-        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/images/icon.png" width="10%"></img>
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 50%; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/images/icon.png" 
+        />
         <div class="header-content">
             <a class="logo" href="/">A Blog</a> 
             <span class="description">A的存文地</span> 
         </div>
-        
     </div>
     
    
@@ -324,17 +336,42 @@
                     <!--说明是文章post页面-->
                     
                         <div class="post-main">
+    
 
     
-        <div class="post-main-title">
-            圣诞不快乐
-        </div>
+        
+            
+                <div class="post-main-title" style="text-align: center;">
+                    圣诞不快乐
+                </div>
+            
+        
       
+    
+
+    
+
+        
+            <div class="post-head-meta-center">
+        
+                
+                
+                    
+                     <span>字数总计：4.8k</span>
+                
+                
+                    
+                        &nbsp; | &nbsp;
+                    
+                    <span>阅读估时：16分钟</span>
+                
+                
+            </div>
     
 
     <div class="post-md">
         
-        <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><p>节日前后，性格再宽和的人也会忍不住抱怨公共交通与恶劣的天气，堵车、晚点、延误，一连串的意外环环相扣，仿佛流水线上一个卡死的轴承将导致整条生产线的停滞。即便琼当机立断改签，他们两个人还是在预定时间的七个小时后才到达了位于弗里尔市六十公里远的镇子。从大巴车上下来的时候，赫尔蒙德本想帮琼提行李箱，但他高估了自己的体力，差点没把自己摔地上。他的女友接过了两人份的行李，拉着他，对在广场喷泉旁站着的男人挥手：“爸爸！”</p>
+        <div class=".article-gallery"><p>节日前后，性格再宽和的人也会忍不住抱怨公共交通与恶劣的天气，堵车、晚点、延误，一连串的意外环环相扣，仿佛流水线上一个卡死的轴承将导致整条生产线的停滞。即便琼当机立断改签，他们两个人还是在预定时间的七个小时后才到达了位于弗里尔市六十公里远的镇子。从大巴车上下来的时候，赫尔蒙德本想帮琼提行李箱，但他高估了自己的体力，差点没把自己摔地上。他的女友接过了两人份的行李，拉着他，对在广场喷泉旁站着的男人挥手：“爸爸！”</p>
 <p>随着那个穿着翻领大衣的男人走近，赫尔蒙德的胃无法自制地再次绞紧，他有点憎恨今天下午不是个晴朗的天气，在雪花中逐渐清晰的人有着和琼相同的金发与蓝色眼睛，即使已经年过四十，他在面对自己孩子的时候也不曾沉稳太多，以相当的热情跨过纷纷扬扬的雪和结冰的路面，拥抱了自己的孩子。这个身影与他记忆深处的某个带着他走进白桦林的男人重合的瞬间，他把嘴角上扬的弧度拉大了几分，让它僵硬得更像脱口秀里的主持人，准备好一打俏皮台词用于同女友的父亲寒暄。</p>
 <p>理查德·克雷文长得并不特别像赫尔蒙德的疯子父亲，他没有那么精致的五官，也不具备诗人的纤细性格与出身优渥带来的温室花朵般的气质，手指骨节更为粗大，关节和掌心有厚实的茧子，脚上的运动鞋已经穿得很旧，牛仔裤上能看见机油留下的痕迹，服饰细节上符合一个美国高级蓝领的特征。然而，要让第一眼见到他的人来猜测职业的话，大概会偏向选择与书本、知识和文字打交道的那类，同琼站在一起的时候，很容易叫人以为这家的女儿受了父辈的熏陶而得到了相似的书卷气，甚至可以说，他没有多少“男子气概”。这一点上，他比赫尔蒙德见过的任何男性都更像斯捷潘，在现代社会找到像他们这样并不乐于彰显所谓父亲的权威的男性十分困难，最起码，他们对胡须和肌肉没有多少热衷，他说话的语调和声音也丝毫不像他们在车上听到的附近农场主那样的粗硬，又与肯尼斯那种有意训练过带着蛊惑的柔和无甚关系，而是令人感到平和与踏实。他先是放开了琼，盯着她看了一会，高兴地宣布：“你长高了！”然后笑着和站在一旁的赫尔蒙德打招呼：“嘿，好小伙子，你也一样，你们变化可真大！”</p>
 <p>“爸爸，我们半年前才回来过。”琼轻松地回应道，现在赫尔蒙德比刚交往时更能分辨女友的情绪，在最亲的亲人面前，女孩不那么像没有色彩和气味的冰了，而是一块融化得边缘都柔和了的冰糕。他在短促的一刹那感到无所适从，即使在场的只有两个人，这两个人也并非对他心怀恶意的陌生人，他仍旧觉得无法开口，无法呼吸，必须转身就走。为了驱走这种冲动，他咳嗽了一声，拉过两人的注意力，开口道：“因为我们每天都在吃维生素，就像广告里说的那样，青少年的成长缺不了它——阳光和维生素D！”</p>
@@ -356,18 +393,15 @@
 <p>“没关系，可以早上拿来配咖啡。”女孩提出了合理的解决方案，“请帮我把果酱拿过来。”</p>
 <p>“这是之前说的菠菜酱吗！哇——我可得尝尝，就连大力水手也倾情推荐！”赫尔蒙德递给了她果酱，顺便挖了一勺绿色的粘稠固体放在了盘子里。就连罐头瓶，理查德都细心地用彩色缎带区分了口味和年份，他很高兴赫尔蒙德对它感兴趣，连忙把其他的碟子也送到了他面前。这种热情叫男孩有些吃不消，卡壳了一下才道了谢。他都可以预料，一旦他对菠菜酱表现出赞赏的态度，理查德就会希望把剩下的罐头都塞进他的行李箱，可从礼节和本心来说，他也都不愿对这个人恶语相向，更何况琼还在边上，他搜肠刮肚，尽量参照马可的用词，让自己的喜好变得更淡薄些，不至于引起对方更多投喂的想法。</p>
 <p>但当他顺顺当当地结束了一场对话，打定主意当个爱好美食的贪吃鬼的时候，近距离听着父女俩熟稔且亲密地聊天又变成另一桩酷刑。赫尔蒙德从火鸡盘子里挑出柠檬片，抿了一口，留神不叫余光看见二人放松的神色——这样他还能有余暇注意自己的表情，免得搞砸了这个圣诞节。</p>
-</div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
-        var options1 = {
-            selector: '.gallery-item'
-        };
-        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1);
-        }</script>
+</div>
     </div>
-
+<hr>
     <div class="post-meta">
         <i>
         
             <span>2025-01-11</span>
+	<br>
+	<br>
             
                 <span>作者： Aoest</span>
             
@@ -394,12 +428,24 @@
         
         </i>
     </div>
-    <br>
     
-    <!-- <div class="post-footer-pre-next">
-        <span>上一篇：<a href=""></a></span>
-        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
-    </div> -->
+    
+        
+            
+    
+            <div class="post-footer-pre-next">
+                
+                    <span>上一篇：<a href='/2025/01/11/%E5%8F%8C%E5%90%91%E9%98%80%E9%97%A8/'>双向阀门</a></span>
+                
+
+                
+                    <span class="post-footer-pre-next-last-span-right">下一篇：<a href="/2025/01/11/%E8%9B%87%E6%9E%9C/">蛇果</a>
+                    </span>
+                
+            </div>
+    
+        
+    
 
     
         
@@ -432,8 +478,12 @@
 
             
         </span>
+       
     
 </div>
+
+
+
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
@@ -478,11 +528,57 @@
 
 
 
-<script src="/js/lightgallery.min.js"></script>
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="/js/custom-popup.js"></script>
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+
 
                 </div>
             
