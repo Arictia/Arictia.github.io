@@ -951,11 +951,10 @@ body.no-scroll{
 /* 标签样式 */
 /* 设置标签链接的字体大小、颜色和其他样式 */
 .tag-link {
-    color: #007bff; /* 设置链接颜色 */
+    color: #255181; /* 设置链接颜色 */
     text-decoration: none; /* 去掉下划线 */
     font-size: 16px; /* 设置字体大小 */
     padding: 12px 18px; /* 添加内边距 */
-    border-radius: 5px; /* 添加圆角 */
     position: relative;
     margin: auto;
     transition: all 0.2s ease;
@@ -970,24 +969,15 @@ body.no-scroll{
     top: 0;
     left: 0;
     display: block;
-    border-radius: 50px;
-    background: #b1dae7;
     width: 45px;
     height: 45px;
-    transition: all 0.3s ease;
   }
-  .tag-link a {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #234567;
-   }
-  
+  .tag-link:hover{
+    text-decoration: dashed;
+  }
   /* 标签数量的样式 */
   .tag-count {
-    margin-left: 8px; /* 设置标签数量与标签名称之间的间距 */
+    margin-left: 4px; /* 设置标签数量与标签名称之间的间距 */
     color: #6c757d; /* 设置颜色 */
     font-style: italic; /* 设置斜体 */
     font-size: 14px; /* 设置字体大小 */
