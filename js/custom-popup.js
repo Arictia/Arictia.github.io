@@ -93,26 +93,8 @@ document.addEventListener("DOMContentLoaded", function () {
         popupHeader.addEventListener('touchstart', (e) => startDrag(e.touches[0].clientX, e.touches[0].clientY));
         document.addEventListener('touchmove', (e) => doDrag(e.touches[0].clientX, e.touches[0].clientY));
         document.addEventListener('touchend', stopDrag);
+
     });
 
-  // 获取音频元素和按钮
-  const audio = document.getElementById('my-audio');
-
-  // 添加点击事件监听器
-  popupBtn.addEventListener('click', function () {
-    if (audio.paused) {
-      // 如果音频暂停，则播放
-      audio.play();
-      popupBtn.textContent = '暂停'; // 更新按钮文字
-    } else {
-      // 如果音频正在播放，则暂停
-      audio.pause();
-      popupBtn.textContent = '播放'; // 更新按钮文字
-    }
-  });
-
-  // 音频播放结束时，重置按钮文字
-  audio.addEventListener('ended', function () {
-    popupBtn.textContent = '播放';
-  });
+      
 

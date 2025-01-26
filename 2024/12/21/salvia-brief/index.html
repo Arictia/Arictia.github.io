@@ -362,13 +362,13 @@
                 
                 
                     
-                     <span>字数总计：1.4k</span>
+                     <span>字数总计：1.5k</span>
                 
                 
                     
                         &nbsp; | &nbsp;
                     
-                    <span>阅读估时：4分钟</span>
+                    <span>阅读估时：5分钟</span>
                 
                 
             </div>
@@ -467,7 +467,7 @@
             <source src="/images/Christmas.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
-        <button id="popup-btn">OC曲</button>
+        <button id="popup-btn">请听OC曲</button>
     </p>
     <p>参考阅读篇目：<a href="https://arictia.github.io/2024/08/15/Regression/" target="_blank" title="大学时的艾利克斯">退行</a></p>
     <p>
@@ -485,6 +485,38 @@
     <a href="/images/brother2.jpg" class="gallery-item" style="box-shadow: none;"> <img src="/images/brother2.jpg" width=50% align="left"></a>
     <a href="/images/spider.jpg" class="gallery-item" style="box-shadow: none;"> <img src="/images/spider.jpg" width=50% align="right"></a>
 </details>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  // 获取音频元素和按钮
+  const audio = document.getElementById('my-audio');
+  const popupBtn = document.getElementById('popup-btn');
+
+  if (!popupBtn || !audio) {
+    console.error('按钮或音频元素未找到！');
+    return;
+  }
+
+  // 添加点击事件监听器
+  popupBtn.addEventListener('click', function () {
+    if (audio.paused) {
+      // 如果音频暂停，则播放
+      audio.play();
+      popupBtn.textContent = '暂停'; // 更新按钮文字
+    } else {
+      // 如果音频正在播放，则暂停
+      audio.pause();
+      popupBtn.textContent = '播放'; // 更新按钮文字
+    }
+  });
+
+  // 音频播放结束时，重置按钮文字
+  audio.addEventListener('ended', function () {
+    popupBtn.textContent = '播放';
+  });
+});
+
+</script>
 </div>
     </div>
 <hr>
