@@ -95,6 +95,3 @@ document.addEventListener("DOMContentLoaded", function () {
         document.addEventListener('touchend', stopDrag);
 
     });
-
-      
-
