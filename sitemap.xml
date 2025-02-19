@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts.html</loc>
+    <loc>http://localhost:1313/posts/81aced5c/</loc>
+    <lastmod>2025-02-19T22:34:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2025-02-19T22:34:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-02-18T16:44:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-19T00:41:21+08:00</lastmod>
+    <lastmod>2025-02-19T19:15:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/friend.html</loc>
-    <lastmod>2025-02-19T00:04:34+08:00</lastmod>
+    <loc>http://localhost:1313/friend/</loc>
+    <lastmod>2025-02-19T16:55:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/list.html</loc>
-    <lastmod>2025-02-18T19:32:07+08:00</lastmod>
+    <loc>http://localhost:1313/list/</loc>
+    <lastmod>2025-02-19T19:20:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories.html</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-02-17T20:08:19+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags.html</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-17T19:40:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about.html</loc>
-    <lastmod>2025-02-17T21:04:52+08:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-02-19T20:10:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/cd93b48f/</loc>
     <lastmod>2025-02-18T18:24:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html</loc>
+    <loc>http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/</loc>
     <lastmod>2025-02-18T18:24:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html</loc>
-    <lastmod>2025-02-18T18:24:24+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/</loc>
+    <lastmod>2025-02-19T16:47:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/salvia.html</loc>
-    <lastmod>2025-02-18T13:44:12+08:00</lastmod>
+    <loc>http://localhost:1313/categories/salvia/</loc>
+    <lastmod>2025-02-19T16:47:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/e518c58f/</loc>
     <lastmod>2025-02-17T23:36:08+08:00</lastmod>
@@ -44,7 +50,7 @@
     <loc>http://localhost:1313/posts/c6681ef0/</loc>
     <lastmod>2025-02-17T23:24:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html</loc>
+    <loc>http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/</loc>
     <lastmod>2025-02-17T23:44:15+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/d807db14/</loc>
@@ -56,14 +62,11 @@
     <loc>http://localhost:1313/posts/&#39;26997426&#39;/</loc>
     <lastmod>2025-02-17T23:34:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/1f18a9aa/</loc>
-    <lastmod>2025-02-17T23:40:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%85%B6%E4%BB%96.html</loc>
-    <lastmod>2025-02-17T23:40:36+08:00</lastmod>
+    <loc>http://localhost:1313/posts/2f18a9aa/</loc>
+    <lastmod>2025-02-19T17:51:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/371d23cb/</loc>
-    <lastmod>2025-02-18T13:44:12+08:00</lastmod>
+    <lastmod>2025-02-19T16:47:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/e8c5260b/</loc>
     <lastmod>2025-02-17T23:35:33+08:00</lastmod>
@@ -98,7 +101,7 @@
     <loc>http://localhost:1313/posts/48c9ebd4/</loc>
     <lastmod>2025-02-17T23:24:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85.html</loc>
+    <loc>http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85/</loc>
     <lastmod>2025-02-17T23:39:07+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/f192bd02/</loc>
@@ -140,10 +143,10 @@
     <loc>http://localhost:1313/posts/a94329b4/</loc>
     <lastmod>2025-02-17T23:24:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ff7.html</loc>
+    <loc>http://localhost:1313/categories/ff7/</loc>
     <lastmod>2025-02-17T23:24:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BF%BB%E8%AF%91.html</loc>
+    <loc>http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/</loc>
     <lastmod>2025-02-17T23:37:07+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/&#39;7692e842&#39;/</loc>
@@ -182,10 +185,10 @@
     <loc>http://localhost:1313/posts/e4b13146/</loc>
     <lastmod>2025-02-17T23:24:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F.html</loc>
+    <loc>http://localhost:1313/categories/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/</loc>
     <lastmod>2025-02-17T23:24:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html</loc>
+    <loc>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/</loc>
     <lastmod>2025-02-17T23:44:25+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/e921a3bd/</loc>
@@ -206,7 +209,7 @@
     <loc>http://localhost:1313/posts/35468f91/</loc>
     <lastmod>2025-02-17T23:45:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%A5%9E%E8%AF%9D%E7%BB%88%E7%84%89.html</loc>
+    <loc>http://localhost:1313/categories/%E7%A5%9E%E8%AF%9D%E7%BB%88%E7%84%89/</loc>
     <lastmod>2025-02-17T23:45:16+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/3420973e/</loc>
@@ -242,7 +245,7 @@
     <loc>http://localhost:1313/posts/8c0da5a5/</loc>
     <lastmod>2025-02-17T23:37:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%BE%99%E6%9E%AA.html</loc>
+    <loc>http://localhost:1313/categories/%E9%BE%99%E6%9E%AA/</loc>
     <lastmod>2025-02-17T23:37:07+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/93858ee1/</loc>
@@ -281,7 +284,7 @@
     <loc>http://localhost:1313/posts/&#39;81012249&#39;/</loc>
     <lastmod>2025-02-17T23:35:15+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html</loc>
+    <loc>http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/</loc>
     <lastmod>2025-02-17T23:43:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/359d978e/</loc>
@@ -296,7 +299,7 @@
     <loc>http://localhost:1313/posts/32bac87a/</loc>
     <lastmod>2025-02-17T23:24:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%BA%AF%E6%B4%81%E7%9A%84%E8%AF%81%E6%98%8E.html</loc>
+    <loc>http://localhost:1313/categories/%E7%BA%AF%E6%B4%81%E7%9A%84%E8%AF%81%E6%98%8E/</loc>
     <lastmod>2025-02-17T23:24:34+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/c205828c/</loc>
@@ -311,7 +314,7 @@
     <loc>http://localhost:1313/posts/d7445bba/</loc>
     <lastmod>2025-02-17T23:44:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html</loc>
+    <loc>http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/</loc>
     <lastmod>2025-02-17T23:44:25+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/58a105d3/</loc>

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-02-19T00:45:17&#43;08:00</updated>
+    <updated>2025-02-19T22:34:53&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,39 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">hexo迁移hugo记录</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/81aced5c/" />
+            <id>http://localhost:1313/posts/81aced5c/</id>
+            <updated>2025-02-19T22:34:13&#43;08:00</updated>
+            <published>2025-02-19T20:22:22&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一篇纯粹的操作指南</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">sink in ocean current</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/cd93b48f/" />
@@ -39,7 +72,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -49,7 +82,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -80,7 +113,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -90,7 +123,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -121,7 +154,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -131,7 +164,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -162,7 +195,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -172,7 +205,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -203,7 +236,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -213,7 +246,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -244,7 +277,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -254,7 +287,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -285,7 +318,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -295,7 +328,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -304,10 +337,10 @@
         </entry>
     
         <entry>
-            <title type="text">年终总结</title>
-            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/1f18a9aa/" />
-            <id>http://localhost:1313/posts/1f18a9aa/</id>
-            <updated>2025-02-17T23:40:36&#43;08:00</updated>
+            <title type="text">2024年终总结</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/2f18a9aa/" />
+            <id>http://localhost:1313/posts/2f18a9aa/</id>
+            <updated>2025-02-19T17:51:55&#43;08:00</updated>
             <published>2024-12-31T23:35:58&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -328,7 +361,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96.html" term="其他" label="其他" />
+                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
                             
                         
                     
@@ -340,7 +373,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2025-02-18T13:44:12&#43;08:00</updated>
+            <updated>2025-02-19T16:47:49&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -360,7 +393,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -370,7 +403,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -401,7 +434,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -411,7 +444,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -442,7 +475,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -452,7 +485,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -483,7 +516,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -493,7 +526,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -524,7 +557,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -534,7 +567,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -565,7 +598,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -575,7 +608,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -606,7 +639,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -616,7 +649,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -647,7 +680,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -657,7 +690,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -688,7 +721,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -698,7 +731,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -729,7 +762,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -739,7 +772,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -772,7 +805,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -782,7 +815,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -813,7 +846,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85.html" term="星之窥视者" label="星之窥视者" />
+                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85/" term="星之窥视者" label="星之窥视者" />
                             
                         
                     
@@ -823,7 +856,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -854,7 +887,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -864,7 +897,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -895,7 +928,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -905,7 +938,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -936,7 +969,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -946,7 +979,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -978,7 +1011,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -988,7 +1021,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1019,7 +1052,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1029,7 +1062,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1060,7 +1093,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1070,7 +1103,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1101,7 +1134,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1111,7 +1144,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1142,7 +1175,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1152,7 +1185,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1183,7 +1216,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1193,7 +1226,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1224,7 +1257,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1234,7 +1267,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1265,7 +1298,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1275,7 +1308,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1307,7 +1340,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -1317,7 +1350,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1351,7 +1384,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/ff7.html" term="ff7" label="ff7" />
+                                <category scheme="http://localhost:1313/categories/ff7/" term="ff7" label="ff7" />
                             
                         
                     
@@ -1361,7 +1394,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91.html" term="翻译" label="翻译" />
+                                <category scheme="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
                             
                         
                     
@@ -1392,7 +1425,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1402,7 +1435,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1433,7 +1466,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1443,7 +1476,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1474,7 +1507,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1484,7 +1517,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1515,7 +1548,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1525,7 +1558,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1560,7 +1593,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1570,7 +1603,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1601,7 +1634,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1611,7 +1644,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1642,7 +1675,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1652,7 +1685,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1683,7 +1716,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1693,7 +1726,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1724,7 +1757,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1734,7 +1767,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1765,7 +1798,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1775,7 +1808,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1806,7 +1839,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1816,7 +1849,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1848,7 +1881,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F.html" term="明日方舟" label="明日方舟" />
+                                <category scheme="http://localhost:1313/categories/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/" term="明日方舟" label="明日方舟" />
                             
                         
                     
@@ -1858,7 +1891,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -1889,7 +1922,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1899,7 +1932,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1930,7 +1963,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -1940,7 +1973,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -1971,7 +2004,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -1981,7 +2014,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2012,7 +2045,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2022,7 +2055,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2053,7 +2086,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2063,7 +2096,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2094,7 +2127,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%A5%9E%E8%AF%9D%E7%BB%88%E7%84%89.html" term="神话终焉" label="神话终焉" />
+                                <category scheme="http://localhost:1313/categories/%E7%A5%9E%E8%AF%9D%E7%BB%88%E7%84%89/" term="神话终焉" label="神话终焉" />
                             
                         
                     
@@ -2104,7 +2137,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2135,7 +2168,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2145,7 +2178,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2190,7 +2223,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85.html" term="星之窥视者" label="星之窥视者" />
+                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85/" term="星之窥视者" label="星之窥视者" />
                             
                         
                     
@@ -2200,7 +2233,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2231,7 +2264,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2268,7 +2301,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2278,7 +2311,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2309,7 +2342,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2319,7 +2352,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2351,7 +2384,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2361,7 +2394,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2392,7 +2425,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2402,7 +2435,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2433,7 +2466,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2443,7 +2476,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2474,7 +2507,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2507,7 +2540,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2517,7 +2550,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2548,7 +2581,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E9%BE%99%E6%9E%AA.html" term="龙枪" label="龙枪" />
+                                <category scheme="http://localhost:1313/categories/%E9%BE%99%E6%9E%AA/" term="龙枪" label="龙枪" />
                             
                         
                     
@@ -2558,7 +2591,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91.html" term="翻译" label="翻译" />
+                                <category scheme="http://localhost:1313/tags/%E7%BF%BB%E8%AF%91/" term="翻译" label="翻译" />
                             
                         
                     
@@ -2589,7 +2622,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2599,7 +2632,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2630,7 +2663,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2640,7 +2673,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2671,7 +2704,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2681,7 +2714,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2712,7 +2745,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2722,7 +2755,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2753,7 +2786,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2763,7 +2796,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2796,7 +2829,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96.html" term="其他" label="其他" />
+                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
                             
                         
                     
@@ -2827,7 +2860,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B.html" term="无影灯下" label="无影灯下" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -2837,7 +2870,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2868,7 +2901,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -2878,7 +2911,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2909,7 +2942,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -2919,7 +2952,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2950,7 +2983,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -2960,7 +2993,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -2997,7 +3030,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/salvia.html" term="Salvia" label="Salvia" />
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
                             
                         
                     
@@ -3007,7 +3040,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -3038,7 +3071,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html" term="莫索里哀" label="莫索里哀" />
+                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/" term="莫索里哀" label="莫索里哀" />
                             
                         
                     
@@ -3048,7 +3081,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3079,7 +3112,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html" term="莫索里哀" label="莫索里哀" />
+                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/" term="莫索里哀" label="莫索里哀" />
                             
                         
                     
@@ -3089,7 +3122,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3120,7 +3153,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86.html" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
                             
                         
                     
@@ -3130,7 +3163,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -3161,7 +3194,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85.html" term="星之窥视者" label="星之窥视者" />
+                                <category scheme="http://localhost:1313/categories/%E6%98%9F%E4%B9%8B%E7%AA%A5%E8%A7%86%E8%80%85/" term="星之窥视者" label="星之窥视者" />
                             
                         
                     
@@ -3171,7 +3204,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B.html" term="原创" label="原创" />
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
                             
                         
                     
@@ -3202,7 +3235,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BA%AF%E6%B4%81%E7%9A%84%E8%AF%81%E6%98%8E.html" term="纯洁的证明" label="纯洁的证明" />
+                                <category scheme="http://localhost:1313/categories/%E7%BA%AF%E6%B4%81%E7%9A%84%E8%AF%81%E6%98%8E/" term="纯洁的证明" label="纯洁的证明" />
                             
                         
                     
@@ -3212,7 +3245,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3243,7 +3276,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html" term="莫索里哀" label="莫索里哀" />
+                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/" term="莫索里哀" label="莫索里哀" />
                             
                         
                     
@@ -3253,7 +3286,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3284,7 +3317,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html" term="莫索里哀" label="莫索里哀" />
+                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/" term="莫索里哀" label="莫索里哀" />
                             
                         
                     
@@ -3294,7 +3327,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3326,7 +3359,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80.html" term="莫索里哀" label="莫索里哀" />
+                                <category scheme="http://localhost:1313/categories/%E8%8E%AB%E7%B4%A2%E9%87%8C%E5%93%80/" term="莫索里哀" label="莫索里哀" />
                             
                         
                     
@@ -3336,7 +3369,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3368,7 +3401,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3378,7 +3411,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3409,7 +3442,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3419,7 +3452,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3452,7 +3485,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3462,7 +3495,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3494,7 +3527,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3504,7 +3537,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3535,7 +3568,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3545,7 +3578,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3576,7 +3609,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3586,7 +3619,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3618,7 +3651,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3628,7 +3661,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3659,7 +3692,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3669,7 +3702,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3700,7 +3733,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3710,7 +3743,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3741,7 +3774,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3751,7 +3784,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     
@@ -3782,7 +3815,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2.html" term="细胞神曲" label="细胞神曲" />
+                                <category scheme="http://localhost:1313/categories/%E7%BB%86%E8%83%9E%E7%A5%9E%E6%9B%B2/" term="细胞神曲" label="细胞神曲" />
                             
                         
                     
@@ -3792,7 +3825,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA.html" term="同人" label="同人" />
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
                             
                         
                     

@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.143.1"><meta name="theme-color" content="#16171d" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>hexo迁移hugo记录 | A Blog</title>
+
+    <link rel="stylesheet" href="/css/meme.min.d4453d5d810dc8e10e1e44f3de73face2a5ebdea50efef6b3ce0243a5841bf36.css"/>
+
+    
+    
+        
+            <script src="/js/meme.min.c96683397b3d735df508ef54a238f3341af6f4b86d7ecfcd6ac0e4bbb781f8a7.js"></script>
+
+        
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="Aoest" /><meta name="description" content="一篇纯粹的操作指南" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="A Blog" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="A Blog" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+        <link rel="canonical" href="http://localhost:1313/posts/81aced5c/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "datePublished": "2025-02-19T20:22:22+08:00",
+        "dateModified": "2025-02-19T22:34:13+08:00",
+        "url": "http://localhost:1313/posts/81aced5c/",
+        "headline": "hexo迁移hugo记录",
+        "description": "一篇纯粹的操作指南",
+        "inLanguage" : "zh-CN",
+        "articleSection": "posts",
+        "wordCount":  3283 ,
+        "image": "http://localhost:1313/icons/apple-touch-icon.png",
+        "author": {
+            "@type": "Person",
+            "description": " ",
+            "email": "Arictia@protonmail.com",
+            "image": "http://localhost:1313/icons/apple-touch-icon.png",
+            "url": "https://io-oi.me/",
+            "name": "Aoest"
+        },
+        "license": "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "A Blog",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http://localhost:1313/icons/apple-touch-icon.png"
+            },
+            "url": "http://localhost:1313/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "http://localhost:1313/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:site" content="@Arictia" />
+<meta name="twitter:creator" content="@ " />
+
+    
+
+
+
+<meta property="og:title" content="hexo迁移hugo记录" />
+<meta property="og:description" content="一篇纯粹的操作指南" />
+<meta property="og:url" content="http://localhost:1313/posts/81aced5c/" />
+<meta property="og:site_name" content="A Blog" />
+<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="http://localhost:1313/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2025-02-19T20:22:22&#43;08:00" />
+    <meta property="article:modified_time" content="2025-02-19T22:34:13&#43;08:00" />
+    
+    <meta property="article:section" content="posts" />
+<meta name="fediverse:creator" content=" " />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">A Blog</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+
+        
+            
+                <li class="menu-item"><a href="/categories/">
+                        <span class="menu-item-name">Series</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/tags/">
+                        <span class="menu-item-name">Tags</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/">
+                        <span class="menu-item-name">About</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-light"><path d="M193.2 104.5l48.8-97.5a18 18 0 0128 0l48.8 97.5 103.4 -34.5a18 18 0 0119.8 19.8l-34.5 103.4l97.5 48.8a18 18 0 010 28l-97.5 48.8 34.5 103.4a18 18 0 01-19.8 19.8l-103.4-34.5-48.8 97.5a18 18 0 01-28 0l-48.8-97.5l-103.4 34.5a18 18 0 01-19.8-19.8l34.5-103.4-97.5-48.8a18 18 0 010-28l97.5-48.8-34.5-103.4a18 18 0 0119.8-19.8zM256 128a128 128 0 10.01 0M256 160a96 96 0 10.01 0"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-dark"><path d="M27 412a256 256 0 10154-407a11.5 11.5 0 00-5 20a201.5 201.5 0 01-134 374a11.5 11.5 0 00-15 13"/></svg></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="default" data-type="posts" data-indent="true" data-toc-num="true">
+
+            <h1 class="post-title p-name">hexo迁移hugo记录</h1>
+
+            
+
+            
+            
+
+<div class="post-meta">
+    
+        
+        <time datetime="2025-02-19T20:22:22&#43;08:00" class="post-meta-item published dt-published">&nbsp;2025.2.19</time>
+    
+    
+    
+    
+        
+        
+        
+            
+        
+    
+    
+        
+        <span class="post-meta-item wordcount">&nbsp;3283</span>
+    
+    
+        
+        <span class="post-meta-item reading-time">&nbsp;7&nbsp;分钟</span>
+    
+    
+    
+</div>
+
+            
+
+            
+                <div class="post-description p-summary">一篇纯粹的操作指南</div>
+                
+            
+
+            <div class="post-body e-content">
+                <h2 id="为什么要迁移博客"><a href="#为什么要迁移博客" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>为什么要迁移博客</h2>
+<ol>
+<li>自从给博客添加了许多图片和 js 内容，Hexo 的渲染速度就升上了 1 s，文章只会越来越多，速度只会越来越慢，早换早解脱。</li>
+<li>Hexo 的包维护起来太麻烦了，上次更新依赖我直接重新下了 node. Js，每次更新都很笨重，而且有时候需要的插件和主题不兼容，（以我贫乏的前端知识）也不知道怎么改，技术上太黑盒了。</li>
+</ol>
+<h2 id="准备工作"><a href="#准备工作" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>准备工作</h2>
+<ol>
+<li>
+<p>首先明确需求：我希望不需要新建 GitHub 仓库，继续在原有的仓库中托管博客，这样不用再搞一遍 SSH 相关，只需要清空原来的仓库，把 Hugo 生成的新博客页面放进去就行了。在电脑上，我新建了一个文件夹存放 Hugo 的博客内容，废弃掉原有的 Hexo 博客内容文件夹。</p>
+</li>
+<li>
+<p>保证网络连接：挂代理后发现无法 <code>git push</code> 了，参考网络上的回答在系统-网络与 Internet-代理-手动设置代理中获得当前代理使用的端口号，使用 <code>git config --global http.proxy http://127.0.0.1:端口号</code> 把 git 的端口号改成和代理一致</p>
+</li>
+<li>
+<p>检查电脑内是否安装 go 环境和 Hugo，没有的话下载，Hugo 版本号要带 extended，否则后续安装主题时会报错；右键 shell 或 git bash 输入 <code>hugo version</code> 弹出版本号即成功安装；如果提示需要键入 <code>\hugo</code> 才能使用命令，说明你没有把 hugo. Exe 添加到环境变量</p>
+</li>
+<li>
+<p>备份需要保留的博客文件，包括 source 文件夹中所有博文、图片、音乐资源，以及你在新博客可能还会用到的 css 和 js 内容（或者直接将原来仓库里的内容克隆到本地）</p>
+</li>
+<li>
+<p>在原来设置了远程仓库连接的文件夹中 （即，文件夹中有. Git 文件夹）清空本地仓库 <code>rm -rf * .github .gitignore .nojekyll</code>，最好在这一步之前将所有源文件内容备份</p>
+</li>
+<li>
+<p>提交删除 <code>git add .</code>，确认操作 <code>git commit -m&quot;清空hexo文件&quot;</code>，推送到远程仓库 <code>git push origin master</code></p>
+<ol>
+<li>如果操作的文件夹里没有. Git 文件夹，说明这个文件夹不是上传内容的本地仓库，会报错</li>
+<li>如果不想这样做，或者推送远程仓库不成功，可以直接在网页 GitHub 上将 hexo 博客所在的仓库分支删除，再重新创建。（前提是它不是默认分支）</li>
+<li>如果 hexo 原先的内容在默认分支，就重新创建一个分支，将它修改成默认分支。修改默认分支在 Setting 标签页，删除分支在 branch 按钮</li>
+<li>如果 hugo 内容推送到的远程仓库分支不是默认分支，有可能其内容不显示</li>
+</ol>
+</li>
+<li>
+<p>确认仓库已经清空，以下所有操作均在 git bash 中完成。</p>
+</li>
+</ol>
+<h2 id="创建站点并部署"><a href="#创建站点并部署" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>创建站点并部署</h2>
+<ol>
+<li>
+<p>在创建的 Hugo 文件夹中使用 <code>hugo new site .</code> 创建一个新站点，</p>
+</li>
+<li>
+<p>克隆或下载一个 Hugo 主题，我使用的是 meme 主题，手动下载了安装包，解压后放在站点文件夹里的theme 中</p>
+</li>
+<li>
+<p>按照 meme 说明文档所要求的，删除 Hugo 新建站点时生成的  toml 文件，将 <code>themes/meme/config-examples/zh-cn/</code> 中的 <code>config.toml</code> 复制到博客根目录</p>
+<ul>
+<li>如果没有删掉就复制，会报错 failed to load modules 或 failed to trtansform &quot;en/style/main-render. Sass&quot;</li>
+</ul>
+</li>
+<li>
+<p>使用 <code>hugo new &quot;posts/hello-world.md&quot;</code> 新建一个测试页面，使用 <code>hugo new &quot;about/_index.md&quot;</code> 新建关于页面</p>
+</li>
+<li>
+<p>键入 <code>hugo serve</code> 预览，注意，这一步只能在根目录完成，Hugo 会为你的博客生成一个 public 文件夹，存放真正展示给访客的 HTML 页面</p>
+<ul>
+<li>如果没有出现页面，是因为 md 文件头部分 draft 设置成了 true ，要么使用 <code>hugo serve -D</code> 预览，要么在 archetypes 文件夹中，将默认新建 md 文件头中的 draft 项改成 false 再重新新建 md 文件</li>
+</ul>
+</li>
+<li>
+<p>根据文档提示新建 tags 分类页面 <code>hugo new tags/_index.md</code> 和分类页面，此时页面没有内容，在 hello-world 文件头中的 tags 项写入 <code>['标签内容']</code>，这样就将文章打上了标签</p>
+</li>
+<li>
+<p>确认博客可以正常渲染和跳转各个页面后，进入到 public 文件夹中 <code>cd public</code> ，新建本地仓库 <code>git init</code>，将本地仓库与远程仓库进行连接 <code>git remote add origin https://github.com/xxx/xxx.github.io.git</code></p>
+</li>
+<li>
+<p>确保此时本地仓库所在的分支是 master <code>git checkout -M master</code>，如果不是，将其切换成 master</p>
+</li>
+<li>
+<p>将所有改动写入本地仓库 <code>git add .</code> 并确认 <code>git commit -m&quot;新建Hugo博客&quot;</code></p>
+</li>
+<li>
+<p>推送 public 中的内容到远程仓库 <code>git push -u origin master</code></p>
+</li>
+</ol>
+<h3 id="快速部署"><a href="#快速部署" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>快速部署</h3>
+<ul>
+<li>
+<p>Hugo 博客和 Hexo 不同在于，Hexo 可以直接在预览后使用 <code>hexo d</code> 将新内容推送到仓库，Hugo 没有集成此命令，需要使用 git push 命令来推送，但是可以用 hugo 官方推荐的 GitHub Actions 流程简化</p>
+</li>
+<li>
+<p>在根目录中的. Github\workflows 中新建 hugo. Yaml 并输入以下内容，其中 branches 和 env 的 hugo 版本根据自己的需求更改</p>
+</li>
+</ul>
+<pre tabindex="0"><code># 用于构建和部署Hugo网站到GitHub Pages的示例工作流程
+
+name: 发布Hugo网站到Pages
+
+  
+
+on:
+
+  # 在目标为默认分支的推送上运行
+
+  push:
+
+    branches:
+
+      - master  #要推送的仓库分支
+
+  
+
+  # 允许您手动从“Actions”标签运行此工作流程
+
+  workflow_dispatch:
+
+  
+
+# 设置GITHUB_TOKEN的权限，以允许部署到GitHub Pages
+
+permissions:
+
+  contents: read
+
+  pages: write
+
+  id-token: write
+
+  
+
+# 仅允许一个并发部署，跳过在进行中的运行与最新排队的运行之间排队的运行。
+
+# 但是，请不要取消进行中的运行，因为我们希望这些生产部署能够完成。
+
+concurrency:
+
+  group: &#34;pages&#34;
+
+  cancel-in-progress: false
+
+  
+
+# 默认使用bash
+
+defaults:
+
+  run:
+
+    shell: bash
+
+  
+
+jobs:
+
+  # 构建作业
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    env:
+
+      HUGO_VERSION: 0.143.1  #Hugo版本
+
+    steps:
+
+      - name: 安装Hugo CLI
+
+        run: |
+
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+
+          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+
+      - name: 安装Dart Sass
+
+        run: sudo snap install dart-sass
+
+      - name: 检出
+
+        uses: actions/checkout@v4
+
+        with:
+
+          submodules: recursive
+
+          fetch-depth: 0
+
+      - name: 设置Pages
+
+        id: pages
+
+        uses: actions/configure-pages@v3
+
+      - name: 安装Node.js依赖
+
+        run: &#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;
+
+      - name: 使用Hugo构建
+
+        env:
+
+          # 为了与Hugo模块的最大向后兼容性
+
+          HUGO_ENVIRONMENT: production
+
+          HUGO_ENV: production
+
+        run: |
+
+          hugo \
+
+            --gc \
+
+            --minify \
+
+            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;          
+
+      - name: 上传构建产物
+
+        uses: actions/upload-pages-artifact@v2
+
+        with:
+
+          path: ./public
+
+  
+
+  # 部署作业
+
+  deploy:
+
+    environment:
+
+      name: github-pages
+
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    needs: build
+
+    steps:
+
+      - name: 部署到GitHub Pages
+
+        id: deployment
+
+        uses: actions/deploy-pages@v2
+</code></pre><ul>
+<li>修改内容后，使用 <code>hugo serve</code> 预览并渲染，确认无误使用 <code>git add .</code> 和 <code>git commit -m&quot;更改信息&quot;</code> 将博客更新内容推送到远程仓库</li>
+</ul>
+<p>最后查看 GitHub page 的托管网站是否已经更新为 hugo 的内容。</p>
+<h2 id="博客文件迁移"><a href="#博客文件迁移" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>博客文件迁移</h2>
+<p>直接将所有原博客md文件复制到content\posts中即可，需要注意以下要点</p>
+<ul>
+<li>如果使用了abbrlink，文件头部分会存在<code>abbrlink: 371d23cb</code>这样的项，需要用脚本将所有文件的这一项读取并新建<code>url: posts/371d23cb</code>项，这样hugo才能读取并保证原来的url不变</li>
+<li>在archetypes文件夹中默认页面写入<code>slug = '{{ substr (md5 (printf &quot;%s%s&quot; .Date (replace .TranslationBaseName &quot;-&quot; &quot; &quot; | title))) 4 8 }}'</code>，这样hugo新生成的文章才同样使用abbrlink</li>
+</ul>
+<h2 id="美化"><a href="#美化" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>美化</h2>
+<p><strong>以下所有内容都基于 meme 主题</strong>
+进行更改前，将 meme 文件夹中 assets、layout、data、static、i 18 n 文件夹复制到根目录中，并且只在根目录中进行修改</p>
+<h3 id="博客内部美化"><a href="#博客内部美化" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>博客内部美化</h3>
+<ul>
+<li>修改主页布局为 page，在 content 文件夹中新建_index. Md 文件作为首页，如果不想要显示标题，直接将文件头部分 title 内容留空</li>
+<li>删除右上角菜单的图标：注释掉\layouts\partials 中的 menu. Html 文件中第 37、38 行内容</li>
+</ul>
+<pre tabindex="0"><code>{{- $iconName := (string .Post) -}}
+{{- partial &#34;utils/icon.html&#34; (dict &#34;$&#34; $ &#34;name&#34; $iconName &#34;class&#34; .Identifier) -}}
+</code></pre><ul>
+<li>修改文章页面段间距：在\assets\scss\layout 中 post. Scss 中修改 .post 的内容</li>
+</ul>
+<pre tabindex="0"><code>.post {
+    p {
+        margin: 1em 0;
+    }
+</code></pre><ul>
+<li>其他美化内容在config.toml中修改即可</li>
+</ul>
+<h3 id="短代码和-css"><a href="#短代码和-css" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>短代码和 css</h3>
+<p>主要从这位博主的<a href="https://ztygcs.github.io/posts/%E5%8D%9A%E5%AE%A2/%E8%87%AA%E5%AE%9A%E4%B9%89-hugo-shortcodes-%E7%AE%80%E7%A0%81/#" target="_blank" rel="noopener">博客</a>里抄了一些来用，也从爱海的博客里 copy 了一些</p>
+<h4 id="图片轮播"><a href="#图片轮播" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>图片轮播</h4>
+<p>新建\layouts\shortcodes\imgloop. Html</p>
+<pre tabindex="0"><code>{{ if .Site.Params.enableimgloop }}
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css&#34;&gt;
+
+    &lt;!-- Swiper --&gt;
+
+    &lt;div class=&#34;swiper-container&#34;&gt;
+
+        &lt;div class=&#34;swiper-wrapper&#34;&gt;
+
+            {{$itItems := split (.Get 0) &#34;,&#34;}}
+
+            {{range $itItems }}
+
+            &lt;div class=&#34;swiper-slide&#34;&gt;
+
+                &lt;img src=&#34;{{.}}&#34; alt=&#34;&#34;&gt;
+
+            &lt;/div&gt;
+
+            {{end}}
+
+        &lt;/div&gt;
+
+        &lt;!-- Add Pagination --&gt;
+
+        &lt;div class=&#34;swiper-pagination&#34;&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+
+  
+
+    &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js&#34;&gt;&lt;/script&gt;
+
+     &lt;!-- Initialize Swiper --&gt;
+
+     &lt;script&gt;
+
+        var swiper = new Swiper(&#39;.swiper-container&#39;, {
+
+            pagination: &#39;.swiper-pagination&#39;,
+
+            paginationClickable: true,
+
+        //自动调节高度
+
+        autoHeight: true,
+
+        //键盘左右方向键控制
+
+        keyboardControl : true,
+
+        //鼠标滑轮控制
+
+        mousewheelControl : true,
+
+        //自动切换
+
+        //autoplay : 5000,
+
+        //懒加载
+
+        lazyLoading : true,
+
+        lazyLoadingInPrevNext : true,
+
+        //无限循环
+
+        loop : true,
+
+        });
+
+        &lt;/script&gt;
+
+{{ end }}
+</code></pre><p>在页面中用 <code>{&lt; imgloop &quot;/images/1.jpg,/images/2.jpg,/images/3.jpg&quot; &gt;}</code> 来使用（要用两个{}包裹此句内容，下同）</p>
+<h4 id="友链"><a href="#友链" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>友链</h4>
+<p>新建\layouts\shortcodes\friend. Html</p>
+<pre tabindex="0"><code>{{- if .IsNamedParams -}}
+
+&lt;div class=&#34;frienddiv&#34;&gt;
+
+  &lt;a target=&#34;_blank&#34; href={{ .Get &#34;url&#34; }} title={{ .Get &#34;name&#34; }} class=&#34;friendurl&#34;&gt;
+
+    &lt;div class=&#34;frienddivleft&#34;&gt;
+
+      &lt;img class=&#34;myfriend&#34; src={{ .Get &#34;logo&#34; }} /&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&#34;frienddivright&#34;&gt;
+
+      &lt;span class=&#34;friendname&#34;&gt;{{- .Get &#34;name&#34; -}}&lt;/span&gt;
+
+      &lt;span class=&#34;friendinfo&#34;&gt;{{- .Get &#34;word&#34; -}}&lt;/span&gt;
+
+    &lt;/div&gt;
+
+  &lt;/a&gt;
+
+&lt;/div&gt;
+
+{{- end }}
+</code></pre><p>在页面中用 <code>{&lt;friend name=&quot;&quot; url=&quot;&quot; logo=&quot; &quot; word=&quot;&quot;&gt;} </code> 来使用</p>
+<h4 id="页面插入卡片格式"><a href="#页面插入卡片格式" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>页面插入卡片格式</h4>
+<p>新建\layouts\shortcodes\card. Html</p>
+<pre tabindex="0"><code>{{- $raw := (markdownify .Inner | chomp) -}} {{- $block := findRE
+
+&#34;(?is)^&lt;(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b&#34;
+
+$raw 1 -}}
+
+&lt;div class=&#34;mycard&#34;&gt;
+
+  &lt;div class=&#34;content&#34;&gt;{{- if or $block (not $raw) }}{{ $raw }}{{ else }} {{ $raw }} {{ end -}}&lt;/div&gt;
+
+&lt;/div&gt;
+</code></pre><p>在页面中用 <code>{&lt; card &gt;}内容{&lt; /card &gt;}</code> 来使用，内容中可以使用 html 和 md 语言</p>
+<h4 id="诗歌引用"><a href="#诗歌引用" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>诗歌引用</h4>
+<p>新建\layouts\shortcodes\middle. Html</p>
+<pre tabindex="0"><code>&lt;div class=&#34;quote-center&#34;&gt;
+
+    {{- $content := .Inner | markdownify -}}
+
+    {{- if not (strings.HasPrefix $content &#34;&lt;p&gt;&#34;) }}
+
+      {{ printf `&lt;/p&gt;&lt;p&gt;%s&lt;/p&gt;` $content | safeHTML }}
+
+    {{- else }}
+
+      {{- $content }}
+
+    {{- end -}}
+
+  &lt;/div&gt;
+</code></pre><p>在文本中用 <code>{&lt; middle &gt;}诗歌{&lt; /middle &gt;}</code> 使用，如果要换行，使用 <code>&lt;br&gt;</code></p>
+<h4 id="配套使用的-css"><a href="#配套使用的-css" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>配套使用的 css</h4>
+<p>其中，如果使用了卡片和诗句引用短代码必须写入相应样式，彩色文字用 <code>&lt;font class='colorfulfont'&gt;&lt;/font&gt;</code> 来使用；其他用 <code>&lt;div class='...'&gt;&lt;/div&gt;</code> 来使用</p>
+<pre tabindex="0"><code>//彩色文字样式
+
+   .colorfulfont {
+
+    background: linear-gradient(to right, rgb(117, 9, 9), #6a6d83);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    color: transparent;
+
+  }
+
+// 卡片样式
+
+.mycard {
+
+  padding: 10px 20px;
+
+  margin: 20px 0;
+
+  border-radius: 4px;
+
+  word-break: break-all;
+
+  background: transparent;
+
+  box-shadow: 0 6px 10px 0 alpha(var(--color-contrast-high), 0.15);
+
+  .content {
+
+    line-height: 30px;
+
+  }
+
+}
+
+//诗句引用样式
+
+.quote-center {
+
+  background-color:transparent!important;
+
+  position: relative;
+
+  border-left: none;
+
+  padding-left: 0;
+
+  padding: 20px!important;
+
+  border-radius: 5px!important;
+
+  border-top: 0px solid var(--color-markdown-blockquote-border);
+
+  border-bottom: 0px solid var(--color-markdown-blockquote-border);
+
+  p {
+
+    text-align: center !important;
+
+    margin-top: 1.5em!important;
+
+    margin-bottom: 1.5em!important;
+
+    font-weight: lighter;
+
+  }
+
+  &amp;::before {
+
+    position: absolute;
+
+    left: 0;
+
+    content: &#39;– ‐‐——– ‐‐——&#39;;
+
+    font-size: 0.75em;
+
+    font-weight: lighter;
+
+    margin-top: -0.5em;
+
+  }
+
+  &amp;::after {
+
+    position: absolute;
+
+    right: 0;
+
+    content: &#39;– ‐‐——– ‐‐——&#39;;
+
+    font-size: 0.75em;
+
+    font-weight: lighter;
+
+    margin-top: -0.5em;
+
+  }
+
+}
+
+//自设定卡片式边缘
+
+.circle-black {
+
+  padding: 40px 25px 50px;
+
+  border: solid 1px ;
+
+  margin-bottom: 12px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-content: center;
+
+}
+</code></pre>
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+    
+        <div class="related-posts">
+            <h2 class="related-title">相关文章：</h2>
+            <ul class="related-list">
+                
+                    <li class="related-item">
+                        <a href="/posts/2f18a9aa/" class="related-link">2024年终总结</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/posts/1f18a9aa/" class="related-link">年终总结</a>
+                    </li>
+                
+            </ul>
+        </div>
+    
+
+
+
+        
+
+
+        
+    <footer class="minimal-footer">
+        
+            <div class="post-tag"><a href="/tags/%E5%85%B6%E4%BB%96/" rel="tag" class="post-tag-link">#其他</a></div>
+        
+        
+        
+            
+        
+    </footer>
+
+
+
+        
+
+
+        
+    
+        
+        
+    
+    
+    
+    
+        <ul class="post-nav">
+            
+            
+                <li class="post-nav-next">
+                    <a href="/posts/cd93b48f/" rel="next">sink in ocean current &gt;</a>
+                </li>
+            
+        </ul>
+    
+
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">©&nbsp;2020–2025&nbsp;</div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></div>
+
+            
+    
+        <ul class="socials"><li class="socials-item">
+                    <a href="https://Arictia@protonmail.com" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://wxw.moe/@Aoest" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon social-icon"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://twitter.com/Arictia" target="_blank" rel="external noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="/friend" target="_blank" rel="external noopener" title="Friends"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>
+                </li></ul>
+    
+
+
+
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+<footer>
+    <p>匣子里共有 1006.4k 字</p>
+</footer>
+
+<script>
+    (function(u, c) {
+      var d = document, t = 'script', o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function(e) { c(e); }); }
+      s.parentNode.insertBefore(o, s);
+    })('//cdn.bootcss.com/pangu/3.3.0/pangu.min.js', function() {
+      pangu.spacingPage();
+    });
+    </script>
+    
+
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+    </body>
+</html>
