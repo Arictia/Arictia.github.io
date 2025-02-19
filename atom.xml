@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-02-19T22:57:12&#43;08:00</updated>
+    <updated>2025-02-20T00:39:29&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">hexo迁移hugo记录</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/81aced5c/" />
             <id>http://localhost:1313/posts/81aced5c/</id>
-            <updated>2025-02-19T22:56:45&#43;08:00</updated>
+            <updated>2025-02-20T00:37:01&#43;08:00</updated>
             <published>2025-02-19T20:22:22&#43;08:00</published>
             <author>
                     <name>Aoest</name>
@@ -2245,14 +2245,15 @@
             <title type="text">Salvia.debris</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/a387dfce/" />
             <id>http://localhost:1313/posts/a387dfce/</id>
-            <updated>2025-02-17T23:59:17&#43;08:00</updated>
+            <updated>2025-02-20T00:26:58&#43;08:00</updated>
             <published>2022-07-13T20:55:38&#43;00:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;碎片。&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h3 id=&#34;其之一&#34;&gt;其之一&lt;/h3&gt;
+&lt;p&gt;在工厂里有时候他们会组织看电影。“他们”这个词并不专门指代某些人，成员很难固定。放映室在二楼，由两个联通的房间改造，几张过于长大、看起来像是之前在夜总会服役过的长沙发塞在角落，中间没有桌子，一块掉了毛的、脏污不堪的短绒地毯贴在靠墙的位置，投影仪放在另一个房间，好伪装成电影院的结构，墙壁上贴着投影屏，打开灯能找见另外几块墙上用蓝蜡笔划下的粗俗不堪短句。房间的空气很是沉闷，即使没有人抽烟，室内也凝滞着仿佛烟熏过了难以呼吸的气氛。&lt;/p&gt;</summary>
             
             
             
