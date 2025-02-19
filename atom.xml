@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-02-20T00:39:29&#43;08:00</updated>
+    <updated>2025-02-20T00:52:58&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">hexo迁移hugo记录</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/81aced5c/" />
             <id>http://localhost:1313/posts/81aced5c/</id>
-            <updated>2025-02-20T00:37:01&#43;08:00</updated>
+            <updated>2025-02-20T00:52:52&#43;08:00</updated>
             <published>2025-02-19T20:22:22&#43;08:00</published>
             <author>
                     <name>Aoest</name>
