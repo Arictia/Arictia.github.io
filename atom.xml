@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-02-20T17:12:29&#43;08:00</updated>
+    <updated>2025-02-26T00:49:46&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,53 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">恩惠的大门</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/37c4fcc5/" />
+            <id>http://localhost:1313/posts/37c4fcc5/</id>
+            <updated>2025-02-26T00:49:33&#43;08:00</updated>
+            <published>2025-02-26T00:44:37&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E5%AF%86%E6%95%99%E6%A8%A1%E6%8B%9F%E5%99%A8/" term="密教模拟器" label="密教模拟器" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E5%BD%93%E7%9F%B3%E5%A4%B4%E6%AD%8C%E5%94%B1%E6%97%B6/" term="当石头歌唱时" label="当石头歌唱时" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">hexo迁移hugo记录</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/81aced5c/" />
@@ -53,7 +100,7 @@
             <title type="text">sink in ocean current</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/cd93b48f/" />
             <id>http://localhost:1313/posts/cd93b48f/</id>
-            <updated>2025-02-18T18:24:24&#43;08:00</updated>
+            <updated>2025-02-20T21:01:27&#43;08:00</updated>
             <published>2025-02-16T22:38:52&#43;00:00</published>
             <author>
                     <name>Aoest</name>
