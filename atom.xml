@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-02-26T00:49:46&#43;08:00</updated>
+    <updated>2025-02-26T00:53:35&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,14 +20,14 @@
             <title type="text">恩惠的大门</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/37c4fcc5/" />
             <id>http://localhost:1313/posts/37c4fcc5/</id>
-            <updated>2025-02-26T00:49:33&#43;08:00</updated>
+            <updated>2025-02-26T00:53:28&#43;08:00</updated>
             <published>2025-02-26T00:44:37&#43;08:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿，原作为密教企划</summary>
             
             
             
