@@ -17,7 +17,7 @@
 
     <title> | A Blog</title>
 
-    <link rel="stylesheet" href="/css/meme.min.a11576ecc700ecfbc03e04fb07d46492ec4ecdf34c25dcb55c182ae0ed3fed59.css"/>
+    <link rel="stylesheet" href="/css/meme.min.43503cb0bfd3b2f099b49f26f1b92a30a0cd76b3f8c2c082427b5d7d9c083945.css"/>
 
     
     
@@ -60,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2025-02-17T17:35:22+08:00",
-        "dateModified": "2025-02-20T17:54:32+08:00",
+        "dateModified": "2025-03-01T12:17:34+08:00",
         "url": "http://localhost:1313/about/",
         "name": "",
         "description": " 谁征服了死亡的恐惧，谁就会深信自己不朽；谁没有这种恐惧，谁就实乃不朽。或许乐园里的生物也有一死，但它们不知恐惧，所以永远没有死去的机会。担惊受怕是每时每刻都在死。不知恐惧的人就像天空的飞鸟；在蔚蓝苍穹中解读自己的命运。\n",
@@ -145,7 +145,7 @@
             
         
             
-                <li class="menu-item active"><a href="/about/">
+                <li class="menu-item"><a href="/about/">
                         <span class="menu-item-name">About</span></a>
                 </li>
             
@@ -229,7 +229,109 @@
 <li>在找工作，但不是很想工作：<font color=gray>真的有人爱工作吗，我不信</font></li>
 <li>支持博主写稿事业喵，助力博主居家办公谢谢喵：<font color=gray>求你了约我的稿吧</font></li>
 <li>养了黑猫叫小K：<font color=gray>差点被我妈起名叫贡献</font></li>
-</ul></div>
+<li>请看文字Vlog <button id="openPopup">我和我的猫</button></li>
+</ul>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <div id="popup-text">加载中...</div>
+    </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const openBtn = document.getElementById("openPopup");
+    const closeBtn = document.getElementById("closePopup");
+    const popup = document.getElementById("popup");
+    const popupText = document.getElementById("popup-text");
+
+    openBtn.addEventListener("click", function () {
+        popup.style.display = "block";
+        fetch("/neko.md")
+            .then(response => response.text())
+            .then(text => {
+                popupText.innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                popupText.innerHTML = "<p>加载失败</p>";
+            });
+    });
+
+    closeBtn.addEventListener("click", function () {
+        popup.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+        if (event.target === popup) {
+            popup.style.display = "none";
+        }
+    });
+});
+</script>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 480px;
+    max-height: 60vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;   
+}
+
+.popup-content {
+    position: relative;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+ 
+.close {
+    position: sticky;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.3);  
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.close:hover {
+    background: rgba(255, 0, 0, 0.5);
+    color: white;
+}
+
+ 
+.popup::-webkit-scrollbar {
+    width: 8px;  
+}
+
+.popup::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);  
+    border-radius: 10px;  
+}
+
+.popup::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5);  
+    border-radius: 10px;  
+}
+
+.popup::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.8);  
+}
+
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script></div>
 </div>
 
 
