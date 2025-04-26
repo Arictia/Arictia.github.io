@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-04-17T20:33:26&#43;08:00</updated>
+    <updated>2025-04-27T01:35:48&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">圣婚</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/8915ceef/" />
+            <id>http://localhost:1313/posts/8915ceef/</id>
+            <updated>2025-04-27T01:35:38&#43;08:00</updated>
+            <published>2025-04-27T01:33:32&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">严重G向，包含具体的肢解与部分食人内容，并不存在的if线：萨尔维娅虐待西莱斯特</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/salvia/" term="Salvia" label="Salvia" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">家庭聚会</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/41fcef4d/" />
@@ -2655,7 +2696,7 @@
             <title type="text">Salvia.debris</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/a387dfce/" />
             <id>http://localhost:1313/posts/a387dfce/</id>
-            <updated>2025-04-17T20:33:13&#43;08:00</updated>
+            <updated>2025-04-24T22:00:30&#43;08:00</updated>
             <published>2022-07-13T20:55:38&#43;00:00</published>
             <author>
                     <name>Aoest</name>
