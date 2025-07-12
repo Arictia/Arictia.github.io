@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-07-13T01:48:32&#43;08:00</updated>
+    <updated>2025-07-13T01:53:39&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -3997,15 +3997,14 @@
             <title type="text">为人所爱的</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/d7445bba/" />
             <id>http://localhost:1313/posts/d7445bba/</id>
-            <updated>2025-02-17T23:44:25&#43;08:00</updated>
+            <updated>2025-07-13T01:53:39&#43;08:00</updated>
             <published>2021-10-24T15:09:30&#43;00:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;1.出于自我满足的dk私奔设定，因为是dk所以会更贴一点，不代表作者认为他们贴了&lt;/p&gt;
-&lt;p&gt;2.有对《魍魉之匣》的捏他&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">出于自我满足的dk私奔设定，部分捏他《魍魉之匣》</summary>
             
             
             
