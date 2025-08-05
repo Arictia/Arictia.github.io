@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-07-28T00:49:48&#43;08:00</updated>
+    <updated>2025-08-06T01:40:20&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,48 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">朝颜</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/5285e53b/" />
+            <id>http://localhost:1313/posts/5285e53b/</id>
+            <updated>2025-08-06T01:40:05&#43;08:00</updated>
+            <published>2025-08-06T01:39:38&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;蝉撕心裂肺地鸣叫着。&lt;/p&gt;
+&lt;p&gt;八千代家的宅邸位于深山，夏日也不曾沾染过多暑气，可美枝子还是像趴在树上不断啼鸣的蝉一样，被这夏日灼烤得眼前发晕，一进入院子，就快步奔向了和室。那儿如她所预料的，白发蓝眼的少女端坐着的身前，摆着一大壶麦茶，手掌高的杯子外壁凝结了水珠，这画面对她来说无异于甘霖，她迅速地拿起茶杯，咕咚咕咚咽下冰凉的茶水，长舒了一口气：“活过来了……”&lt;/p&gt;</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">白日梦之梦</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/9b0bbc25/" />
