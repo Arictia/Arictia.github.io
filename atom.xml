@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-08-06T01:40:20&#43;08:00</updated>
+    <updated>2025-08-12T21:34:34&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">朝颜</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/5285e53b/" />
             <id>http://localhost:1313/posts/5285e53b/</id>
-            <updated>2025-08-06T01:40:05&#43;08:00</updated>
+            <updated>2025-08-12T21:29:34&#43;08:00</updated>
             <published>2025-08-06T01:39:38&#43;08:00</published>
             <author>
                     <name>Aoest</name>
@@ -1112,7 +1112,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2025-02-20T16:05:38&#43;08:00</updated>
+            <updated>2025-08-12T21:34:34&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
