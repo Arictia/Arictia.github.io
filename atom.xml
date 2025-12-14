@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-12-08T01:49:40&#43;08:00</updated>
+    <updated>2025-12-14T13:09:09&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -17,10 +17,51 @@
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
         <entry>
+            <title type="text">苦杯</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/62e7ad47/" />
+            <id>http://localhost:1313/posts/62e7ad47/</id>
+            <updated>2025-12-14T13:08:57&#43;08:00</updated>
+            <published>2025-12-14T13:08:15&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">老同学深切会晤，内含G向内容</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">刺槐</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/4e6e17e0/" />
             <id>http://localhost:1313/posts/4e6e17e0/</id>
-            <updated>2025-12-08T01:49:31&#43;08:00</updated>
+            <updated>2025-12-08T14:08:16&#43;08:00</updated>
             <published>2025-12-08T01:47:59&#43;08:00</published>
             <author>
                     <name>Aoest</name>
