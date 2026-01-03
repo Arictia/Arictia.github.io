@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/c196bf4e/</loc>
+    <lastmod>2026-01-03T20:47:30+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2026-01-03T20:47:30+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/62e7ad47/</loc>
     <lastmod>2025-12-14T13:08:57+08:00</lastmod>
   </url><url>
@@ -108,9 +114,6 @@
     <lastmod>2025-02-28T01:22:04+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/81aced5c/</loc>
-    <lastmod>2025-02-20T17:12:29+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2025-02-20T17:12:29+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>

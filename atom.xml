@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2025-12-19T01:10:16&#43;08:00</updated>
+    <updated>2026-01-03T21:38:04&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,39 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">2025年终总结</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/c196bf4e/" />
+            <id>http://localhost:1313/posts/c196bf4e/</id>
+            <updated>2026-01-03T21:38:04&#43;08:00</updated>
+            <published>2026-01-03T20:40:31&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">2025年写了什么的总结，全年字数32万（大概）</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">苦杯</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/62e7ad47/" />
