@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-01-03T21:38:04&#43;08:00</updated>
+    <updated>2026-01-06T19:32:49&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,39 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">使用Twine制作文字游戏</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/c3fc83f1/" />
+            <id>http://localhost:1313/posts/c3fc83f1/</id>
+            <updated>2026-01-06T19:32:49&#43;08:00</updated>
+            <published>2026-01-06T18:24:53&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">使用Twine重置了之前的NVL，记录一下</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">2025年终总结</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/c196bf4e/" />
@@ -1555,7 +1588,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2025-08-12T21:34:34&#43;08:00</updated>
+            <updated>2026-01-06T19:27:45&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
