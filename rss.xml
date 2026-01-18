@@ -23,10 +23,88 @@
         
             <copyright>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 12 Jan 2026 14:45:29 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 01:05:00 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
         
+        
+            <item>
+                <title>海边的童话故事</title>
+                <link>http://localhost:1313/posts/a79e95f6/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/a79e95f6/</guid>
+                <pubDate>Mon, 19 Jan 2026 01:03:17 &#43;0800</pubDate>
+                
+                    <author>Arictia@protonmail.com (Aoest)</author>
+                
+                <copyright>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>肯尼斯所写的童话</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/">查丹沃兹短篇故事集</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/">原创</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>遗言</title>
+                <link>http://localhost:1313/posts/2d54c175/</link>
+                <guid isPermaLink="true">http://localhost:1313/posts/2d54c175/</guid>
+                <pubDate>Mon, 19 Jan 2026 01:03:10 &#43;0800</pubDate>
+                
+                    <author>Arictia@protonmail.com (Aoest)</author>
+                
+                <copyright>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>菇的稿，深更半夜伺候难搞的上司二三事</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/">无影灯下</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/">原创</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>使用Twine制作文字游戏</title>

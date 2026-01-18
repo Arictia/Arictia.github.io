@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-01-12T14:45:29&#43;08:00</updated>
+    <updated>2026-01-19T01:05:00&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,88 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">海边的童话故事</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/a79e95f6/" />
+            <id>http://localhost:1313/posts/a79e95f6/</id>
+            <updated>2026-01-19T01:04:47&#43;08:00</updated>
+            <published>2026-01-19T01:03:17&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">肯尼斯所写的童话</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">遗言</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/2d54c175/" />
+            <id>http://localhost:1313/posts/2d54c175/</id>
+            <updated>2026-01-19T01:04:10&#43;08:00</updated>
+            <published>2026-01-19T01:03:10&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿，深更半夜伺候难搞的上司二三事</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">使用Twine制作文字游戏</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/c3fc83f1/" />
@@ -1588,7 +1670,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2026-01-06T19:27:45&#43;08:00</updated>
+            <updated>2026-01-12T14:52:40&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -3905,7 +3987,7 @@
             <title type="text">Salvia.-Part-9</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/33a9370/" />
             <id>http://localhost:1313/posts/33a9370/</id>
-            <updated>2025-02-17T23:24:35&#43;08:00</updated>
+            <updated>2026-01-12T14:48:46&#43;08:00</updated>
             <published>2022-05-25T01:08:18&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -3946,7 +4028,7 @@
             <title type="text">Salvia.-Part-8</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/743da3e6/" />
             <id>http://localhost:1313/posts/743da3e6/</id>
-            <updated>2025-02-17T23:24:35&#43;08:00</updated>
+            <updated>2026-01-12T14:48:39&#43;08:00</updated>
             <published>2022-05-22T00:19:24&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -3987,7 +4069,7 @@
             <title type="text">Salvia.-Part-7</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/e482be77/" />
             <id>http://localhost:1313/posts/e482be77/</id>
-            <updated>2025-02-17T23:24:35&#43;08:00</updated>
+            <updated>2026-01-12T14:48:12&#43;08:00</updated>
             <published>2022-05-13T00:50:13&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4102,7 +4184,7 @@
             <title type="text">Salvia.-Part-6</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/93858ee1/" />
             <id>http://localhost:1313/posts/93858ee1/</id>
-            <updated>2025-02-17T23:24:35&#43;08:00</updated>
+            <updated>2026-01-12T14:47:59&#43;08:00</updated>
             <published>2022-04-04T21:18:50&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4143,7 +4225,7 @@
             <title type="text">Salvia.-Part-5</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/a8cdf5b/" />
             <id>http://localhost:1313/posts/a8cdf5b/</id>
-            <updated>2025-02-17T23:24:34&#43;08:00</updated>
+            <updated>2026-01-12T14:47:42&#43;08:00</updated>
             <published>2022-03-14T00:55:19&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4184,7 +4266,7 @@
             <title type="text">Salvia.-Part-4</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/7d8befcd/" />
             <id>http://localhost:1313/posts/7d8befcd/</id>
-            <updated>2025-02-17T23:24:34&#43;08:00</updated>
+            <updated>2026-01-12T14:47:37&#43;08:00</updated>
             <published>2022-03-03T01:00:10&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4266,7 +4348,7 @@
             <title type="text">Salvia.-Part-3</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/e3ef7a6e/" />
             <id>http://localhost:1313/posts/e3ef7a6e/</id>
-            <updated>2025-02-17T23:24:34&#43;08:00</updated>
+            <updated>2026-01-12T14:47:30&#43;08:00</updated>
             <published>2022-02-02T21:43:51&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4381,7 +4463,7 @@
             <title type="text">Salvia.-Part-2</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/94e84af8/" />
             <id>http://localhost:1313/posts/94e84af8/</id>
-            <updated>2025-02-17T23:24:34&#43;08:00</updated>
+            <updated>2026-01-12T14:47:02&#43;08:00</updated>
             <published>2021-11-15T21:20:10&#43;00:00</published>
             <author>
                     <name>Aoest</name>
@@ -4504,7 +4586,7 @@
             <title type="text">Salvia.-Part-1</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/de11b42/" />
             <id>http://localhost:1313/posts/de11b42/</id>
-            <updated>2025-02-17T23:24:35&#43;08:00</updated>
+            <updated>2026-01-12T14:46:52&#43;08:00</updated>
             <published>2021-10-25T22:28:28&#43;00:00</published>
             <author>
                     <name>Aoest</name>
