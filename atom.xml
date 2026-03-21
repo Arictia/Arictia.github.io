@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-03-20T12:25:55&#43;08:00</updated>
+    <updated>2026-03-21T12:56:14&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">胧月</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/bb963cb1/" />
+            <id>http://localhost:1313/posts/bb963cb1/</id>
+            <updated>2026-03-21T12:56:05&#43;08:00</updated>
+            <published>2026-03-21T12:53:53&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿，蛮骨x蛇骨，今晚月色真美.jpg</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E7%8A%AC%E5%A4%9C%E5%8F%89/" term="犬夜叉" label="犬夜叉" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/" term="同人" label="同人" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">变石</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/9cb95ceb/" />
