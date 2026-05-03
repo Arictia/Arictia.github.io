@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-04-14T02:02:28&#43;08:00</updated>
+    <updated>2026-05-03T20:42:03&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">私刑</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/b66cd5a0/" />
+            <id>http://localhost:1313/posts/b66cd5a0/</id>
+            <updated>2026-05-03T20:41:48&#43;08:00</updated>
+            <published>2026-05-03T20:38:15&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">心室内</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/8892bde5/" />
@@ -143,7 +184,7 @@
             <title type="text">我自有办法</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/5ba189f6/" />
             <id>http://localhost:1313/posts/5ba189f6/</id>
-            <updated>2026-03-16T16:11:34&#43;08:00</updated>
+            <updated>2026-05-03T20:38:49&#43;08:00</updated>
             <published>2026-03-16T16:10:11&#43;08:00</published>
             <author>
                     <name>Aoest</name>
@@ -162,7 +203,7 @@
                             
                             
                             
-                                <category scheme="http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/" term="查丹沃兹短篇故事集" label="查丹沃兹短篇故事集" />
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
                             
                         
                     
@@ -225,14 +266,15 @@
             <title type="text">psychogenesis_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/572e2902/" />
             <id>http://localhost:1313/posts/572e2902/</id>
-            <updated>2026-03-13T21:41:05&#43;08:00</updated>
+            <updated>2026-05-03T20:15:14&#43;08:00</updated>
             <published>2026-03-13T21:29:07&#43;08:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;施工中……&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h3 id=&#34;世界观与时间线&#34;&gt;世界观与时间线&lt;/h3&gt;
+&lt;p&gt;一般通过普通现代日本背景，可能存在潜在的超自然因素……？&lt;del&gt;不，那是 if 线才会被证实的东西&lt;/del&gt;&lt;/p&gt;</summary>
             
             
             
@@ -1957,7 +1999,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2026-01-12T14:52:40&#43;08:00</updated>
+            <updated>2026-05-03T20:14:50&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
