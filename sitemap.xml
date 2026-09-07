@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/%E7%8A%AC%E5%A4%9C%E5%8F%89/</loc>
+    <lastmod>2026-09-07T12:37:07+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/7bf214db/</loc>
+    <lastmod>2026-09-07T12:37:07+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/</loc>
+    <lastmod>2026-09-07T12:37:07+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/5827dba8/</loc>
     <lastmod>2026-08-28T01:08:16+08:00</lastmod>
   </url><url>
@@ -26,9 +35,6 @@
     <loc>http://localhost:1313/categories/%E8%B0%9Cj/</loc>
     <lastmod>2026-07-10T15:23:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%90%8C%E4%BA%BA/</loc>
-    <lastmod>2026-07-10T15:23:06+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/%E6%9F%A5%E4%B8%B9%E6%B2%83%E5%85%B9%E7%9F%AD%E7%AF%87%E6%95%85%E4%BA%8B%E9%9B%86/</loc>
     <lastmod>2026-06-07T14:26:04+08:00</lastmod>
   </url><url>
@@ -39,9 +45,6 @@
     <lastmod>2026-06-07T14:26:03+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/af7a7cad/</loc>
-    <lastmod>2026-05-23T00:05:23+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E7%8A%AC%E5%A4%9C%E5%8F%89/</loc>
     <lastmod>2026-05-23T00:05:23+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/f00b356f/</loc>
