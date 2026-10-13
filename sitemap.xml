@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/1ff15745/</loc>
-    <lastmod>2026-09-11T01:37:23+08:00</lastmod>
+    <loc>http://localhost:1313/posts/78210ced/</loc>
+    <lastmod>2026-10-14T02:35:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/</loc>
-    <lastmod>2026-09-11T01:37:23+08:00</lastmod>
+    <lastmod>2026-10-14T02:35:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/</loc>
+    <lastmod>2026-10-14T02:35:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/693563af/</loc>
+    <lastmod>2026-10-14T02:33:16+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/1ff15745/</loc>
     <lastmod>2026-09-11T01:37:23+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/%E7%8A%AC%E5%A4%9C%E5%8F%89/</loc>

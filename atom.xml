@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-09-11T01:37:30&#43;08:00</updated>
+    <updated>2026-10-14T02:36:03&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -16,6 +16,88 @@
             </author>
     <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.143.1">Hugo</generator>
+        <entry>
+            <title type="text">我们这么劲爆的报复真的好吗</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/78210ced/" />
+            <id>http://localhost:1313/posts/78210ced/</id>
+            <updated>2026-10-14T02:35:46&#43;08:00</updated>
+            <published>2026-10-14T02:31:34&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿，玛丽安娜x李肃的4i，附带旁观的八千代业平</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">伯乐识千里马</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/693563af/" />
+            <id>http://localhost:1313/posts/693563af/</id>
+            <updated>2026-10-14T02:33:16&#43;08:00</updated>
+            <published>2026-09-21T02:31:12&#43;08:00</published>
+            <author>
+                    <name>Aoest</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>Arictia@protonmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;他睁开眼睛，被告知了此处并非梦境的是孩子刚才还留在他额头上的手的温度。在感受到温暖前，首先在李肃心里产生的情绪是恐惧，一个生前涉足过灵魂领域的萨满在意识到自己的意识被掌握在他人手里时会兴起的那种恐惧；其次，便是一股介于遗憾和失望之间的不满：这个孩子才活了多少年，竟然已经在这条路上走得那么远，如果能好好教导，他们的事业不就能多一个助力了吗？眼下，孩子在他脑子里施展的那些东西只能称为野路子，要是有人能把他引导到正确地侍奉神灵、获取力量的道路上的话……所以现在这个孩子被耽误成什么样了？他简直没法想象。&lt;/p&gt;</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/categories/%E6%97%A0%E5%BD%B1%E7%81%AF%E4%B8%8B/" term="无影灯下" label="无影灯下" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%8E%9F%E5%88%9B/" term="原创" label="原创" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">四文男.gif</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/1ff15745/" />
