@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-10-14T02:36:03&#43;08:00</updated>
+    <updated>2026-10-16T02:54:37&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -20,14 +20,14 @@
             <title type="text">我们这么劲爆的报复真的好吗</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/78210ced/" />
             <id>http://localhost:1313/posts/78210ced/</id>
-            <updated>2026-10-14T02:35:46&#43;08:00</updated>
+            <updated>2026-10-14T18:37:26&#43;08:00</updated>
             <published>2026-10-14T02:31:34&#43;08:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">菇的稿，玛丽安娜x李肃的4i，附带旁观的八千代业平</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">玛丽安娜x李肃的4i，附带旁观的八千代业平</summary>
             
             
             
