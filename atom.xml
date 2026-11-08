@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">A Blog</title>
     <subtitle type="html">A的存文地</subtitle>
-    <updated>2026-10-30T16:00:50&#43;08:00</updated>
+    <updated>2026-11-09T01:08:12&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -832,25 +832,14 @@
             <title type="text">psychogenesis_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/572e2902/" />
             <id>http://localhost:1313/posts/572e2902/</id>
-            <updated>2026-05-15T17:03:41&#43;08:00</updated>
+            <updated>2026-11-08T00:13:17&#43;08:00</updated>
             <published>2026-03-13T21:29:07&#43;08:00</published>
             <author>
                     <name>Aoest</name>
                     <uri>https://io-oi.me/</uri>
                     <email>Arictia@protonmail.com</email>
                     </author>
-            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;strong&gt;本页面仍在工事中，当前页面信息非最终版本&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;世界观与时间线&#34;&gt;世界观与时间线&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;一般通过普通现代日本背景，可能存在潜在的超自然因素……？&lt;del&gt;不，那是 if 线才会被证实的东西&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;存在和现实不符的设定表现，以及对医学的误用和伤痛的轻量化描写&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;可供代餐的主题曲：《鬼ごっこ》春野 self cover&lt;/li&gt;
-&lt;/ul&gt;
-&lt;details&gt;
-    &lt;summary&gt;&lt;font size=&#34;2&#34; &gt;时间线&lt;/font&gt;&lt;/summary&gt;
-&lt;div class=&#34;circle-black&#34;&gt;
-1946 年 秋山沢良出生
-&lt;p&gt;1947 年 小早川惠子出生&lt;/p&gt;</summary>
+            <rights>[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;font size=&#34;10&#34; &gt;&lt;strong&gt;心因症&lt;/strong&gt;&lt;/font&gt; 所指的并非现实存在的疾病，而是一种非器质性的病变导致的情绪波动、行为紊乱及躯体化症状。也许，在这个故事里，它可以指代“爱”。&lt;/p&gt;</summary>
             
             
             
@@ -2575,7 +2564,7 @@
             <title type="text">salvia_brief</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/371d23cb/" />
             <id>http://localhost:1313/posts/371d23cb/</id>
-            <updated>2026-05-07T22:40:01&#43;08:00</updated>
+            <updated>2026-11-09T01:08:11&#43;08:00</updated>
             <published>2024-12-21T21:56:37&#43;00:00</published>
             <author>
                     <name>Aoest</name>
